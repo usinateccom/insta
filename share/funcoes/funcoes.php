@@ -23,13 +23,20 @@ $bono = sel_simples($tabela, "*", $condicao);
 
 $blik = explode("::", $arraycol);
 
-$cont = 0;
 
-$seto = count($arraycol);
 
-$bano = "<table boder='1' cellpadding='0' cellspacing='0'>";
+
+
+$bano = "";
 
 while($fei = mysql_fetch_array($bono)){
+
+
+$cont = 0;
+
+$seto = count($blik);
+
+//echo $seto."<br>";
 
 $bano = $bano."<tr>";
 
@@ -41,7 +48,7 @@ $bano = $bano."<td>".$fei["$fil"]."</td>";
 
 
 $cont +=1;
-
+//echo $cont."<br>";
 } // while 2
 
 $bano = $bano."</tr>";
