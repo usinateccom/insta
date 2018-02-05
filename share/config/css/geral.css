@@ -350,6 +350,7 @@ h2{text-shadow: 1px 1px #ccc;}
 	#frame_app{display: table; text-align:center; line-height:100%; position:fixed; width:100%; height:100%; background-color:#666;color:#fff;z-index:9999;}
 }
 
+
 @media (min-width: 1024px){
 
 .parc_ht{width: auto; max-width: 60%; height: auto; max-height: 90%; margin-bottom: auto; margin-top: auto;}
