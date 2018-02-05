@@ -1,3 +1,10 @@
+<?php
+
+include "../../../config/config.php";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -285,12 +292,18 @@
                     <div class="col-lg-8">
 
 
-
+<h3>Últimos LOG´s</h3>
 
 <?php 
 
+echo "<table border='1' cellpadding='2' cellspacing='2' style='border: 1px solid #000; padding:2px;'><tr><td>DATA</td><td>HORA</td><td>USUÁRIO</td><td>LOG</td><td>TIPO</td></tr>";
+
+include "../../../funcoes/funcoes.php";
+
 
 // fazer reinclusão aqui
+echo listagem("logs_ff", "data::hora::usuario::log::franquia", "order by um desc limit 10");
+
 
  ?>
 
