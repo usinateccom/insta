@@ -13,7 +13,7 @@
 <?php 
 
 
-//$buda = sel_simples("anuncios", "*", "");
+$buda = sel_simples("anuncios", "*", "order by rand() limit 6");
 
 
 
