@@ -1,0 +1,59 @@
+User-agent: Googlebot
+
+Disallow: /adm/
+Disallow: /imagens/mail/
+Disallow: /manutencao/
+Disallow: /busca/
+Disallow: /bin/
+Disallow: /appbin/
+Disallow: /painel/
+Disallow: /senha/
+Disallow: /completar-cadastro/
+Disallow: /valida-cadastro/
+Disallow: /etapa-cadastro/
+Disallow: /cadastro-veiculo/
+Disallow: /slider/
+Disallow: /bkp/
+Disallow: /bkp2/
+Disallow: /termos-compromisso/
+
+User-agent: Slurp
+
+Disallow: /adm/
+Disallow: /imagens/mail/
+Disallow: /manutencao/
+Disallow: /busca/
+Disallow: /bin/
+Disallow: /appbin/
+Disallow: /painel/
+Disallow: /senha/
+Disallow: /completar-cadastro/
+Disallow: /valida-cadastro/
+Disallow: /etapa-cadastro/
+Disallow: /cadastro-veiculo/
+Disallow: /slider/
+Disallow: /bkp/
+Disallow: /bkp2/
+Disallow: /termos-compromisso/
+
+User-agent: Bingbot
+
+Disallow: /adm/
+Disallow: /imagens/mail/
+Disallow: /manutencao/
+Disallow: /busca/
+Disallow: /bin/
+Disallow: /appbin/
+Disallow: /painel/
+Disallow: /senha/
+Disallow: /completar-cadastro/
+Disallow: /valida-cadastro/
+Disallow: /etapa-cadastro/
+Disallow: /cadastro-veiculo/
+Disallow: /slider/
+Disallow: /bkp/
+Disallow: /bkp2/
+Disallow: /termos-compromisso/
+
+
+Sitemap: sitemap.xml
