@@ -141,7 +141,10 @@ echo "<center><br><div class='avisonin reguad central'>
 </div>
 
 <?php
-}
+
+include "partials/dados_painel.php";
+
+
 ?>
 
 </div>

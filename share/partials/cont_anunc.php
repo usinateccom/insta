@@ -307,5 +307,5 @@ $("#sului").attr("src", nil);
 
 <?php
 
-}
+
 ?>
