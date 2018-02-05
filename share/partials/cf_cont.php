@@ -194,12 +194,6 @@ $("#pot").click(function(){
 
 </script>
 
-<div class="encaixa central">
-<h2>Processo de locação</h2><br><div class="colored-line"></div><br><br>
-<img src="../imagens/processo como funciona.png" style="margin-top:-50px;" title="<?php echo $tit_u; ?>" alt="<?php echo $alt_u; ?>">
-
-
-	</div>
 
 	<style>
 

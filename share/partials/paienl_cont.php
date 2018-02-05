@@ -1,11 +1,11 @@
-<div class="encaixa">
+<div class="encaixa" style="margin-top: -450px;">
 
 
 
 
 
 <?php
-echo $idzinho;
+//echo $idzinho;
 
 $status_cad = frinha("cadcomp", "status", 'id_usr', $idzinho);
 
