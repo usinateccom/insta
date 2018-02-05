@@ -339,7 +339,7 @@ $("#page-wrapper").load(pagina+".php?usuario=$usuario");
                                     <a href="#" onclick="link('seo-metas')">Metatags</a>
                                 </li>
                                 <li>
-                                    <a href="morris.html">Morris.js Charts</a>
+                                    <a href="#" onclick="link('seo-viasuliza')"">Visualizações</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -370,7 +370,7 @@ $("#page-wrapper").load(pagina+".php?usuario=$usuario");
                                     <a href="#" onclick="link('ins-sessoes')">Inserir</a>
                                 </li>
                                 <li>
-                                    <a href="morris.html">Morris.js Charts</a>
+                                    <a href="#" onclick="link('modificasess')">Modificar</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->

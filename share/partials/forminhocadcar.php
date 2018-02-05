@@ -34,7 +34,7 @@ echo "<center><br><div class='avisonin reguad central'>
 
 <div class="ativof vcincoper">
 
-<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left;">01</span>
+<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 1px solid #eee; border-radius: 50%;">01</span>
 <span style="font-size: 9px; line-height:11px; display: inline-table; float: left; margin-left: 7px; margin-top: 15px;">Qual é o Seu carro?<br />Onde ele está?</span>
 
 </div>
@@ -47,7 +47,7 @@ echo "<center><br><div class='avisonin reguad central'>
 
 <div class="inativof vcincoper">
 
-<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left;">02</span>
+<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 1px solid #eee; border-radius: 50%;">02</span>
 <span style='font-size: 9px; line-height:11px; display: inline-table; float: left; margin-left: 7px; margin-top: 15px;'>Sua segurança<br />Ativando o seguro
 
 </div>
@@ -57,7 +57,7 @@ echo "<center><br><div class='avisonin reguad central'>
 
 <div class="inativof vcincoper">
 
-<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left;">03</span>
+<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 1px solid #eee; border-radius: 50%;">03</span>
 <span style='font-size: 9px; line-height:11px; display: inline-table; float: left; margin-left: 7px; margin-top: 15px;'>Valorize seu carro<br />Descrição e Fotos
 
 </div>
@@ -66,7 +66,7 @@ echo "<center><br><div class='avisonin reguad central'>
 
 <div class="inativof vcincoper">
 
-<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left;">04</span>
+<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 1px solid #eee; border-radius: 50%;">04</span>
 <span style='font-size: 9px; line-height:11px; display: inline-table; float: left; margin-left: 7px; margin-top: 15px;'>Compartilhe<br /><b>Bons negócios!
 
 </div>
@@ -78,7 +78,7 @@ echo "<center><br><div class='avisonin reguad central'>
 
 </div>
 
-<div class="encaixa reguad formboard">
+<div class="encaixa reguad formboard dnone">
 
 
 <h2>Dados Gerais</h2>

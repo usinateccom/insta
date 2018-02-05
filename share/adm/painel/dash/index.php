@@ -149,7 +149,10 @@
                             <li>
                                 <a href="#" class="active"><i class="fa fa-bar-chart-o fa-fw"></i> Estatísticas<span class="fa arrow"></span></a>
                           <ul>
-<li>Acessos</li>
+<li><a href="#" onclick="esta_acesso()">Acessos</a></li>
+<li><a href="#" onclick="esta_calculo()">Calculos</a></li>
+<li><a href="#" onclick="esta_fechamentospendentes()">Fech Pendentes</a></li>
+<li ><a href="#" onclick="esta_visualiza_pag()">Visualizações de página</a></li>
                           </ul>
                                 <!-- /.nav-second-level -->
                             </li>
