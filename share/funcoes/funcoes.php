@@ -17,6 +17,43 @@ function pagina(){
 }
 
 
+function listagem($tabela, $arraycol, $condicao){
+
+$bono = sel_simples($tabela, "*", $condicao);
+
+$blik = explode("::", $arraycol);
+
+$cont = 0;
+
+$seto = count($arraycol);
+
+$bano = "<table boder='1' cellpadding='0' cellspacing='0'>";
+
+while($fei = mysql_fetch_array($bono)){
+
+$bano = $bano."<tr>";
+
+while($cont < $seto){
+
+$fil = $blik["$cont"];
+
+$bano = $bano."<td>".$fei["$fil"]."</td>";
+
+
+$cont +=1;
+
+} // while 2
+
+$bano = $bano."</tr>";
+
+} // while
+$bano = $bano."</table>";
+
+return $bano;
+
+} // fim da função
+
+
 function marcad($ponto){
 
 
