@@ -217,6 +217,7 @@ $("#botao_solic").prop('disabled', false);
 
 
 
+
 <style>
 
 .picpov{width: 8%; margin: 1%; display: inline; border: 1px solid #666; cursor: pointer;}

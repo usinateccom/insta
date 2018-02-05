@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 05-Fev-2018 às 20:33
+-- Generation Time: 05-Fev-2018 às 22:56
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -154,6 +154,32 @@ CREATE TABLE `anunc_validado` (
   `id_anunc` varchar(10) DEFAULT NULL,
   `valida` varchar(10) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `avaliander`
+--
+
+CREATE TABLE `avaliander` (
+  `um` int(11) NOT NULL,
+  `id_usr` varchar(10) DEFAULT NULL,
+  `bairro` varchar(10) DEFAULT NULL,
+  `cidade` varchar(10) DEFAULT NULL,
+  `avaliand` varchar(900) DEFAULT NULL,
+  `nivel` varchar(10) DEFAULT NULL,
+  `paro_meseano` varchar(20) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `avaliander`
+--
+
+INSERT INTO `avaliander` (`um`, `id_usr`, `bairro`, `cidade`, `avaliand`, `nivel`, `paro_meseano`) VALUES
+(1, '2', '3420', '2754', 'Muito bom! Em trinta minutos já estava com o contrato em mãos, tendo o trabalho apenas de assinar. A partir daí, utilizei o veículo com tranquilidade', '3,5', '02/18'),
+(2, '3', '3305', '2754', 'No centro de Belo Horizonte, estacionamento é sempre um pesadelo! Meu prédio, como a maioria dos prédios antigos, não tem vaga de garagem. Contar com um carro compartilhado tem mudado meu dia-a-dia.', NULL, '1'),
+(3, '4', '3279', '2754', 'Até o Uber ficava caro para mim. Eu me movimento muito em função do meu trabalho. Ônibus, sem chance. Acessar um carro compartilhado tem sido a melhor e mais econômica experiência dos últimos tempos', NULL, '1'),
+(4, '8', '50000', '3420', 'Antes eu tinha que me deslocar para a região central de BH para obter um veículo. Encontrei um bem pertinho de mim. Bom pra mim, bom para quem compartilha. Nunca imaginei tanta facilidade assim!', NULL, '1');
 
 -- --------------------------------------------------------
 
@@ -39000,7 +39026,8 @@ INSERT INTO `bairros_ff` (`idBairro`, `idCidade`, `bairro`) VALUES
 (49863, 243, 'Margem Esquerda do Rio Negro'),
 (49894, 3018, 'Centro'),
 (49895, 6908, 'Ponta da Lama'),
-(49897, 1879, 'Baía Nova');
+(49897, 1879, 'Baía Nova'),
+(18000, 2890, 'Eldorado');
 
 -- --------------------------------------------------------
 
@@ -55384,7 +55411,22 @@ INSERT INTO `visualizpag` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VALUES
 (1161, '05/02/2018', '18:26', 'cadastro-veiculo/', '::1', '9'),
 (1162, '05/02/2018', '18:26', 'cadastro-veiculo/', '::1', '9'),
 (1163, '05/02/2018', '18:27', 'cadastro-veiculo/', '::1', '9'),
-(1164, '05/02/2018', '18:28', 'cadastro-veiculo/', '::1', '9');
+(1164, '05/02/2018', '18:28', 'cadastro-veiculo/', '::1', '9'),
+(1165, '05/02/2018', '19:10', 'cadastro-veiculo/', '::1', '9'),
+(1166, '05/02/2018', '19:10', 'como-funciona/', '::1', '9'),
+(1167, '05/02/2018', '19:10', 'como-funciona/', '::1', '9'),
+(1168, '05/02/2018', '19:10', 'como-funciona/', '::1', '9'),
+(1169, '05/02/2018', '20:03', 'principal', '::1', '9'),
+(1170, '05/02/2018', '20:34', 'principal', '::1', '9'),
+(1171, '05/02/2018', '20:35', 'principal', '::1', '9'),
+(1172, '05/02/2018', '20:35', 'principal', '::1', '9'),
+(1173, '05/02/2018', '20:39', 'principal', '::1', '9'),
+(1174, '05/02/2018', '20:42', 'principal', '::1', '9'),
+(1175, '05/02/2018', '20:43', 'principal', '::1', '9'),
+(1176, '05/02/2018', '20:53', 'principal', '::1', '9'),
+(1177, '05/02/2018', '20:53', 'principal', '::1', '9'),
+(1178, '05/02/2018', '20:54', 'principal', '::1', '9'),
+(1179, '05/02/2018', '20:54', 'principal', '::1', '9');
 
 -- --------------------------------------------------------
 
@@ -56582,6 +56624,12 @@ ALTER TABLE `anunc_validado`
   ADD PRIMARY KEY (`um`);
 
 --
+-- Indexes for table `avaliander`
+--
+ALTER TABLE `avaliander`
+  ADD PRIMARY KEY (`um`);
+
+--
 -- Indexes for table `cadcomp`
 --
 ALTER TABLE `cadcomp`
@@ -56969,6 +57017,11 @@ ALTER TABLE `anunc_latid`
 ALTER TABLE `anunc_validado`
   MODIFY `um` int(11) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT for table `avaliander`
+--
+ALTER TABLE `avaliander`
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
 -- AUTO_INCREMENT for table `cadcomp`
 --
 ALTER TABLE `cadcomp`
@@ -57072,7 +57125,7 @@ ALTER TABLE `visualiza_regiao`
 -- AUTO_INCREMENT for table `visualizpag`
 --
 ALTER TABLE `visualizpag`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1165;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1180;
 --
 -- AUTO_INCREMENT for table `wpd_bp_activity`
 --

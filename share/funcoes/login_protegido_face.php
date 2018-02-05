@@ -56,6 +56,8 @@ mysql_query($bok);
 }
 
 
+
+
 }else{
 
 //cadastra

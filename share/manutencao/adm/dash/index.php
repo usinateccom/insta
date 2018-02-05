@@ -356,6 +356,10 @@ $("#page-wrapper").load(pagina+".php?usuario=$usuario");
                                 <li>
                                      <a href="#" onclick="link('cad-anunc')">Anuncios Fachada</a>
                                 </li>
+
+                                 <li>
+                                     <a href="#" onclick="link('aval-fic')">Avaliações de Usuários Fictícios</a>
+                                </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>

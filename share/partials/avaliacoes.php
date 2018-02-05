@@ -8,11 +8,63 @@
 
 
 				<div id="happy_customers_wrap" class="testimonials-wrap">							<!-- SINGLE FEEDBACK -->
+							
+
+<?php
+
+$boxa = sel_simples("avaliander", "*", "where paro_meseano = '1' order by rand() limit 3");
+
+
+while($frt = mysql_fetch_array($boxa)){
+
+echo '
+
+<div class="testimonials-box radius">
+								<div class="feedback border-bottom-hover radius">
+									<div class="pic-container">
+										<div class="pic-container-inner">
+											<img src="
+
+'.$ponto;
+
+$fantaj = $frt['id_usr'];
+
+$nomejjb = guina("dados_usr", $fantaj, "id_tab_p", "nome");
+
+echo img_user($fantaj);
+
+echo '" alt="">										</div>
+									</div>
+																			<div class="feedback-text-wrap radius">
+																						<h5 class="colored-text">'.$nomejjb.'</h5>
+																						<div class="small-text">';
+
+
+$bairro_gg = $frt['bairro'];
+																						$cid_gg = $frt['cidade'];
+
+	echo frinha("bairros_ff", 'bairro', 'idBairro', $bairro_gg);	echo frinha("cidades_ff", 'cidade', 'idCidade', $cid_gg);
+
+
+echo "</div><p>".$frt['avaliand'].'</p>	</div>
+																	</div>
+							</div><!-- .testimonials-box -->';
+
+
+
+				}// fim do while //1
+
+?>
+
+
+
+<!--
+
 							<div class="testimonials-box radius">
 								<div class="feedback border-bottom-hover radius">
 									<div class="pic-container">
 										<div class="pic-container-inner">
-											<img src="<?php echo $ponto; ?>wp-content/themes/Parallax-One/images/clients/1.jpg" alt="">										</div>
+											<img src="<?php// echo $ponto; ?>wp-content/themes/Parallax-One/images/clients/1.jpg" alt="">										</div>
 									</div>
 																			<div class="feedback-text-wrap radius">
 																						<h5 class="colored-text">Sheila</h5>
@@ -24,12 +76,12 @@
 																				</div>
 																	</div>
 							</div><!-- .testimonials-box -->
-											<!-- SINGLE FEEDBACK -->
+											<!-- SINGLE FEEDBACK 
 							<div class="testimonials-box">
 								<div class="feedback border-bottom-hover radius">
 									<div class="pic-container">
 										<div class="pic-container-inner">
-											<img src="<?php echo $ponto; ?>wp-content/themes/Parallax-One/images/clients/2.jpg" alt="">										</div>
+											<img src="<?php// echo $ponto; ?>wp-content/themes/Parallax-One/images/clients/2.jpg" alt="">										</div>
 									</div>
 																			<div class="feedback-text-wrap">
 																						<h5 class="colored-text">Carla</h5>
@@ -41,12 +93,13 @@
 																				</div>
 																	</div>
 							</div><!-- .testimonials-box -->
-											<!-- SINGLE FEEDBACK -->
+											<!-- SINGLE FEEDBACK -
 							<div class="testimonials-box">
 								<div class="feedback border-bottom-hover">
 									<div class="pic-container">
 										<div class="pic-container-inner">
-											<img src="<?php echo $ponto; ?>wp-content/themes/Parallax-One/images/clients/3.jpg" alt="">										</div>
+											<img src="<?php
+											// echo $ponto; ?>wp-content/themes/Parallax-One/images/clients/3.jpg" alt="">										</div>
 									</div>
 																			<div class="feedback-text-wrap">
 																						<h5 class="colored-text">Núbia</h5>
