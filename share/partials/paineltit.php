@@ -11,7 +11,7 @@ echo "<script> window.location.href='http://www.instashare.me/'; </script>";
 
 
 
-<div style="<?php marcad($ponto); ?> padding-top: 60px; height: 630px;"  class="fadeIn">
+<div style="<?php marcad($ponto); ?> padding-top: 60px; height: 830px;"  class="fadeIn">
 
 
 <div class="encaixa">

@@ -1,4 +1,4 @@
-<div class="encaixa" style="margin-top: -450px;">
+<div class="encaixa" style="margin-top: -520px;">
 
 
 
@@ -142,7 +142,7 @@ echo "<center><br><div class='avisonin reguad central'>
 
 <?php
 
-include "partials/dados_painel.php";
+//include "partials/dados_painel.php";
 
 
 ?>
