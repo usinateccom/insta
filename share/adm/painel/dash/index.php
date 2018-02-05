@@ -286,6 +286,22 @@
 
 
 
+
+<?php 
+
+
+// fazer reinclusão aqui
+
+ ?>
+
+
+
+
+
+
+
+
+
                         <div class="panel panel-default" style="display:none;">
                             <div class="panel-heading">
                                 <i class="fa fa-bar-chart-o fa-fw"></i> Conversão de Anúncios
@@ -777,6 +793,7 @@
         <!-- Custom Theme JavaScript -->
         <script src="../js/startmin.js"></script>
 <?php
+
 
 
 ?>
