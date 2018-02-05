@@ -14,9 +14,9 @@ Para cadastrar seu veículo, digite login e senha<br>
 
 <br><br>
 
-<input id="concha_loginn" placeholder="LOGIN / E-MAIL" class="input_frango"> &nbsp; &nbsp;
+<input id="concha_loginn" placeholder="LOGIN / E-MAIL" class="input_frango" style="color: #000"> &nbsp; &nbsp;
 
-<input id="concha_passn" placeholder="SENHA" class="input_frango" type="password"><br>
+<input id="concha_passn" placeholder="SENHA" class="input_frango" type="password" style="color: #000"><br>
 <br>
 <button id="loga_logon" class="pico" style="border-radius: 20px">ENTRAR</button>
 <br><div id="shubamb" class="central vermelho"></div>
@@ -117,6 +117,6 @@ $("#shubamb").html(belga);
 
 
 // colocar aqui fo include do forma do cadastro do carro
-}
+
 
 }
