@@ -10,9 +10,10 @@
 
 <style>
 
-.ativof{display: inline-table; float:left; border: 3px solid #eee; box-shadow: 2px 2px #000; padding: 2%; color:#fff;  border-radius: 16px; height: 40px;}
+.ativof{display: inline-table; float:left;  box-shadow: 2px 2px #000;  padding: 2%; color:#fff;  border-radius: 16px; height: 40px;}
 
-.inativof{display: inline-table; float:left;  padding: 2%; display: inline-table; float:left;  padding: 2%; color:#fff;  border-radius: 16px; height: 40px; border: 3px solid transparent;}
+.inativof{display: inline-table; float:left; padding: 2%; display: inline-table; float:left;  padding: 2%; color:#fff;  border-radius: 16px; height: 40px; padding: 2%; color:#fff;  border-radius: 16px; height: 40px;}
+
 
 </style>
 
@@ -52,11 +53,11 @@
 
 
 <div id="motcont" class="fundobrank">
-<table style="border:0px; width: 100%;" border='0' cellpadding="0" cellspacing="0"><tr><td valign="top">
+<table style="border:0px; width: 100%;" border='0' cellpadding="0" cellspacing="0"><tr><td valign="top" width="50">
 
 <div class="bolan" style="margin-bottom: 80px; margin-top: 10px; ">
 1</div>
-<div class="bolan" style="margin-bottom: 80px; margin-top: -10px">
+<div class="bolan" style="margin-bottom: 80px; margin-top: -20px">
 2</div>
 
 <div class="bolan" style="margin-bottom: 80px;  margin-top: -20px">
@@ -106,11 +107,11 @@ Devolva o carro sempre no estado que recebeu e não esqueça de dar sua nota
 </div>
 
 <div id="potcont" class="dnone fundobrank">
-<table style="border:0px; width: 100%;" border='0' cellpadding="0" cellspacing="0"><tr><td>
+<table style="border:0px; width: 100%;" border='0' cellpadding="0" cellspacing="0"><tr><td valign="top" width="50">
 
 <div class="bolan" style="margin-bottom: 80px; margin-top: 10px"">
 1</div>
-<div class="bolan" style="margin-bottom: 80px; margin-top: -10px">
+<div class="bolan" style="margin-bottom: 80px; margin-top: -20px">
 2</div>
 
 <div class="bolan" style="margin-bottom: 80px;  margin-top: -20px">
@@ -144,7 +145,7 @@ Você vai escolher quem vai dirigir seu veículo, afinal você quem dá as carta
 
 Entregue o 
 veículo no local programado lembre-se de passar as suas dicas de uso do seu veiculo.
-<br>
+<br><br>
 
 <h4>Receba, avalie e solicite o pagamento</h4>
 
@@ -197,5 +198,5 @@ $("#pot").click(function(){
 
 	<style>
 
-.bolan{ border: 4px solid #eee; color: #eee; display: table; font-size: 20px; width: 40px; height: 40px; margin: auto; text-align: center; font-weight: bold; margin-top: 40px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; -ms-border-radius:20px; box-shadow: 1px 1px #000;}
+
 </style>

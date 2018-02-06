@@ -28,7 +28,7 @@
 .avisoni a{color:#fff;}
 .avisoni a:hover{color:#fff;}
 #aguard{width: 300px!important; height: 10px!important; position: fixed; top: 50%; left: 50%; margin-left: -150px; margin-top: -50px;}
-
+.bolan{ border: 4px solid transparent; color: #eee; display: table; font-size: 20px; width: 40px; height: 40px; margin: auto; text-align: center; font-weight: bold; margin-top: 40px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; -ms-border-radius:20px; box-shadow: 1px 1px #000;}
 body {
 	margin-left: 0px;
 	margin-top: 0px;
