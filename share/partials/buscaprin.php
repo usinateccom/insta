@@ -2,7 +2,7 @@
 
 
 
-<div id="muko" style="font-family: 'Montserrat', sans-serif; background-image:url(imagens/compartilhamento%20carros%20cumprimento.jpg); background-size:  100% auto; text-shadow: 1px 1px #000;">
+<div id="muko" style="font-family: 'Montserrat', sans-serif; background-image:url(imagens/compartilhamento%20carros%20cumprimento.jpg); background-size:  100% 100%; background-repeat: no-repeat; text-shadow: 1px 1px #000;">
 
 <div class="encaixa" style="">
 
