@@ -414,6 +414,24 @@ h3{text-shadow: 1px 1px #ccc; }
     background-clip: padding-box;
     box-shadow: 0px 0px 0px 1px #ff5500;
     background-color: #FAFAFA;}
+
+
+
+.roliconi {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    width: 190px;
+    height: 190px;
+    border: 3px solid #FFF;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 0px 1px #ff5500;
+    background-color: #FAFAFA;}
+	
+
+
 	
 	.popup{ width: 600px; height: 300px; margin-left: -300px; margin-top: -150px; }
 

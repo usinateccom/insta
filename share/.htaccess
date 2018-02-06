@@ -65,7 +65,7 @@ RewriteRule ^senha\/?$ /sharetres/index.php?pagina=senha/ [L]
 
 RewriteRule ^completar-cadastro\/?$ /sharetres/index.php?pagina=completar-cadastro/ [L]
 
-
+RewriteRule ^editar-dados\/?$ /sharetres/index.php?pagina=editar-dados/ [L]
 
 
 

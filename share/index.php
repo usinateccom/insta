@@ -440,7 +440,7 @@ include "partials/menu_logado.php";
 
     echo'
 
-  <div id="xamanu" style="width: 100%; height: 800px" class="fadeIn; background-size: 100% 100%; background-repeat: no-repeat;">
+  <div id="xamanu" style="width: 100%; height: 800px" class="fadeIn; background-size: 100% 100%; background-repeat: no-repeat; background-position: center center;">
 
 
 <br><br><br><br><br><br><br>

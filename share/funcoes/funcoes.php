@@ -72,7 +72,7 @@ $cry = sel_simples("img_sec", "*", "order by rand() limit 1");
 $buk = mysql_fetch_array($cry);
 
 
-echo "background-image: url(".$ponto."imagens/sessoes/".$buk["imagem_f"]."); background-size: 100% 100%; background-repeat: no repeat";
+echo "background-image: url(".$ponto."imagens/sessoes/".$buk["imagem_f"]."); background-size: 100% 100%; background-repeat: no repeat; bacground-position:center center;";
 
 
 } // fim da funcao
