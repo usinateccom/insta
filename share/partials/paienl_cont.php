@@ -18,7 +18,7 @@ if($status_cad == '1'){
 echo "<center><br>
 
 
-<div class='avisoni reguad central'>
+<div class='avisoni reguad central' style='margin-top:-160px;'>
 
 
 <b> $nome_l,</a> Seu cadastro está incompleto! <a href='../completar-cadastro/' title='$tit_u'><b>Clique aqui</b></a> para atualizar seus dados!<br>A atualização dos dados é necessária para compartilhar e contratar veículos compartilhados.

@@ -401,7 +401,7 @@ var nome = $("#nome_us").val(), sobrem = $("#sobrenome_us").val(), mail = $("#em
 
 // fa o json
 
-alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::fisica::"+senha);
+//alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::fisica::"+senha);
 
 
 $.getJSON("<?php echo $ponto; ?>funcoes/cadastro_filtros.php",
@@ -441,7 +441,7 @@ $("#bunjunda").html("Preencha todos os campos!");
 
 
 //se email for valido
-$("#nome_usj").prop('disabled', true); $("#nome_f").prop('disabled', true); $("#email_usj").prop('disabled', true); $("#telefonon").prop('disabled', true); $("#cnppj").prop('disabled', true); $("#data_nascj").prop('disabled', true); $("#senhauj").prop('disabled', true); $("#senhadj").prop('disabled', true), senha = $("#senhauj").val();
+$("#nome_usj").prop('disabled', true); $("#nome_f").prop('disabled', true); $("#email_usj").prop('disabled', true); $("#telefononj").prop('disabled', true); $("#cnpj").prop('disabled', true); $("#data_nascj").prop('disabled', true); $("#senhauj").prop('disabled', true); $("#senhadj").prop('disabled', true), senha = $("#senhauj").val();
 
 $("#bunjunda").html("Aguarde...");
 
@@ -450,7 +450,7 @@ var nome = $("#nome_usj").val(), sobrem = $("#nome_f").val(), mail = $("#email_u
 
 
 
-
+alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::juridica::"+senha);
 
 // fa o json
 
