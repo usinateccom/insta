@@ -1,4 +1,19 @@
-﻿<?php
+﻿<!DOCTYPE html>
+<html>
+    <head>
+<html lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+
+
+
+
+<title><?php 
+
+
 
 
 
@@ -12,20 +27,6 @@ $logado = "";
 
 $pepo = "";
 
-if(isset($_GET['debug'])){
-
-
-echo time();
-
-$debug = 'sim';
-
-$debug_appr = "table";
-
-} else{
-$debug_appr = 'none';
-
-    $debug = 'não';
-}
 
 
 
@@ -208,13 +209,11 @@ $nome = guina("dados_usr", $idusr, "id_tab_p", "nome");
 
 
 
-?><!DOCTYPE html>
-<html>
-    <head>
-<html lang="pt-br">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?php if($pagina != 'anuncio'){echo $tit_u;}
+
+
+
+
+if($pagina != 'anuncio'){echo $tit_u;}
 
 else{
 
