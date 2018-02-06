@@ -81,7 +81,9 @@ $compl = $compl.$bel['numer'];
 
 } // while
 
-$rise = "insert into usuarios_tt (login_t, senha_t, tipo, local) values ('$compl', '".md5('facebook')."', '2', '2')";
+$datani = date('d/m/Y');
+
+$rise = "insert into usuarios_tt (login_t, senha_t, tipo, local, data_cad) values ('$compl', '".md5('facebook')."', '2', '2', '$datani')";
 
 mysql_query($rise);
 
@@ -180,7 +182,9 @@ $compl = $compl.$bel['numer'];
 
 } // while
 
-$rise = "insert into usuarios_tt (login_t, senha_t, tipo, local) values ('$compl', '".md5('facebook')."', '2', '2')";
+$datani = date('d/m/Y');
+
+$rise = "insert into usuarios_tt (login_t, senha_t, tipo, local, data_cad) values ('$compl', '".md5('facebook')."', '2', '2', '$datani')";
 
 mysql_query($rise);
 

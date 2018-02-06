@@ -77,6 +77,14 @@ echo "background-image: url(".$ponto."imagens/sessoes/".$buk["imagem_f"]."); bac
 
 } // fim da funcao
 
+function get_usr($id){
+
+$fun = frinha("usuarios_tt", "login_t", "um", $id);
+
+return $fun;
+
+}
+
 
 function reglog($tipo, $logn, $us){
 
