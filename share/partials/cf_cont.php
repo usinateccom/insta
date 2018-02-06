@@ -49,13 +49,28 @@
 
 </div>
 
-<div class="regua" style="width:1024px; margin-top: -60px; text-shadow: 1px 1px #000;">
+<div class="regua" style="width:1024px; margin-top: -30px; text-shadow: 1px 1px #000; padding-top: 30px; color: #fff; text-shadow: #fff 1px 1px;
+
+
+
+display: inline-table; 
+            font-size: 14px;          /* Para branco, use 255,255,255,0 e 255,255,255,1 */
+background: -moz-linear-gradient(top, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(255,0,0,1) 100%);
+  background: linear-gradient(to top, rgba(255,0,0,0) 0%,rgba(255,255,255,255) 100%);
+                      /* Para branco, use #00ffffff e #ffffff abaixo */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#ffff',GradientType=0 );
+ border-top-right-radius: 12px; border-top-left-radius: 12px;
+
+
+
+">
 
 
 <div id="motcont" class="fundobrank">
-<table style="border:0px; width: 100%;" border='0' cellpadding="0" cellspacing="0"><tr><td valign="top" width="50">
+<table style="border:0px; width: 100%; color: #000" border='0' cellpadding="0" cellspacing="0"><tr><td valign="top" width="50">
 
-<div class="bolan" style="margin-bottom: 80px; margin-top: 10px; ">
+<div class="bolan" style="margin-bottom: 80px; margin-top: 10px; color:#000; ">
 1</div>
 <div class="bolan" style="margin-bottom: 80px; margin-top: -20px">
 2</div>
@@ -107,7 +122,7 @@ Devolva o carro sempre no estado que recebeu e não esqueça de dar sua nota
 </div>
 
 <div id="potcont" class="dnone fundobrank">
-<table style="border:0px; width: 100%;" border='0' cellpadding="0" cellspacing="0"><tr><td valign="top" width="50">
+<table style="border:0px; width: 100%; color: #000" border='0' cellpadding="0" cellspacing="0"><tr><td valign="top" width="50">
 
 <div class="bolan" style="margin-bottom: 80px; margin-top: 10px"">
 1</div>
@@ -163,7 +178,7 @@ Receba o carro, verifique se está tudo certo e avalie o condutor. O pagamento r
 </div>
 
 <style>
-.fundobrank{border-top-right-radius: 16px; border-top-left-radius: 16px; color: #fff; text-shadow: #000; padding: 10px; margin-top: -30px; }
+.fundobrank{border-top-right-radius: 16px; border-top-left-radius: 16px; color: #000; text-shadow: #fff; padding: 10px; margin-top: -30px; }
 .fundobrank h3{font-weight: bolder;}
 </style>
 <script>
@@ -251,4 +266,4 @@ Devolva o veículo e repita a contratação o quanto quiser
 
 </div>
 
-	</div>
+	</div><br><br>

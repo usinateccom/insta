@@ -292,7 +292,7 @@ include "../../../config/config.php";
                     <div class="col-lg-8">
 
 
-<h3>Últimos LOG´s</h3>
+<h3>Últimos Log´s</h3>
 
 <?php 
 

@@ -393,7 +393,7 @@ $("#nome_us").prop('disabled', true); $("#sobrenome_us").prop('disabled', true);
 $("#bunjunda").html("Aguarde...");
 
 
-var nome = $("#nome_us").val(), sobrem = $("#sobrenome_us").val(), mail = $("#email_us").val(), telef = $("#telefonon").val(),  cpf = ("#cpf").val(), datan = $("#data_nasc").val(), senha = $("#senhau").val();
+var nome = $("#nome_us").val(), sobrem = $("#sobrenome_us").val(), mail = $("#email_us").val(), telef = $("#telefonon").val(),  cpf = $("#cpf").val(), datan = $("#data_nasc").val(), senha = $("#senhau").val();
 
 
 
@@ -401,7 +401,7 @@ var nome = $("#nome_us").val(), sobrem = $("#sobrenome_us").val(), mail = $("#em
 
 // fa o json
 
-
+alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::fisica::"+senha);
 
 
 $.getJSON("<?php echo $ponto; ?>funcoes/cadastro_filtros.php",
@@ -446,7 +446,7 @@ $("#nome_usj").prop('disabled', true); $("#nome_f").prop('disabled', true); $("#
 $("#bunjunda").html("Aguarde...");
 
 
-var nome = $("#nome_usj").val(), sobrem = $("#nome_f").val(), mail = $("#email_usj").val(), telef = $("#telefononj").val(),  cpf = ("#cnpj").val(), datan = $("#data_nascj").val();
+var nome = $("#nome_usj").val(), sobrem = $("#nome_f").val(), mail = $("#email_usj").val(), telef = $("#telefononj").val(),  cpf = $("#cnpj").val(), datan = $("#data_nascj").val();
 
 
 

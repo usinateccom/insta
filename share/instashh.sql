@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 06-Fev-2018 às 03:49
+-- Generation Time: 06-Fev-2018 às 15:11
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -53,22 +53,23 @@ CREATE TABLE `anuncios` (
   `descricao` varchar(1500) DEFAULT NULL,
   `combustivel` varchar(10) DEFAULT NULL,
   `ano_f` varchar(10) DEFAULT NULL,
-  `propiet` varchar(10) DEFAULT NULL
+  `propiet` varchar(10) DEFAULT NULL,
+  `locado` varchar(60) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `anuncios`
 --
 
-INSERT INTO `anuncios` (`um`, `modelo`, `cidade`, `bairro`, `opcionais`, `f_seguro`, `preco`, `obs`, `descricao`, `combustivel`, `ano_f`, `propiet`) VALUES
-(1, 'Ford Fiesta Sedan', '2754', '3547', NULL, NULL, 80, NULL, NULL, '1', '2009', '3'),
-(2, 'Gol Geração 4', '2754', '3547', NULL, NULL, 60, NULL, NULL, '2', '2009', '4'),
-(3, 'Novo Uno', '2754', '3420', NULL, NULL, 120, NULL, NULL, '2', '2012', '2'),
-(5, 'CrossFox', '2754', '3285', NULL, NULL, 40, NULL, NULL, NULL, '2009', '5'),
-(6, 'Strada Saveiro', '2754', '3274', NULL, NULL, 90, NULL, NULL, NULL, NULL, '6'),
-(7, 'Tucson Hyundai', '2754', '3547', NULL, NULL, 140, NULL, NULL, NULL, NULL, '7'),
-(8, 'Opel Meriva', '2754', '3297', NULL, NULL, 85, NULL, NULL, NULL, NULL, '9'),
-(9, 'Ford EcoSport', '2754', '3297', NULL, NULL, 100, NULL, NULL, NULL, NULL, '8');
+INSERT INTO `anuncios` (`um`, `modelo`, `cidade`, `bairro`, `opcionais`, `f_seguro`, `preco`, `obs`, `descricao`, `combustivel`, `ano_f`, `propiet`, `locado`) VALUES
+(1, 'Ford Fiesta Sedan', '2754', '3547', NULL, NULL, 80, NULL, NULL, '1', '2009', '3', NULL),
+(2, 'Gol Geração 4', '2754', '3547', NULL, NULL, 60, NULL, NULL, '2', '2009', '4', NULL),
+(3, 'Novo Uno', '2754', '3420', NULL, NULL, 120, NULL, NULL, '2', '2012', '2', NULL),
+(5, 'CrossFox', '2754', '3285', NULL, NULL, 40, NULL, NULL, NULL, '2009', '5', NULL),
+(6, 'Strada Saveiro', '2754', '3274', NULL, NULL, 90, NULL, NULL, NULL, NULL, '6', NULL),
+(7, 'Tucson Hyundai', '2754', '3547', NULL, NULL, 140, NULL, NULL, NULL, NULL, '7', NULL),
+(8, 'Opel Meriva', '2754', '3297', NULL, NULL, 85, NULL, NULL, NULL, NULL, '9', NULL),
+(9, 'Ford EcoSport', '2754', '3297', NULL, NULL, 100, NULL, NULL, NULL, NULL, '8', NULL);
 
 -- --------------------------------------------------------
 
@@ -49742,6 +49743,33 @@ INSERT INTO `combustivel_ff` (`id`, `combustivel`, `url`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `dados_sensveis`
+--
+
+CREATE TABLE `dados_sensveis` (
+  `um` int(11) NOT NULL,
+  `cfp_cnpj` varchar(60) DEFAULT NULL,
+  `rg_insc` varchar(60) DEFAULT NULL,
+  `cnh_reg` varchar(90) DEFAULT NULL,
+  `logradouro` varchar(1500) DEFAULT NULL,
+  `numero` varchar(10) DEFAULT NULL,
+  `comp` varchar(60) DEFAULT NULL,
+  `bairro` varchar(10) DEFAULT NULL,
+  `cidade` varchar(10) DEFAULT NULL,
+  `cep` varchar(60) DEFAULT NULL,
+  `id_us` varchar(60) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `dados_sensveis`
+--
+
+INSERT INTO `dados_sensveis` (`um`, `cfp_cnpj`, `rg_insc`, `cnh_reg`, `logradouro`, `numero`, `comp`, `bairro`, `cidade`, `cep`, `id_us`) VALUES
+(1, '086.033.216-04', '11762655', '00000000000', 'R. Cel. Fulgêncio', '373', '118', '3535', '2754', '30.240-340', '9');
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `dados_usr`
 --
 
@@ -50355,7 +50383,105 @@ INSERT INTO `logs_ff` (`um`, `data`, `hora`, `ip`, `local`, `usuario`, `log`, `f
 (353, '06/02/2018', '01:47', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
 (354, '06/02/2018', '01:47', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
 (355, '06/02/2018', '01:47', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
-(356, '06/02/2018', '01:47', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN');
+(356, '06/02/2018', '01:47', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(357, '06/02/2018', '01:59', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(358, '06/02/2018', '02:00', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(359, '06/02/2018', '02:00', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(360, '06/02/2018', '02:00', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(361, '06/02/2018', '02:00', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(362, '06/02/2018', '02:04', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(363, '06/02/2018', '02:04', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(364, '06/02/2018', '02:05', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(365, '06/02/2018', '02:09', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(366, '06/02/2018', '02:09', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(367, '06/02/2018', '02:13', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(368, '06/02/2018', '02:13', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(369, '06/02/2018', '02:29', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(370, '06/02/2018', '02:29', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(371, '06/02/2018', '02:30', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(372, '06/02/2018', '02:30', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(373, '06/02/2018', '02:30', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(374, '06/02/2018', '02:30', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(375, '06/02/2018', '02:31', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(376, '06/02/2018', '02:31', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(377, '06/02/2018', '02:38', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(378, '06/02/2018', '02:38', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(379, '06/02/2018', '02:39', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(380, '06/02/2018', '02:39', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(381, '06/02/2018', '02:40', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(382, '06/02/2018', '02:40', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(383, '06/02/2018', '02:40', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(384, '06/02/2018', '02:40', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(385, '06/02/2018', '02:41', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(386, '06/02/2018', '02:41', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(387, '06/02/2018', '02:41', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(388, '06/02/2018', '02:41', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(389, '06/02/2018', '02:41', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(390, '06/02/2018', '02:41', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(391, '06/02/2018', '02:42', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(392, '06/02/2018', '02:42', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(393, '06/02/2018', '02:42', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(394, '06/02/2018', '02:42', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(395, '06/02/2018', '02:42', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(396, '06/02/2018', '02:42', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(397, '06/02/2018', '02:43', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(398, '06/02/2018', '02:43', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(399, '06/02/2018', '02:43', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(400, '06/02/2018', '02:43', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(401, '06/02/2018', '02:43', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(402, '06/02/2018', '02:43', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(403, '06/02/2018', '02:44', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(404, '06/02/2018', '02:44', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(405, '06/02/2018', '02:44', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(406, '06/02/2018', '02:44', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(407, '06/02/2018', '02:44', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(408, '06/02/2018', '02:44', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(409, '06/02/2018', '03:01', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(410, '06/02/2018', '12:09', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(411, '06/02/2018', '12:09', '::1', NULL, 'MANUT', 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(412, '06/02/2018', '12:10', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(413, '06/02/2018', '12:10', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(414, '06/02/2018', '12:10', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(415, '06/02/2018', '12:16', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(416, '06/02/2018', '12:16', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(417, '06/02/2018', '12:19', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(418, '06/02/2018', '12:19', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(419, '06/02/2018', '12:22', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(420, '06/02/2018', '12:22', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(421, '06/02/2018', '12:22', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(422, '06/02/2018', '12:23', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(423, '06/02/2018', '12:24', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(424, '06/02/2018', '12:25', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(425, '06/02/2018', '12:30', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(426, '06/02/2018', '12:31', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(427, '06/02/2018', '12:32', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(428, '06/02/2018', '12:33', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(429, '06/02/2018', '12:33', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(430, '06/02/2018', '12:34', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(431, '06/02/2018', '12:34', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(432, '06/02/2018', '12:35', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(433, '06/02/2018', '12:35', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(434, '06/02/2018', '12:36', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(435, '06/02/2018', '12:36', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(436, '06/02/2018', '12:37', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(437, '06/02/2018', '12:37', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(438, '06/02/2018', '12:38', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(439, '06/02/2018', '12:38', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(440, '06/02/2018', '12:39', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(441, '06/02/2018', '12:39', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(442, '06/02/2018', '12:40', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(443, '06/02/2018', '12:40', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(444, '06/02/2018', '12:41', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(445, '06/02/2018', '12:45', '::1', NULL, 'manut', 'USUÁRIO manut LOUGOU-SE NO INSTASHARE.', 'LOGIN'),
+(446, '06/02/2018', '12:46', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN');
+INSERT INTO `logs_ff` (`um`, `data`, `hora`, `ip`, `local`, `usuario`, `log`, `franquia`) VALUES
+(447, '06/02/2018', '12:46', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(448, '06/02/2018', '12:47', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(449, '06/02/2018', '12:48', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(450, '06/02/2018', '12:58', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(451, '06/02/2018', '12:58', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(452, '06/02/2018', '12:59', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(453, '06/02/2018', '13:00', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN');
 
 -- --------------------------------------------------------
 
@@ -53439,7 +53565,8 @@ INSERT INTO `paginas_hj` (`um`, `titulo`, `k_words`, `descric`, `urlen`, `hu`, `
 (11, 'Instashare - Como Funciona', '', '', 'como-funciona/', '', 'como-funciona', 'compartilhamento veiculos, locacao veiculo, compartilhar veiculo, veiculo compartilhado, locacao veiculo', '2', 'carro compartilhado locacao instashare logo.png', 'png'),
 (12, 'Redefinição de Senha - Instashare', NULL, NULL, 'senha/', NULL, 'senha', 'compartilhamento veiculos, locacao veiculo, compartilhar veiculo, veiculo compartilhado, locacao veiculo', '2', 'carro compartilhado locacao instashare logo.png', 'png'),
 (13, 'Painel instashare', NULL, NULL, 'painel/', NULL, 'painel', NULL, '2', 'carro compartilhado locacao instashare logo.png', 'png'),
-(14, 'Termos de Compromisso - Instashare', '', '', 'termos-compromisso/', '', 'termos-compromisso/', '', '2', 'carro compartilhado locacao instashare logo.png', 'png');
+(14, 'Termos de Compromisso - Instashare', '', '', 'termos-compromisso/', '', 'termos-compromisso/', '', '2', 'carro compartilhado locacao instashare logo.png', 'png'),
+(15, 'Complete seu Cadastro - Instashare', '', '', 'completar-cadastro/', '', 'completar-cadastro/', '', '2', 'carro compartilhado locacao instashare logo.png', 'png');
 
 -- --------------------------------------------------------
 
@@ -53606,7 +53733,8 @@ INSERT INTO `sessoes` (`um`, `pagina`, `sessao_pag`) VALUES
 (19, 'principal', 'avalia'),
 (10, 'cadastro/', 'cad_tit'),
 (38, 'cadastro/', 'form'),
-(47, 'completar-cadastro/', 'sessao_cad'),
+(47, 'completar-cadastro/', 'compcad_tit'),
+(48, 'completar-cadastro/', 'compcad_cont'),
 (21, 'busca/', 'buscaseg'),
 (22, 'busca/', 'anunc_bus'),
 (23, 'busca/', 'seguranca'),
@@ -54146,7 +54274,75 @@ INSERT INTO `tipo_cad` (`um`, `id_usr`, `tipo`) VALUES
 (170, '9', 'fisica'),
 (171, '9', 'fisica'),
 (172, '9', 'fisica'),
-(173, '9', 'fisica');
+(173, '9', 'fisica'),
+(174, '9', 'fisica'),
+(175, '9', 'fisica'),
+(176, '9', 'fisica'),
+(177, '9', 'fisica'),
+(178, '9', 'fisica'),
+(179, '9', 'fisica'),
+(180, '9', 'fisica'),
+(181, '9', 'fisica'),
+(182, '9', 'fisica'),
+(183, '9', 'fisica'),
+(184, '9', 'fisica'),
+(185, '9', 'fisica'),
+(186, '9', 'fisica'),
+(187, '9', 'fisica'),
+(188, '9', 'fisica'),
+(189, '9', 'fisica'),
+(190, '9', 'fisica'),
+(191, '9', 'fisica'),
+(192, '9', 'fisica'),
+(193, '9', 'fisica'),
+(194, '9', 'fisica'),
+(195, '9', 'fisica'),
+(196, '9', 'fisica'),
+(197, '9', 'fisica'),
+(198, '9', 'fisica'),
+(199, '9', 'fisica'),
+(200, '9', 'fisica'),
+(201, '9', 'fisica'),
+(202, '9', 'fisica'),
+(203, '9', 'fisica'),
+(204, '9', 'fisica'),
+(205, '9', 'fisica'),
+(206, '9', 'fisica'),
+(207, '9', 'fisica'),
+(208, '9', 'fisica'),
+(209, '9', 'fisica'),
+(210, '9', 'fisica'),
+(211, '9', 'fisica'),
+(212, '9', 'fisica'),
+(213, '9', 'fisica'),
+(214, '9', 'fisica'),
+(215, '9', 'fisica'),
+(216, '9', 'fisica'),
+(217, '9', 'fisica'),
+(218, '9', 'fisica'),
+(219, '9', 'fisica'),
+(220, '9', 'fisica'),
+(221, '9', 'fisica'),
+(222, '9', 'fisica'),
+(223, '9', 'fisica'),
+(224, '9', 'fisica'),
+(225, '9', 'fisica'),
+(226, '9', 'fisica'),
+(227, '9', 'fisica'),
+(228, '9', 'fisica'),
+(229, '9', 'fisica'),
+(230, '9', 'fisica'),
+(231, '9', 'fisica'),
+(232, '9', 'fisica'),
+(233, '9', 'fisica'),
+(234, '9', 'fisica'),
+(235, '9', 'fisica'),
+(236, '9', 'fisica'),
+(237, '9', 'fisica'),
+(238, '9', 'fisica'),
+(239, '9', 'fisica'),
+(240, '9', 'fisica'),
+(241, '9', 'fisica');
 
 -- --------------------------------------------------------
 
@@ -55818,7 +56014,53 @@ INSERT INTO `visualizpag` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VALUES
 (1225, '05/02/2018', '22:47', 'como-funciona/', '::1', '9'),
 (1226, '05/02/2018', '22:49', 'cadastro-veiculo/', '::1', '9'),
 (1227, '05/02/2018', '23:40', 'principal', '::1', '9'),
-(1228, '06/02/2018', '00:36', 'como-funciona/', '::1', '9');
+(1228, '06/02/2018', '00:36', 'como-funciona/', '::1', '9'),
+(1229, '06/02/2018', '02:04', 'cadastro-veiculo/', '::1', '9'),
+(1230, '06/02/2018', '02:04', 'como-funciona/', '::1', '9'),
+(1231, '06/02/2018', '02:05', 'cadastro-veiculo/', '::1', '9'),
+(1232, '06/02/2018', '12:09', 'principal', '::1', 'indefinido'),
+(1233, '06/02/2018', '12:10', 'principal', '::1', '9'),
+(1234, '06/02/2018', '12:10', 'principal', '::1', 'indefinido'),
+(1235, '06/02/2018', '12:10', 'cadastro/', '::1', 'indefinido'),
+(1236, '06/02/2018', '12:16', 'cadastro-veiculo/', '::1', 'indefinido'),
+(1237, '06/02/2018', '12:16', 'cadastro-veiculo/', '::1', '9'),
+(1238, '06/02/2018', '12:19', 'cadastro-veiculo/', '::1', '9'),
+(1239, '06/02/2018', '12:19', 'cadastro-veiculo/', '::1', '9'),
+(1240, '06/02/2018', '12:22', 'cadastro-veiculo/', '::1', '9'),
+(1241, '06/02/2018', '12:22', 'cadastro-veiculo/', '::1', '9'),
+(1242, '06/02/2018', '12:22', 'cadastro-veiculo/', '::1', '9'),
+(1243, '06/02/2018', '12:23', 'cadastro-veiculo/', '::1', '9'),
+(1244, '06/02/2018', '12:24', 'cadastro-veiculo/', '::1', '9'),
+(1245, '06/02/2018', '12:25', 'cadastro-veiculo/', '::1', '9'),
+(1246, '06/02/2018', '12:30', 'cadastro-veiculo/', '::1', '9'),
+(1247, '06/02/2018', '12:31', 'cadastro-veiculo/', '::1', '9'),
+(1248, '06/02/2018', '12:32', 'cadastro-veiculo/', '::1', '9'),
+(1249, '06/02/2018', '12:33', 'cadastro-veiculo/', '::1', '9'),
+(1250, '06/02/2018', '12:33', 'cadastro-veiculo/', '::1', '9'),
+(1251, '06/02/2018', '12:34', 'cadastro-veiculo/', '::1', '9'),
+(1252, '06/02/2018', '12:34', 'cadastro-veiculo/', '::1', '9'),
+(1253, '06/02/2018', '12:35', 'cadastro-veiculo/', '::1', '9'),
+(1254, '06/02/2018', '12:35', 'cadastro-veiculo/', '::1', '9'),
+(1255, '06/02/2018', '12:36', 'cadastro-veiculo/', '::1', '9'),
+(1256, '06/02/2018', '12:36', 'cadastro-veiculo/', '::1', '9'),
+(1257, '06/02/2018', '12:37', 'cadastro-veiculo/', '::1', '9'),
+(1258, '06/02/2018', '12:37', 'cadastro-veiculo/', '::1', '9'),
+(1259, '06/02/2018', '12:38', 'cadastro-veiculo/', '::1', '9'),
+(1260, '06/02/2018', '12:38', 'cadastro-veiculo/', '::1', '9'),
+(1261, '06/02/2018', '12:39', 'cadastro-veiculo/', '::1', '9'),
+(1262, '06/02/2018', '12:39', 'cadastro-veiculo/', '::1', '9'),
+(1263, '06/02/2018', '12:40', 'cadastro-veiculo/', '::1', '9'),
+(1264, '06/02/2018', '12:40', 'cadastro-veiculo/', '::1', '9'),
+(1265, '06/02/2018', '12:41', 'cadastro-veiculo/', '::1', '9'),
+(1266, '06/02/2018', '12:46', 'cadastro-veiculo/', '::1', '9'),
+(1267, '06/02/2018', '12:46', 'cadastro-veiculo/', '::1', '9'),
+(1268, '06/02/2018', '12:47', 'cadastro-veiculo/', '::1', '9'),
+(1269, '06/02/2018', '12:48', 'cadastro-veiculo/', '::1', '9'),
+(1270, '06/02/2018', '12:49', 'como-funciona/', '::1', '9'),
+(1271, '06/02/2018', '12:58', 'completar-cadastro/', '::1', '9'),
+(1272, '06/02/2018', '12:58', 'completar-cadastro/', '::1', '9'),
+(1273, '06/02/2018', '12:59', 'completar-cadastro/', '::1', '9'),
+(1274, '06/02/2018', '13:00', 'como-funciona/', '::1', '9');
 
 -- --------------------------------------------------------
 
@@ -57028,6 +57270,12 @@ ALTER TABLE `cadcomp`
   ADD PRIMARY KEY (`um`);
 
 --
+-- Indexes for table `dados_sensveis`
+--
+ALTER TABLE `dados_sensveis`
+  ADD PRIMARY KEY (`um`);
+
+--
 -- Indexes for table `disponiv`
 --
 ALTER TABLE `disponiv`
@@ -57419,6 +57667,11 @@ ALTER TABLE `avaliander`
 ALTER TABLE `cadcomp`
   MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
+-- AUTO_INCREMENT for table `dados_sensveis`
+--
+ALTER TABLE `dados_sensveis`
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
 -- AUTO_INCREMENT for table `disponiv`
 --
 ALTER TABLE `disponiv`
@@ -57442,7 +57695,7 @@ ALTER TABLE `img_sec`
 -- AUTO_INCREMENT for table `logs_ff`
 --
 ALTER TABLE `logs_ff`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=357;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=454;
 --
 -- AUTO_INCREMENT for table `negoc`
 --
@@ -57462,7 +57715,7 @@ ALTER TABLE `numeros`
 -- AUTO_INCREMENT for table `paginas_hj`
 --
 ALTER TABLE `paginas_hj`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT for table `parceiros_hh`
 --
@@ -57482,12 +57735,12 @@ ALTER TABLE `places`
 -- AUTO_INCREMENT for table `sessoes`
 --
 ALTER TABLE `sessoes`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
 --
 -- AUTO_INCREMENT for table `tipo_cad`
 --
 ALTER TABLE `tipo_cad`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=174;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=242;
 --
 -- AUTO_INCREMENT for table `usuarios_tt`
 --
@@ -57517,7 +57770,7 @@ ALTER TABLE `visualiza_regiao`
 -- AUTO_INCREMENT for table `visualizpag`
 --
 ALTER TABLE `visualizpag`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1229;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1275;
 --
 -- AUTO_INCREMENT for table `wpd_bp_activity`
 --

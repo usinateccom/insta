@@ -76,20 +76,19 @@ function geo_success(position) {
    position.coords.longitude));
  map.setZoom(15);
  
- var info = ('Latitude: ' + position.coords.latitude + '
-'
-   + 'Longitude: ' + position.coords.longitude + '
-' + 'Altitude: '
-   + position.coords.altitude + '
-' + 'Accuracy: '
-   + position.coords.accuracy + '
-' + 'Altitude Accuracy: '
-   + position.coords.altitudeAccuracy + '
-' + 'Heading: '
-   + position.coords.heading + '
-' + 'Speed: '
-   + position.coords.speed + '
-' + 'Timestamp: ' + new Date(
+ var info = ('Latitude: ' + position.coords.latitude +
+'Longitude: ' + position.coords.longitude
++ 'Altitude: '
+   + position.coords.altitude
++ 'Accuracy: '
+   + position.coords.accuracy +
++ 'Altitude Accuracy: '
+   + position.coords.altitudeAccuracy
++ 'Heading: '
+   + position.coords.heading +
++ 'Speed: '
+   + position.coords.speed +
++ 'Timestamp: ' + new Date(
    position.timestamp));
  
  var point = new google.maps.LatLng(position.coords.latitude,
