@@ -40,17 +40,39 @@ if($tipo_caddd == 'fisica'){
 	$beno = "Cpf:";
 
 	$brof = "Cnh:";
-
+$bri = "RG:";
 $jiboia = "";
 
 }else{
 $brof = 'Regime Tributário:';
 $cad_gh = "Pessoa Jurídica";
-$beno = "Cnpj:";
+$beno = "Cnpj:";$bri = "Insc. Est:";
 $jiboia = "Administradores: 00";
 
 
 }
+
+
+$fonhh = sel_simples("dados_sensveis", "*", "where id_us = '$idzinho'");
+$filoj = mysql_fetch_array($fonhh);
+
+$bhh = $filoj['cfp_cnpj'];
+$grino = $filoj['rg_insc'];
+$cnh_r = $filoj['cnh_reg'];
+if($filoj['comp'] != ''){
+
+$vonei = "/".$filoj['comp'];
+
+}else{
+$vonei = "";
+
+}
+
+$bairrocf = guina("bairros_ff", $filoj["bairro"], "idBairro", "bairro" );
+ 
+   $cidadecf = guina("cidades_ff", $filoj["cidade"], "idCidade", "cidade" );
+
+$enderec = $filoj['logradouro'].', '.$filoj['numero'].$vonei."<br>".$bairrocf.", ".$cidadecf." - ".$filoj['cep'];
 
 echo "<center><br>
 
@@ -61,14 +83,14 @@ echo "<center><br>
 <img src='$ponto".img_user($idzinho)."' ".'class="roliconi fadeImg" title="<?php echo $tit_u; ?>" alt="<?php echo $alt_u; ?>" style="display: inline; margin-rigth: 40px; float: left;">'."
 
 
-<div style='display: inline-table; float: left; color: #fff; text-shadow: 1px 1px #000; text-align:left; margin-top: 10px; margin-left: 40px; font-size: 14px; line-height: 20px'>
+<div style='display: inline-table; float: left; color: #fff; text-shadow: 1px 1px #000; text-align:left; margin-top: 10px; margin-left: 20px; font-size: 14px; line-height: 20px'>
 Nome de Usuário: $usuario_nom <br>
 Tipo de cadastro: $cad_gh <br>
 Email: $mailon <br>
-$beno  <br> $cad_gh <br>
-$brof <br>
-Endereço: <br>
-            <br>
+$beno  $bhh<br> $bri: $grino<br>
+$brof $cnh_r<br>
+Endereço: $enderec<br>
+            
 No Instashare desde: $data_cdd <br>
 $jiboia
 </div><!--dados-->
@@ -80,13 +102,19 @@ $jiboia
 
 <div class='regua'>
 
-<img src='".$ponto."imagens/notificacao.png' ".'class="fadeImg" title="'.$tit_u.'" alt="'.$alt_u.'" style="height: 30px; width: auto; display:inline; float: left; margin-top: 18px; margin-right: 16px; margin-left: 30px;">'."
+<img src='".$ponto."imagens/notificacao.png' ".'class="fadeImg" title="'.$tit_u.'" alt="'.$alt_u.'" style="height: 30px; width: auto; display:inline; float: left; margin-top: 18px; margin-right: 16px; margin-left: 40px;">'."
 
 
 <h3 style='display:inline; float: left;'>Notificações</h3>
 
-</div> <div class='regua central'>
-<br>Nenhuma notificação recente!<br><br><br><br><br>
+</div> <div class='regua' style='padding:4px; text-align:left;'>
+<a href='#' onclick='ver_notif(".'"'.$idzinho.'", "1".'.'"'.")'> 1 - Bem-Vindo(a) ao Instashare!  </a><br>
+
+<a href='#' onclick='ver_notif(".'"'.$idzinho.'", "2".'.'"'.")'> 2 - Conheça melhor o Instashare!</a><br>
+
+<a href='#' onclick='ver_notif(".'"'.$idzinho.'", "3".'.'"'.")'> 3 - Saiba como anunciar!</a>
+
+<br><br><br>
 
 
 
@@ -112,10 +140,10 @@ $jiboia
 <style>
 
 
-#notifcac{ pointer-events: none; font-weight: bolder;  /* isto faz com que o clique "passe" adiante */  
+#notifcac{ font-weight: bolder;  /* isto faz com que o clique "passe" adiante */  
   min-height:60px;       /* Aqui voce define o tamanho do degrade */
  display: inline-table; float: right;
-                      /* Para branco, use 255,255,255,0 e 255,255,255,1 */
+            font-size: 13px;          /* Para branco, use 255,255,255,0 e 255,255,255,1 */
 background: -moz-linear-gradient(top, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 100%);
   background: -webkit-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(255,0,0,1) 100%);
   background: linear-gradient(to top, rgba(255,0,0,0) 0%,rgba(255,255,255,255) 100%);
@@ -126,6 +154,8 @@ background: -moz-linear-gradient(top, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 100%);
 
 }
 
+#notifcac a{color: #000;  margin-left: 6px;}
+#notifcac a:link{color: #000;}
 .prepo{box-shadow: 1px 1px #000; color: #fff!important;}
 .prepo a{ color: #fff!important;}
 .prepo a:link{color: #fff!important;}
