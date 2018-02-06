@@ -32,42 +32,42 @@ echo "<center><br><div class='avisonin reguad central'>
 
 <div class="regua">
 
-<div class="ativof vcincoper">
+<div class="ativofu vcincoper gujo">
 
-<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 4px solid #eee; border-radius: 50%; width: 80px; text-align:center; vertical-align:center; line-height: 70px; height: 70px; color: #eee"">01</span>
-<span style="font-size: 9px; line-height:11px; display: inline-table; float: left; margin-left: 7px; margin-top: 15px;">Qual é o Seu carro?<br />Onde ele está?</span>
-
-</div>
-
-
-
-
-
-
-
-<div class="inativof vcincoper">
-
-<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 4px solid #eee; border-radius: 50%; width: 80px; text-align:center; vertical-align:center; line-height: 70px; height: 70px; color: #eee"">02</span>
-<span style='font-size: 9px; line-height:11px; display: inline-table; float: left; margin-left: 7px; margin-top: 15px;'>Sua segurança<br />Ativando o seguro
+<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 4px solid #666; border-radius: 50%; width: 80px; text-align:center; vertical-align:center; line-height: 70px; height: 70px; color: #666">01</span>
+<span style="font-size: 12px; line-height:16px; margin-top:25px; display: inline-table; float: left; margin-left: 7px; ">Qual é o seu carro?<br />Onde ele está?</span>
 
 </div>
 
 
 
 
-<div class="inativof vcincoper">
 
-<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 4px solid #eee; border-radius: 50%;width: 80px; text-align:center; vertical-align:center; line-height: 70px; height: 70px; color: #eee"">03</span>
-<span style='font-size: 9px; line-height:11px; display: inline-table; float: left; margin-left: 7px; margin-top: 15px;'>Valorize seu carro<br />Descrição e Fotos
+
+
+<div class="inativofu vcincoper gujo">
+
+<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 4px solid #666; border-radius: 50%; width: 80px; text-align:center; vertical-align:center; line-height: 70px; height: 70px; color: #666">02</span>
+<span style='font-size: 12px; line-height:16px; margin-top:25px; display: inline-table; float: left; margin-left: 7px;'>Sua segurança<br />Ativando o seguro
 
 </div>
 
 
 
-<div class="inativof vcincoper">
 
-<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 4px solid #eee; border-radius: 50%;width: 80px; text-align:center; vertical-align:center; line-height: 70px; height: 70px;color: #eee">04</span>
-<span style='font-size: 9px; line-height:11px; display: inline-table; float: left; margin-left: 7px; margin-top: 15px;'>Compartilhe<br /><b>Bons negócios!
+<div class="inativofu vcincoper gujo">
+
+<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 4px solid #666; border-radius: 50%;width: 80px; text-align:center; vertical-align:center; line-height: 70px; height: 70px; color: #666">03</span>
+<span style='font-size: 12px; line-height:16px; margin-top:25px; display: inline-table; float: left; margin-left: 7px;'>Valorize seu carro<br />Descrição e Fotos
+
+</div>
+
+
+
+<div class="inativofu vcincoper gujo">
+
+<span style="font-size: 42px; line-height: 42px; display: inline-table; float: left; border: 4px solid #666; border-radius: 50%;width: 80px; text-align:center; vertical-align:center; line-height: 70px; height: 70px;color: #666">04</span>
+<span style='font-size: 12px; line-height:16px; margin-top:25px; display: inline-table; float: left; margin-left: 7px; '>Compartilhe<br /><b>Bons negócios!
 
 </div>
 

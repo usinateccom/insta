@@ -16,7 +16,11 @@
 
 .formboard{border:2px solid #ff5500; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;}
 
-.vcincoper{width:25%;}
+.vcincoper{width:25%; display: inline;}
+
+.gujo{display: inline-table;float: left; }
+.inativofu{color: #fff; text-shadow: 1px 1px #000; border: 1px solid transparent;}
+.ativofu{border-radius: 39px; background-color: #eee; color: #666; text-shadow: 1px 1px #fff;}
 
 .bolafoto{ width: 30px; height: 30px; border-radius: 15px;}
 .avisoni{ color:#ccc; border: 3px solid #ccc; border-radius: 14px; height:30px; line-height:20px; box-shadow: 1px 1px #000;}
