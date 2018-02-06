@@ -196,7 +196,59 @@ $("#pot").click(function(){
 </script>
 
 
-	<style>
+	<div class="regua">
+
+<div class="encaixa central">
+
+<h2>Sua contratação resumida</h2><br><div class="colored-line"></div>
+
+<br><br>
+<div style="display:table; margin: auto;" class="central">
 
 
-</style>
+<div class="vcincoper central criculiu">
+
+	<h3>1º</h3>
+
+Encontre o veículo de acordo com sua necessidade
+</div>
+
+
+
+<div class="vcincoper central criculiu">
+
+<h3>2º</h3>
+
+Registre-se em segundos, solicite sua reserva
+
+</div>
+
+
+
+<div class="vcincoper central  criculiu">
+
+<h3>3º</h3>
+
+Conheça o proprietário e obtenha as chaves
+
+</div>
+
+
+<div class="vcincoper central criculiu">
+
+<h3>4º</h3>
+
+Devolva o veículo e repita a contratação o quanto quiser
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+	</div>
