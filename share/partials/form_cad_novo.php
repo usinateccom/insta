@@ -91,25 +91,34 @@ $mailon = $gil["email"];
 <tr>
 <td style="border: 1px solid transparent">
 <label>
-<span>Senha</span><?php //echo $pagina; ?>
+<span></span><?php //echo $pagina; ?>
             
           </label>
-          <input id="senhau" name="user[first_name]" class="fom requiredField validateInput" value="" type="password">
+          <input id="senhau" name="user[first_name]" class="fom requiredField validateInput" value="" type="text">
 
         </td><td style="border: 1px solid transparent">
 
 
  <label for="user_last_name">
-            <span>Conf. Senha</span>
+            <span></span>
             
           </label>
-          <input id="senhad" name="user[last_name]" class="fom requiredField validateInput" value="" type="password">
+          <input id="senhad" name="user[last_name]" class="fom requiredField validateInput" value="" type="text">
           
 
         </td>
 
 </tr>
 
+
 </table>
 
 </div>
+
+<?php
+
+
+//inclue novas funcoes de b.e.
+{}
+
+?>

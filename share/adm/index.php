@@ -180,6 +180,13 @@ echo "<script>location.href='adm.php'</script>";
 }
 }
 */
+
+
+//include "partials_adm/funcoes_antigas_sem_cookie.php";
+// includes "partial_adm/funcoes_novas_sessao.php";
+
+// include "partials_adm/funcoes_estatistica_sessao.php"
+
 ?>
 
 

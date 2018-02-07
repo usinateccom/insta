@@ -312,3 +312,15 @@ exata somente após a sua confirmação.</p><div class="form-cadatro-carro-passo
 
 <div class="encaixa">
 <hr class="bujo"></hr></div>
+
+<?php
+
+/*
+
+include "partials_n/form_novo_envio_galeria.php";
+
+include partials_n/funcoes_formulario_novas.php";
+
+*/
+
+?>

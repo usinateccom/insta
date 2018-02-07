@@ -19,6 +19,8 @@ margin-top: -450px; padding-left: 20px;
 
 include "partials/form_cad_novo.php";
 
+//include "partials/envia_imagens_cad_novo.php";
+
 ?>
 
 </div>
