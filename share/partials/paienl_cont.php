@@ -187,6 +187,9 @@ if($status_cad == '1'){
 <br> <a href="#" onclick="completa_dados()">Complete seus dados</a>
 <br> <a href="../editar-dados/">Edite seus dados</a><br><br>';}
 
+
+
+
 else{
 
 echo '<br> <a href="../editar-dados/">Edite seus dados</a><br><br><br>';

@@ -55,7 +55,7 @@ $nomecomp  = guina("us_nome_mail", $idusr, "is_id", "nome" );
 <h1 style="font-family: 'Montserrat', sans-serif!important; margin-top: -5px;"><?php echo $modelo. ' - ' .$bairro. "</h1><h2 style='margin-top:-15px; text-shadow:1px 1px #666'>$cidade</h2>"; 
 echo "
 
-<div style='float:right; margin-right: 15px; margin-top: -70px; text-shadow: 1px 1px #000; font-weight: bold;'>
+<div style='float:right; margin-right: 230px; margin-top: -36px; text-shadow: 1px 1px #000; font-weight: bold;'>
 Ano $anovv
 </div>
 

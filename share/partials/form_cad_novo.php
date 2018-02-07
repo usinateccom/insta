@@ -72,7 +72,7 @@ $mailon = $gil["email"];
 <span>CPF</span><?php //echo $pagina; ?>
             
           </label>
-          <input id="cpf" name="user[first_name]" class="fom requiredField validateInput" value="<?php echo $gil["cfp_cnpj"];?>" type="text">
+          <input id="cpf" name="user[first_name]" class="fom requiredField validateInput" value="<?php echo $gil["cfp_cnpj"]; ?>" type="text">
 
         </td><td style="border: 1px solid transparent">
 
