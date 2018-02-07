@@ -101,7 +101,7 @@
 <div class="reguad">
 <?php
 
-
+// include "partials_adm/funcoes_estatistica.php";
 
 ?>
 

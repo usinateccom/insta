@@ -73,6 +73,7 @@ mysql_query($rise);
 
 $cara = "insert into tipo_cad ('id_usr', 'tipo') values ('$id_usr', '$tipocad')";
 
+// include "inclusao_tabelas_novas.php";
 
 }
 
