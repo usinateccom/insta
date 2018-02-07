@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 07-Fev-2018 às 07:14
+-- Generation Time: 07-Fev-2018 às 19:21
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -65,12 +65,12 @@ INSERT INTO `anuncios` (`um`, `modelo`, `cidade`, `bairro`, `opcionais`, `f_segu
 (1, 'Ford Fiesta', '2754', '3547', NULL, NULL, 80, NULL, NULL, '1', '2009', '3', NULL),
 (2, 'Gol Geração 4', '2754', '3547', NULL, NULL, 60, NULL, NULL, '2', '2009', '4', NULL),
 (3, 'Novo Uno', '2754', '3420', NULL, NULL, 120, NULL, NULL, '2', '2012', '2', NULL),
-(5, 'CrossFox', '2754', '3285', NULL, NULL, 40, NULL, NULL, NULL, '2009', '5', NULL),
-(6, 'Strada Saveiro', '2754', '3274', NULL, NULL, 90, NULL, NULL, NULL, '2009', '6', NULL),
-(7, 'Tucson Hyundai', '2754', '3547', NULL, NULL, 140, NULL, NULL, NULL, '2009', '7', NULL),
-(8, 'Opel Meriva', '2754', '3297', NULL, NULL, 85, NULL, NULL, NULL, '2012', '9', NULL),
-(9, 'Ford EcoSport', '2754', '3297', NULL, NULL, 100, NULL, NULL, NULL, '2012', '8', NULL),
-(14, 'Ford KA 2017', '2754', '3297', NULL, NULL, 90, NULL, NULL, NULL, '2012', '9', NULL);
+(5, 'CrossFox', '2754', '3285', NULL, NULL, 40, NULL, NULL, '1', '2009', '5', NULL),
+(6, 'Strada Saveiro', '2754', '3274', NULL, NULL, 90, NULL, NULL, '1', '2009', '6', NULL),
+(7, 'Tucson Hyundai', '2754', '3547', NULL, NULL, 140, NULL, NULL, '1', '2009', '7', NULL),
+(8, 'Opel Meriva', '2754', '3297', NULL, NULL, 85, NULL, NULL, '1', '2012', '9', NULL),
+(9, 'Ford EcoSport', '2754', '3297', NULL, NULL, 100, NULL, NULL, '1', '2012', '8', NULL),
+(14, 'Ford KA 2017', '2754', '3297', NULL, NULL, 90, NULL, NULL, '1', '2012', '9', NULL);
 
 -- --------------------------------------------------------
 
@@ -50687,7 +50687,18 @@ INSERT INTO `logs_ff` (`um`, `data`, `hora`, `ip`, `local`, `usuario`, `log`, `f
 (606, '07/02/2018', '04:52', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
 (607, '07/02/2018', '04:52', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
 (608, '07/02/2018', '04:55', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
-(609, '07/02/2018', '04:55', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN');
+(609, '07/02/2018', '04:55', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(610, '07/02/2018', '06:13', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(611, '07/02/2018', '06:13', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(612, '07/02/2018', '14:11', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(613, '07/02/2018', '14:12', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(614, '07/02/2018', '14:12', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(615, '07/02/2018', '17:16', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(616, '07/02/2018', '17:18', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(617, '07/02/2018', '17:18', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(618, '07/02/2018', '17:18', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(619, '07/02/2018', '17:18', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(620, '07/02/2018', '17:19', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN');
 
 -- --------------------------------------------------------
 
@@ -55114,7 +55125,13 @@ INSERT INTO `visualizanuncio` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VAL
 (258, '07/02/2018', '04:34', '2', '::1', '8'),
 (259, '07/02/2018', '04:35', '7', '::1', '8'),
 (260, '07/02/2018', '04:35', '7', '::1', '8'),
-(261, '07/02/2018', '04:35', '5', '::1', '8');
+(261, '07/02/2018', '04:35', '5', '::1', '8'),
+(262, '07/02/2018', '17:16', '8', '::1', '9'),
+(263, '07/02/2018', '17:18', '8', '::1', '9'),
+(264, '07/02/2018', '17:18', '5', '::1', '9'),
+(265, '07/02/2018', '17:18', '7', '::1', '9'),
+(266, '07/02/2018', '17:18', '14', '::1', '9'),
+(267, '07/02/2018', '17:19', '14', '::1', '9');
 
 -- --------------------------------------------------------
 
@@ -56644,7 +56661,10 @@ INSERT INTO `visualizpag` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VALUES
 (1488, '07/02/2018', '04:45', 'como-funciona/', '::1', '25'),
 (1489, '07/02/2018', '04:45', 'completar-cadastro/', '::1', '25'),
 (1490, '07/02/2018', '04:45', 'completar-cadastro/', '::1', 'indefinido'),
-(1491, '07/02/2018', '04:52', 'completar-cadastro/', '::1', '9');
+(1491, '07/02/2018', '04:52', 'completar-cadastro/', '::1', '9'),
+(1492, '07/02/2018', '06:13', 'completar-cadastro/', '::1', '9'),
+(1493, '07/02/2018', '14:11', 'cadastro-veiculo/', '::1', '8'),
+(1494, '07/02/2018', '14:12', 'confianca/', '::1', '9');
 
 -- --------------------------------------------------------
 
@@ -58290,7 +58310,7 @@ ALTER TABLE `img_sec`
 -- AUTO_INCREMENT for table `logs_ff`
 --
 ALTER TABLE `logs_ff`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=610;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=621;
 --
 -- AUTO_INCREMENT for table `negoc`
 --
@@ -58355,7 +58375,7 @@ ALTER TABLE `validacao_cad`
 -- AUTO_INCREMENT for table `visualizanuncio`
 --
 ALTER TABLE `visualizanuncio`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=262;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=268;
 --
 -- AUTO_INCREMENT for table `visualiza_regiao`
 --
@@ -58365,7 +58385,7 @@ ALTER TABLE `visualiza_regiao`
 -- AUTO_INCREMENT for table `visualizpag`
 --
 ALTER TABLE `visualizpag`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1492;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1495;
 --
 -- AUTO_INCREMENT for table `wpd_bp_activity`
 --
