@@ -13,4 +13,5 @@ $mino["campo"] = "Autenticado";
 
 echo json_encode($mino);
 
+
 ?>

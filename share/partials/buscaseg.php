@@ -2,7 +2,7 @@
 
 
 
-<div style="<?php marcad($ponto); ?> padding-top: 60px; height: 300px; background-size: 100% auto;" class="fadeIn">
+<div style="<?php marcad($ponto); ?> padding-top: 60px; height: 400px; background-size: 100% auto;" class="fadeIn">
 
 
 <style>
@@ -15,7 +15,7 @@
 
 <h1 style="color: #fff; text-shadow: 1px 1px #000; ">Encontre seu veículo</h1>
 
-
+<style> #busca_rua{width: 800px!important}</style>
 
 
 <center>
@@ -23,7 +23,7 @@
 
 
 
-<li style="padding-top:10px;">
+<li style="padding-top:10px; color:#fff;">
 
 
 Em&nbsp</li>
@@ -31,7 +31,7 @@ Em&nbsp</li>
 <li style="width: 800px;">
 
 
-	<input class="bus"  id='busca_rua' placeholder="Bairro, rua, etc..." type="text" value=""  style=" background-image:url(imagens/locacao%20carros%20compartilhamento%20fundo%20buscad.jpg); border-bottom: 2px solid #fff; color: #fff;  margin-left: 15px; width: 800px!important; border-bottom-left: 1px solid #fff; border-bottom-right: 1px solid #fff; border-radius: 6px;"/></li><style> #busca_rua{width: 800px!important}</style>
+	<input class="bus"  id='busca_rua' placeholder="Bairro, rua, etc..." type="text" value=""  style=" background-image:url(imagens/locacao%20carros%20compartilhamento%20fundo%20buscad.jpg); border-bottom: 2px solid #fff; color: #fff;  margin-left: 15px; width: 800px!important; border-bottom-left: 1px solid #fff; border-bottom-right: 1px solid #fff; border-radius: 6px;"/></li><
 
 <li style="padding-top:10px;" class="dnone"> &nbsp;De&nbsp</li><li class="dnone">
 
@@ -71,7 +71,7 @@ Em&nbsp</li>
 <span> Você está em: </span><span id="nome_geog">... </span><span><img src="<?php echo $ponto; ?>imagens/carro compartilhadolocalizacao.png" style="height: 20px; width: auto; cursor: pointer;" onclick="initializeo()" ></span><span id="regra_geog" style="font-size: 12px">  - Clique na imagem ao lado para obter sua localização.</span>
 
 <br>
-<div class="f_dir"><button class='pinoni' id='filtrons' style="float: right; margin-top:-40px">Adicionar filtros</button>
+<div class="f_dir" id="binaj"><button class='pinoni' id='filtrons' style="float: right; margin-top:-40px">Adicionar filtros</button>
 
 
 
@@ -99,22 +99,32 @@ include "includes/prabusca.php";
 
 $("#filtrons").click(function(){
 
-alert('testefiltros');
+//alert('testefiltros');
+
+
 
 $("#buscafilt").removeClass("dnone");
-
+$("#buscafilt").addClass("fadeIn");
 $( "#buscafilt" ).slideDown( "slow");
-
-
+$("#binaj").fadeOut();
+//$("#filtrons").prop('disabled' true);
 });
 </script>
 
+<style>
+.mokov{ color:#fff; width:100%; display:table;}
+.mokov ul li{display: inline-table; float: left; list-style: none;}
+.mokov select{padding: 2px; border-radius: 3px; width: 150px}
+#binaj{margin-top: 10px;}
+#buscafilt{width: 1024px; }
+</style>
 
-<div class="encaixa dnone" id="buscafilt">
+
+<div class="encaixa dnone mokov" id="buscafilt" style="margin-top: 30px;">
 
 	<span style="height: 60px; display: inline-table; float: left; margin-left: 30px;">
 Tipo<br>
-<select class="bus" id="tipo_buss" style="color: #000">
+<select class=" dimin" id="tipo_buss" style="color: #000; width: 120px;">
 	
 <option value = 'Buggy'>BUGGY</option>
 
@@ -133,7 +143,7 @@ Tipo<br>
 
 	<span style="height: 60px; display: inline-table; float: left; margin-left: 30px;">
 Delivery<br>
-<select class="bus" id="der_buss"  style="color: #000">
+<select class="" id="der_buss"  style="color: #000">
 	<option value="Não">NÃO</option>
 
 <option value="Sim">SIM</option>
@@ -147,7 +157,7 @@ Delivery<br>
 
 	<span style="height: 60px; display: inline-table; float: left; margin-left: 30px;">
 Combustível<br>
-<select class="bus" id="bom_buss"  style="color: #000">
+<select class="" id="bom_buss"  style="color: #000">
 	<option value="Gasolina">GASOLINA</option>
 
 <option value="Álcool">ALCOOL</option>
@@ -167,7 +177,7 @@ Combustível<br>
 
 	<span style="height: 60px; display: inline-table; float: left; margin-left: 30px;">
 Câmbio<br>
-<select class="bus" id="camb_buss"  style="color: #000">
+<select class="" id="camb_buss"  style="color: #000">
 	<option value="A">AUTOMÁTICO</option>
 
 <option value="C">MANUAL</option>
@@ -177,8 +187,8 @@ Câmbio<br>
 
 	</span>
 
-<span style="height: 60px; display: inline-table; float: right; margin-right: 60px; padding-top: 7px;">
-<button class="pino" id="botao_buscaf"> Buscar c/ Filtros</button>
+<span style="height: 60px; display: inline-table; float: right; margin-right: 40px; padding-top: 7px; margin-left: 100px;">
+<button class="pino" id="botao_buscaf" style="width: 200px;"> Buscar c/ Filtros</button>
 
 </div>
 

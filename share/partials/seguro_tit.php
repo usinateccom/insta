@@ -1,12 +1,11 @@
 
 
+<div style="<?php marcad($ponto); ?> padding-top: 60px; height: 630px;"  class="fadeIn">
 
-
-<div id="muko">
 
 <div class="encaixa">
 
-<h2>Entenda a Cobertura de Seguro - Instashare</h2><br>
+<h1 style="color:#fff;font-family: 'Montserrat', sans-serif!important;">Entenda a Cobertura de Seguro - Instashare</h1><br>
 
 
 

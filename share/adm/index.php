@@ -127,7 +127,11 @@ $("#sinji").submit();
 
 
 </script>
+<?php
 
+include "../funcoes/funcoesjs.php";
+
+?>
 </head>
 
 <body onload="foca()">

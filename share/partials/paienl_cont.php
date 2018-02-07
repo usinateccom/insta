@@ -7,7 +7,7 @@
 <?php
 //echo $idzinho;
 $usuario_nom = get_usr($idzinho);
-reglog("ACESSO", 'USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO', $usuario_nom);
+reglog("ACESSO", "USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO", $usuario_nom);
 
 $status_cad = frinha("cadcomp", "status", 'id_usr', $idzinho);
 
@@ -112,7 +112,9 @@ $jiboia
 
 <a href='#' onclick='ver_notif(".'"'.$idzinho.'", "2".'.'"'.")'> 2 - Conheça melhor o Instashare!</a><br>
 
-<a href='#' onclick='ver_notif(".'"'.$idzinho.'", "3".'.'"'.")'> 3 - Saiba como anunciar!</a>
+<a href='#' onclick='ver_notif(".'"'.$idzinho.'", "3".'.'"'.")'> 3 - Saiba como anunciar!</a><br><br>
+<br>
+<a href='#' onclick='ver_notif(".'"'.$idzinho.'", "TODAS".'.'"'.")'> Ver Todas </a>
 
 <br><br><br>
 
@@ -162,7 +164,7 @@ background: -moz-linear-gradient(top, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 100%);
 .prepo h3 h4{font-weight: bolder;}
 </style>
 
-<div class="regua central" style="margin-top: 25px; background-image: url(<?php echo $ponto; ?>imagens/locacao%20carros%20compartilhamento%20fundobv.jpg); background-size: 100% 100%; text-shadow: 1px 1px #000;">
+<div class="regua central" style="margin-top: -38px; background-image: url(<?php echo $ponto; ?>imagens/locacao%20carros%20compartilhamento%20fundobv.jpg); background-size: 100% 100%; text-shadow: 1px 1px #000;">
 
 <div class="encaixa">
 <div class="regua central">

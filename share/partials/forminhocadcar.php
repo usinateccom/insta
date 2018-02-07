@@ -8,7 +8,7 @@ $status_cad = frinha("cadcomp", "status", 'id_usr', $idzinho);
 //echo $idzinho;
 if($status_cad == '1'){
 
-echo "<center><br><div class='avisoni reguad central'>
+echo "<center><br><div class='avisoni reguad central' style='margin-bottom:60px;'>
 
 
 <b> $nome_l,</a> seu cadastro está incompleto! <a href='../completar-cadastro/' title='$tit_u'><b>Clique aqui</b></a> para atualizar seus dados!<br>A atualização dos dados é necessária para compartilhar e contratar veículos compartilhados.
@@ -81,6 +81,8 @@ echo "<center><br><div class='avisonin reguad central'>
 .mova{    height: 34px;
     padding: 6px 12px;
     font-size: 14px;}
+#baril_c h3{text-decoration: ;}
+
 </style>
 <div class="encaixa reguad formboardo" style="
 
@@ -94,7 +96,7 @@ background: -moz-linear-gradient(top, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#ffff',GradientType=0 );
  border-top-right-radius: 12px; border-top-left-radius: 12px;
 
-">
+" id="baril_c">
 
 
 <h2>Dados Gerais</h2>
@@ -123,7 +125,7 @@ background: -moz-linear-gradient(top, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 100%);
 <div style="display: inline-table; float: left; margin-left: 10px;">
 
 
- <select id="primeiropasso-marca" class="mova" name="PrimeiroPasso[marca]" aria-required="true" data-s2-options="s2options_d6851687" data-krajee-select2="select2_e748dc4b" style="">
+ <select id="primeiropasso-marca" class="mova" name="PrimeiroPasso[marca]" aria-required="true" data-s2-options="s2options_d6851687" data-krajee-select2="select2_e748dc4b" style="width: 120px;">
 
 
 
@@ -165,6 +167,45 @@ background: -moz-linear-gradient(top, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 100%);
 </select>
 </div>
 
+
+
+
+<div style="display: inline-table; float: left; margin-left: 10px;">
+
+
+<select class='mova' id="cambio_veic">
+
+
+
+<option value="manual">CÂMBIO MANUAL</option>
+<option value="automátco">CÂMBIO AUTOMÁTICO</option>
+
+
+
+</select>
+</div>
+
+
+<div style="display: inline-table; float: left; margin-left: 10px;">
+<select class='mova' id="combust">
+
+
+	<option value="Gasolina">GASOLINA</option>
+
+<option value="Álcool">ALCOOL</option>
+
+<option value="Diesel">DIESEL</option>
+
+<option value="Flex">FLEX</option>
+
+
+
+</select>
+
+
+
+
+</div>
 
 
 </div><!--regua-->

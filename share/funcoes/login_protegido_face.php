@@ -42,7 +42,7 @@ reglog("LOGIN", "USUÁRIO $user LOGOU-SE NO INSTASHARE.", $user);
 
 
 
-$vuk = sel_simples("tipo_cad", "*", "where id_usr = '#idg'");
+$vuk = sel_simples("tipo_cad", "*", "where id_usr = '$idg'");
 
 $hj = mysql_num_rows($vuk);
 
@@ -52,9 +52,23 @@ if($hj > 0){}else{
 $bok = "insert into tipo_cad (id_usr, tipo) values ('$idg', 'fisica')";
 
 mysql_query($bok);
+
+
+
 	
 }
 
+
+$fal = sel_simples("dados_sensveis", "*", "where id_us = '$idg'");
+
+$guj = mysql_num_rows($fal);
+
+if($guj > 0){}else{
+
+$frt = "insert into dados_sensveis (id_us) values ('$idg')";
+mysql_query($frt);
+
+}
 
 
 
@@ -116,11 +130,42 @@ reglog("CADASTRO", "USUÁRIO $user CADASTROU-SE NO INSTASHARE.", $user);
 
 
 
+
+$vuk = sel_simples("tipo_cad", "*", "where id_usr = '$idg'");
+
+$hj = mysql_num_rows($vuk);
+
+if($hj > 0){}else{
+
+
 $bok = "insert into tipo_cad (id_usr, tipo) values ('$idg', 'fisica')";
 
 mysql_query($bok);
 
+
+
+	
 }
+
+
+$fal = sel_simples("dados_sensveis", "*", "where id_us = '$idg'");
+
+$guj = mysql_num_rows($fal);
+
+if($guj > 0){}else{
+
+$frt = "insert into dados_sensveis (id_us) values ('$idg')";
+mysql_query($frt);
+
+}
+
+
+
+}
+
+
+
+
 
 
 }else{
@@ -198,6 +243,36 @@ $nome = $flok[1];
 $idg = $fg['um'];
 
 reglog("CADASTRO", "USUÁRIO $user CADASTROU-SE NO INSTASHARE.", $user);
+
+
+
+$vuk = sel_simples("tipo_cad", "*", "where id_usr = '$idg'");
+
+$hj = mysql_num_rows($vuk);
+
+if($hj > 0){}else{
+
+
+$bok = "insert into tipo_cad (id_usr, tipo) values ('$idg', 'fisica')";
+
+mysql_query($bok);
+
+
+
+	
+}
+
+
+$fal = sel_simples("dados_sensveis", "*", "where id_us = '$idg'");
+
+$guj = mysql_num_rows($fal);
+
+if($guj > 0){}else{
+
+$frt = "insert into dados_sensveis (id_us) values ('$idg')";
+mysql_query($frt);
+
+}
 
 
 }

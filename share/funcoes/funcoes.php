@@ -10,11 +10,11 @@ function cookie_vai(){
 
 } // fim da funcao
 
-function pagina(){
-	
 
 
-}
+
+
+
 
 
 function listagem($tabela, $arraycol, $condicao){

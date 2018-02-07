@@ -30,7 +30,7 @@ if($tipocad == 'fisica'){
 
 $shiro = "";
 
-$buno = sel_simples("us_nome_email", "*", "where email = '$mailo'");
+$buno = sel_simples("us_nome_mail", "*", "where email = '$mailo'");
 
 $fun = mysql_num_rows($buno);
 

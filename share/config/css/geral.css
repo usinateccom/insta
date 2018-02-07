@@ -18,6 +18,9 @@
 
 .vcincoper{width:25%; display: inline;}
 
+.marca{background-color: rgba(0,0,0,0.5); position: absolute; max-height: 120px!important; height: 120px}
+
+.marcan{background-color: rgba(0,0,0,0.5);}
 .gujo{display: inline-table;float: left; }
 .inativofu{color: #fff; text-shadow: 1px 1px #000; border: 1px solid transparent;}
 .ativofu{border-radius: 39px; background-color: #eee; color: #666; text-shadow: 1px 1px #fff;}
@@ -253,6 +256,8 @@ h2{font-family: 'Montserrat', sans-serif!important;}
 	
 	z-index:9998;
 }
+
+.tuta{border-radius:16px; background-color: rgba(0,0,0,0.5); padding: 20px; width: 600px}
 
 .ruba{margin-top:-20px;}
 

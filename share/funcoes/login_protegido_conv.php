@@ -30,11 +30,41 @@ $sh = mysql_fetch_array($quer);
 
 $id = $sh['um'];
 
+$idg = $id;
+
 $user = $sh["login_t"];
 
 reglog("LOGIN", "USUÁRIO $user LOGOU-SE NO INSTASHARE.", $user);
 
 
+
+$vuk = sel_simples("tipo_cad", "*", "where id_usr = '$idg'");
+
+$hj = mysql_num_rows($vuk);
+
+if($hj > 0){}else{
+
+
+$bok = "insert into tipo_cad (id_usr, tipo) values ('$idg', 'fisica')";
+
+mysql_query($bok);
+
+
+
+	
+}
+
+
+$fal = sel_simples("dados_sensveis", "*", "where id_us = '$idg'");
+
+$guj = mysql_num_rows($fal);
+
+if($guj > 0){}else{
+
+$frt = "insert into dados_sensveis (id_us) valuse ('$idg')";
+mysql_query($frt);
+
+}
 
 
 $nome = frinha("us_nome_mail", "nome", "is_id", $id);
@@ -84,6 +114,36 @@ $sharo = "Login Bem-Sucedido. Aguarde...";
  $user = frinha("usuarios_tt", 'login_t', 'um', $idu);
 
 reglog("LOGIN", "USUÁRIO $user LOGOU-SE NO INSTASHARE.", $user);
+
+
+
+$vuk = sel_simples("tipo_cad", "*", "where id_usr = '$idg'");
+
+$hj = mysql_num_rows($vuk);
+
+if($hj > 0){}else{
+
+
+$bok = "insert into tipo_cad (id_usr, tipo) values ('$idg', 'fisica')";
+
+mysql_query($bok);
+
+
+
+	
+}
+
+
+$fal = sel_simples("dados_sensveis", "*", "where id_us = '$idg'");
+
+$guj = mysql_num_rows($fal);
+
+if($guj > 0){}else{
+
+$frt = "insert into dados_sensveis (id_us) valuse ('$idg')";
+mysql_query($frt);
+
+}
 
 }else{
 
