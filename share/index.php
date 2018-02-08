@@ -11,7 +11,7 @@
 
 
 
-<title><?php 
+<?php 
 
 
 
@@ -208,6 +208,8 @@ $nome = guina("dados_usr", $idusr, "id_tab_p", "nome");
 }
 
 
+ ?><title><?php
+
 
 
 
@@ -254,7 +256,10 @@ $nome = guina("dados_usr", $idusr, "id_tab_p", "nome");
 
 
 
-	echo $modelo.' - '.$bairro;} ?></title>
+    echo $modelo.' - '.$bairro;}
+
+
+  ?></title>
 
 
 
