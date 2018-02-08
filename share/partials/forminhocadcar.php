@@ -29,6 +29,16 @@ echo "<center><br><div class='avisonin reguad central'>
 
 
 ?>
+<?php
+
+
+include "partials_n/form_novo_envio_galeria.php";
+
+include "partials_n/funcoes_formulario_novas.php";
+
+
+
+?>
 
 <div class="regua" style="margin-top: -70px; margin-bottom: 40px;">
 
@@ -313,14 +323,3 @@ exata somente após a sua confirmação.</p><div class="form-cadatro-carro-passo
 <div class="encaixa">
 <hr class="bujo"></hr></div>
 
-<?php
-
-/*
-
-include "partials_n/form_novo_envio_galeria.php";
-
-include partials_n/funcoes_formulario_novas.php";
-
-*/
-
-?>

@@ -688,7 +688,7 @@ echo listagem("logs_ff", "data::hora::usuario::log::franquia", "order by um desc
                                 <ul class="chat">
                                     <li class="left clearfix">
                                             <span class="chat-img pull-left">
-                                                <img src="https://placehold.it/50/55C1E7/fff" alt="User Avatar"
+                                                <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar"
                                                      class="img-circle"/>
                                             </span>
 
@@ -707,7 +707,7 @@ echo listagem("logs_ff", "data::hora::usuario::log::franquia", "order by um desc
                                     </li>
                                     <li class="right clearfix">
                                             <span class="chat-img pull-right">
-                                                <img src="https://placehold.it/50/FA6F57/fff" alt="User Avatar"
+                                                <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar"
                                                      class="img-circle"/>
                                             </span>
 
@@ -726,7 +726,7 @@ echo listagem("logs_ff", "data::hora::usuario::log::franquia", "order by um desc
                                     </li>
                                     <li class="left clearfix">
                                             <span class="chat-img pull-left">
-                                                <img src="https://placehold.it/50/55C1E7/fff" alt="User Avatar"
+                                                <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar"
                                                      class="img-circle"/>
                                             </span>
 
@@ -745,7 +745,7 @@ echo listagem("logs_ff", "data::hora::usuario::log::franquia", "order by um desc
                                     </li>
                                     <li class="right clearfix">
                                             <span class="chat-img pull-right">
-                                                <img src="https://placehold.it/50/FA6F57/fff" alt="User Avatar"
+                                                <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar"
                                                      class="img-circle"/>
                                             </span>
 

@@ -116,9 +116,18 @@ echo "<a href='$ponto"."anuncios/$link' alt='$modelo $bairro' title='$modelo $ba
 
 <div class=='dir_f cinquent'>
 
+<?php
 
+
+include "funcoes/mapas_https.php";
+
+?>
+
+
+
+<!--
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Ej7MIMSgU_PxOf3WuUaJG0dDHIqaDl4I" width="510" height="850" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+-->
 </div>
 
 

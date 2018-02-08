@@ -308,10 +308,10 @@ $("#sului").attr("src", nil);
 
 <?php
 
-/*
+
 
 include "partials_n/funcoes_checkout_afins.php";
 
-*/
+
 
 ?>

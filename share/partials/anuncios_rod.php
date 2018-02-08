@@ -3,13 +3,7 @@
 
 <?php
 
-$bokn = sel_simples("places", "*", "where id_anunc = '$id'");
-
-$huk  = mysql_fetch_array($bokn);
-
-echo $huk["place"];
-
-?>
+include "partials/mapa_https.php";?>
 
 </div>
 

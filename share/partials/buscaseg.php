@@ -31,7 +31,7 @@ Em&nbsp</li>
 <li style="width: 800px;">
 
 
-	<input class="bus"  id='busca_rua' placeholder="Bairro, rua, etc..." type="text" value=""  style=" background-image:url(imagens/locacao%20carros%20compartilhamento%20fundo%20buscad.jpg); border-bottom: 2px solid #fff; color: #fff;  margin-left: 15px; width: 800px!important; border-bottom-left: 1px solid #fff; border-bottom-right: 1px solid #fff; border-radius: 6px;"/></li><
+	<input class="bus"  id='busca_rua' placeholder="Bairro, rua, etc..." type="text" value=""  style=" background-image:url(imagens/locacao%20carros%20compartilhamento%20fundo%20buscad.jpg); border-bottom: 2px solid #fff; color: #000;  margin-left: 15px; width: 800px!important; border-bottom-left: 1px solid #fff; border-bottom-right: 1px solid #fff; border-radius: 6px;"/></li><
 
 <li style="padding-top:10px;" class="dnone"> &nbsp;De&nbsp</li><li class="dnone">
 

@@ -5,6 +5,9 @@
 
 
 <?php
+
+include "funcoes/funcoes_painel_relatorios.php";
+
 //echo $idzinho;
 $usuario_nom = get_usr($idzinho);
 reglog("ACESSO", "USUÁRIO $usuario_nom ACESSOU A ÁREA DO USUÁRIO", $usuario_nom);

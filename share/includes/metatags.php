@@ -27,7 +27,7 @@
 <meta content="INDEX, FOLLOW" name="GOOGLEBOT">
 <meta content="all" name="AUDIENCE">
 
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 <link rel="author" href="https://plus.google.com/115535909172191203738"/>
 <link rel="publisher" href="https://plus.google.com/115535909172191203738"/>
@@ -39,7 +39,7 @@
 <meta property="og:type" content="website">
 
 
-<meta property="og:url" content="https://www.instashare.me/<?php echo $pag_dados['urlen']; ?>">
+<meta property="og:url" content="http://www.instashare.me/<?php echo $pag_dados['urlen']; ?>">
 
 <meta property="og:site_name" content="Instashare" />
 <meta property="og:description" content="<?php echo $pag_dados['descric']; ?>" />
@@ -55,7 +55,7 @@
 
 
 
-<meta content="https://www.instashare.me/<?php echo $pag_dados['urlen']; ?>" name="url">
+<meta content="http://www.instashare.me/<?php echo $pag_dados['urlen']; ?>" name="url">
 <link href="<?php echo $ponto; ?>favicon.ico" rel="shortcut icon">
 <link href="<?php echo $ponto; ?>favicon.ico" rel="icon">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
