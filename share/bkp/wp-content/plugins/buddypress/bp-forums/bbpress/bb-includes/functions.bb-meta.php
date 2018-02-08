@@ -353,7 +353,7 @@ function bb_get_option( $option )
 						$r = 0;
 						break;
 					case 'uri_ssl':
-						$r = preg_replace( '|^http://|i', 'https://', bb_get_option( 'uri' ) );
+						$r = preg_replace( '|^https://|i', 'https://', bb_get_option( 'uri' ) );
 						break;
 					case 'throttle_time':
 						$r = 30;

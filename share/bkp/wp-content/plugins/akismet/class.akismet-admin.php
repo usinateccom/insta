@@ -681,7 +681,7 @@ class Akismet_Admin {
 			update_option('akismet_connectivity_time', time());
 		}
 			
-		$response = wp_remote_get( 'http://rest.akismet.com/1.1/test' );
+		$response = wp_remote_get( 'https://rest.akismet.com/1.1/test' );
 		
 		$debug[ 'gethostbynamel' ]  = function_exists('gethostbynamel') ? 'exists' : 'not here';
 		$debug[ 'Servers' ]         = $servers;

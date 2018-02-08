@@ -230,7 +230,7 @@ class WP_REST_Server {
 		/*
 		 * Mitigate possible JSONP Flash attacks.
 		 *
-		 * http://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/
+		 * https://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/
 		 */
 		$this->send_header( 'X-Content-Type-Options', 'nosniff' );
 		$this->send_header( 'Access-Control-Expose-Headers', 'X-WP-Total, X-WP-TotalPages' );
@@ -394,7 +394,7 @@ class WP_REST_Server {
 
 			if ( $jsonp_callback ) {
 				// Prepend '/**/' to mitigate possible JSONP Flash attacks
-				// http://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/
+				// https://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/
 				echo '/**/' . $jsonp_callback . '(' . $result . ')';
 			} else {
 				echo $result;
@@ -932,7 +932,7 @@ class WP_REST_Server {
 
 		$response = new WP_REST_Response( $available );
 
-		$response->add_link( 'help', 'http://v2.wp-api.org/' );
+		$response->add_link( 'help', 'https://v2.wp-api.org/' );
 
 		/**
 		 * Filter the API root index data.

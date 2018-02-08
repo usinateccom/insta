@@ -1,8 +1,8 @@
 # Startmin
 
-**Startmin** is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) originally created by [Start Bootstrap](http://startbootstrap.com/).
+**Startmin** is an open source, admin dashboard template for [Bootstrap](https://getbootstrap.com/) originally created by [Start Bootstrap](https://startbootstrap.com/).
 
-You can find a demo [here](http://secondtruth.github.io/startmin).
+You can find a demo [here](https://secondtruth.github.io/startmin).
 
 
 ## Features
@@ -40,13 +40,13 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 ## Contributors / Credits
 
-**Startmin** is based on [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/) from [Start Bootstrap](http://startbootstrap.com/).
-Start Bootstrap was created by and is maintained by **David Miller** at [Blackrock Digital](http://blackrockdigital.io/).
+**Startmin** is based on [SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/) from [Start Bootstrap](https://startbootstrap.com/).
+Start Bootstrap was created by and is maintained by **David Miller** at [Blackrock Digital](https://blackrockdigital.io/).
 
-This template is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-It makes use of the [FontAwesome](http://fontawesome.io/) icons created by [Dave Gandy](https://twitter.com/davegandy).
+This template is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+It makes use of the [FontAwesome](https://fontawesome.io/) icons created by [Dave Gandy](https://twitter.com/davegandy).
 
-Many thanks to the creator of and the snippet contributors at [Bootsnipp](http://bootsnipp.com/).
+Many thanks to the creator of and the snippet contributors at [Bootsnipp](https://bootsnipp.com/).
 
 
 ## Copyright and License

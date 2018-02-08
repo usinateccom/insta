@@ -2,10 +2,10 @@
 /**
  * Pinterest embeds
  *
- * Based on "Board Widget" example here: http://business.pinterest.com/widget-builder/#code
+ * Based on "Board Widget" example here: https://business.pinterest.com/widget-builder/#code
  */
 
-// Example URL: http://pinterest.com/pinterest/pin-pets/
+// Example URL: https://pinterest.com/pinterest/pin-pets/
 // Second Example URL: https://uk.pinterest.com/annsawesomepins/travel/
 wp_embed_register_handler( 'pinterest', '#https?://(?:www\.)?(?:[a-z]{2}\.)?pinterest\.com/([^/]+)(/[^/]+)?#', 'pinterest_embed_handler' );
 

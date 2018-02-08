@@ -64,7 +64,7 @@ class Jetpack_Media {
 	 * we capture a string in the format of `YYYY/MM` from the guid.
 	 *
 	 * For example with a guid of
-	 * "http://test.files.wordpress.com/2016/10/test.png" the resulting string
+	 * "https://test.files.wordpress.com/2016/10/test.png" the resulting string
 	 * would be: "2016/10"
 	 *
 	 * @param  number $media_id

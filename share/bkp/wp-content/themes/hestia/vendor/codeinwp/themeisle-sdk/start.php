@@ -4,7 +4,7 @@
  *
  * @package     ThemeIsleSDK
  * @copyright   Copyright (c) 2017, Marius Cristea
- * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ * @license     https://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @since       1.1.0
  */
 $products      = apply_filters( 'themeisle_sdk_products', array() );

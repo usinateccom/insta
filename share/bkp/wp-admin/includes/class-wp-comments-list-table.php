@@ -718,7 +718,7 @@ class WP_Comments_List_Table extends WP_List_Table {
 		echo '<a href="' . esc_url( get_comment_link( $comment ) ) . '">';
 		/* translators: 1: comment date, 2: comment time */
 		printf( __( '%1$s at %2$s' ),
-			/* translators: comment date format. See http://php.net/date */
+			/* translators: comment date format. See https://php.net/date */
 			get_comment_date( __( 'Y/m/d' ), $comment ),
 			get_comment_date( get_option( 'time_format' ), $comment )
 		);

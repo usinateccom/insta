@@ -70,7 +70,7 @@
         }
         public function wd_overview_welcome(){
             $wd_options =  $this->config; 
-            //http://api.wordpress.org/plugins/info/1.0/wd-google-maps
+            //https://api.wordpress.org/plugins/info/1.0/wd-google-maps
             require_once( $wd_options->wd_dir_templates . "/display_overview_welcome.php" );
         } 
         public function wd_overview_user_guide(){
@@ -286,7 +286,7 @@
         // Private Methods                                                                    //
         ////////////////////////////////////////////////////////////////////////////////////////
         private function remote_get($plugin_wp_slug){
-            $request = wp_remote_get(" http://api.wordpress.org/plugins/info/1.0/" . $plugin_wp_slug); 
+            $request = wp_remote_get(" https://api.wordpress.org/plugins/info/1.0/" . $plugin_wp_slug); 
             $data = array();
             if (!is_wp_error($request) || wp_remote_retrieve_response_code($request) === 200) {
                 $body = unserialize($request['body']);

@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Akismet
-Plugin URI: http://akismet.com/
-Description: Akismet checks posts against the Akismet web service to see if they look like spam or not. You need a <a href="http://wordpress.com/api-keys/">WordPress.com API key</a> to use this service.
+Plugin URI: https://akismet.com/
+Description: Akismet checks posts against the Akismet web service to see if they look like spam or not. You need a <a href="https://wordpress.com/api-keys/">WordPress.com API key</a> to use this service.
 Author: Michael Adams
 Version: 1.1
-Author URI: http://blogwaffe.com/
+Author URI: https://blogwaffe.com/
 */
 
 
@@ -59,7 +59,7 @@ function bb_ksd_configuration_page()
 
 <form class="settings" method="post" action="<?php bb_uri( 'bb-admin/admin-base.php', array( 'plugin' => 'bb_ksd_configuration_page'), BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_ADMIN ); ?>">
 	<fieldset>
-		<p><?php printf( __( 'For many people, <a href="%s">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as "spam" and Akismet will learn from the mistakes.' ), 'http://akismet.com/' ); ?></p>
+		<p><?php printf( __( 'For many people, <a href="%s">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as "spam" and Akismet will learn from the mistakes.' ), 'https://akismet.com/' ); ?></p>
 
 <?php
 	$after = '';
@@ -75,7 +75,7 @@ function bb_ksd_configuration_page()
 		'title' => __( 'WordPress.com API Key' ),
 		'attributes' => array( 'maxlength' => 12 ),
 		'after' => $after,
-		'note' => sprintf( __( 'If you don\'t have a WordPress.com API Key, you can get one at <a href="%s">WordPress.com</a>' ), 'http://wordpress.com/api-keys/' )
+		'note' => sprintf( __( 'If you don\'t have a WordPress.com API Key, you can get one at <a href="%s">WordPress.com</a>' ), 'https://wordpress.com/api-keys/' )
 	) );
 
 	bb_option_form_element( 'akismet_stats', array(
@@ -203,7 +203,7 @@ add_action( 'bb_ksd_stats_display_pre_head', 'bb_ksd_stats_display_pre_head' );
 function bb_ksd_stats_display()
 {
 	$site = urlencode( bb_get_uri( null, null, BB_URI_CONTEXT_TEXT + BB_URI_CONTEXT_AKISMET ) );
-	$url = "http://".bb_get_option( 'akismet_key' ).".web.akismet.com/1.0/user-stats.php?blog={$site}&amp;type=forum";
+	$url = "https://".bb_get_option( 'akismet_key' ).".web.akismet.com/1.0/user-stats.php?blog={$site}&amp;type=forum";
 ?>
 	<iframe src="<?php echo $url; ?>" id="bb-ksd-stats-frame"></iframe>
 <?php

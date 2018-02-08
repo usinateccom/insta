@@ -118,8 +118,8 @@ msgid "URL to the page"
 msgstr "URL till sidan"
 
 #: sitemap.php:569
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Ange URL till sidan. Exempel: http://www.foo.com/index.html eller www.foo.com/home"
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Ange URL till sidan. Exempel: https://www.foo.com/index.html eller www.foo.com/home"
 
 #: sitemap.php:571
 msgid "Priority"

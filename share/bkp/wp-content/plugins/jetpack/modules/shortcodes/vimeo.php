@@ -2,11 +2,11 @@
 
 /*
 [vimeo 141358]
-[vimeo http://vimeo.com/141358]
+[vimeo https://vimeo.com/141358]
 [vimeo 141358 h=500&w=350]
 [vimeo id=141358 width=350 height=500]
 
-<iframe src="http://player.vimeo.com/video/18427511" width="400" height="225" frameborder="0"></iframe><p><a href="http://vimeo.com/18427511">Eskmo 'We Got More' (Official Video)</a> from <a href="http://vimeo.com/ninjatune">Ninja Tune</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/18427511" width="400" height="225" frameborder="0"></iframe><p><a href="https://vimeo.com/18427511">Eskmo 'We Got More' (Official Video)</a> from <a href="https://vimeo.com/ninjatune">Ninja Tune</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 */
 
 function jetpack_shortcode_get_vimeo_id( $atts ) {
@@ -179,7 +179,7 @@ function wpcom_vimeo_embed_url( $matches, $attr, $url ) {
 
 /**
  * For bare URLs on their own line of the form
- * http://vimeo.com/12345
+ * https://vimeo.com/12345
  *
  * @since 3.9
  *
@@ -236,7 +236,7 @@ add_filter( 'pre_kses', 'vimeo_embed_to_shortcode' );
 
 /**
  * Replaces shortcodes and plain-text URLs to Vimeo videos with Vimeo embeds.
- * Covers shortcode usage [vimeo 1234] | [vimeo https://vimeo.com/1234] | [vimeo http://vimeo.com/1234]
+ * Covers shortcode usage [vimeo 1234] | [vimeo https://vimeo.com/1234] | [vimeo https://vimeo.com/1234]
  * Or plain text URLs https://vimeo.com/1234 | vimeo.com/1234 | //vimeo.com/1234
  * Links are left intact.
  *
@@ -249,12 +249,12 @@ add_filter( 'pre_kses', 'vimeo_embed_to_shortcode' );
 function vimeo_link( $content ) {
 	/**
 	 *  [vimeo 12345]
-	 *  [vimeo http://vimeo.com/12345]
+	 *  [vimeo https://vimeo.com/12345]
 	 */
 	$shortcode = "(?:\[vimeo\s+[^0-9]*)([0-9]+)(?:\])";
 
 	/**
-	 *  http://vimeo.com/12345
+	 *  https://vimeo.com/12345
 	 *  https://vimeo.com/12345
 	 *  //vimeo.com/12345
 	 *  vimeo.com/some/descender/12345

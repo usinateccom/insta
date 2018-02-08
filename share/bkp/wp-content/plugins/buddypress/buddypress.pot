@@ -7455,7 +7455,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:24
 msgid ""
 "Your profile photo will be used on your profile and throughout the site. If "
-"there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with "
+"there is a <a href=\"https://gravatar.com\">Gravatar</a> associated with "
 "your account email we will use that, or you can upload an image from your "
 "computer."
 msgstr ""

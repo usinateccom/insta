@@ -130,7 +130,7 @@ class GoogleSitemapGeneratorUI {
 			for($i=0; $i<count($_POST["sm_pages_mark"]); $i++) {
 				//Create new object
 				$p=new GoogleSitemapGeneratorPage();
-				if(substr($pages_ur[$i],0,4)=="www.") $pages_ur[$i]="http://" . $pages_ur[$i];
+				if(substr($pages_ur[$i],0,4)=="www.") $pages_ur[$i]="https://" . $pages_ur[$i];
 				$p->SetUrl($pages_ur[$i]);
 				$p->SetProprity($pages_pr[$i]);
 				$p->SetChangeFreq($pages_cf[$i]);
@@ -924,7 +924,7 @@ HTML;
 							_e("If your site is in a subdirectory and you want to add pages which are NOT in the site directory or beneath, you MUST place your sitemap file in the root directory (Look at the &quot;Location of your sitemap file&quot; section on this page)!",'sitemap');
 							echo "</li><li>";
 							echo "<strong>" . __('URL to the page','sitemap'). "</strong>: ";
-							_e("Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home ",'sitemap');
+							_e("Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home ",'sitemap');
 							echo "</li><li>";
 							echo "<strong>" . __('Priority','sitemap') . "</strong>: ";
 							_e("Choose the priority of the page relative to the other pages. For example, your homepage might have a higher priority than your imprint.",'sitemap');

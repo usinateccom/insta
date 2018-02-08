@@ -151,7 +151,7 @@ function bp_activity_directory_permalink() {
  *                                                 - 'mentions' retrieves items where a user has received an @-mention.
  *                                               The default value of 'scope' is set to one of the above if that value
  *                                               appears in the appropriate place in the URL; eg, 'scope' will be 'groups'
- *                                               when visiting http://example.com/members/joe/activity/groups/. Otherwise
+ *                                               when visiting https://example.com/members/joe/activity/groups/. Otherwise
  *                                               defaults to false.
  *     @type int|array|bool    $user_id          The ID(s) of user(s) whose activity should be fetched. Pass a single ID or
  *                                               an array of IDs. When viewing a user profile page (but not that user's

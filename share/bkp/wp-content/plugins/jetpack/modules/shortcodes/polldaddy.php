@@ -23,7 +23,7 @@ class PolldaddyShortcode {
 	}
 
 	private function get_async_code( array $settings, $survey_link ) {
-		$embed_src     = 'http://i0.poll.fm/survey.js';
+		$embed_src     = 'https://i0.poll.fm/survey.js';
 		$embed_src_ssl = 'https://polldaddy.com/survey.js';
 
 		$include = <<<CONTAINER
@@ -76,8 +76,8 @@ CONTAINER;
 
 	/*
 	 * Polldaddy Poll Embed script - transforms code that looks like that:
-	 * <script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/123456.js"></script>
-	 * <noscript><a href="http://polldaddy.com/poll/123456/">What is your favourite color?</a></noscript>
+	 * <script type="text/javascript" charset="utf-8" src="https://static.polldaddy.com/p/123456.js"></script>
+	 * <noscript><a href="https://polldaddy.com/poll/123456/">What is your favourite color?</a></noscript>
 	 * into the [polldaddy poll=...] shortcode format
 	 */
 	function polldaddy_embed_to_shortcode( $content ) {
@@ -212,7 +212,7 @@ CONTAINER;
 			if ( is_ssl() ) {
 				$rating_js_file = "https://polldaddy.com/js/rating/rating.js";
 			} else {
-				$rating_js_file = "http://i0.poll.fm/js/rating/rating.js";
+				$rating_js_file = "https://i0.poll.fm/js/rating/rating.js";
 			}
 
 			if ( $inline ) {
@@ -249,8 +249,8 @@ CONTAINER;
 		} elseif ( intval( $poll ) > 0 ) { //poll embed
 
 			$poll      = intval( $poll );
-			$poll_url  = sprintf( 'http://polldaddy.com/poll/%d', $poll );
-			$poll_js   = sprintf( '%s.polldaddy.com/p/%d.js', ( is_ssl() ? 'https://secure' : 'http://static' ), $poll );
+			$poll_url  = sprintf( 'https://polldaddy.com/poll/%d', $poll );
+			$poll_js   = sprintf( '%s.polldaddy.com/p/%d.js', ( is_ssl() ? 'https://secure' : 'https://static' ), $poll );
 			$poll_link = sprintf( '<a href="%s" target="_blank">Take Our Poll</a>', $poll_url );
 
 			if ( $no_script ) {
@@ -359,7 +359,7 @@ CONTAINER;
 					$inline = false;
 
 				$survey      = preg_replace( '/[^a-f0-9]/i', '', $survey );
-				$survey_url  = esc_url( "http://polldaddy.com/s/{$survey}" );
+				$survey_url  = esc_url( "https://polldaddy.com/s/{$survey}" );
 				$survey_link = sprintf( '<a href="%s" target="_blank">%s</a>', $survey_url, esc_html( $title ) );
 
 				$settings = array();
@@ -395,7 +395,7 @@ CONTAINER;
 						$domain = preg_replace( '/[^a-z0-9\-]/i', '', $domain );
 						$id = preg_replace( '/[\/\?&\{\}]/', '', $id );
 
-						$auto_src = esc_url( "http://{$domain}.polldaddy.com/s/{$id}" );
+						$auto_src = esc_url( "https://{$domain}.polldaddy.com/s/{$id}" );
 						$auto_src = parse_url( $auto_src );
 
 						if ( ! is_array( $auto_src ) || count( $auto_src ) == 0 ) {
@@ -488,7 +488,7 @@ CONTAINER;
 			if ( is_ssl() ) {
 				$rating_js_file = "https://polldaddy.com/js/rating/rating.js";
 			} else {
-				$rating_js_file = "http://i0.poll.fm/js/rating/rating.js";
+				$rating_js_file = "https://i0.poll.fm/js/rating/rating.js";
 			}
 
 			if ( isset( self::$scripts['rating'] ) ) {
@@ -563,9 +563,9 @@ SCRIPT;
 new PolldaddyShortcode();
 
 if ( ! function_exists( 'polldaddy_link' ) ) {
-	// http://polldaddy.com/poll/1562975/?view=results&msg=voted
+	// https://polldaddy.com/poll/1562975/?view=results&msg=voted
 	function polldaddy_link( $content ) {
-		return jetpack_preg_replace_outside_tags( '!(?:\n|\A)http://polldaddy.com/poll/([0-9]+?)/(.+)?(?:\n|\Z)!i', "\n<script type='text/javascript' charset='utf-8' src='//static.polldaddy.com/p/$1.js'></script><noscript> <a href='http://polldaddy.com/poll/$1/'>View Poll</a></noscript>\n", $content, 'polldaddy.com/poll' );
+		return jetpack_preg_replace_outside_tags( '!(?:\n|\A)https://polldaddy.com/poll/([0-9]+?)/(.+)?(?:\n|\Z)!i', "\n<script type='text/javascript' charset='utf-8' src='//static.polldaddy.com/p/$1.js'></script><noscript> <a href='https://polldaddy.com/poll/$1/'>View Poll</a></noscript>\n", $content, 'polldaddy.com/poll' );
 	}
 
 	// higher priority because we need it before auto-link and autop get to it
@@ -573,6 +573,6 @@ if ( ! function_exists( 'polldaddy_link' ) ) {
 	add_filter( 'the_content_rss', 'polldaddy_link', 1 );
 }
 
-wp_oembed_add_provider( '#http://poll\.fm/.*#i', 'http://polldaddy.com/oembed/', true );
+wp_oembed_add_provider( '#https://poll\.fm/.*#i', 'https://polldaddy.com/oembed/', true );
 
 }

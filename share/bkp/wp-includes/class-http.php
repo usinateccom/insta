@@ -577,7 +577,7 @@ class WP_Http {
 	 *
 	 * Based off the HTTP http_encoding_dechunk function.
 	 *
-	 * @link http://tools.ietf.org/html/rfc2616#section-19.4.6 Process for chunked decoding.
+	 * @link https://tools.ietf.org/html/rfc2616#section-19.4.6 Process for chunked decoding.
 	 *
 	 * @access public
 	 * @since 2.7.0
@@ -834,7 +834,7 @@ class WP_Http {
 	 * This does not verify if the IP is a valid IP, only that it appears to be
 	 * an IP address.
 	 *
-	 * @see http://home.deds.nl/~aeron/regex/ for IPv6 regex
+	 * @see https://home.deds.nl/~aeron/regex/ for IPv6 regex
 	 *
 	 * @since 3.7.0
 	 * @static

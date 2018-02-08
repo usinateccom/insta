@@ -846,7 +846,7 @@ function bp_button( $args = '' ) {
  * with the ending if the text is longer than length.
  *
  * This function is borrowed from CakePHP v2.0, under the MIT license. See
- * http://book.cakephp.org/view/1469/Text#truncate-1625
+ * https://book.cakephp.org/view/1469/Text#truncate-1625
  *
  * @since 1.0.0
  * @since 2.6.0 Added 'strip_tags' and 'remove_links' as $options args.
@@ -1437,7 +1437,7 @@ function bp_root_slug( $component = '' ) {
 	 *
 	 * The "root slug" is the string used when concatenating component
 	 * directory URLs. For example, on an installation where the Groups
-	 * component's directory is located at http://example.com/groups/, the
+	 * component's directory is located at https://example.com/groups/, the
 	 * root slug for the Groups component is 'groups'. This string
 	 * generally corresponds to page_name of the component's directory
 	 * page.
@@ -1723,7 +1723,7 @@ function bp_is_current_component( $component = '' ) {
  *
  * In BP parlance, the current_action is the URL chunk that comes directly
  * after the current item slug. E.g., in
- *   http://example.com/groups/my-group/members
+ *   https://example.com/groups/my-group/members
  * the current_action is 'members'.
  *
  * @since 1.5.0
@@ -1744,7 +1744,7 @@ function bp_is_current_action( $action = '' ) {
  *
  * In BP parlance, action_variables are an array made up of the URL chunks
  * appearing after the current_action in a URL. For example,
- *   http://example.com/groups/my-group/admin/group-settings
+ *   https://example.com/groups/my-group/admin/group-settings
  * $action_variables[0] is 'group-settings'.
  *
  * @since 1.5.0
@@ -1911,8 +1911,8 @@ function bp_is_directory() {
 /**
  * Check to see if a component's URL should be in the root, not under a member page.
  *
- * - Yes ('groups' is root)    : http://example.com/groups/the-group
- * - No  ('groups' is not-root): http://example.com/members/andy/groups/the-group
+ * - Yes ('groups' is root)    : https://example.com/groups/the-group
+ * - No  ('groups' is not-root): https://example.com/members/andy/groups/the-group
  *
  * This function is on the chopping block. It's currently only used by a few
  * already deprecated functions.
@@ -2304,7 +2304,7 @@ function bp_is_members_directory() {
  * Is the current page part of the profile of the logged-in user?
  *
  * Will return true for any subpage of the logged-in user's profile, eg
- * http://example.com/members/joe/friends/.
+ * https://example.com/members/joe/friends/.
  *
  * @since 1.2.0
  *
@@ -2356,7 +2356,7 @@ function bp_is_user_front() {
 /**
  * Is the current page a user's activity stream page?
  *
- * Eg http://example.com/members/joe/activity/ (or any subpages thereof).
+ * Eg https://example.com/members/joe/activity/ (or any subpages thereof).
  *
  * @since 1.1.0
  *
@@ -2369,7 +2369,7 @@ function bp_is_user_activity() {
 /**
  * Is the current page a user's Friends activity stream?
  *
- * Eg http://example.com/members/joe/friends/
+ * Eg https://example.com/members/joe/friends/
  *
  * @since 1.1.0
  *
@@ -2397,7 +2397,7 @@ function bp_is_user_friends_activity() {
 /**
  * Is the current page a user's Groups activity stream?
  *
- * Eg http://example.com/members/joe/groups/
+ * Eg https://example.com/members/joe/groups/
  *
  * @since 1.5.0
  *
@@ -2423,7 +2423,7 @@ function bp_is_user_groups_activity() {
 /**
  * Is the current page part of a user's extended profile?
  *
- * Eg http://example.com/members/joe/profile/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/profile/ (or a subpage thereof).
  *
  * @since 1.1.0
  *
@@ -2436,7 +2436,7 @@ function bp_is_user_profile() {
 /**
  * Is the current page part of a user's profile editing section?
  *
- * Eg http://example.com/members/joe/profile/edit/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/profile/edit/ (or a subpage thereof).
  *
  * @since 1.5.0
  *
@@ -2449,7 +2449,7 @@ function bp_is_user_profile_edit() {
 /**
  * Is the current page part of a user's profile avatar editing section?
  *
- * Eg http://example.com/members/joe/profile/change-avatar/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/profile/change-avatar/ (or a subpage thereof).
  *
  * @since 1.5.0
  *
@@ -2462,7 +2462,7 @@ function bp_is_user_change_avatar() {
 /**
  * Is the current page the a user's change cover image profile page?
  *
- * Eg http://example.com/members/joe/profile/change-cover-image/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/profile/change-cover-image/ (or a subpage thereof).
  *
  * @since 2.4.0
  *
@@ -2475,7 +2475,7 @@ function bp_is_user_change_cover_image() {
 /**
  * Is this a user's forums page?
  *
- * Eg http://example.com/members/joe/forums/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/forums/ (or a subpage thereof).
  *
  * @since 1.5.0
  *
@@ -2497,7 +2497,7 @@ function bp_is_user_forums() {
 /**
  * Is this a user's "Topics Started" page?
  *
- * Eg http://example.com/members/joe/forums/topics/.
+ * Eg https://example.com/members/joe/forums/topics/.
  *
  * @since 1.5.0
  *
@@ -2510,7 +2510,7 @@ function bp_is_user_forums_started() {
 /**
  * Is this a user's "Replied To" page?
  *
- * Eg http://example.com/members/joe/forums/replies/.
+ * Eg https://example.com/members/joe/forums/replies/.
  *
  * @since 1.5.0
  *
@@ -2523,7 +2523,7 @@ function bp_is_user_forums_replied_to() {
 /**
  * Is the current page part of a user's Groups page?
  *
- * Eg http://example.com/members/joe/groups/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/groups/ (or a subpage thereof).
  *
  * @since 1.1.0
  *
@@ -2536,7 +2536,7 @@ function bp_is_user_groups() {
 /**
  * Is the current page part of a user's Blogs page?
  *
- * Eg http://example.com/members/joe/blogs/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/blogs/ (or a subpage thereof).
  *
  * @since 1.1.0
  *
@@ -2549,7 +2549,7 @@ function bp_is_user_blogs() {
 /**
  * Is the current page a user's Recent Blog Posts page?
  *
- * Eg http://example.com/members/joe/blogs/recent-posts/.
+ * Eg https://example.com/members/joe/blogs/recent-posts/.
  *
  * @since 1.1.0
  *
@@ -2562,7 +2562,7 @@ function bp_is_user_recent_posts() {
 /**
  * Is the current page a user's Recent Blog Comments page?
  *
- * Eg http://example.com/members/joe/blogs/recent-comments/.
+ * Eg https://example.com/members/joe/blogs/recent-comments/.
  *
  * @since 1.1.0
  *
@@ -2575,7 +2575,7 @@ function bp_is_user_recent_commments() {
 /**
  * Is the current page a user's Friends page?
  *
- * Eg http://example.com/members/joe/blogs/friends/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/blogs/friends/ (or a subpage thereof).
  *
  * @since 1.1.0
  *
@@ -2588,7 +2588,7 @@ function bp_is_user_friends() {
 /**
  * Is the current page a user's Friend Requests page?
  *
- * Eg http://example.com/members/joe/friends/requests/.
+ * Eg https://example.com/members/joe/friends/requests/.
  *
  * @since 1.5.0
  *
@@ -2601,7 +2601,7 @@ function bp_is_user_friend_requests() {
 /**
  * Is this a user's notifications page?
  *
- * Eg http://example.com/members/joe/notifications/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/notifications/ (or a subpage thereof).
  *
  * @since 1.9.0
  *
@@ -2614,7 +2614,7 @@ function bp_is_user_notifications() {
 /**
  * Is this a user's settings page?
  *
- * Eg http://example.com/members/joe/settings/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/settings/ (or a subpage thereof).
  *
  * @since 1.5.0
  *
@@ -2627,7 +2627,7 @@ function bp_is_user_settings() {
 /**
  * Is this a user's General Settings page?
  *
- * Eg http://example.com/members/joe/settings/general/.
+ * Eg https://example.com/members/joe/settings/general/.
  *
  * @since 1.5.0
  *
@@ -2640,7 +2640,7 @@ function bp_is_user_settings_general() {
 /**
  * Is this a user's Notification Settings page?
  *
- * Eg http://example.com/members/joe/settings/notifications/.
+ * Eg https://example.com/members/joe/settings/notifications/.
  *
  * @since 1.5.0
  *
@@ -2653,7 +2653,7 @@ function bp_is_user_settings_notifications() {
 /**
  * Is this a user's Account Deletion page?
  *
- * Eg http://example.com/members/joe/settings/delete-account/.
+ * Eg https://example.com/members/joe/settings/delete-account/.
  *
  * @since 1.5.0
  *
@@ -2666,7 +2666,7 @@ function bp_is_user_settings_account_delete() {
 /**
  * Is this a user's profile settings?
  *
- * Eg http://example.com/members/joe/settings/profile/.
+ * Eg https://example.com/members/joe/settings/profile/.
  *
  * @since 2.0.0
  *
@@ -2744,7 +2744,7 @@ function bp_is_group_create() {
 /**
  * Is the current page part of a single group's admin screens?
  *
- * Eg http://example.com/groups/mygroup/admin/settings/.
+ * Eg https://example.com/groups/mygroup/admin/settings/.
  *
  * @since 1.1.0
  *
@@ -2830,7 +2830,7 @@ function bp_is_group_forum_topic_edit() {
 /**
  * Is the current page a group's Members page?
  *
- * Eg http://example.com/groups/mygroup/members/.
+ * Eg https://example.com/groups/mygroup/members/.
  *
  * @since 1.1.0
  *
@@ -2853,7 +2853,7 @@ function bp_is_group_members() {
 /**
  * Is the current page a group's Invites page?
  *
- * Eg http://example.com/groups/mygroup/send-invites/.
+ * Eg https://example.com/groups/mygroup/send-invites/.
  *
  * @since 1.1.0
  *
@@ -2866,7 +2866,7 @@ function bp_is_group_invites() {
 /**
  * Is the current page a group's Request Membership page?
  *
- * Eg http://example.com/groups/mygroup/request-membership/.
+ * Eg https://example.com/groups/mygroup/request-membership/.
  *
  * @since 1.2.0
  *
@@ -2915,7 +2915,7 @@ function bp_is_group_custom_front() {
 /**
  * Is the current page the Create a Blog page?
  *
- * Eg http://example.com/sites/create/.
+ * Eg https://example.com/sites/create/.
  *
  * @since 1.1.0
  *
@@ -2945,7 +2945,7 @@ function bp_is_blogs_directory() {
 /**
  * Is the current page part of a user's Messages pages?
  *
- * Eg http://example.com/members/joe/messages/ (or a subpage thereof).
+ * Eg https://example.com/members/joe/messages/ (or a subpage thereof).
  *
  * @since 1.2.0
  *
@@ -2958,7 +2958,7 @@ function bp_is_user_messages() {
 /**
  * Is the current page a user's Messages Inbox?
  *
- * Eg http://example.com/members/joe/messages/inbox/.
+ * Eg https://example.com/members/joe/messages/inbox/.
  *
  * @since 1.1.0
  *
@@ -2975,7 +2975,7 @@ function bp_is_messages_inbox() {
 /**
  * Is the current page a user's Messages Sentbox?
  *
- * Eg http://example.com/members/joe/messages/sentbox/.
+ * Eg https://example.com/members/joe/messages/sentbox/.
  *
  * @since 1.1.0
  *
@@ -2988,7 +2988,7 @@ function bp_is_messages_sentbox() {
 /**
  * Is the current page a user's Messages Compose screen??
  *
- * Eg http://example.com/members/joe/messages/compose/.
+ * Eg https://example.com/members/joe/messages/compose/.
  *
  * @since 1.1.0
  *
@@ -3001,7 +3001,7 @@ function bp_is_messages_compose_screen() {
 /**
  * Is the current page the Notices screen?
  *
- * Eg http://example.com/members/joe/messages/notices/.
+ * Eg https://example.com/members/joe/messages/notices/.
  *
  * @since 1.1.0
  *
@@ -3038,7 +3038,7 @@ function bp_is_single( $component, $callback ) {
 /**
  * Is the current page the Activate page?
  *
- * Eg http://example.com/activate/.
+ * Eg https://example.com/activate/.
  *
  * @since 1.1.0
  *
@@ -3051,7 +3051,7 @@ function bp_is_activation_page() {
 /**
  * Is the current page the Register page?
  *
- * Eg http://example.com/register/.
+ * Eg https://example.com/register/.
  *
  * @since 1.1.0
  *

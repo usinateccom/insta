@@ -55,7 +55,7 @@ class BP_Core_HTML_Element {
 	 *     An array of arguments.
 	 *     @type string $element    The element to render. eg. 'a' for the anchor element.
 	 *     @type array  $attr       Optional. The element's attributes set as key/value pairs. eg.
-	 *                              array( 'href' => 'http://example.com', 'class' => 'my-class' )
+	 *                              array( 'href' => 'https://example.com', 'class' => 'my-class' )
 	 *     @type string $inner_html Optional. The inner HTML for the element if applicable. Please note that
 	 *                              this isn't sanitized, so you should use your own sanitization routine
 	 *                              before using this parameter.

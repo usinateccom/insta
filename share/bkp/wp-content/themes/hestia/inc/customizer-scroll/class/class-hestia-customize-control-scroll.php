@@ -6,8 +6,8 @@
  * @since      1.1.49
  * @author     Andrei Baicus <andrei@themeisle.com>
  * @copyright  Copyright (c) 2017, Themeisle
- * @link       http://themeisle.com/
- * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @link       https://themeisle.com/
+ * @license    https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 if ( ! class_exists( 'WP_Customize_Control' ) ) {

@@ -5,7 +5,7 @@ function bb_auth( $scheme = 'auth' ) { // Checks if a user has a valid cookie, i
 	if ( !bb_validate_auth_cookie( '', $scheme ) ) {
 		nocache_headers();
 		if ( 'auth' === $scheme && !bb_is_user_logged_in() ) {
-			$protocol = 'http://';
+			$protocol = 'https://';
 			if ( is_ssl() ) {
 				$protocol = 'https://';
 			}
@@ -209,7 +209,7 @@ if ( !function_exists('wp_redirect') ) : // [WP11537]
 /**
  * Redirects to another page, with a workaround for the IIS Set-Cookie bug.
  *
- * @link http://support.microsoft.com/kb/q176113/
+ * @link https://support.microsoft.com/kb/q176113/
  * @since 1.5.1
  * @uses apply_filters() Calls 'wp_redirect' hook on $location and $status.
  *
@@ -292,7 +292,7 @@ function bb_safe_redirect( $location, $status = 302 ) {
 	if ( substr($location, 0, 2) == '//' )
 		$location = 'http:' . $location;
 
-	// In php 5 parse_url may fail if the URL query part contains http://, bug #38143
+	// In php 5 parse_url may fail if the URL query part contains https://, bug #38143
 	$test = ( $cut = strpos($location, '?') ) ? substr( $location, 0, $cut ) : $location;
 
 	$lp = parse_url($test);
@@ -416,7 +416,7 @@ if ( !function_exists( 'bb_salt' ) ) :
  * Get salt to add to hashes to help prevent attacks.
  *
  * @since 0.9
- * @link http://api.wordpress.org/secret-key/1.1/bbpress/ Create a set of keys for bb-config.php
+ * @link https://api.wordpress.org/secret-key/1.1/bbpress/ Create a set of keys for bb-config.php
  * @uses _bb_get_key()
  * @uses _bb_get_salt()
  *
@@ -891,7 +891,7 @@ function bb_get_avatar( $id_or_email, $size = 80, $default = '', $alt = false ) 
  	if ( is_ssl() )
 		$host = 'https://secure.gravatar.com';
 	else
-		$host = 'http://www.gravatar.com';
+		$host = 'https://www.gravatar.com';
 
 	switch ($default) {
 		case 'logo':

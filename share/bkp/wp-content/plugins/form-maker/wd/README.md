@@ -47,7 +47,7 @@ $options = array (
    "overview_welcome_image" => null, 
    "video_youtube_id" => "your plugin youtube video id",  // e.g. https://www.youtube.com/watch?v=acaexefeP7o youtube id is the acaexefeP7o
    "plugin_wd_url" => "https://web-dorado.com/products/your plugin", 
-   "plugin_wd_demo_link" => "http://wpdemo.web-dorado.com/your plugin", 	 
+   "plugin_wd_demo_link" => "https://wpdemo.web-dorado.com/your plugin", 	 
    "plugin_wd_addons_link" => "https://web-dorado.com/products/your plugin addons", 
    "after_subscribe" => "after subsribe page", // this can be plagin overview page or set up page admin.php?page=overview_YOUR_PREFIX
    "plugin_wizard_link" => "your plugin wizard page", 

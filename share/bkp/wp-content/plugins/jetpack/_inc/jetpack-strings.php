@@ -478,7 +478,7 @@ __( "Connect to WordPress.com", "jetpack" ), // _inc/client/components/jetpack-n
 __( "Connect your account to get the most out of Jetpack", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:170
 __( "Learn More", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:136
 __( "Currently in {{a}}Development Mode{{/a}} (some features are disabled) because: {{reasons/}}", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:121
-__( "{{li}}Your site URL lacks a dot (e.g. http://localhost){{/li}}", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:112
+__( "{{li}}Your site URL lacks a dot (e.g. https://localhost){{/li}}", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:112
 __( "{{li}}The JETPACK_DEV_DEBUG constant is defined{{/li}}", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:103
 __( "{{li}}The jetpack_development_mode filter is active{{/li}}", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:94
 __( "More Info", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:69

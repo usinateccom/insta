@@ -386,7 +386,7 @@ class Jetpack_Sync_Queue {
 		// and minimise the possibility of collisions between multiple processes working
 		// at the same time
 		// TODO: confirm we only need to support PHP 5.05+ (otherwise we'll need to emulate microtime as float, and avoid PHP_INT_MAX)
-		// @see: http://php.net/manual/en/function.microtime.php
+		// @see: https://php.net/manual/en/function.microtime.php
 		$timestamp = sprintf( '%.6f', microtime( true ) );
 
 		// row iterator is used to avoid collisions where we're writing data waaay fast in a single process

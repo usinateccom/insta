@@ -62,7 +62,7 @@ class WPCF7_Mail {
 	private function htmlize( $body ) {
 		$header = apply_filters( 'wpcf7_mail_html_header',
 			'<!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <title>' . esc_html( $this->get( 'subject', true ) ) . '</title>
 </head>

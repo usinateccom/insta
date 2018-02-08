@@ -147,7 +147,7 @@ class acf_early_access {
 		
 		
 		// connect
-		$response = $this->request('http://api.wordpress.org/plugins/info/1.0/advanced-custom-fields');
+		$response = $this->request('https://api.wordpress.org/plugins/info/1.0/advanced-custom-fields');
 		
 		
 		// ensure response is expected object

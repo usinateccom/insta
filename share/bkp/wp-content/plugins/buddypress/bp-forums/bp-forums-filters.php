@@ -106,7 +106,7 @@ function bp_forums_filter_kses( $content ) {
  * @param string $tag     Name of the tag.
  * @param string $page    Page number, passed from the filter.
  * @param string $context Passed from the filter but unused here.
- * @return string Link of the form http://example.com/forums/tag/tagname/.
+ * @return string Link of the form https://example.com/forums/tag/tagname/.
  */
 function bp_forums_filter_tag_link( $link, $tag, $page, $context ) {
 	/**

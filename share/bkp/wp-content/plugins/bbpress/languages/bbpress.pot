@@ -612,7 +612,7 @@ msgstr ""
 #: includes/admin/settings.php:1596 includes/admin/topics.php:179
 #: includes/admin/topics.php:235
 msgid ""
-"<a href=\"http://codex.bbpress.org\" target=\"_blank\">bbPress "
+"<a href=\"https://codex.bbpress.org\" target=\"_blank\">bbPress "
 "Documentation</a>"
 msgstr ""
 
@@ -621,7 +621,7 @@ msgstr ""
 #: includes/admin/settings.php:1597 includes/admin/topics.php:180
 #: includes/admin/topics.php:236
 msgid ""
-"<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress Support "
+"<a href=\"https://bbpress.org/forums/\" target=\"_blank\">bbPress Support "
 "Forums</a>"
 msgstr ""
 
@@ -819,7 +819,7 @@ msgid ""
 "\">Preview forum</a>"
 msgstr ""
 
-#. translators: Publish box date format, see http://php.net/date
+#. translators: Publish box date format, see https://php.net/date
 #: includes/admin/forums.php:558 includes/admin/replies.php:878
 #: includes/admin/topics.php:948
 msgid "M j, Y @ G:i"

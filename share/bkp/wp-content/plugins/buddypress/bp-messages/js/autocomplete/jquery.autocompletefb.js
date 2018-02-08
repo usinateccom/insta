@@ -6,12 +6,12 @@
  * Credits:
  * - Idea: Facebook
  * - Guillermo Rauch: Original MooTools script
- * - InteRiders <http://interiders.com/>
+ * - InteRiders <https://interiders.com/>
  *
- * Copyright (c) 2008 Widi Harsojo <wharsojo@gmail.com>, http://wharsojo.wordpress.com/
+ * Copyright (c) 2008 Widi Harsojo <wharsojo@gmail.com>, https://wharsojo.wordpress.com/
  * Dual licensed under the MIT and GPL licenses:
- *   http://www.opensource.org/licenses/mit-license.php
- *   http://www.gnu.org/licenses/gpl.html
+ *   https://www.opensource.org/licenses/mit-license.php
+ *   https://www.gnu.org/licenses/gpl.html
  */
 jQuery.fn.autoCompletefb = function(options)
 {

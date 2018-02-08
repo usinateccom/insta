@@ -216,7 +216,7 @@ class Jetpack_PostImages {
 			if( ! empty( $src['scheme'] ) && ! empty( $src['host'] ) ) {
 				$inserted_images[] = $src['scheme'] . '://' . $src['host'] . $src['path'];
 			} elseif( ! empty( $src['host'] ) ) {
-				$inserted_images[] = set_url_scheme( 'http://' . $src['host'] . $src['path'] );
+				$inserted_images[] = set_url_scheme( 'https://' . $src['host'] . $src['path'] );
 			} else {
 				$inserted_images[] = site_url( '/' ) . $src['path'];
 			}

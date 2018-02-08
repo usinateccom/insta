@@ -834,8 +834,8 @@ msgstr "Imagem"
 #. translators: Fontawesome link with full list of icons available
 #: inc/customizer-repeater/class/class-hestia-repeater.php:685
 #: inc/customizer-repeater/class/class-hestia-repeater.php:763
-msgid "http://fontawesome.io/icons/"
-msgstr "http://fontawesome.io/icons/"
+msgid "https://fontawesome.io/icons/"
+msgstr "https://fontawesome.io/icons/"
 
 #. translators: Fontawesome link with full list of icons available
 #: inc/customizer-repeater/class/class-hestia-repeater.php:683
@@ -992,8 +992,8 @@ msgstr "WordPress"
 
 #. translators: %s is WordPress
 #: inc/template-tags.php:797
-msgid "http://wordpress.org"
-msgstr "http://wordpress.org"
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
 
 #. #-#-#-#-#  hestia.pot (Hestia 1.1.56)  #-#-#-#-#
 #. translators: %s is Theme name

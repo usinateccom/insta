@@ -291,7 +291,7 @@ if($pagina == 'principal'){
 
 echo '
       
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="config/js/background.cycle.js"></script>
 
 
@@ -401,7 +401,7 @@ include "funcoes/face_def.php";
 <header class="regua cabecalho" style="font-family: 'Montserrat', sans-serif; font-size: 12px;">
 
 <div class="encaixa"><div class="tint esq_f aleft">
-<a href="http://www.instashare.me/" title="<?php echo $tit_u;?>" alt="<?php echo $alt_u; ?>">
+<a href="https://www.instashare.me/" title="<?php echo $tit_u;?>" alt="<?php echo $alt_u; ?>">
 
 
 <img src="<?php echo $ponto; ?>imagens/carro compartilhado locacao instashare logo.png" class="logo" title="<?php echo $tit_u; ?>" alt="<?php echo $alt_u; ?>">
@@ -763,7 +763,7 @@ $factor = sel_simples("parceiros_hh", "*", "order by rand() limit 5");
 while($bildo = mysql_fetch_array($factor)){
 	
 	
-    echo "<a href='http://www.".$bildo["link"]."/' title='$tit_u' alt='$alt_u' class='parc_quad' target='_blank' style=' margin-top:0px; float:left;'>
+    echo "<a href='https://www.".$bildo["link"]."/' title='$tit_u' alt='$alt_u' class='parc_quad' target='_blank' style=' margin-top:0px; float:left;'>
 
 <div class='vikun'>
 <table border='0' cellspacing='0' celpadding='0' class='caberd' width='100%' height='100%'><tr><td valign='center' align='center'>

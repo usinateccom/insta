@@ -1435,7 +1435,7 @@ class Share_Tumblr extends Sharing_Source {
 		wp_redirect( $url );
 		die();
 	}
-	// http://www.tumblr.com/share?v=3&u=URL&t=TITLE&s=
+	// https://www.tumblr.com/share?v=3&u=URL&t=TITLE&s=
 	public function display_footer() {
 		if ( $this->smart ) {
 			?><script type="text/javascript" src="https://platform.tumblr.com/v1/share.js"></script><?php

@@ -247,7 +247,7 @@ msgstr "Чеміс Олена"
 #: sitemap-ui.php:537
 #@ sitemap
 msgid "translator_url"
-msgstr "http://stereo-lisa.org.ua"
+msgstr "https://stereo-lisa.org.ua"
 
 #: sitemap-ui.php:540
 #@ sitemap
@@ -689,8 +689,8 @@ msgstr "URL сторінки"
 
 #: sitemap-ui.php:817
 #@ sitemap
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Введіть URL для сторінки. Приклади: http://www.foo.com/index.html or www.foo.com/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Введіть URL для сторінки. Приклади: https://www.foo.com/index.html or www.foo.com/home "
 
 #: sitemap-ui.php:819
 #: sitemap-ui.php:856

@@ -251,8 +251,8 @@ class GoogleSitemapGeneratorLoader {
 		$base = self::GetBaseName();
 		if($file == $base) {
 			$links[] = '<a href="options-general.php?page=' . self::GetBaseName() . '">' . __('Settings', 'sitemap') . '</a>';
-			$links[] = '<a href="http://www.arnebrachhold.de/redir/sitemap-plist-faq/">' . __('FAQ', 'sitemap') . '</a>';
-			$links[] = '<a href="http://www.arnebrachhold.de/redir/sitemap-plist-support/">' . __('Support', 'sitemap') . '</a>';
+			$links[] = '<a href="https://www.arnebrachhold.de/redir/sitemap-plist-faq/">' . __('FAQ', 'sitemap') . '</a>';
+			$links[] = '<a href="https://www.arnebrachhold.de/redir/sitemap-plist-support/">' . __('Support', 'sitemap') . '</a>';
 		}
 		return $links;
 	}
@@ -352,8 +352,8 @@ class GoogleSitemapGeneratorLoader {
 			load_plugin_textdomain('sitemap',false,dirname( plugin_basename( __FILE__ ) ) .  '/lang');
 
 			$links = array(
-				__('Plugin Homepage', 'sitemap') => 'http://www.arnebrachhold.de/redir/sitemap-help-home/',
-				__('My Sitemaps FAQ', 'sitemap') => 'http://www.arnebrachhold.de/redir/sitemap-help-faq/'
+				__('Plugin Homepage', 'sitemap') => 'https://www.arnebrachhold.de/redir/sitemap-help-home/',
+				__('My Sitemaps FAQ', 'sitemap') => 'https://www.arnebrachhold.de/redir/sitemap-help-faq/'
 			);
 
 			$filterVal[$id] = '';

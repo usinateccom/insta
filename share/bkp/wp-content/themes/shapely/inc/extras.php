@@ -120,7 +120,7 @@ endif;
  * function to show the footer info, copyright information
  */
 function shapely_footer_info() {
-	printf( esc_html__( 'Theme by %1$s Powered by %2$s', 'shapely' ), '<a href="https://colorlib.com/" target="_blank" title="Colorlib">Colorlib</a>', '<a href="http://wordpress.org/" target="_blank" title="WordPress.org">WordPress</a>' );
+	printf( esc_html__( 'Theme by %1$s Powered by %2$s', 'shapely' ), '<a href="https://colorlib.com/" target="_blank" title="Colorlib">Colorlib</a>', '<a href="https://wordpress.org/" target="_blank" title="WordPress.org">WordPress</a>' );
 }
 
 
@@ -169,7 +169,7 @@ add_action( 'wp_head', 'shapely_get_theme_options', 10 );
  * Add Bootstrap thumbnail styling to images with captions
  * Use <figure> and <figcaption>
  *
- * @link http://justintadlock.com/archives/2011/07/01/captions-in-wordpress
+ * @link https://justintadlock.com/archives/2011/07/01/captions-in-wordpress
  */
 function shapely_caption( $output, $attr, $content ) {
 	if ( is_feed() ) {

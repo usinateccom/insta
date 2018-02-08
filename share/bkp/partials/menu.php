@@ -4,7 +4,7 @@
 <nav class="menu">
 <ul>
 
-<li><a href="http://www.instashare.me/" title="<?php echo $tit_u; ?>" alt="<?php echo $alt_u; ?>" class="<?php if($pagina == "principal"){
+<li><a href="https://www.instashare.me/" title="<?php echo $tit_u; ?>" alt="<?php echo $alt_u; ?>" class="<?php if($pagina == "principal"){
 
 echo "selecionado";	
 	

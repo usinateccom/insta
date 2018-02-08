@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Bozo Users
-Plugin URI: http://bbpress.org/
+Plugin URI: https://bbpress.org/
 Description: Allows moderators to mark certain users as a "bozo". Bozo users can post, but their content is only visible to themselves.
 Author: Michael Adams
 Version: 1.1
-Author URI: http://blogwaffe.com/
+Author URI: https://blogwaffe.com/
 */
 
 function bb_bozo_posts( $where ) {

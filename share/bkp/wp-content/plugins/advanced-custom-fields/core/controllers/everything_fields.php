@@ -860,7 +860,7 @@ $(document).ready(function(){
 		
 		
 		// escape '_'
-		// http://stackoverflow.com/questions/2300285/how-do-i-escape-in-sql-server
+		// https://stackoverflow.com/questions/2300285/how-do-i-escape-in-sql-server
 		$search = str_replace('_', '\_', $search);
 		$_search = str_replace('_', '\_', $_search);
 		

@@ -592,7 +592,7 @@ msgstr ""
 "Ihre Sitemap aufgenommen werden sollen, aber nicht von WordPress erzeugt "
 "werden. Falls Sie z.B. Ihre Homepage auf www.beispiel.com haben, Ihr Blog "
 "aber unter www.beispiel.com/blog zu erreichen ist, tragen Sie Ihre Homepage "
-"als http://www.beispiel.com hier  ein."
+"als https://www.beispiel.com hier  ein."
 
 #: C:\Inetpub\wwwroot\wp_svn\wp-content\plugins\sitemap_beta/sitemap-ui.php:942
 #: C:\Inetpub\wwwroot\wp_svn\wp-content\plugins\sitemap_beta/sitemap-ui.php:1156
@@ -619,10 +619,10 @@ msgstr "URL zur Seite"
 
 #: C:\Inetpub\wwwroot\wp_svn\wp-content\plugins\sitemap_beta/sitemap-ui.php:946
 msgid ""
-"Enter the URL to the page. Examples: http://www.foo.com/index.html or www."
+"Enter the URL to the page. Examples: https://www.foo.com/index.html or www."
 "foo.com/home "
 msgstr ""
-"Geben Sie hier die URL Ihrer Seite an. Beispiele: www.foo.com oder http://"
+"Geben Sie hier die URL Ihrer Seite an. Beispiele: www.foo.com oder https://"
 "www.nic.de/index.html"
 
 #: C:\Inetpub\wwwroot\wp_svn\wp-content\plugins\sitemap_beta/sitemap-ui.php:948

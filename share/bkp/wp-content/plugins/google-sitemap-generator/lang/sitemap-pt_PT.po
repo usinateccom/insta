@@ -74,10 +74,10 @@ msgstr "URL da página"
 # @ sitemap
 #: sitemap-ui.php:819
 msgid ""
-"Enter the URL to the page. Examples: http://www.foo.com/index.html or www."
+"Enter the URL to the page. Examples: https://www.foo.com/index.html or www."
 "foo.com/home "
 msgstr ""
-"URL da página. Exemplos: http://www.foo.com/index.html ou www.foo.com/home "
+"URL da página. Exemplos: https://www.foo.com/index.html ou www.foo.com/home "
 
 # @ sitemap
 #: sitemap-ui.php:821 sitemap-ui.php:858
@@ -497,7 +497,7 @@ msgstr "Mowster"
 # @ sitemap
 #: sitemap-ui.php:638
 msgid "translator_url"
-msgstr "http://wordpress.mowster.net"
+msgstr "https://wordpress.mowster.net"
 
 # @ sitemap
 #: sitemap-ui.php:641
@@ -879,8 +879,8 @@ msgstr "Google XML Sitemaps"
 # @ sitemap
 #. translators: plugin header field 'PluginURI'
 #: sitemap.php:0
-msgid "http://www.arnebrachhold.de/redir/sitemap-home/"
-msgstr "http://www.arnebrachhold.de/redir/sitemap-home/"
+msgid "https://www.arnebrachhold.de/redir/sitemap-home/"
+msgstr "https://www.arnebrachhold.de/redir/sitemap-home/"
 
 # @ sitemap
 #. translators: plugin header field 'Description'
@@ -902,8 +902,8 @@ msgstr "Arne Brachhold"
 # @ sitemap
 #. translators: plugin header field 'AuthorURI'
 #: sitemap.php:0
-msgid "http://www.arnebrachhold.de/"
-msgstr "http://www.arnebrachhold.de/"
+msgid "https://www.arnebrachhold.de/"
+msgstr "https://www.arnebrachhold.de/"
 
 # @ sitemap
 #: sitemap.php:82

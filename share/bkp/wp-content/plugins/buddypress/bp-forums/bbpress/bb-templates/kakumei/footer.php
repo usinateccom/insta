@@ -1,7 +1,7 @@
 		</div>
 	</div>
 	<div id="footer" role="contentinfo">
-		<p><?php printf(__('%1$s is proudly powered by <a href="%2$s">bbPress</a>.'), bb_option('name'), "http://bbpress.org") ?></p>
+		<p><?php printf(__('%1$s is proudly powered by <a href="%2$s">bbPress</a>.'), bb_option('name'), "https://bbpress.org") ?></p>
 
 		<!-- If you like showing off the fact that your server rocks -->
 		<!-- <p class="showoff">

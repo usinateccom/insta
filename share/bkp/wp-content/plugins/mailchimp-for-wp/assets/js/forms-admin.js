@@ -1286,7 +1286,7 @@ window.mc4wp.forms.fields = fields;
 
 },{"./admin/field-helper.js":4,"./admin/fields-factory.js":5,"./admin/fields.js":6,"./admin/form-editor.js":7,"./admin/form-watcher.js":8,"./admin/notices":9}],12:[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: http://codemirror.net/LICENSE
+// Distributed under an MIT license: https://codemirror.net/LICENSE
 
 /**
  * Tag-closer extension for CodeMirror.
@@ -1457,7 +1457,7 @@ window.mc4wp.forms.fields = fields;
 
 },{"../../lib/codemirror":15,"../fold/xml-fold":14}],13:[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: http://codemirror.net/LICENSE
+// Distributed under an MIT license: https://codemirror.net/LICENSE
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -1525,7 +1525,7 @@ window.mc4wp.forms.fields = fields;
 
 },{"../../lib/codemirror":15,"../fold/xml-fold":14}],14:[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: http://codemirror.net/LICENSE
+// Distributed under an MIT license: https://codemirror.net/LICENSE
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -1709,13 +1709,13 @@ window.mc4wp.forms.fields = fields;
 
 },{"../../lib/codemirror":15}],15:[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: http://codemirror.net/LICENSE
+// Distributed under an MIT license: https://codemirror.net/LICENSE
 
-// This is CodeMirror (http://codemirror.net), a code editor
+// This is CodeMirror (https://codemirror.net), a code editor
 // implemented in JavaScript on top of the browser's DOM.
 //
 // You can find some technical background for some of the code below
-// at http://marijnhaverbeke.nl/blog/#cm-internals .
+// at https://marijnhaverbeke.nl/blog/#cm-internals .
 
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -2644,7 +2644,7 @@ function getBidiPartAt(order, ch, sticky) {
 }
 
 // Bidirectional ordering algorithm
-// See http://unicode.org/reports/tr9/tr9-13.html for the algorithm
+// See https://unicode.org/reports/tr9/tr9-13.html for the algorithm
 // that this (partially) implements.
 
 // One-char codes used for character types:
@@ -7197,7 +7197,7 @@ function changeLine(doc, handle, changeType, op) {
 // It also indexes by height, and is used to convert between height
 // and line object, and to find the total height of the document.
 //
-// See also http://marijnhaverbeke.nl/blog/codemirror-line-tree.html
+// See also https://marijnhaverbeke.nl/blog/codemirror-line-tree.html
 
 function LeafChunk(lines) {
   var this$1 = this;
@@ -11376,7 +11376,7 @@ return CodeMirror$1;
 
 },{}],16:[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: http://codemirror.net/LICENSE
+// Distributed under an MIT license: https://codemirror.net/LICENSE
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -12210,7 +12210,7 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
 
 },{"../../lib/codemirror":15}],17:[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: http://codemirror.net/LICENSE
+// Distributed under an MIT license: https://codemirror.net/LICENSE
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -12364,7 +12364,7 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
 
 },{"../../lib/codemirror":15,"../css/css":16,"../javascript/javascript":18,"../xml/xml":19}],18:[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: http://codemirror.net/LICENSE
+// Distributed under an MIT license: https://codemirror.net/LICENSE
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -13241,7 +13241,7 @@ CodeMirror.defineMIME("application/typescript", { name: "javascript", typescript
 
 },{"../../lib/codemirror":15}],19:[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: http://codemirror.net/LICENSE
+// Distributed under an MIT license: https://codemirror.net/LICENSE
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -13644,7 +13644,7 @@ if (!CodeMirror.mimeModes.hasOwnProperty("text/html"))
   Written by Nochum Sossonko, (nsossonko@hotmail.com)
 
   Based on code initially developed by: Einar Lielmanis, <elfz@laacz.lv>
-    http://jsbeautifier.org/
+    https://jsbeautifier.org/
 
 
   You are free to use this in any way you want, in case you find this useful or working for you.

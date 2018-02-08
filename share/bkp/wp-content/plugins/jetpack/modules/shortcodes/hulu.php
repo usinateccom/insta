@@ -5,13 +5,13 @@
  * [hulu 369061]
  * [hulu id=369061]
  * [hulu id=369061 width=512 height=288 start_time="10" end_time="20" thumbnail_frame="10"]
- * [hulu http://www.hulu.com/watch/369061]
+ * [hulu https://www.hulu.com/watch/369061]
  * [hulu id=gQ6Z0I990IWv_VFQI2J7Eg width=512 height=288]
  *
  * <object width="512" height="288">
- * <param name="movie" value="http://www.hulu.com/embed/gQ6Z0I990IWv_VFQI2J7Eg"></param>
+ * <param name="movie" value="https://www.hulu.com/embed/gQ6Z0I990IWv_VFQI2J7Eg"></param>
  * <param name="allowFullScreen" value="true"></param>
- * <embed src="http://www.hulu.com/embed/gQ6Z0I990IWv_VFQI2J7Eg" type="application/x-shockwave-flash"  width="512" height="288" allowFullScreen="true"></embed>
+ * <embed src="https://www.hulu.com/embed/gQ6Z0I990IWv_VFQI2J7Eg" type="application/x-shockwave-flash"  width="512" height="288" allowFullScreen="true"></embed>
  * </object>
 */
 
@@ -38,7 +38,7 @@ function jetpack_shortcode_get_hulu_id( $atts ) {
 		// First we check to see if [hulu id=369061] or [hulu id=gQ6Z0I990IWv_VFQI2J7Eg] was used
 		$id = esc_attr( $atts['id'] );
 	} else if ( isset( $atts[0] ) && preg_match( '|www\.hulu\.com/watch/(\d+)|i', $atts[0], $match ) ) {
-		// this checks for [hulu http://www.hulu.com/watch/369061]
+		// this checks for [hulu https://www.hulu.com/watch/369061]
 		$id = (int) $match[1];
 	} else if ( isset( $atts[0] ) ) {
 		// This checks for [hulu 369061] or [hulu 65yppv6xqa45s5n7_m1wng]
@@ -95,7 +95,7 @@ function jetpack_hulu_shortcode( $atts ) {
 		$transient_key = "hulu-$id";
 		if ( false === ( $transient_value = get_transient( $transient_key ) ) ) {
 			// let's make a cross-site http request out to the hulu oembed api
-			$response         = wp_remote_get( 'http://www.hulu.com/api/oembed.json?url=' . urlencode( 'http://www.hulu.com/watch/' . esc_attr( $id ) ) );
+			$response         = wp_remote_get( 'https://www.hulu.com/api/oembed.json?url=' . urlencode( 'https://www.hulu.com/watch/' . esc_attr( $id ) ) );
 			$response_code    = wp_remote_retrieve_response_code( $response );
 			$response_message = wp_remote_retrieve_response_message( $response );
 			if ( 200 !== $response_code && ! empty( $response_message ) ) {
@@ -128,7 +128,7 @@ function jetpack_hulu_shortcode( $atts ) {
 	$width  = intval( $attr['width'] );
 	$height = round( ( $width / 640 ) * 360 );
 
-	$iframe_url = 'http://www.hulu.com/embed.html';
+	$iframe_url = 'https://www.hulu.com/embed.html';
 	if ( is_ssl() ) {
 		$iframe_url = 'https://secure.hulu.com/embed.html';
 	}
@@ -172,7 +172,7 @@ function jetpack_hulu_link_callback( $matches ) {
 	$video_id = $matches[4];
 	$src = is_ssl()
 		? 'https://secure.hulu.com'
-		: 'http://www.hulu.com';
+		: 'https://www.hulu.com';
 
 	// Make up an embed src to pass to the shortcode reversal function
 	$attrs['src'] = $src . '/embed.html?eid=' . esc_attr( $video_id );
@@ -248,7 +248,7 @@ function wpcom_shortcodereverse_huluhelper( $attrs ) {
  * Initiates process to convert iframe HTML into a Hulu shortcode.
  *
  * Example:
- * <iframe width="512" height="288" src="http://www.hulu.com/embed.html?eid=nlg_ios3tutcfrhatkiaow&et=20&st=10&it=i11" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+ * <iframe width="512" height="288" src="https://www.hulu.com/embed.html?eid=nlg_ios3tutcfrhatkiaow&et=20&st=10&it=i11" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
  *
  * Converts to:
  * [hulu id=nlg_ios3tutcfrhatkiaow width=512 height=288 start_time=10 end_time=20 thumbnail_frame=11]
@@ -269,4 +269,4 @@ function wpcom_shortcodereverse_huluembed( $attrs ) {
 
 	return $shortcode;
 }
-Filter_Embedded_HTML_Objects::register( '#^http://www.hulu.com/embed.html#i', 'wpcom_shortcodereverse_huluembed', true );
+Filter_Embedded_HTML_Objects::register( '#^https://www.hulu.com/embed.html#i', 'wpcom_shortcodereverse_huluembed', true );

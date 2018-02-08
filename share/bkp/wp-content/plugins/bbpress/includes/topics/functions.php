@@ -3426,10 +3426,10 @@ function bbp_display_topics_feed_rss2( $topics_query = array() ) {
 	echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>'; ?>
 
 	<rss version="2.0"
-		xmlns:content="http://purl.org/rss/1.0/modules/content/"
-		xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-		xmlns:dc="http://purl.org/dc/elements/1.1/"
-		xmlns:atom="http://www.w3.org/2005/Atom"
+		xmlns:content="https://purl.org/rss/1.0/modules/content/"
+		xmlns:wfw="https://wellformedweb.org/CommentAPI/"
+		xmlns:dc="https://purl.org/dc/elements/1.1/"
+		xmlns:atom="https://www.w3.org/2005/Atom"
 
 		<?php do_action( 'bbp_feed' ); ?>
 	>
@@ -3441,7 +3441,7 @@ function bbp_display_topics_feed_rss2( $topics_query = array() ) {
 		<link><?php self_link(); ?></link>
 		<description><?php //?></description>
 		<pubDate><?php echo mysql2date( 'D, d M Y H:i:s O', current_time( 'mysql' ), false ); ?></pubDate>
-		<generator>http://bbpress.org/?v=<?php bbp_version(); ?></generator>
+		<generator>https://bbpress.org/?v=<?php bbp_version(); ?></generator>
 		<language><?php bloginfo_rss( 'language' ); ?></language>
 
 		<?php do_action( 'bbp_feed_head' ); ?>

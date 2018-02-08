@@ -135,7 +135,7 @@ abstract class BP_Suggestions {
 	 * Matches must be returned as objects in an array.
 	 *
 	 * The object format for each match must be: { 'ID': string, 'image': string, 'name': string }
-	 * For example: { 'ID': 'admin', 'image': 'http://example.com/logo.png', 'name': 'Name Surname' }
+	 * For example: { 'ID': 'admin', 'image': 'https://example.com/logo.png', 'name': 'Name Surname' }
 	 *
 	 * @since 2.1.0
 	 *

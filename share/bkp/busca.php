@@ -94,7 +94,7 @@ $("#hora_end").mask("99:99");
 
 
 
-<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="pingback" href="testedez/xmlrpc.php">
 <title>InstaShare.Me &#8211; Compartilhamento Inteligente &#8211; Só mais um site WordPress</title>
 <link rel="alternate" type="application/rss+xml" title="Feed de InstaShare.Me - Compartilhamento Inteligente &raquo;" href="feed/" />
@@ -755,7 +755,7 @@ INTERGEO MAPS
 	        </div><!-- .footer-bottom-wrap -->
 
 	        <div class="powered-by">
-	            <a class="" href="https://themeisle.com/themes/parallax-one/" target="_blank" rel="nofollow">Parallax One </a> powered by <a class="" href="http://wordpress.org/" target="_blank" rel="nofollow">WordPress</a>
+	            <a class="" href="https://themeisle.com/themes/parallax-one/" target="_blank" rel="nofollow">Parallax One </a> powered by <a class="" href="https://wordpress.org/" target="_blank" rel="nofollow">WordPress</a>
 	        </div>
 
 	    </div><!-- container -->
@@ -801,8 +801,8 @@ var fm_objectL10n = {"states":{"":"","Alabama":"Alabama","Alaska":"Alaska","Ariz
 		<li id="wp-admin-bar-about"><a class="ab-item"  href="wp-admin/about.php">Sobre o WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
 		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="https://br.wordpress.org/">WordPress.org</a>		</li>
 		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="https://codex.wordpress.org/pt-br:Página_Inicial">Documentação</a>		</li>
-		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="http://br.forums.wordpress.org">Fóruns de Suporte</a>		</li>
-		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="http://br.forums.wordpress.org/forum/pedidos-e-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="https://br.forums.wordpress.org">Fóruns de Suporte</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="https://br.forums.wordpress.org/forum/pedidos-e-feedback">Feedback</a>		</li></ul></div>		</li>
 		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="wp-admin/">InstaShare.Me - Compartilhamento Intelig&hellip;</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
 		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="wp-admin/">Painel</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
 		<li id="wp-admin-bar-themes"><a class="ab-item"  href="wp-admin/themes.php">Temas</a>		</li>

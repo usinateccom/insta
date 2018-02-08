@@ -831,7 +831,7 @@ class Jetpack_Subscriptions_Widget extends WP_Widget {
 			echo $args['before_title'] . esc_attr( $instance['title'] ) . $args['after_title'] . "\n";
 		}
 
-		$referer = set_url_scheme( 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
+		$referer = set_url_scheme( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
 
 		// Display any errors
 		if ( isset( $_GET['subscribe'] ) ) :

@@ -33,7 +33,7 @@ class Jetpack_Sitemap_Stylist {
 	 *
 	 * @access private
 	 * @since 4.8.0
-	 * @link http://php.net/manual/en/function.vsprintf.php Format string documentation.
+	 * @link https://php.net/manual/en/function.vsprintf.php Format string documentation.
 	 *
 	 * @param string $format A vsprintf-style format string to be sanitized.
 	 * @param array  $url_array The string substitution array to be passed to vsprintf.
@@ -74,7 +74,7 @@ class Jetpack_Sitemap_Stylist {
 				'jetpack'
 			),
 			array(
-				1 => 'http://jetpack.com/',
+				1 => 'https://jetpack.com/',
 				2 => 'https://www.google.com/',
 				3 => 'https://www.bing.com/',
 			)
@@ -86,7 +86,7 @@ class Jetpack_Sitemap_Stylist {
 				'jetpack'
 			),
 			array(
-				1 => 'http://sitemaps.org',
+				1 => 'https://sitemaps.org',
 			)
 		);
 
@@ -105,12 +105,12 @@ class Jetpack_Sitemap_Stylist {
 		return <<<XSL
 <?xml version='1.0' encoding='UTF-8'?>
 <xsl:stylesheet version='2.0'
-  xmlns:html='http://www.w3.org/TR/REC-html40'
-  xmlns:sitemap='http://www.sitemaps.org/schemas/sitemap/0.9'
-  xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
+  xmlns:html='https://www.w3.org/TR/REC-html40'
+  xmlns:sitemap='https://www.sitemaps.org/schemas/sitemap/0.9'
+  xmlns:xsl='https://www.w3.org/1999/XSL/Transform'>
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 <xsl:template match="/">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
   <title>$title</title>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
@@ -186,7 +186,7 @@ XSL;
 				'jetpack'
 			),
 			array(
-				1 => 'http://jetpack.com/',
+				1 => 'https://jetpack.com/',
 				2 => 'https://www.google.com/',
 				3 => 'https://www.bing.com/',
 			)
@@ -198,7 +198,7 @@ XSL;
 				'jetpack'
 			),
 			array(
-				1 => 'http://sitemaps.org',
+				1 => 'https://sitemaps.org',
 			)
 		);
 
@@ -217,12 +217,12 @@ XSL;
 		return <<<XSL
 <?xml version='1.0' encoding='UTF-8'?>
 <xsl:stylesheet version='2.0'
-  xmlns:html='http://www.w3.org/TR/REC-html40'
-  xmlns:sitemap='http://www.sitemaps.org/schemas/sitemap/0.9'
-  xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
+  xmlns:html='https://www.w3.org/TR/REC-html40'
+  xmlns:sitemap='https://www.sitemaps.org/schemas/sitemap/0.9'
+  xmlns:xsl='https://www.w3.org/1999/XSL/Transform'>
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 <xsl:template match="/">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
   <title>$title</title>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
@@ -301,7 +301,7 @@ XSL;
 				'jetpack'
 			),
 			array(
-				1 => 'http://jetpack.com/',
+				1 => 'https://jetpack.com/',
 				2 => 'https://www.google.com/',
 				3 => 'https://www.bing.com/',
 			)
@@ -313,7 +313,7 @@ XSL;
 				'jetpack'
 			),
 			array(
-				1 => 'http://sitemaps.org',
+				1 => 'https://sitemaps.org',
 			)
 		);
 
@@ -332,13 +332,13 @@ XSL;
 		return <<<XSL
 <?xml version='1.0' encoding='UTF-8'?>
 <xsl:stylesheet version='2.0'
-  xmlns:html='http://www.w3.org/TR/REC-html40'
-  xmlns:sitemap='http://www.sitemaps.org/schemas/sitemap/0.9'
-  xmlns:image='http://www.google.com/schemas/sitemap-image/1.1'
-  xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
+  xmlns:html='https://www.w3.org/TR/REC-html40'
+  xmlns:sitemap='https://www.sitemaps.org/schemas/sitemap/0.9'
+  xmlns:image='https://www.google.com/schemas/sitemap-image/1.1'
+  xmlns:xsl='https://www.w3.org/1999/XSL/Transform'>
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 <xsl:template match="/">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
   <title>$title</title>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
@@ -441,7 +441,7 @@ XSL;
 				'jetpack'
 			),
 			array(
-				1 => 'http://jetpack.com/',
+				1 => 'https://jetpack.com/',
 				2 => 'https://www.google.com/',
 				3 => 'https://www.bing.com/',
 			)
@@ -453,7 +453,7 @@ XSL;
 				'jetpack'
 			),
 			array(
-				1 => 'http://sitemaps.org',
+				1 => 'https://sitemaps.org',
 			)
 		);
 
@@ -472,13 +472,13 @@ XSL;
 		return <<<XSL
 <?xml version='1.0' encoding='UTF-8'?>
 <xsl:stylesheet version='2.0'
-  xmlns:html='http://www.w3.org/TR/REC-html40'
-  xmlns:sitemap='http://www.sitemaps.org/schemas/sitemap/0.9'
-  xmlns:video='http://www.google.com/schemas/sitemap-video/1.1'
-  xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
+  xmlns:html='https://www.w3.org/TR/REC-html40'
+  xmlns:sitemap='https://www.sitemaps.org/schemas/sitemap/0.9'
+  xmlns:video='https://www.google.com/schemas/sitemap-video/1.1'
+  xmlns:xsl='https://www.w3.org/1999/XSL/Transform'>
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 <xsl:template match="/">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
   <title>$title</title>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
@@ -581,7 +581,7 @@ XSL;
 				'jetpack'
 			),
 			array(
-				1 => 'http://jetpack.com/',
+				1 => 'https://jetpack.com/',
 				2 => 'https://www.google.com/',
 				3 => 'https://www.bing.com/',
 			)
@@ -593,7 +593,7 @@ XSL;
 				'jetpack'
 			),
 			array(
-				1 => 'http://sitemaps.org',
+				1 => 'https://sitemaps.org',
 			)
 		);
 
@@ -612,13 +612,13 @@ XSL;
 		return <<<XSL
 <?xml version='1.0' encoding='UTF-8'?>
 <xsl:stylesheet version='2.0'
-  xmlns:html='http://www.w3.org/TR/REC-html40'
-  xmlns:sitemap='http://www.sitemaps.org/schemas/sitemap/0.9'
-  xmlns:news='http://www.google.com/schemas/sitemap-news/0.9'
-  xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
+  xmlns:html='https://www.w3.org/TR/REC-html40'
+  xmlns:sitemap='https://www.sitemaps.org/schemas/sitemap/0.9'
+  xmlns:news='https://www.google.com/schemas/sitemap-news/0.9'
+  xmlns:xsl='https://www.w3.org/1999/XSL/Transform'>
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 <xsl:template match="/">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
   <title>$title</title>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>

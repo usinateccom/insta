@@ -68,7 +68,7 @@ if ( ! function_exists( 'understrap_setup' ) ) :
 
 		/*
 		 * Enable support for Post Formats.
-		 * See http://codex.wordpress.org/Post_Formats
+		 * See https://codex.wordpress.org/Post_Formats
 		 */
 		add_theme_support( 'post-formats', array(
 			'aside',

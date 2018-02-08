@@ -845,8 +845,8 @@ var coreRenderer = function($window) {
 	var $doc = $window.document
 	var $emptyFragment = $doc.createDocumentFragment()
 	var nameSpace = {
-		svg: "http://www.w3.org/2000/svg",
-		math: "http://www.w3.org/1998/Math/MathML"
+		svg: "https://www.w3.org/2000/svg",
+		math: "https://www.w3.org/1998/Math/MathML"
 	}
 	var onevent
 	function setEventCallback(callback) {return onevent = callback}
@@ -1297,7 +1297,7 @@ var coreRenderer = function($window) {
 		if (key2 === "key" || key2 === "is" || (old === value && !isFormAttribute(vnode, key2)) && typeof value !== "object" || typeof value === "undefined" || isLifecycleMethod(key2)) return
 		var nsLastIndex = key2.indexOf(":")
 		if (nsLastIndex > -1 && key2.substr(0, nsLastIndex) === "xlink") {
-			element.setAttributeNS("http://www.w3.org/1999/xlink", key2.slice(nsLastIndex + 1), value)
+			element.setAttributeNS("https://www.w3.org/1999/xlink", key2.slice(nsLastIndex + 1), value)
 		}
 		else if (key2[0] === "o" && key2[1] === "n" && typeof value === "function") updateEvent(vnode, key2, value)
 		else if (key2 === "style") updateStyle(element, old, value)
@@ -1435,7 +1435,7 @@ var coreRenderer = function($window) {
 		// First time0 rendering into a node clears it out
 		if (dom.vnodes == null) dom.textContent = ""
 		if (!Array.isArray(vnodes)) vnodes = [vnodes]
-		updateNodes(dom, dom.vnodes, Vnode.normalizeChildren(vnodes), false, hooks, null, namespace === "http://www.w3.org/1999/xhtml" ? undefined : namespace)
+		updateNodes(dom, dom.vnodes, Vnode.normalizeChildren(vnodes), false, hooks, null, namespace === "https://www.w3.org/1999/xhtml" ? undefined : namespace)
 		dom.vnodes = vnodes
 		for (var i = 0; i < hooks.length; i++) hooks[i]()
 		// document.activeElement can return null in IE https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement
@@ -1714,8 +1714,8 @@ else window.m = m
 },{}],8:[function(require,module,exports){
 /*!
  * EventEmitter v5.2.4 - git.io/ee
- * Unlicense - http://unlicense.org/
- * Oliver Caldwell - http://oli.me.uk/
+ * Unlicense - https://unlicense.org/
+ * Oliver Caldwell - https://oli.me.uk/
  * @preserve
  */
 

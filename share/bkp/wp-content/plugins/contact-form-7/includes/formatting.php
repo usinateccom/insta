@@ -185,7 +185,7 @@ function wpcf7_canonicalize( $text, $strto = 'lower' ) {
  * and may be followed by any number of letters, digits ([0-9]),
  * hyphens ("-"), underscores ("_"), colons (":"), and periods (".").
  *
- * @see http://www.w3.org/TR/html401/types.html#h-6.2
+ * @see https://www.w3.org/TR/html401/types.html#h-6.2
  *
  * @return bool True if it is a valid name, false if not.
  */

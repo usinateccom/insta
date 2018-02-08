@@ -5,7 +5,7 @@ Description: Enables shortcode to embed Wufoo forms. Usage: [wufoo username="chr
 Author: Chris Coyier / Wufoo, evansolomon
 
 Based on https://wordpress.org/extend/plugins/wufoo-shortcode/
-http://wufoo.com/docs/code-manager/wordpress-shortcode-plugin/
+https://wufoo.com/docs/code-manager/wordpress-shortcode-plugin/
 */
 
 
@@ -28,7 +28,7 @@ function wufoo_shortcode( $atts ) {
 		 * Return an error to the users with instructions if one of these params is invalid
 		 * They don't have default values because they are user/form-specific
 		 */
-		$return_error = sprintf( __( 'Something is wrong with your Wufoo shortcode. If you copy and paste it from the %sWufoo Code Manager%s, you should be golden.', 'jetpack' ), '<a href="http://wufoo.com/docs/code-manager/" target="_blank">', '</a>' );
+		$return_error = sprintf( __( 'Something is wrong with your Wufoo shortcode. If you copy and paste it from the %sWufoo Code Manager%s, you should be golden.', 'jetpack' ), '<a href="https://wufoo.com/docs/code-manager/" target="_blank">', '</a>' );
 
 		return '
 			<div style="border: 20px solid red; border-radius: 40px; padding: 40px; margin: 50px 0 70px;">
@@ -41,7 +41,7 @@ function wufoo_shortcode( $atts ) {
 	 * Required parameters are present.
 	 * An error will be returned inside the form if they are invalid.
 	 */
-	$js_embed = '<script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src=\'" + host + "wufoo.com/scripts/embed/form.js\'  type=\'text/javascript\'%3E%3C/script%3E"));</script>';
+	$js_embed = '<script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "https://");document.write(unescape("%3Cscript src=\'" + host + "wufoo.com/scripts/embed/form.js\'  type=\'text/javascript\'%3E%3C/script%3E"));</script>';
 	$js_embed .= "<script type='text/javascript'>";
 	$js_embed .= 'var wufoo_' . $attr['formhash'] . ' = new WufooForm();';
 	$js_embed .= 'wufoo_' . $attr['formhash'] . ' .initialize({';

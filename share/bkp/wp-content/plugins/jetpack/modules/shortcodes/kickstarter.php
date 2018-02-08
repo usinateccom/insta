@@ -35,7 +35,7 @@ function jetpack_kickstarter_shortcode( $atts ) {
 /**
  * Converts Kickstarter iframe embeds to a shortcode.
  *
- * EG: <iframe width="480" height="360" src="http://www.kickstarter.com/projects/deweymac/dewey-mac-kid-detective-book-make-diy-and-stem-spy/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+ * EG: <iframe width="480" height="360" src="https://www.kickstarter.com/projects/deweymac/dewey-mac-kid-detective-book-make-diy-and-stem-spy/widget/video.html" frameborder="0" scrolling="no"> </iframe>
  *
  * @since 4.5.0
  *
@@ -48,7 +48,7 @@ function jetpack_kickstarter_embed_to_shortcode( $content ) {
 		return $content;
 	}
 
-	$regexp     = '!<iframe((?:\s+\w+=[\'"][^\'"]*[\'"])*)\s+src=[\'"](http://www\.kickstarter\.com/projects/[^/]+/[^/]+)/[^\'"]+[\'"]((?:\s+\w+=[\'"][^\'"]*[\'"])*)>[\s]*</iframe>!i';
+	$regexp     = '!<iframe((?:\s+\w+=[\'"][^\'"]*[\'"])*)\s+src=[\'"](https://www\.kickstarter\.com/projects/[^/]+/[^/]+)/[^\'"]+[\'"]((?:\s+\w+=[\'"][^\'"]*[\'"])*)>[\s]*</iframe>!i';
 	$regexp_ent = str_replace( '&amp;#0*58;', '&amp;#0*58;|&#0*58;', htmlspecialchars( $regexp, ENT_NOQUOTES ) );
 
 	foreach ( array( 'regexp', 'regexp_ent' ) as $reg ) {

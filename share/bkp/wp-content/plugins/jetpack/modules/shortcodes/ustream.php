@@ -7,8 +7,8 @@
  * [ustream id=1524 live=1]
  * [ustreamsocial id=12980237 width="500"]
  *
- * Embed code example, from http://www.ustream.tv/leolaporte
- * <iframe src="http://www.ustream.tv/embed/recorded/1524?v=3&#038;wmode=direct" width="480" height="296" scrolling="no" frameborder="0" style="border: 0 none transparent;"></iframe>
+ * Embed code example, from https://www.ustream.tv/leolaporte
+ * <iframe src="https://www.ustream.tv/embed/recorded/1524?v=3&#038;wmode=direct" width="480" height="296" scrolling="no" frameborder="0" style="border: 0 none transparent;"></iframe>
  */
 
 add_shortcode( 'ustream', 'ustream_shortcode' );
@@ -80,7 +80,7 @@ function ustream_shortcode( $atts ) {
 		$wmode = '';
 	}
 
-	$url    = 'http://www.ustream.tv/embed/' . $recorded . esc_attr( $ustream_id ) . $highlight . '?' . $version . $wmode;
+	$url    = 'https://www.ustream.tv/embed/' . $recorded . esc_attr( $ustream_id ) . $highlight . '?' . $version . $wmode;
 	$url    = set_url_scheme( $url );
 	$output = '<iframe src="' . esc_url( $url ) . '" width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '" scrolling="no" style="border: 0 none transparent;"></iframe>';
 
@@ -121,7 +121,7 @@ function ustreamsocial_shortcode( $atts ) {
 		return '<!-- ustreamsocial error: width invalid -->';
 	}
 
-	$url = set_url_scheme( "http://www.ustream.tv/socialstream/$ustream_id" );
+	$url = set_url_scheme( "https://www.ustream.tv/socialstream/$ustream_id" );
 
 	return '<iframe id="SocialStream" class="" name="SocialStream" width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '" scrolling="no" allowtransparency="true" src="' . esc_url( $url ) . '" style="visibility: visible; margin-top: 0; margin-bottom: 0; border: 0;"></iframe>';
 }

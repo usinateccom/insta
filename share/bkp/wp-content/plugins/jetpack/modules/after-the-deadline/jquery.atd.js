@@ -2,15 +2,15 @@
  * jquery.atd.js - jQuery powered writing check with After the Deadline
  * Author      : Raphael Mudge, Automattic Inc.
  * License     : LGPL or MIT License (take your pick)
- * Project     :  http://www.afterthedeadline.com/development.slp
+ * Project     :  https://www.afterthedeadline.com/development.slp
  * Contact     : raffi@automattic.com
  *
  * Derived from:
  *
  * jquery.spellchecker.js - a simple jQuery Spell Checker
  * Copyright (c) 2008 Richard Willis
- * MIT license  : http://www.opensource.org/licenses/mit-license.php
- * Project      : http://jquery-spellchecker.googlecode.com
+ * MIT license  : https://www.opensource.org/licenses/mit-license.php
+ * Project      : https://jquery-spellchecker.googlecode.com
  * Contact      : willis.rh@gmail.com
  */
 
@@ -20,7 +20,7 @@
 var AtD =
 {
 	rpc : '', /* see the proxy.php that came with the AtD/TinyMCE plugin */
-	rpc_css : 'http://www.polishmywriting.com/atd-jquery/server/proxycss.php?data=', /* you may use this, but be nice! */
+	rpc_css : 'https://www.polishmywriting.com/atd-jquery/server/proxycss.php?data=', /* you may use this, but be nice! */
 	rpc_css_lang : 'en',
 	api_key : '',
 	i18n : {}, // Back-compat
@@ -138,7 +138,7 @@ AtD.check = function(container_id, callback_f) {
 
 		success : function(data) {
 			/* apparently IE likes to return XML as plain text-- work around from:
-			   http://docs.jquery.com/Specifying_the_Data_Type_for_AJAX_Requests */
+			   https://docs.jquery.com/Specifying_the_Data_Type_for_AJAX_Requests */
 
 			var xml;
 			if (typeof data === 'string') {

@@ -217,13 +217,13 @@ class acf_field_groups
 			
 			<h3><?php _e("Resources",'acf'); ?></h3>
 			<ul>
-				<li><a href="http://www.advancedcustomfields.com/resources/#getting-started" target="_blank"><?php _e("Getting Started",'acf'); ?></a></li>
-				<li><a href="http://www.advancedcustomfields.com/resources/#field-types" target="_blank"><?php _e("Field Types",'acf'); ?></a></li>
-				<li><a href="http://www.advancedcustomfields.com/resources/#functions" target="_blank"><?php _e("Functions",'acf'); ?></a></li>
-				<li><a href="http://www.advancedcustomfields.com/resources/#actions" target="_blank"><?php _e("Actions",'acf'); ?></a></li>
-				<li><a href="http://www.advancedcustomfields.com/resources/#filters" target="_blank"><?php _e("Filters",'acf'); ?></a></li>
-				<li><a href="http://www.advancedcustomfields.com/resources/#how-to" target="_blank"><?php _e("'How to' guides",'acf'); ?></a></li>
-				<li><a href="http://www.advancedcustomfields.com/resources/#tutorials" target="_blank"><?php _e("Tutorials",'acf'); ?></a></li>
+				<li><a href="https://www.advancedcustomfields.com/resources/#getting-started" target="_blank"><?php _e("Getting Started",'acf'); ?></a></li>
+				<li><a href="https://www.advancedcustomfields.com/resources/#field-types" target="_blank"><?php _e("Field Types",'acf'); ?></a></li>
+				<li><a href="https://www.advancedcustomfields.com/resources/#functions" target="_blank"><?php _e("Functions",'acf'); ?></a></li>
+				<li><a href="https://www.advancedcustomfields.com/resources/#actions" target="_blank"><?php _e("Actions",'acf'); ?></a></li>
+				<li><a href="https://www.advancedcustomfields.com/resources/#filters" target="_blank"><?php _e("Filters",'acf'); ?></a></li>
+				<li><a href="https://www.advancedcustomfields.com/resources/#how-to" target="_blank"><?php _e("'How to' guides",'acf'); ?></a></li>
+				<li><a href="https://www.advancedcustomfields.com/resources/#tutorials" target="_blank"><?php _e("Tutorials",'acf'); ?></a></li>
 			</ul>
 		</div>
 		<div class="footer footer-blue">
@@ -342,10 +342,10 @@ class acf_field_groups
 		</ul>
 		<h4><?php _e("Custom Field Types",'acf'); ?></h4>
 		<p><?php _e("Creating your own field type has never been easier! Unfortunately, version 3 field types are not compatible with version 4.",'acf'); ?><br />
-		<?php printf(__('Migrating your field types is easy, please %sfollow this tutorial%s to learn more.','acf'),'<a href="http://www.advancedcustomfields.com/docs/tutorials/creating-a-new-field-type/" target="_blank">','</a>'); ?></p>
+		<?php printf(__('Migrating your field types is easy, please %sfollow this tutorial%s to learn more.','acf'),'<a href="https://www.advancedcustomfields.com/docs/tutorials/creating-a-new-field-type/" target="_blank">','</a>'); ?></p>
 		
 		<h4><?php _e("Actions &amp; Filters",'acf'); ?></h4>
-		<p><?php printf(__('All actions & filters have received a major facelift to make customizing ACF even easier! Please %sread this guide%s to find the updated naming convention.','acf'),'<a href="http://www.advancedcustomfields.com/resources/getting-started/migrating-from-v3-to-v4/" target="_blank">','</a>'); ?></p>
+		<p><?php printf(__('All actions & filters have received a major facelift to make customizing ACF even easier! Please %sread this guide%s to find the updated naming convention.','acf'),'<a href="https://www.advancedcustomfields.com/resources/getting-started/migrating-from-v3-to-v4/" target="_blank">','</a>'); ?></p>
 		
 		<h4><?php _e("Preview draft is now working!",'acf'); ?></h4>
 		<p><?php _e("This bug has been squashed along with many other little critters!",'acf'); ?> <a class="acf-tab-toggle" href="<?php echo admin_url('edit.php?post_type=acf&info=changelog'); ?>" data-tab="2"><?php _e("See the full changelog",'acf'); ?></a></p>
@@ -358,10 +358,10 @@ class acf_field_groups
 		<p><?php _e("Absolutely <strong>no</strong> changes have been made to the database between versions 3 and 4. This means you can roll back to version 3 without any issues.",'acf'); ?></p>
 		
 		<h4><?php _e("Potential Issues",'acf'); ?></h4>
-		<p><?php printf(__('Due to the sizable changes surrounding Add-ons, field types and action/filters, your website may not operate correctly. It is important that you read the full %sMigrating from v3 to v4%s guide to view the full list of changes.','acf'),'<a href="http://www.advancedcustomfields.com/resources/getting-started/migrating-from-v3-to-v4/" target="_blank">','</a>'); ?></p>
+		<p><?php printf(__('Due to the sizable changes surrounding Add-ons, field types and action/filters, your website may not operate correctly. It is important that you read the full %sMigrating from v3 to v4%s guide to view the full list of changes.','acf'),'<a href="https://www.advancedcustomfields.com/resources/getting-started/migrating-from-v3-to-v4/" target="_blank">','</a>'); ?></p>
 		
 		<div class="acf-alert acf-alert-error">
-			<p><strong><?php _e("Really Important!",'acf'); ?></strong> <?php printf(__('If you updated the ACF plugin without prior knowledge of such changes, please roll back to the latest %sversion 3%s of this plugin.','acf'),'<a href="http://wordpress.org/extend/plugins/advanced-custom-fields/developers/">','</a>'); ?></p>
+			<p><strong><?php _e("Really Important!",'acf'); ?></strong> <?php printf(__('If you updated the ACF plugin without prior knowledge of such changes, please roll back to the latest %sversion 3%s of this plugin.','acf'),'<a href="https://wordpress.org/extend/plugins/advanced-custom-fields/developers/">','</a>'); ?></p>
 		</div>
 		
 		<hr />
@@ -427,7 +427,7 @@ class acf_field_groups
 				<td class="td-image"><img src="<?php echo $dir; ?>images/add-ons/repeater-field-thumb.jpg" style="width:50px" /></td>
 				<th class="td-name"><?php _e("Repeater Field",'acf'); ?></th>
 				<td class="td-code">XXXX-XXXX-XXXX-<?php echo substr($ac_repeater,-4); ?></td>
-				<td class="td-download"><a class="button" href="http://download.advancedcustomfields.com/<?php echo $ac_repeater; ?>/trunk"><?php _e("Download",'acf'); ?></a></td>
+				<td class="td-download"><a class="button" href="https://download.advancedcustomfields.com/<?php echo $ac_repeater; ?>/trunk"><?php _e("Download",'acf'); ?></a></td>
 			</tr>
 			<?php endif; ?>
 			<?php if( $ac_gallery ): ?>
@@ -435,7 +435,7 @@ class acf_field_groups
 				<td><img src="<?php echo $dir; ?>images/add-ons/gallery-field-thumb.jpg" /></td>
 				<th><?php _e("Gallery Field",'acf'); ?></th>
 				<td>XXXX-XXXX-XXXX-<?php echo substr($ac_gallery,-4); ?></td>
-				<td><a class="button" href="http://download.advancedcustomfields.com/<?php echo $ac_gallery; ?>/trunk"><?php _e("Download",'acf'); ?></a></td>
+				<td><a class="button" href="https://download.advancedcustomfields.com/<?php echo $ac_gallery; ?>/trunk"><?php _e("Download",'acf'); ?></a></td>
 			</tr>	
 			<?php endif; ?>
 			<?php if( $ac_options_page ): ?>
@@ -443,7 +443,7 @@ class acf_field_groups
 				<td><img src="<?php echo $dir; ?>images/add-ons/options-page-thumb.jpg" /></td>
 				<th><?php _e("Options Page",'acf'); ?></th>
 				<td>XXXX-XXXX-XXXX-<?php echo substr($ac_options_page,-4); ?></td>
-				<td><a class="button" href="http://download.advancedcustomfields.com/<?php echo $ac_options_page; ?>/trunk"><?php _e("Download",'acf'); ?></a></td>
+				<td><a class="button" href="https://download.advancedcustomfields.com/<?php echo $ac_options_page; ?>/trunk"><?php _e("Download",'acf'); ?></a></td>
 			</tr>
 			<?php endif; ?>
 			<?php if($ac_flexible_content): ?>
@@ -451,7 +451,7 @@ class acf_field_groups
 				<td><img src="<?php echo $dir; ?>images/add-ons/flexible-content-field-thumb.jpg" /></td>
 				<th><?php _e("Flexible Content",'acf'); ?></th>
 				<td>XXXX-XXXX-XXXX-<?php echo substr($ac_flexible_content,-4); ?></td>
-				<td><a class="button" href="http://download.advancedcustomfields.com/<?php echo $ac_flexible_content; ?>/trunk"><?php _e("Download",'acf'); ?></a></td>
+				<td><a class="button" href="https://download.advancedcustomfields.com/<?php echo $ac_flexible_content; ?>/trunk"><?php _e("Download",'acf'); ?></a></td>
 			</tr>
 			<?php endif; ?>
 			</tbody>

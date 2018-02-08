@@ -271,7 +271,7 @@ msgstr "肚破惊天(@dupola)"
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 #: D:\usr\www\wp-content\plugins\google-sitemap-generator/sitemap-ui.php:591
 msgid "translator_url"
-msgstr "http://dupola.net"
+msgstr "https://dupola.net"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2895
 #: D:\usr\www\wp-content\plugins\google-sitemap-generator/sitemap-ui.php:595
@@ -712,8 +712,8 @@ msgstr "这个页面的 URL"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
 #: D:\usr\www\wp-content\plugins\google-sitemap-generator/sitemap-ui.php:881
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "输入这个页面的地址，比如：http://dupola.com/dreamhost 或 https://twitter.com/dupola 或 http://caodan.net"
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "输入这个页面的地址，比如：https://dupola.com/dreamhost 或 https://twitter.com/dupola 或 https://caodan.net"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3157
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3301

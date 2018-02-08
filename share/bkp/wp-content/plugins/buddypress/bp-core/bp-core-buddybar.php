@@ -243,7 +243,7 @@ function bp_core_register_nav_screen_function( $args = '' ) {
 	if ( bp_is_current_component( $r['slug'] ) || bp_is_current_item( $r['slug'] ) ) {
 
 		// The requested URL has explicitly included the default subnav
-		// (eg: http://example.com/members/membername/activity/just-me/)
+		// (eg: https://example.com/members/membername/activity/just-me/)
 		// The canonical version will not contain this subnav slug.
 		if ( ! empty( $r['default_subnav_slug'] ) && bp_is_current_action( $r['default_subnav_slug'] ) && ! bp_action_variable( 0 ) ) {
 			unset( $bp->canonical_stack['action'] );

@@ -183,17 +183,17 @@ class BB_Locale {
 		$this->meridiem['PM'] = __('PM');
 
 		// Numbers formatting
-		// See http://php.net/number_format
+		// See https://php.net/number_format
 
-		/* translators: $decimals argument for http://php.net/number_format, default is 0 */
+		/* translators: $decimals argument for https://php.net/number_format, default is 0 */
 		$trans = __('number_format_decimals');
 		$this->number_format['decimals'] = ('number_format_decimals' == $trans) ? 0 : $trans;
 
-		/* translators: $dec_point argument for http://php.net/number_format, default is . */
+		/* translators: $dec_point argument for https://php.net/number_format, default is . */
 		$trans = __('number_format_decimal_point');
 		$this->number_format['decimal_point'] = ('number_format_decimal_point' == $trans) ? '.' : $trans;
 
-		/* translators: $thousands_sep argument for http://php.net/number_format, default is , */
+		/* translators: $thousands_sep argument for https://php.net/number_format, default is , */
 		$trans = __('number_format_thousands_sep');
 		$this->number_format['thousands_sep'] = ('number_format_thousands_sep' == $trans) ? ',' : $trans;
 		
@@ -388,7 +388,7 @@ function bb_gmdate_i18n( $dateformatstring, $unixtimestamp = false, $gmt = true 
 	}
 
 	// store original value for language with untypical grammars
-	// see http://core.trac.wordpress.org/ticket/9396
+	// see https://core.trac.wordpress.org/ticket/9396
 	$req_format = $dateformatstring;
 
 	$datefunc = $gmt? 'gmdate' : 'date';

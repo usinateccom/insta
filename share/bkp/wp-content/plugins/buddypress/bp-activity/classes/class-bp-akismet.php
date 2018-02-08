@@ -320,7 +320,7 @@ class BP_Akismet {
 	 *
 	 * @since 1.6.0
 	 *
-	 * @see http://akismet.com/development/api/#comment-check
+	 * @see https://akismet.com/development/api/#comment-check
 	 * @static
 	 *
 	 * @param BP_Activity_Activity $activity Activity item data.
@@ -370,7 +370,7 @@ class BP_Akismet {
 	 *
 	 * @since 1.6.0
 	 *
-	 * @see http://akismet.com/development/api/
+	 * @see https://akismet.com/development/api/
 	 * @todo Spam counter?
 	 * @todo Auto-delete old spam?
 	 *

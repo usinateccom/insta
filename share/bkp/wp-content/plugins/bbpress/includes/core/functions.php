@@ -140,7 +140,7 @@ function bbp_get_views() {
 /**
  * Register a bbPress view
  *
- * @todo Implement feeds - See {@link http://trac.bbpress.org/ticket/1422}
+ * @todo Implement feeds - See {@link https://trac.bbpress.org/ticket/1422}
  *
  * @since bbPress (r2789)
  *

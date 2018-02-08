@@ -2,9 +2,9 @@
 
 /**
  * lessphp v0.5.0
- * http://leafo.net/lessphp
+ * https://leafo.net/lessphp
  *
- * LESS CSS compiler, adapted from http://lesscss.org
+ * LESS CSS compiler, adapted from https://lesscss.org
  *
  * Copyright 2013, Leaf Corcoran <leafot@gmail.com>
  * Licensed under MIT or GPLv3, see LICENSE
@@ -1201,7 +1201,7 @@ class lessc {
 
 	// mixes two colors by weight
 	// mix(@color1, @color2, [@weight: 50%]);
-	// http://sass-lang.com/docs/yardoc/Sass/Script/Functions.html#mix-instance_method
+	// https://sass-lang.com/docs/yardoc/Sass/Script/Functions.html#mix-instance_method
 	protected function lib_mix($args) {
 		if ($args[0] != "list" || count($args[2]) < 2)
 			$this->throwError("mix expects (color1, color2, weight)");
@@ -2592,7 +2592,7 @@ class lessc_parser {
 
 	/**
 	 * Attempt to consume an expression.
-	 * @link http://en.wikipedia.org/wiki/Operator-precedence_parser#Pseudo-code
+	 * @link https://en.wikipedia.org/wiki/Operator-precedence_parser#Pseudo-code
 	 */
 	protected function expression(&$out) {
 		if ($this->value($lhs)) {

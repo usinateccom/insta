@@ -143,7 +143,7 @@ class WPCOM_Widget_GooglePlus_Badge extends WP_Widget {
 
 		if ( $this->is_valid_googleplus_url( $instance['href'] ) ) {
 			$temp = explode( '?', $instance['href'] );
-			$instance['href'] = str_replace( array( 'http://plus.google.com', 'https://plus.google.com' ), 'https://plus.google.com', $temp[0] );
+			$instance['href'] = str_replace( array( 'https://plus.google.com', 'https://plus.google.com' ), 'https://plus.google.com', $temp[0] );
 		} else {
 			$instance['href'] = '';
 		}

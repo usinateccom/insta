@@ -592,8 +592,8 @@ msgstr "URL do stranice"
 #  C:Inetpubwwwrootwpwp-contentpluginssitemap_beta/sitemap.php:3155
 #: sitemap-ui.php:799
 #@ sitemap
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Unesite URL do stranice. Primeri: http://www.foo.com/index.html ili www.foo.com/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Unesite URL do stranice. Primeri: https://www.foo.com/index.html ili www.foo.com/home "
 
 #  C:Inetpubwwwrootwpwp-contentpluginssitemap_beta/sitemap.php:3157
 #  C:Inetpubwwwrootwpwp-contentpluginssitemap_beta/sitemap.php:3301
@@ -935,7 +935,7 @@ msgstr ""
 #. translators: plugin header field 'PluginURI'
 #: sitemap.php:0
 #@ sitemap
-msgid "http://www.arnebrachhold.de/redir/sitemap-home/"
+msgid "https://www.arnebrachhold.de/redir/sitemap-home/"
 msgstr ""
 
 #. translators: plugin header field 'Description'
@@ -953,7 +953,7 @@ msgstr ""
 #. translators: plugin header field 'AuthorURI'
 #: sitemap.php:0
 #@ sitemap
-msgid "http://www.arnebrachhold.de/"
+msgid "https://www.arnebrachhold.de/"
 msgstr ""
 
 #. translators: plugin header field 'Version'

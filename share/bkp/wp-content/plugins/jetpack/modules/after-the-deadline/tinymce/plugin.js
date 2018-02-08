@@ -5,7 +5,7 @@
  *
  * Updated for TinyMCE 4.0
  *
- * http://www.afterthedeadline.com
+ * https://www.afterthedeadline.com
  *
  * Distributed under the LGPL
  *

@@ -20,15 +20,15 @@ class acf_third_party
 	
 	function __construct()
 	{
-		// Tabify Edit Screen - http://wordpress.org/extend/plugins/tabify-edit-screen/
+		// Tabify Edit Screen - https://wordpress.org/extend/plugins/tabify-edit-screen/
 		add_action('admin_head-settings_page_tabify-edit-screen', array($this,'admin_head_tabify'));
 		
 		
-		// Duplicate Post - http://wordpress.org/extend/plugins/duplicate-post/
+		// Duplicate Post - https://wordpress.org/extend/plugins/duplicate-post/
 		add_action('dp_duplicate_page', array($this, 'dp_duplicate_page'), 11, 2);
 		
 		
-		// Post Type Switcher - http://wordpress.org/extend/plugins/post-type-switcher/
+		// Post Type Switcher - https://wordpress.org/extend/plugins/post-type-switcher/
 		add_filter('pts_post_type_filter', array($this, 'pts_post_type_filter'));
 	}
 	

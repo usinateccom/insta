@@ -93,7 +93,7 @@ if ( ! class_exists( 'Jetpack_Contact_Info_Widget' ) ) {
 			 */
 			do_action( 'jetpack_contact_info_widget_start' );
 
-			echo '<div itemscope itemtype="http://schema.org/LocalBusiness">';
+			echo '<div itemscope itemtype="https://schema.org/LocalBusiness">';
 
 			if ( '' != $instance['address'] ) {
 
@@ -114,7 +114,7 @@ if ( ! class_exists( 'Jetpack_Contact_Info_Widget' ) ) {
 
 				$map_link = $this->build_map_link( $instance['address'] );
 
-				echo '<div class="confit-address" itemscope itemtype="http://schema.org/PostalAddress" itemprop="address"><a href="' . esc_url( $map_link ) . '" target="_blank">' . str_replace( "\n", "<br/>", esc_html( $instance['address'] ) ) . "</a></div>";
+				echo '<div class="confit-address" itemscope itemtype="https://schema.org/PostalAddress" itemprop="address"><a href="' . esc_url( $map_link ) . '" target="_blank">' . str_replace( "\n", "<br/>", esc_html( $instance['address'] ) ) . "</a></div>";
 			}
 
 			if ( '' != $instance['phone'] ) {

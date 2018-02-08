@@ -748,7 +748,7 @@ final class WP_Customize_Nav_Menus {
 					<p id="menu-item-url-wrap">
 						<label class="howto" for="custom-menu-item-url">
 							<span><?php _e( 'URL' ); ?></span>
-							<input id="custom-menu-item-url" name="menu-item[-1][menu-item-url]" type="text" class="code menu-item-textbox" value="http://">
+							<input id="custom-menu-item-url" name="menu-item[-1][menu-item-url]" type="text" class="code menu-item-textbox" value="https://">
 						</label>
 					</p>
 					<p id="menu-item-name-wrap">

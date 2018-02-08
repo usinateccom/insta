@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2009-08-24 00:20+0100\n"
 "PO-Revision-Date: 2009-08-24 19:14+0100\n"
 "Last-Translator: Gianni Diurno (aka gidibao) <gidibao@gmail.com>\n"
-"Language-Team: Gianni Diurno | http://gidibao.net/ <gidibao@gmail.com>\n"
+"Language-Team: Gianni Diurno | https://gidibao.net/ <gidibao@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -237,7 +237,7 @@ msgstr "Gianni Diurno"
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:537
 msgid "translator_url"
-msgstr "http://gidibao.net/"
+msgstr "https://gidibao.net/"
 
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:540
 msgid "Sitemap Resources:"
@@ -660,8 +660,8 @@ msgid "URL to the page"
 msgstr "URL della pagina"
 
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:825
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "inserire la URL della pagina. Ad esempio:  http://www.foo.com/index.html oppure www.foo.com/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "inserire la URL della pagina. Ad esempio:  https://www.foo.com/index.html oppure www.foo.com/home "
 
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:827
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:864

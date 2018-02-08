@@ -7,7 +7,7 @@
  * @author     Justin Tadlock <justin@justintadlock.com>
  * @copyright  Copyright (c) 2016, Soderlind
  * @link       https://github.com/soderlind/class-customizer-range-value-control/blob/master/README.md
- * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @license    https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 if ( ! class_exists( 'WP_Customize_Control' ) ) {

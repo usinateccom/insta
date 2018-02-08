@@ -4,7 +4,7 @@
  * Version 1.43.20111201 (Previous rev: 1.42.20111120)
  * Copyright (c) 2007, Scott Schiller. All rights reserved.
  * Code provided under the BSD License:
- * http://schillmania.com/projects/snowstorm/license.txt
+ * https://schillmania.com/projects/snowstorm/license.txt
  */
 
 /*global window, document, navigator, clearInterval, setInterval */

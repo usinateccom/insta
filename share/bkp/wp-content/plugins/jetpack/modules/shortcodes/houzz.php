@@ -5,9 +5,9 @@
  *
  * Examples:
  * Post content:
- * 	- [houzz=http://www.houzz.com/pro/james-crisp]
- * 	- http://www.houzz.com/pro/james-crisp
- * Blog sidebar: [houzz=http://www.houzz.com/profile/alon w=200 h=300]
+ * 	- [houzz=https://www.houzz.com/pro/james-crisp]
+ * 	- https://www.houzz.com/pro/james-crisp
+ * Blog sidebar: [houzz=https://www.houzz.com/profile/alon w=200 h=300]
  */
 
 // Register oEmbed provider

@@ -110,7 +110,7 @@ function bp_core_add_admin_menu_page( $args = '' ) {
 
 	if ( empty( $icon_url ) )
 		$icon_url = 'images/generic.png';
-	elseif ( is_ssl() && 0 === strpos( $icon_url, 'http://' ) )
+	elseif ( is_ssl() && 0 === strpos( $icon_url, 'https://' ) )
 		$icon_url = 'https://' . substr( $icon_url, 7 );
 
 	do {
@@ -458,7 +458,7 @@ function bp_is_friend_requests() {
 
 /**
  * Checks to see if a component's URL should be in the root, not under a member page:
- * eg: http://example.com/groups/the-group NOT http://example.com/members/andy/groups/the-group
+ * eg: https://example.com/groups/the-group NOT https://example.com/members/andy/groups/the-group
  * You should be using bp_is_root_component().
  *
  * @deprecated 1.5.0

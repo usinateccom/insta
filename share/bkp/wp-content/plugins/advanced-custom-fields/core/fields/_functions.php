@@ -182,7 +182,7 @@ class acf_field_functions
 	{
 	
 		// strip slashes
-		// - not needed? http://support.advancedcustomfields.com/discussion/3168/backslashes-stripped-in-wysiwyg-filed
+		// - not needed? https://support.advancedcustomfields.com/discussion/3168/backslashes-stripped-in-wysiwyg-filed
 		//if( get_magic_quotes_gpc() )
 		//{
 			$value = stripslashes_deep($value);
@@ -213,8 +213,8 @@ class acf_field_functions
 		else
 		{
 			// for some reason, update_option does not use stripslashes_deep.
-			// update_metadata -> http://core.trac.wordpress.org/browser/tags/3.4.2/wp-includes/meta.php#L82: line 101 (does use stripslashes_deep)
-			// update_option -> http://core.trac.wordpress.org/browser/tags/3.5.1/wp-includes/option.php#L0: line 215 (does not use stripslashes_deep)
+			// update_metadata -> https://core.trac.wordpress.org/browser/tags/3.4.2/wp-includes/meta.php#L82: line 101 (does use stripslashes_deep)
+			// update_option -> https://core.trac.wordpress.org/browser/tags/3.5.1/wp-includes/option.php#L0: line 215 (does not use stripslashes_deep)
 			$value = stripslashes_deep($value);
 			
 			$this->update_option( $post_id . '_' . $field['name'], $value );
@@ -493,7 +493,7 @@ class acf_field_functions
 	function update_field( $field, $post_id )
 	{
 		// sanitize field name
-		// - http://support.advancedcustomfields.com/discussion/5262/sanitize_title-on-field-name
+		// - https://support.advancedcustomfields.com/discussion/5262/sanitize_title-on-field-name
 		// - issue with camel case! Replaced with JS
 		//$field['name'] = sanitize_title( $field['name'] );
 		

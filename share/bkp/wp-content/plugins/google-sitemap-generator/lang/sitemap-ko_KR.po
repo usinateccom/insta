@@ -154,7 +154,7 @@ msgstr "번역자 김승엽"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 msgid "translator_url"
-msgstr "http://unfusion.kunsan.ac.kr/word"
+msgstr "https://unfusion.kunsan.ac.kr/word"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2895
 msgid "Sitemap Resources:"
@@ -510,8 +510,8 @@ msgid "URL to the page"
 msgstr "페이지의 주소"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "페이지의 주소를 입력하십시오.예:http://www.foo.com/index.html or www.foo.com/home"
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "페이지의 주소를 입력하십시오.예:https://www.foo.com/index.html or www.foo.com/home"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3157
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3301

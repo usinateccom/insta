@@ -196,7 +196,7 @@ class acf_field_dummy extends acf_field
 	*  This action is called in the admin_enqueue_scripts action on the edit screen where your field is created.
 	*  Use this action to add css + javascript to assist your create_field() action.
 	*
-	*  $info	http://codex.wordpress.org/Plugin_API/Action_Reference/admin_enqueue_scripts
+	*  $info	https://codex.wordpress.org/Plugin_API/Action_Reference/admin_enqueue_scripts
 	*  @type	action
 	*  @since	3.6
 	*  @date	23/01/13
@@ -214,7 +214,7 @@ class acf_field_dummy extends acf_field
 	*  This action is called in the admin_head action on the edit screen where your field is created.
 	*  Use this action to add css and javascript to assist your create_field() action.
 	*
-	*  @info	http://codex.wordpress.org/Plugin_API/Action_Reference/admin_head
+	*  @info	https://codex.wordpress.org/Plugin_API/Action_Reference/admin_head
 	*  @type	action
 	*  @since	3.6
 	*  @date	23/01/13
@@ -232,7 +232,7 @@ class acf_field_dummy extends acf_field
 	*  This action is called in the admin_enqueue_scripts action on the edit screen where your field is edited.
 	*  Use this action to add css + javascript to assist your create_field_options() action.
 	*
-	*  $info	http://codex.wordpress.org/Plugin_API/Action_Reference/admin_enqueue_scripts
+	*  $info	https://codex.wordpress.org/Plugin_API/Action_Reference/admin_enqueue_scripts
 	*  @type	action
 	*  @since	3.6
 	*  @date	23/01/13
@@ -250,7 +250,7 @@ class acf_field_dummy extends acf_field
 	*  This action is called in the admin_head action on the edit screen where your field is edited.
 	*  Use this action to add css and javascript to assist your create_field_options() action.
 	*
-	*  @info	http://codex.wordpress.org/Plugin_API/Action_Reference/admin_head
+	*  @info	https://codex.wordpress.org/Plugin_API/Action_Reference/admin_head
 	*  @type	action
 	*  @since	3.6
 	*  @date	23/01/13

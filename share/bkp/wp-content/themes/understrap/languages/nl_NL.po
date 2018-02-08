@@ -56,8 +56,8 @@ msgid "Posts by"
 msgstr "Berichten van"
 
 #: ../footer.php:24 loco:58356fd352e1a1670d8b4571
-msgid "http://wordpress.org/"
-msgstr "http://wordpress.org/"
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
 
 #: ../footer.php:24 loco:58356fd352e1a1670d8b4572
 msgid "Proudly powered by %s"
@@ -254,8 +254,8 @@ msgstr "UnderStrap"
 
 #. Theme URI of the theme
 #: loco:58356fd352e1a1670d8b459c
-msgid "http://understrap.com"
-msgstr "http://understrap.com"
+msgid "https://understrap.com"
+msgstr "https://understrap.com"
 
 #. Description of the theme
 #: loco:58356fd352e1a1670d8b459d
@@ -275,5 +275,5 @@ msgstr "Holger Koenemann"
 
 #. Author URI of the theme
 #: loco:58356fd352e1a1670d8b459f
-msgid "http://www.holgerkoenemann.de"
-msgstr "http://www.holgerkoenemann.de"
+msgid "https://www.holgerkoenemann.de"
+msgstr "https://www.holgerkoenemann.de"

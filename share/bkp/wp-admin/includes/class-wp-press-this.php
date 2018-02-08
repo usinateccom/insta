@@ -1042,7 +1042,7 @@ class WP_Press_This {
 		if ( ! empty( $data['_images'] ) ) {
 			foreach ( $data['_images'] as $src ) {
 				if ( false !== strpos( $src, 'gravatar.com' ) ) {
-					$src = preg_replace( '%http://[\d]+\.gravatar\.com/%', 'https://secure.gravatar.com/', $src );
+					$src = preg_replace( '%https://[\d]+\.gravatar\.com/%', 'https://secure.gravatar.com/', $src );
 				}
 
 				$prot_relative_src = preg_replace( '/^https?:/', '', $src );

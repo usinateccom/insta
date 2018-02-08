@@ -38,10 +38,10 @@ require_once( './bb-load.php' );
 if ( isset( $_GET['rsd'] ) ) {
 	header( 'Content-Type: text/xml; charset=UTF-8', true );
 	echo '<?xml version="1.0" encoding="UTF-8"?'.'>' . "\n";
-	echo '<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">' . "\n";
+	echo '<rsd version="1.0" xmlns="https://archipelago.phrasewise.com/rsd">' . "\n";
 	echo '	<service>' . "\n";
 	echo '		<engineName>bbPress</engineName>' . "\n";
-	echo '		<engineLink>http://bbpress.org/</engineLink>' . "\n";
+	echo '		<engineLink>https://bbpress.org/</engineLink>' . "\n";
 	echo '		<homePageLink>' . bb_get_uri() . '</homePageLink>' . "\n";
 	echo '		<apis>' . "\n";
 	echo '			<api name="bbPress" blogID="1" preferred="true" apiLink="' . bb_get_uri( 'xmlrpc.php' ) . '" />' . "\n";
@@ -3820,7 +3820,7 @@ class BB_XMLRPC_Server extends IXR_Server
 	 * Processes pingback requests
 	 *
 	 * @since 1.0
-	 * @link http://www.hixie.ch/specs/pingback/pingback
+	 * @link https://www.hixie.ch/specs/pingback/pingback
 	 * @return string|object A message of success or an IXR_Error object on failure
 	 * @param array $args Arguments passed by the XML-RPC call
 	 * @param string $args[0] The full URI of the post where the pingback is being sent from
@@ -3830,8 +3830,8 @@ class BB_XMLRPC_Server extends IXR_Server
 	 * <methodCall>
 	 *     <methodName>pingback.ping</methodName>
 	 *     <params>
-	 *         <param><value><string>http://example.org/2008/09/post-containing-a-link/</string></value></param>
-	 *         <param><value><string>http://example.com/2008/08/post-being-linked-to/</string></value></param>
+	 *         <param><value><string>https://example.org/2008/09/post-containing-a-link/</string></value></param>
+	 *         <param><value><string>https://example.com/2008/08/post-being-linked-to/</string></value></param>
 	 *     </params>
 	 * </methodCall>
 	 */
@@ -4013,7 +4013,7 @@ class BB_XMLRPC_Server extends IXR_Server
 	 * Returns an array of URLs that pingbacked the given URL
 	 *
 	 * @since 1.0
-	 * @link http://www.aquarionics.com/misc/archives/blogite/0198.html
+	 * @link https://www.aquarionics.com/misc/archives/blogite/0198.html
 	 * @return array The array of URLs that pingbacked the given topic
 	 * @param array $args Arguments passed by the XML-RPC call
 	 * @param string $args[0] The full URI of the post where the pingback is being sent from
@@ -4023,7 +4023,7 @@ class BB_XMLRPC_Server extends IXR_Server
 	 * <methodCall>
 	 *     <methodName>pingback.ping</methodName>
 	 *     <params>
-	 *         <param><value><string>http://example.com/2008/08/post-tobe-queried/</string></value></param>
+	 *         <param><value><string>https://example.com/2008/08/post-tobe-queried/</string></value></param>
 	 *     </params>
 	 * </methodCall>
 	 */

@@ -24,7 +24,7 @@
  *
  * Calendar:
  * <iframe src="https://www.google.com/calendar/embed?src=serjant%40gmail.com&ctz=Europe/Sofia" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
- * <iframe src="http://www.google.com/calendar/hosted/belcastro.com/embed?src=n8nr8sd6v9hnus3nmlk7ed1238%40group.calendar.google.com&ctz=Europe/Zurich" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+ * <iframe src="https://www.google.com/calendar/hosted/belcastro.com/embed?src=n8nr8sd6v9hnus3nmlk7ed1238%40group.calendar.google.com&ctz=Europe/Zurich" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
  *
  * Customized calendar:
  * <iframe src="https://www.google.com/calendar/embed?title=asdf&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;

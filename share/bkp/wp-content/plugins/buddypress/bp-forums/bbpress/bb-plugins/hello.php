@@ -6,11 +6,11 @@
  */
 /*
 Plugin Name: Hello Louie
-Plugin URI: http://bbpress.org/
+Plugin URI: https://bbpress.org/
 Description: A tip of the hat to the venerable Hello Dolly plugin from WordPress. When activated you will randomly see a lyric from Frank Sinatra's 1964 rendition of "Hello Dolly" in the upper right of your admin screen on every page. This version includes a rewritten second verse as a tribute to Louis Armstrong.
 Author: Matt Mullenweg
 Version: 1.0
-Author URI: http://ma.tt/
+Author URI: https://ma.tt/
 */
 
 function hello_louie_get_lyric() {

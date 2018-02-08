@@ -359,7 +359,7 @@ abstract class BP_Core_oEmbed_Extension {
 	 *
 	 * @since 2.6.0
 	 *
-	 * @link http://oembed.com/ View the 'Response parameters' section for more details.
+	 * @link https://oembed.com/ View the 'Response parameters' section for more details.
 	 *
 	 * @param array $item  Custom oEmbed response data.
 	 * @param int   $width The requested width.

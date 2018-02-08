@@ -89,7 +89,7 @@ if ( $comment->comment_post_ID > 0 ):
 
 <div class="misc-pub-section curtime misc-pub-curtime">
 <?php
-/* translators: Publish box date format, see http://php.net/date */
+/* translators: Publish box date format, see https://php.net/date */
 $datef = __( 'M j, Y @ H:i' );
 ?>
 <span id="timestamp"><?php

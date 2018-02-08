@@ -6,7 +6,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ *     https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -538,7 +538,7 @@ class Google_Client
 
   /**
    * Set OAuth 2.0 "state" parameter to achieve per-request customization.
-   * @see http://tools.ietf.org/html/draft-ietf-oauth-v2-22#section-3.1.2.2
+   * @see https://tools.ietf.org/html/draft-ietf-oauth-v2-22#section-3.1.2.2
    * @param string $state
    */
   public function setState($state)
@@ -602,7 +602,7 @@ class Google_Client
 
   /**
    * Set the developer key to use, these are obtained through the API Console.
-   * @see http://code.google.com/apis/console-help/#generatingdevkeys
+   * @see https://code.google.com/apis/console-help/#generatingdevkeys
    * @param string $developerKey
    */
   public function setDeveloperKey($developerKey)

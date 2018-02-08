@@ -171,7 +171,7 @@ if ( $manual_instructions ) {
 <form class="settings" method="post" action="<?php bb_uri( 'bb-admin/options-permalinks.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_ADMIN ); ?>">
 	<fieldset>
 		<p>
-			<?php _e( 'If your <code>.htaccess</code> file were <a href="http://codex.wordpress.org/Changing_File_Permissions">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all.' ); ?>
+			<?php _e( 'If your <code>.htaccess</code> file were <a href="https://codex.wordpress.org/Changing_File_Permissions">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all.' ); ?>
 		</p>
 		<textarea dir="ltr" id="rewrite-rules" class="readonly" readonly="readonly" rows="6"><?php echo esc_html( trim( $file_source_rules ) ); ?></textarea>
 	</fieldset>

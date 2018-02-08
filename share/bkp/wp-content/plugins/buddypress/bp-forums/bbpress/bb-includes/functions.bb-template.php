@@ -113,13 +113,13 @@ function bb_get_generator( $type = 'xhtml' )
 			$gen = '<meta name="generator" content="bbPress ' . bb_get_option( 'version' ) . '" />';
 			break;
 		case 'atom':
-			$gen = '<generator uri="http://bbpress.org/" version="' . bb_get_option( 'version' ) . '">bbPress</generator>';
+			$gen = '<generator uri="https://bbpress.org/" version="' . bb_get_option( 'version' ) . '">bbPress</generator>';
 			break;
 		case 'rss2':
-			$gen = '<generator>http://bbpress.org/?v=' . bb_get_option( 'version' ) . '</generator>';
+			$gen = '<generator>https://bbpress.org/?v=' . bb_get_option( 'version' ) . '</generator>';
 			break;
 		case 'rdf':
-			$gen = '<admin:generatorAgent rdf:resource="http://bbpress.org/?v=' . bb_get_option( 'version' ) . '" />';
+			$gen = '<admin:generatorAgent rdf:resource="https://bbpress.org/?v=' . bb_get_option( 'version' ) . '" />';
 			break;
 		case 'comment':
 			$gen = '<!-- generator="bbPress/' . bb_get_option( 'version' ) . '" -->';
@@ -198,7 +198,7 @@ function bb_head()
 /**
  * Display the link to the Really Simple Discovery service endpoint.
  *
- * @link http://archipelago.phrasewise.com/rsd
+ * @link https://archipelago.phrasewise.com/rsd
  * @since 1.0
  */
 function bb_rsd_link() {
@@ -2419,7 +2419,7 @@ function bb_profile_data( $id = 0 ) {
 			if (
 				( 'user_email' != $key || ( 'user_email' == $key && bb_current_user_can( 'edit_users' ) ) )
 				&& $val
-				&& 'http://' != $val
+				&& 'https://' != $val
 			) {
 				echo "\t<dt>{$label[1]}</dt>\n";
 				$val = make_clickable( $val );

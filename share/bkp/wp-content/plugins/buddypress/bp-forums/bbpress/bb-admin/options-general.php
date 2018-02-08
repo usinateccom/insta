@@ -121,7 +121,7 @@ $time_options = array(
 		'value' => bb_get_datetime_formatstring_i18n(),
 		'after' => bb_datetime_format_i18n( bb_current_time() ),
 		'note' => array(
-			__( '<a href="http://codex.wordpress.org/Formatting_Date_and_Time">Documentation on date formatting</a>.' ),
+			__( '<a href="https://codex.wordpress.org/Formatting_Date_and_Time">Documentation on date formatting</a>.' ),
 			__( 'Click "Save Changes" to update sample output.' )
 		)
 	),

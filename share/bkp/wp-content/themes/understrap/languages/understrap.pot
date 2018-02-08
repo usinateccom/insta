@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: understrap\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/_s\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
 "POT-Creation-Date: 2016-12-20 05:10+0000\n"
 "POT-Revision-Date: Mon Jul 04 2016 09:13:18 GMT+0200 (CEST)\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -118,7 +118,7 @@ msgid "Comments are closed."
 msgstr ""
 
 #: footer.php:27
-msgid "http://wordpress.org/"
+msgid "https://wordpress.org/"
 msgstr ""
 
 #: footer.php:28
@@ -752,7 +752,7 @@ msgid ""
 msgstr ""
 
 #. Theme URI of the theme
-msgid "http://understrap.com"
+msgid "https://understrap.com"
 msgstr ""
 
 #. Author of the theme
@@ -760,5 +760,5 @@ msgid "Holger Koenemann"
 msgstr ""
 
 #. Author URI of the theme
-msgid "http://www.holgerkoenemann.de"
+msgid "https://www.holgerkoenemann.de"
 msgstr ""

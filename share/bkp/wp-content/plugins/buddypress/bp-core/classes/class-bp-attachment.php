@@ -124,7 +124,7 @@ abstract class BP_Attachment {
 
 		// Ensure URL is https if SSL is set/forced.
 		if ( is_ssl() ) {
-			$this->url = str_replace( 'http://', 'https://', $this->url );
+			$this->url = str_replace( 'https://', 'https://', $this->url );
 		}
 
 		/**

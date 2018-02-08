@@ -175,7 +175,7 @@ class acf_field_wysiwyg extends acf_field
 	*  This action is called in the admin_head action on the edit screen where your field is created.
 	*  Use this action to add css and javascript to assist your create_field() action.
 	*
-	*  @info	http://codex.wordpress.org/Plugin_API/Action_Reference/admin_head
+	*  @info	https://codex.wordpress.org/Plugin_API/Action_Reference/admin_head
 	*  @type	action
 	*  @since	3.6
 	*  @date	23/01/13

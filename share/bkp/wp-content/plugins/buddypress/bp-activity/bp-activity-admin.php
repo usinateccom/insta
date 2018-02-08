@@ -758,7 +758,7 @@ function bp_activity_admin_edit_metabox_status( $item ) {
 
 				<div class="misc-pub-section curtime misc-pub-section-last">
 					<?php
-					// Translators: Publish box date format, see http://php.net/date.
+					// Translators: Publish box date format, see https://php.net/date.
 					$datef = __( 'M j, Y @ G:i', 'buddypress' );
 					$date  = date_i18n( $datef, strtotime( $item->date_recorded ) );
 					?>

@@ -95,7 +95,7 @@ class Jetpack_Internet_Defense_League_Widget extends WP_Widget {
 				var idl = document.createElement('script');
 				idl.type = 'text/javascript';
 				idl.async = true;
-				idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
+				idl.src = ('https:' == document.location.protocol ? 'https://' : 'https://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
 				document.getElementsByTagName('body')[0].appendChild(idl);
 			})();
 		</script>

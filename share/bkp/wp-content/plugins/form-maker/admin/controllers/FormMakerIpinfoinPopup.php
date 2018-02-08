@@ -26,7 +26,7 @@ class FMControllerFormmakeripinfoinpopup {
     // Get IP
     $ip = WDW_FM_Library::get('data_ip', '');
     // Connect to IP api service and get IP info.
-    $ipinfo = @unserialize(file_get_contents('http://ip-api.com/php/' . $ip));
+    $ipinfo = @unserialize(file_get_contents('https://ip-api.com/php/' . $ip));
     $city = '-';
     $country = '-';
     $countryCode = '-';

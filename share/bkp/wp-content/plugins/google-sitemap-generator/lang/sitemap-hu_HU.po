@@ -150,7 +150,7 @@ msgstr "Cenzi"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 msgid "translator_url"
-msgstr "http://blog.cenzi.hu"
+msgstr "https://blog.cenzi.hu"
 
 msgid "Sitemap Resources:"
 msgstr "Oldaltérkép eredmények:"
@@ -453,8 +453,8 @@ msgstr "Ha a blogod egy alkönyvtárban van és olyan oldalakat szeretnél felve
 msgid "URL to the page"
 msgstr "Oldal URL-je"
 
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Írd be az oldal URL-jét. Például: http://www.akarmi.hu/index.html vagy www.akarmi.hu/home"
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Írd be az oldal URL-jét. Például: https://www.akarmi.hu/index.html vagy www.akarmi.hu/home"
 
 msgid "Priority"
 msgstr "Fontosság"

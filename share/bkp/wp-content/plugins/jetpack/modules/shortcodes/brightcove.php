@@ -47,7 +47,7 @@ class Jetpack_Brightcove_Shortcode {
 	 * The latest: [shortcode a=1 b=2] and the legacy: [shortcode a=1&b=2]
 	 * For an old shortcode: [shortcode a=1&b=2&c=3], it would be parsed into array( 'a' => 1&b=2&c=3' ), which is useless.
 	 * However, since we want to determine whether to call convert_to_legacy_studio() or convert_to_new_studio() via passed parameters, we still need to parse the two properly.
-	 * See http://jetpack.wp-a2z.org/oik_api/shortcode_new_to_old_params/
+	 * See https://jetpack.wp-a2z.org/oik_api/shortcode_new_to_old_params/
 	 *
 	 * @since 4.5.0
 	 *
@@ -156,8 +156,8 @@ class Jetpack_Brightcove_Shortcode {
 
 		$fv = array(
 			'viewerSecureGatewayURL' => 'https://services.brightcove.com/services/amfgateway',
-			'servicesURL'            => 'http://services.brightcove.com/services',
-			'cdnURL'                 => 'http://admin.brightcove.com',
+			'servicesURL'            => 'https://services.brightcove.com/services',
+			'cdnURL'                 => 'https://admin.brightcove.com',
 			'autoStart'              => 'false',
 		);
 
@@ -171,7 +171,7 @@ class Jetpack_Brightcove_Shortcode {
 				$js_tld = 'co.jp';
 			}
 			if ( ! isset( $attr['surl'] ) || ! preg_match( '#^https?://(?:[a-z\d-]+\.)*brightcove\.(?:com|co\.jp)/#', $attr['surl'] ) ) {
-				$attr['surl'] = 'http://c.brightcove.com/services';
+				$attr['surl'] = 'https://c.brightcove.com/services';
 			}
 
 			$attr['exp3']  = intval( $attr['exp3'] );
@@ -191,7 +191,7 @@ class Jetpack_Brightcove_Shortcode {
 			$html5 = true;
 		} elseif ( isset( $attr['exp'] ) ) {
 			$attr['exp'] = intval( $attr['exp'] );
-			$src         = 'http://services.brightcove.com/services/viewer/federated_f8/' . $attr['exp'];
+			$src         = 'https://services.brightcove.com/services/viewer/federated_f8/' . $attr['exp'];
 			if ( $attr['vid'] ) {
 				$fv['videoId'] = $attr['vid'];
 			} else if ( $attr['vref'] ) {
@@ -257,7 +257,7 @@ class Jetpack_Brightcove_Shortcode {
 				</object>';
 		}
 
-		return sprintf( '<embed src="%s" bgcolor="#FFFFFF" flashvars="%s" base="http://admin.brightcove.com" name="%s" width="%s" height="%s" allowFullScreen="true" seamlesstabbing="false" type="application/x-shockwave-flash" swLiveConnect="true" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" />',
+		return sprintf( '<embed src="%s" bgcolor="#FFFFFF" flashvars="%s" base="https://admin.brightcove.com" name="%s" width="%s" height="%s" allowFullScreen="true" seamlesstabbing="false" type="application/x-shockwave-flash" swLiveConnect="true" pluginspage="https://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" />',
 			esc_url( $src ),
 			$flashvars,
 			esc_attr( $name ),

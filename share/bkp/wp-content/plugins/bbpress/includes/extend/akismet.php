@@ -640,7 +640,7 @@ class BBP_Akismet {
 			);
 
 			// Where we are sending our request
-			$akismet_url = 'http://' . $http_host . $path;
+			$akismet_url = 'https://' . $http_host . $path;
 
 			// Send the request
 			$response    = wp_remote_post( $akismet_url, $http_args );

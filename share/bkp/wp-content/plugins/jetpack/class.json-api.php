@@ -89,7 +89,7 @@ class WPCOM_JSON_API {
 			$this->method = strtoupper( $method );
 		}
 		if ( is_null( $url ) ) {
-			$this->url = set_url_scheme( 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
+			$this->url = set_url_scheme( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
 		} else {
 			$this->url = $url;
 		}
@@ -417,7 +417,7 @@ class WPCOM_JSON_API {
 		if ( $callback ) {
 			// Mitigate Rosetta Flash [1] by setting the Content-Type-Options: nosniff header
 			// and by prepending the JSONP response with a JS comment.
-			// [1] http://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/
+			// [1] https://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/
 			echo "/**/$callback(";
 
 		}
@@ -661,7 +661,7 @@ class WPCOM_JSON_API {
 			'response' => $this->trapped_error['status'],
 		) );
 
-		// ... unless it's 500 ( see http://wp.me/pMz3w-5VV )
+		// ... unless it's 500 ( see https://wp.me/pMz3w-5VV )
 		if ( (int) $args['response'] !== 500 ) {
 			$this->trapped_error['status'] = $args['response'];
 		}

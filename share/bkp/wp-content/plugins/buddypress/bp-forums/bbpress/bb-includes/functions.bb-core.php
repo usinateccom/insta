@@ -193,7 +193,7 @@ function bb_set_custom_user_tables()
  * The 'total' argument is the total amount of pages and is an integer. The
  * 'current' argument is the current page number and is also an integer.
  *
- * An example of the 'base' argument is "http://example.com/all_posts.php%_%"
+ * An example of the 'base' argument is "https://example.com/all_posts.php%_%"
  * and the '%_%' is required. The '%_%' will be replaced by the contents of in
  * the 'format' argument. An example for the 'format' argument is "?page=%#%"
  * and the '%#%' is also required. The '%#%' will be replaced with the page
@@ -221,7 +221,7 @@ function bb_set_custom_user_tables()
  */
 function bb_paginate_links( $args = '' ) {
 	$defaults = array(
-		'base'         => '%_%', // http://example.com/all_posts.php%_% : %_% is replaced by format (below)
+		'base'         => '%_%', // https://example.com/all_posts.php%_% : %_% is replaced by format (below)
 		'format'       => '?page=%#%', // ?page=%#% : %#% is replaced by the page number
 		'total'        => 1,
 		'current'      => 0,
@@ -682,7 +682,7 @@ function bb_pingback_header() {
 		@header('X-Pingback: '. bb_get_uri('xmlrpc.php', null, BB_URI_CONTEXT_HEADER + BB_URI_CONTEXT_BB_XMLRPC));
 }
 
-// Inspired by and adapted from Yung-Lung Scott YANG's http://scott.yang.id.au/2005/05/permalink-redirect/ (GPL)
+// Inspired by and adapted from Yung-Lung Scott YANG's https://scott.yang.id.au/2005/05/permalink-redirect/ (GPL)
 function bb_repermalink() {
 	global $page;
 	$location = bb_get_location();
@@ -1019,7 +1019,7 @@ function bb_register_default_views() {
  * or the last modified date sent by the client is newer or the same as the
  * generated last modified, the function sends a 304 Not Modified and exits.
  *
- * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.3
+ * @link https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.3
  * @param string $bb_last_modified Last modified time. Must be a HTTP-date
  */
 function bb_send_304( $bb_last_modified ) {
@@ -1147,8 +1147,8 @@ function bb_install_header( $title = '', $header = false, $logo = false )
 	
 	header('Content-Type: text/html; charset=utf-8');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"<?php if ( function_exists( 'bb_language_attributes' ) ) bb_language_attributes(); ?>>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml"<?php if ( function_exists( 'bb_language_attributes' ) ) bb_language_attributes(); ?>>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title><?php echo $title; ?></title>

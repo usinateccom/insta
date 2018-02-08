@@ -971,7 +971,7 @@ class BB_Install
 		if ( $bb->uri ) {
 			$uri = $bb->uri;
 		} else {
-			$schema = 'http://';
+			$schema = 'https://';
 			if ( isset( $_SERVER['HTTPS'] ) && strtolower( $_SERVER['HTTPS'] ) == 'on' ) {
 				$schema = 'https://';
 			}
@@ -2162,7 +2162,7 @@ class BB_Install
 
 		if ( $keymaster_created ) {
 			$keymaster_email_message = sprintf(
-				__( "Your new bbPress site has been successfully set up at:\n\n%1\$s\n\nYou can log in to the key master account with the following information:\n\nUsername: %2\$s\nPassword: %3\$s\n\nWe hope you enjoy your new forums. Thanks!\n\n--The bbPress Team\nhttp://bbpress.org/" ),
+				__( "Your new bbPress site has been successfully set up at:\n\n%1\$s\n\nYou can log in to the key master account with the following information:\n\nUsername: %2\$s\nPassword: %3\$s\n\nWe hope you enjoy your new forums. Thanks!\n\n--The bbPress Team\nhttps://bbpress.org/" ),
 				bb_get_uri( null, null, BB_URI_CONTEXT_TEXT ),
 				$data3['keymaster_user_login']['value'],
 				$data4['keymaster_user_password']['value']

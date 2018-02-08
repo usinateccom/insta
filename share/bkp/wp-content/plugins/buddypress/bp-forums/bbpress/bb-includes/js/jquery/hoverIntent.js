@@ -5,7 +5,7 @@
 * threshold) before firing the onMouseOver event.
 * 
 * hoverIntent r5 // 2007.03.27 // jQuery 1.1.2+
-* <http://cherne.net/brian/resources/jquery.hoverIntent.html>
+* <https://cherne.net/brian/resources/jquery.hoverIntent.html>
 * 
 * hoverIntent is currently available for use in all personal or commercial 
 * projects under both MIT and GPL licenses. This means that you can choose 

@@ -1,6 +1,6 @@
 function maybePrefixUrlField() {
 	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
-		this.value = "http://" + this.value;
+		this.value = "https://" + this.value;
 	}
 }
 

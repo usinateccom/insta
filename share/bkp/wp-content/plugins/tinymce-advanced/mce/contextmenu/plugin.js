@@ -90,8 +90,8 @@ defineGlobal("global!tinymce.util.Tools.resolve", tinymce.util.Tools.resolve);
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 define(
@@ -110,8 +110,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 define(
@@ -130,8 +130,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 define(
@@ -150,8 +150,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 define(
@@ -170,8 +170,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 define(
@@ -517,9 +517,9 @@ define(
     // It's a total micro optimisation, but these do make some difference.
     // Particularly for browsers other than Chrome.
     // - length caching
-    // http://jsperf.com/browser-diet-jquery-each-vs-for-loop/69
+    // https://jsperf.com/browser-diet-jquery-each-vs-for-loop/69
     // - not using push
-    // http://jsperf.com/array-direct-assignment-vs-push/2
+    // https://jsperf.com/array-direct-assignment-vs-push/2
 
     var chunk = function (array, size) {
       var r = [];
@@ -532,7 +532,7 @@ define(
 
     var map = function(xs, f) {
       // pre-allocating array size when it's guaranteed to be known
-      // http://jsperf.com/push-allocated-vs-dynamic/22
+      // https://jsperf.com/push-allocated-vs-dynamic/22
       var len = xs.length;
       var r = new Array(len);
       for (var i = 0; i < len; i++) {
@@ -589,7 +589,7 @@ define(
      *
      * Order of the elements is preserved. Arr.flatten() on the result will return the original list, as with Haskell groupBy function.
      *  For a good explanation, see the group function (which is a special case of groupBy)
-     *  http://hackage.haskell.org/package/base-4.7.0.0/docs/Data-List.html#v:group
+     *  https://hackage.haskell.org/package/base-4.7.0.0/docs/Data-List.html#v:group
      */
     var groupBy = function (xs, f) {
       if (xs.length === 0) {
@@ -664,7 +664,7 @@ define(
     var push = Array.prototype.push;
     var flatten = function (xs) {
       // Note, this is possible because push supports multiple arguments:
-      // http://jsperf.com/concat-push/6
+      // https://jsperf.com/concat-push/6
       // Note that in the past, concat() would silently work (very slowly) for array-like objects.
       // With this change it will throw an error.
       var r = [];
@@ -763,8 +763,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 define(
@@ -803,8 +803,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 /**

@@ -11,7 +11,7 @@ function jetpack_gravatar_profile_widget_init() {
 
 /**
  * Display a widgetized version of your Gravatar Profile
- * http://blog.gravatar.com/2010/03/26/gravatar-profiles/
+ * https://blog.gravatar.com/2010/03/26/gravatar-profiles/
  */
 class Jetpack_Gravatar_Profile_Widget extends WP_Widget {
 
@@ -344,7 +344,7 @@ class Jetpack_Gravatar_Profile_Widget extends WP_Widget {
 		$cache_key = 'grofile-' . $hashed_email;
 
 		if( ! $profile = get_transient( $cache_key ) ) {
-			$profile_url = esc_url_raw( sprintf( '%s.gravatar.com/%s.json', ( is_ssl() ? 'https://secure' : 'http://www' ), $hashed_email ), array( 'http', 'https' ) );
+			$profile_url = esc_url_raw( sprintf( '%s.gravatar.com/%s.json', ( is_ssl() ? 'https://secure' : 'https://www' ), $hashed_email ), array( 'http', 'https' ) );
 
 			$expire = 300;
 			$response = wp_remote_get( $profile_url, array( 'User-Agent' => 'WordPress.com Gravatar Profile Widget' ) );

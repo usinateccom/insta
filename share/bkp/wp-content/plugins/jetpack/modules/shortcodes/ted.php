@@ -1,17 +1,17 @@
 <?php
 /*
  * TED Player embed code
- * http://www.ted.com
+ * https://www.ted.com
  *
- * http://www.ted.com/talks/view/id/210
- * http://www.ted.com/talks/marc_goodman_a_vision_of_crimes_in_the_future.html
+ * https://www.ted.com/talks/view/id/210
+ * https://www.ted.com/talks/marc_goodman_a_vision_of_crimes_in_the_future.html
  * [ted id="210" lang="en"]
- * [ted id="http://www.ted.com/talks/view/id/210" lang="en"]
+ * [ted id="https://www.ted.com/talks/view/id/210" lang="en"]
  * [ted id=1539 lang=fr width=560 height=315]
  */
 
-wp_oembed_add_provider( '!https?://(www\.)?ted.com/talks/view/id/.+!i', 'http://www.ted.com/talks/oembed.json', true );
-wp_oembed_add_provider( '!https?://(www\.)?ted.com/talks/[a-zA-Z\-\_]+\.html!i', 'http://www.ted.com/talks/oembed.json', true );
+wp_oembed_add_provider( '!https?://(www\.)?ted.com/talks/view/id/.+!i', 'https://www.ted.com/talks/oembed.json', true );
+wp_oembed_add_provider( '!https?://(www\.)?ted.com/talks/[a-zA-Z\-\_]+\.html!i', 'https://www.ted.com/talks/oembed.json', true );
 
 function jetpack_shortcode_get_ted_id( $atts ) {
 	return ( ! empty( $atts['id'] ) ? $atts['id'] : 0 );
@@ -35,7 +35,7 @@ function shortcode_ted( $atts ) {
 
 	$url = '';
 	if ( preg_match( '#^[\d]+$#', $atts['id'], $matches ) ) {
-		$url = 'http://ted.com/talks/view/id/' . $matches[0];
+		$url = 'https://ted.com/talks/view/id/' . $matches[0];
 	} elseif ( preg_match( '#^https?://(www\.)?ted\.com/talks/view/id/[0-9]+$#', $atts['id'], $matches ) ) {
 		$url = $matches[0];
 	}

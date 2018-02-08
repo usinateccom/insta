@@ -363,7 +363,7 @@ class BP_Blogs_Blog {
 			$user_blogs[$blog->blog_id] = new stdClass;
 			$user_blogs[$blog->blog_id]->id = (int) $blog->id;
 			$user_blogs[$blog->blog_id]->blog_id = (int) $blog->blog_id;
-			$user_blogs[$blog->blog_id]->siteurl = ( is_ssl() ) ? 'https://' . $blog->domain . $blog->path : 'http://' . $blog->domain . $blog->path;
+			$user_blogs[$blog->blog_id]->siteurl = ( is_ssl() ) ? 'https://' . $blog->domain . $blog->path : 'https://' . $blog->domain . $blog->path;
 			$user_blogs[$blog->blog_id]->name = $blog->name;
 		}
 

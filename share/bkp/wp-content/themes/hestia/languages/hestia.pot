@@ -329,7 +329,7 @@ msgstr ""
 #: inc/customizer-repeater/class/class-hestia-repeater.php:685
 #: inc/customizer-repeater/class/class-hestia-repeater.php:763
 #. translators: Fontawesome link with full list of icons available
-msgid "http://fontawesome.io/icons/"
+msgid "https://fontawesome.io/icons/"
 msgstr ""
 
 #: inc/customizer-repeater/class/class-hestia-repeater.php:721
@@ -1940,7 +1940,7 @@ msgstr ""
 
 #: inc/template-tags.php:797
 #. translators: %s is WordPress
-msgid "http://wordpress.org"
+msgid "https://wordpress.org"
 msgstr ""
 
 #: inc/template-tags.php:1001

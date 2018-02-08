@@ -11,7 +11,7 @@ if ( ini_get('safe_mode') )
 // Stop removing lines
 
 // Very old (pre 0.7) installs may need further upgrade utilities.
-// Post to http://lists.bbpress.org/mailman/listinfo/bbdev if needed
+// Post to https://lists.bbpress.org/mailman/listinfo/bbdev if needed
 
 require('../bb-load.php');
 require( BB_PATH . 'bb-admin/includes/functions.bb-upgrade.php' );

@@ -4,10 +4,10 @@
  *
  * Usage:
  * [archiveorg Experime1940]
- * [archiveorg http://archive.org/details/Experime1940 poster=http://archive.org/images/map.png]
+ * [archiveorg https://archive.org/details/Experime1940 poster=https://archive.org/images/map.png]
  * [archiveorg id=Experime1940 width=640 height=480 autoplay=1]
 
- * <iframe src="http://archive.org/embed/Experime1940&autoplay=1&poster=http://archive.org/images/map.png" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+ * <iframe src="https://archive.org/embed/Experime1940&autoplay=1&poster=https://archive.org/images/map.png" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 */
 
 /**

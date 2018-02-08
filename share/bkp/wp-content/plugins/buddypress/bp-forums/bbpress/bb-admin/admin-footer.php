@@ -19,9 +19,9 @@ bb_number_format_i18n( $bbdb->num_queries )
 <?php
 printf(
 	__( 'Thank you for using <a href="%s">bbPress</a>. | <a href="%s">Documentation</a> | <a href="%s">Feedback</a>' ),
-	'http://bbpress.org/',
-	'http://bbpress.org/documentation/',
-	'http://bbpress.org/forums/forum/requests-and-feedback'
+	'https://bbpress.org/',
+	'https://bbpress.org/documentation/',
+	'https://bbpress.org/forums/forum/requests-and-feedback'
 );
 ?>
 		</p>

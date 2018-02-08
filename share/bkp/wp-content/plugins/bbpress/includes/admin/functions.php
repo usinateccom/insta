@@ -154,7 +154,7 @@ function bbp_sanitize_slug( $slug = '' ) {
 	$value = esc_url_raw( $value );
 
 	// esc_url_raw() adds a scheme via esc_url(), so let's remove it
-	$value = str_replace( 'http://', '', $value );
+	$value = str_replace( 'https://', '', $value );
 
 	// Trim off first and last slashes.
 	//

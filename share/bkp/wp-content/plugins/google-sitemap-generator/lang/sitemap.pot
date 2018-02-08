@@ -615,7 +615,7 @@ msgstr ""
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
 #: C:\Inetpub\wwwroot\wp_svn\wp-content\plugins\sitemap_beta/sitemap-ui.php:946
 msgid ""
-"Enter the URL to the page. Examples: http://www.foo.com/index.html or www."
+"Enter the URL to the page. Examples: https://www.foo.com/index.html or www."
 "foo.com/home "
 msgstr ""
 

@@ -162,7 +162,7 @@ msgstr "Перавёў Сяргей Рывкин"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 msgid "translator_url"
-msgstr "http://ryvkin.ru"
+msgstr "https://ryvkin.ru"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2895
 msgid "Sitemap Resources:"
@@ -492,8 +492,8 @@ msgid "URL to the page"
 msgstr "URL старонкі"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Увядзіце URL гэтай старонкі. Прыклады: http://www.foo.com/index.html або www.foo.com/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Увядзіце URL гэтай старонкі. Прыклады: https://www.foo.com/index.html або www.foo.com/home "
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3157
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3301

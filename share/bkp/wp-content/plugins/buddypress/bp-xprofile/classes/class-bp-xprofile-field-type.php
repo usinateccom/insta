@@ -438,9 +438,9 @@ abstract class BP_XProfile_Field_Type {
 	 * In some cases, it may be appropriate for a field type to catch
 	 * submitted values and modify them before they are passed to the
 	 * is_valid() method. For example, URL validation requires the
-	 * 'http://' scheme (so that the value saved in the database is always
+	 * 'https://' scheme (so that the value saved in the database is always
 	 * a fully-formed URL), but in order to allow users to enter a URL
-	 * without this scheme, BP_XProfile_Field_Type_URL prepends 'http://'
+	 * without this scheme, BP_XProfile_Field_Type_URL prepends 'https://'
 	 * when it's not present.
 	 *
 	 * By default, this is a pass-through method that does nothing. Only

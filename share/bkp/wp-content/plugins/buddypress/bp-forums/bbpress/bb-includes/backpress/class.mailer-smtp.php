@@ -6,8 +6,8 @@
 |  Software: PHPMailer - PHP email class                                    |
 |   Version: 2.0.4                                                          |
 |   Contact: via sourceforge.net support pages (also www.codeworxtech.com)  |
-|      Info: http://phpmailer.sourceforge.net                               |
-|   Support: http://sourceforge.net/projects/phpmailer/                     |
+|      Info: https://phpmailer.sourceforge.net                               |
+|   Support: https://sourceforge.net/projects/phpmailer/                     |
 | ------------------------------------------------------------------------- |
 |    Author: Andy Prevost (project admininistrator)                         |
 |    Author: Brent R. Matzelle (original founder)                           |
@@ -15,7 +15,7 @@
 | Copyright (c) 2001-2003, Brent R. Matzelle                                |
 | ------------------------------------------------------------------------- |
 |   License: Distributed under the Lesser General Public License (LGPL)     |
-|            http://www.gnu.org/copyleft/lesser.html                        |
+|            https://www.gnu.org/copyleft/lesser.html                        |
 | This program is distributed in the hope that it will be useful - WITHOUT  |
 | ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or     |
 | FITNESS FOR A PARTICULAR PURPOSE.                                         |

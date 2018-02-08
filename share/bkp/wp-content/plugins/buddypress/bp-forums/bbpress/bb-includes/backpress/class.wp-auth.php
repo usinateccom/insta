@@ -34,7 +34,7 @@ class WP_Auth
 	 *	secure_auth: used to authorize user's actions.  Send only to domains/paths that need it and only over HTTPS
 	 *
 	 * You should be very careful when setting cookie domain to ensure that it always follows the rules set out in
-	 * the {@link http://curl.haxx.se/rfc/cookie_spec.html Set Cookie spec}.  In most cases it is best to leave cookie
+	 * the {@link https://curl.haxx.se/rfc/cookie_spec.html Set Cookie spec}.  In most cases it is best to leave cookie
 	 * set to false and allow for user configuration to define a cookie domain in a configuration file when
 	 * cross subdomain cookies are required.
 	 * 

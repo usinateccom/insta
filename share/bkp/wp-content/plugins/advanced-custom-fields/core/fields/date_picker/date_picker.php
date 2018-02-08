@@ -125,7 +125,7 @@ class acf_field_date_picker extends acf_field
 	<td class="label">
 		<label><?php _e("Save format",'acf'); ?></label>
 		<p class="description"><?php _e("This format will determine the value saved to the database and returned via the API",'acf'); ?></p>
-		<p><?php _e("\"yymmdd\" is the most versatile save format. Read more about",'acf'); ?> <a href="http://docs.jquery.com/UI/Datepicker/formatDate"><?php _e("jQuery date formats",'acf'); ?></a></p>
+		<p><?php _e("\"yymmdd\" is the most versatile save format. Read more about",'acf'); ?> <a href="https://docs.jquery.com/UI/Datepicker/formatDate"><?php _e("jQuery date formats",'acf'); ?></a></p>
 	</td>
 	<td>
 		<?php 
@@ -141,7 +141,7 @@ class acf_field_date_picker extends acf_field
 	<td class="label">
 		<label><?php _e("Display format",'acf'); ?></label>
 		<p class="description"><?php _e("This format will be seen by the user when entering a value",'acf'); ?></p>
-		<p><?php _e("\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more about",'acf'); ?> <a href="http://docs.jquery.com/UI/Datepicker/formatDate" target="_blank"><?php _e("jQuery date formats",'acf'); ?></a></p>
+		<p><?php _e("\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more about",'acf'); ?> <a href="https://docs.jquery.com/UI/Datepicker/formatDate" target="_blank"><?php _e("jQuery date formats",'acf'); ?></a></p>
 	</td>
 	<td>
 		<?php 

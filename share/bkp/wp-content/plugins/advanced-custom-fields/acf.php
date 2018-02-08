@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Advanced Custom Fields
-Plugin URI: http://www.advancedcustomfields.com/
+Plugin URI: https://www.advancedcustomfields.com/
 Description: Customise WordPress with powerful, professional and intuitive fields
 Version: 4.4.12
 Author: Elliot Condon
-Author URI: http://www.elliotcondon.com/
+Author URI: https://www.elliotcondon.com/
 License: GPL
 Copyright: Elliot Condon
 Text Domain: acf

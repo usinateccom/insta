@@ -75,8 +75,8 @@ var acf = {
 	
 	acf.helpers.uniqid = function(prefix, more_entropy)
     {
-    	  // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
-		  // +    revised by: Kankrelune (http://www.webfaktory.info/)
+    	  // +   original by: Kevin van Zonneveld (https://kevin.vanzonneveld.net)
+		  // +    revised by: Kankrelune (https://www.webfaktory.info/)
 		  // %        note 1: Uses an internal counter (in php_js global) to avoid collision
 		  // *     example 1: uniqid();
 		  // *     returns 1: 'a30285b160c14'

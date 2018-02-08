@@ -256,7 +256,7 @@ module.exports = {
 
 },{"./form.js":2,"wolfy87-eventemitter":7}],4:[function(require,module,exports){
 // get successful control from form and assemble into object
-// http://www.w3.org/TR/html401/interact/forms.html#h-17.13.2
+// https://www.w3.org/TR/html401/interact/forms.html#h-17.13.2
 
 // types which indicate a submit action and are not successful controls
 // these will be ignored
@@ -524,7 +524,7 @@ module.exports = serialize;
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ * https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -744,7 +744,7 @@ module.exports = serialize;
         }
 
         // stopPropagation() fails to set cancelBubble to true in Webkit
-        // @see http://code.google.com/p/chromium/issues/detail?id=162270
+        // @see https://code.google.com/p/chromium/issues/detail?id=162270
         e.stopPropagation = function() {
             e.cancelBubble = true;
         };
@@ -983,8 +983,8 @@ module.exports = serialize;
 },{}],7:[function(require,module,exports){
 /*!
  * EventEmitter v5.2.4 - git.io/ee
- * Unlicense - http://unlicense.org/
- * Oliver Caldwell - http://oli.me.uk/
+ * Unlicense - https://unlicense.org/
+ * Oliver Caldwell - https://oli.me.uk/
  * @preserve
  */
 

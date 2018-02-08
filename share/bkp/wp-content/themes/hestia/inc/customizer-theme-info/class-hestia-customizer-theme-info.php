@@ -79,7 +79,7 @@ final class Hestia_Customizer_Theme_Info {
 				new Hestia_Customizer_Theme_Info_Main(
 					$manager, 'hestia-theme-info', array(
 						'theme_info_title' => esc_html__( 'Hestia', 'hestia' ),
-						'label_url'        => esc_url( 'http://docs.themeisle.com/article/569-hestia-documentation' ),
+						'label_url'        => esc_url( 'https://docs.themeisle.com/article/569-hestia-documentation' ),
 						'label_text'       => esc_html__( 'Documentation', 'hestia' ),
 					)
 				)

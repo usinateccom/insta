@@ -5,10 +5,10 @@
 // WordPress Mobile Edition
 //
 // Copyright (c) 2002-2008 Alex King
-// http://alexking.org/projects/wordpress
+// https://alexking.org/projects/wordpress
 //
 // Released under the GPL license
-// http://www.opensource.org/licenses/gpl-license.php
+// https://www.opensource.org/licenses/gpl-license.php
 //
 // **********************************************************************
 // This program is distributed in the hope that it will be useful, but
@@ -18,10 +18,10 @@
 
 /*
 Plugin Name: WordPress Mobile Edition
-Plugin URI: http://alexking.org/projects/wordpress
+Plugin URI: https://alexking.org/projects/wordpress
 Description: Show a mobile view of the post/page if the visitor is on a known mobile device. Questions on configuration, etc.? Make sure to read the README.
 Author: Alex King
-Author URI: http://alexking.org
+Author URI: https://alexking.org
 Version: 2.1a-WPCOM
 */
 
@@ -210,11 +210,11 @@ function jetpack_mobile_theme_setup() {
 					exit;
 				break;
 				case 'ios':
-					header( 'Location: http://itunes.apple.com/us/app/wordpress/id335703880?mt=8' );
+					header( 'Location: https://itunes.apple.com/us/app/wordpress/id335703880?mt=8' );
 					exit;
 				break;
 				case 'blackberry':
-					header( 'Location: http://blackberry.wordpress.org/download/' );
+					header( 'Location: https://blackberry.wordpress.org/download/' );
 					exit;
 				break;
 			}

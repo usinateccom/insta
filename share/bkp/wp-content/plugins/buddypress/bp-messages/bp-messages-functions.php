@@ -129,7 +129,7 @@ function messages_new_message( $args = '' ) {
 			}
 
 			// Check user_login / nicename columns first
-			// @see http://buddypress.trac.wordpress.org/ticket/5151.
+			// @see https://buddypress.trac.wordpress.org/ticket/5151.
 			if ( bp_is_username_compatibility_mode() ) {
 				$recipient_id = bp_core_get_userid( urldecode( $recipient ) );
 			} else {

@@ -134,7 +134,7 @@ foreach ( $general_options as $option => $args ) {
 	<fieldset>
 		<legend><?php _e('Avatars'); ?></legend>
 		<p>
-			<?php _e('bbPress includes built-in support for <a href="http://gravatar.com/">Gravatars</a>. A Gravatar is an image that follows you from site to site, appearing beside your name when you comment on Gravatar enabled sites. Here you can enable the display of Gravatars on your site.'); ?>
+			<?php _e('bbPress includes built-in support for <a href="https://gravatar.com/">Gravatars</a>. A Gravatar is an image that follows you from site to site, appearing beside your name when you comment on Gravatar enabled sites. Here you can enable the display of Gravatars on your site.'); ?>
 		</p>
 <?php
 foreach ( $avatar_options as $option => $args ) {

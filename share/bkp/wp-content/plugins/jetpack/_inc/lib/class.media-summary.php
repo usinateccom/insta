@@ -111,7 +111,7 @@ class Jetpack_Media_Summary {
 					case 'youtube':
 						if ( 0 == $return['count']['video'] ) {
 							$return['type'] = 'video';
-							$return['video'] = esc_url_raw( 'http://www.youtube.com/watch?feature=player_embedded&v=' . $extract['shortcode']['youtube']['id'][0] );
+							$return['video'] = esc_url_raw( 'https://www.youtube.com/watch?feature=player_embedded&v=' . $extract['shortcode']['youtube']['id'][0] );
 							$return['image'] = self::get_video_poster( 'youtube', $extract['shortcode']['youtube']['id'][0] );
 							$return['secure']['video'] = self::https( $return['video'] );
 							$return['secure']['image'] = self::https( $return['image'] );
@@ -121,7 +121,7 @@ class Jetpack_Media_Summary {
 					case 'vimeo':
 						if ( 0 == $return['count']['video'] ) {
 							$return['type'] = 'video';
-							$return['video'] = esc_url_raw( 'http://vimeo.com/' . $extract['shortcode']['vimeo']['id'][0] );
+							$return['video'] = esc_url_raw( 'https://vimeo.com/' . $extract['shortcode']['vimeo']['id'][0] );
 							$return['secure']['video'] = self::https( $return['video'] );
 
 							$poster_image = get_post_meta( $post_id, 'vimeo_poster_image', true );
@@ -143,14 +143,14 @@ class Jetpack_Media_Summary {
 				if ( preg_match( '/((youtube|vimeo|dailymotion)\.com|youtu.be)/', $embed ) ) {
 					if ( 0 == $return['count']['video'] ) {
 						$return['type']   = 'video';
-						$return['video']  = 'http://' .  $embed;
+						$return['video']  = 'https://' .  $embed;
 						$return['secure']['video'] = self::https( $return['video'] );
 						if ( false !== strpos( $embed, 'youtube' ) ) {
 							$return['image'] = self::get_video_poster( 'youtube', jetpack_get_youtube_id( $return['video'] ) );
 							$return['secure']['image'] = self::https( $return['image'] );
 						} else if ( false !== strpos( $embed, 'youtu.be' ) ) {
 							$youtube_id = jetpack_get_youtube_id( $return['video'] );
-							$return['video'] = 'http://youtube.com/watch?v=' . $youtube_id . '&feature=youtu.be';
+							$return['video'] = 'https://youtube.com/watch?v=' . $youtube_id . '&feature=youtu.be';
 							$return['secure']['video'] = self::https( $return['video'] );
 							$return['image'] = self::get_video_poster( 'youtube', jetpack_get_youtube_id( $return['video'] ) );
 							$return['secure']['image'] = self::https( $return['image'] );
@@ -163,7 +163,7 @@ class Jetpack_Media_Summary {
 							}
 						} else if ( false !== strpos( $embed, 'dailymotion' ) ) {
 							$return['image'] = str_replace( 'dailymotion.com/video/','dailymotion.com/thumbnail/video/', $embed );
-							$return['image'] = parse_url( $return['image'], PHP_URL_SCHEME ) === null ? 'http://' . $return['image'] : $return['image'];
+							$return['image'] = parse_url( $return['image'], PHP_URL_SCHEME ) === null ? 'https://' . $return['image'] : $return['image'];
 							$return['secure']['image'] = self::https( $return['image'] );
 						}
 
@@ -256,7 +256,7 @@ class Jetpack_Media_Summary {
 	}
 
 	static function https( $str ) {
-		return str_replace( 'http://', 'https://', $str );
+		return str_replace( 'https://', 'https://', $str );
 	}
 
 	static function ssl_img( $url ) {
@@ -276,7 +276,7 @@ class Jetpack_Media_Summary {
 				return $video->poster_frame_uri;
 			}
 		} else if ( 'youtube' == $type ) {
-			return  'http://img.youtube.com/vi/'.$id.'/0.jpg';
+			return  'https://img.youtube.com/vi/'.$id.'/0.jpg';
 		}
 	}
 

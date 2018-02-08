@@ -11,7 +11,7 @@ if ( isIE ) {
 
 // HTTP ajaxurl when site is HTTPS causes Access-Control-Allow-Origin failure in Desktop and iOS Safari
 if ( "https:" == document.location.protocol ) {
-	infiniteScroll.settings.ajaxurl = infiniteScroll.settings.ajaxurl.replace( "http://", "https://" );
+	infiniteScroll.settings.ajaxurl = infiniteScroll.settings.ajaxurl.replace( "https://", "https://" );
 }
 
 /**

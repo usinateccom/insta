@@ -17,7 +17,7 @@
  *
  * Output:
  *   <iframe width="400" height="415" src="https://www.lytro.com/living-pictures/202/embed?showArrow=true&showBorder=true&showFTU=true" frameborder="0" allowfullscreen></iframe>
- *   <iframe width="400" height="415" src="http://pictures.lytro.com/lytroweb/pictures/431119/embed" frameborder="0" allowfullscreen="" scrolling="no"></iframe>
+ *   <iframe width="400" height="415" src="https://pictures.lytro.com/lytroweb/pictures/431119/embed" frameborder="0" allowfullscreen="" scrolling="no"></iframe>
  */
 
 /**
@@ -107,7 +107,7 @@ function jetpack_lytro_shortcode_attributes() {
  * Lytro.com Shortcode
  *
  * Allows embedding Lytro "living pictures" using [lytro photo="200"] or
- * [lytro photo="http://www.lytro.com/..."]. Additional attributes
+ * [lytro photo="https://www.lytro.com/..."]. Additional attributes
  * like show_border, show_arrow, etc have priority over the ones supplied
  * in the URL.
  *
@@ -222,7 +222,7 @@ function jetpack_lytro_shortcode_url_to_atts( $url ) {
  *
  * Example
  * <iframe width="400" height="415" src="https://www.lytro.com/living-pictures/202/embed?showBorder=true" frameborder="0" allowfullscreen></iframe>
- * <iframe width="400" height="415" src="http://pictures.lytro.com/lytroweb/pictures/431128/embed" frameborder="0" allowfullscreen="" scrolling="no"></iframe>
+ * <iframe width="400" height="415" src="https://pictures.lytro.com/lytroweb/pictures/431128/embed" frameborder="0" allowfullscreen="" scrolling="no"></iframe>
  *
  * Converts to:
  * [lytro photo="202" show_border="true" width="400" height="415"]

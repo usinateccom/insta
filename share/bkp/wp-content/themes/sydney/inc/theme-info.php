@@ -45,7 +45,7 @@ function sydney_info_page() {
 					<hr>
 					<h3><?php esc_html_e( 'Step 2 - Read documentation', 'sydney' ); ?></h3>
 					<p><?php esc_html_e( 'Our documentation (including video tutorials) will have you up and running in no time.', 'sydney' ); ?></p>
-					<p><a href="http://docs.athemes.com/category/8-sydney" target="_blank"><?php esc_html_e( 'Documentation', 'sydney' ); ?></a></p>
+					<p><a href="https://docs.athemes.com/category/8-sydney" target="_blank"><?php esc_html_e( 'Documentation', 'sydney' ); ?></a></p>
 					<hr>
 					<h3><?php esc_html_e( 'Step 3 - Customize', 'sydney' ); ?></h3>
 					<p><?php esc_html_e( 'Use the Customizer to make Sydney your own.', 'sydney' ); ?></p>
@@ -117,7 +117,7 @@ function sydney_info_page() {
 						<span class="dashicons dashicons-book-alt"></span>
 						<h3><?php esc_html_e( 'Documentation', 'sydney' ); ?></h3>
 						<p><?php esc_html_e( 'Our documentation can help you learn how to use the theme and also provides you with premade code snippets and answers to FAQs.', 'sydney' ); ?></p>
-						<a href="http://docs.athemes.com/category/8-sydney" target="_blank"><?php esc_html_e( 'See the Documentation', 'sydney' ); ?></a>
+						<a href="https://docs.athemes.com/category/8-sydney" target="_blank"><?php esc_html_e( 'See the Documentation', 'sydney' ); ?></a>
 						</div>
 					</div>
 				</div>

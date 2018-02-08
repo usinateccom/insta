@@ -705,8 +705,8 @@ msgstr "Sivun URL"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:823
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Kirjoita sivun osoite. Esimerkiksi http://example.com/index.html tai www.example.com/home"
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Kirjoita sivun osoite. Esimerkiksi https://example.com/index.html tai www.example.com/home"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3157
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3301

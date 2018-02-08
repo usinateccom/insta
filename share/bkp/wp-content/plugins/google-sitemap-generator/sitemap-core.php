@@ -834,7 +834,7 @@ final class GoogleSitemapGenerator {
 	 * @return string The full url
 	 */
 	public static function GetRedirectLink($redir) {
-		return trailingslashit("http://www.arnebrachhold.de/redir/" . $redir);
+		return trailingslashit("https://www.arnebrachhold.de/redir/" . $redir);
 	}
 
 	/**
@@ -1689,15 +1689,15 @@ final class GoogleSitemapGenerator {
 			$this->AddElement(new GoogleSitemapGeneratorXmlEntry('<' . '?xml-stylesheet type="text/xsl" href="' . $styleSheet . '"?' . '>'));
 		}
 
-		$this->AddElement(new GoogleSitemapGeneratorDebugEntry("sitemap-generator-url=\"http://www.arnebrachhold.de\" sitemap-generator-version=\"" . $this->GetVersion() . "\""));
+		$this->AddElement(new GoogleSitemapGeneratorDebugEntry("sitemap-generator-url=\"https://www.arnebrachhold.de\" sitemap-generator-version=\"" . $this->GetVersion() . "\""));
 		$this->AddElement(new GoogleSitemapGeneratorDebugEntry("generated-on=\"" . date(get_option("date_format") . " " . get_option("time_format")) . "\""));
 
 		switch($format) {
 			case "sitemap":
-				$this->AddElement(new GoogleSitemapGeneratorXmlEntry('<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'));
+				$this->AddElement(new GoogleSitemapGeneratorXmlEntry('<urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">'));
 				break;
 			case "index":
-				$this->AddElement(new GoogleSitemapGeneratorXmlEntry('<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'));
+				$this->AddElement(new GoogleSitemapGeneratorXmlEntry('<sitemapindex xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">'));
 				break;
 		}
 	}
@@ -1889,7 +1889,7 @@ final class GoogleSitemapGenerator {
 			if ($this->GetOption("b_ping")) {
 				$pings["google"] = array(
 					"name" => "Google",
-					"url" => "http://www.google.com/webmasters/sitemaps/ping?sitemap=%s",
+					"url" => "https://www.google.com/webmasters/sitemaps/ping?sitemap=%s",
 					"check" => "successfully"
 				);
 			}
@@ -1897,7 +1897,7 @@ final class GoogleSitemapGenerator {
 			if ($this->GetOption("b_pingmsn")) {
 				$pings["bing"] = array(
 					"name" => "Bing",
-					"url" => "http://www.bing.com/webmaster/ping.aspx?siteMap=%s",
+					"url" => "https://www.bing.com/webmaster/ping.aspx?siteMap=%s",
 					"check" => " "
 					// No way to check, response is IP-language-based :-(
 				);
@@ -2088,7 +2088,7 @@ final class GoogleSitemapGenerator {
 			"ul" => get_bloginfo('language'),
 		);
 
-		$this->RemoteOpen('http://www.google-analytics.com/collect', 'post', $postData);
+		$this->RemoteOpen('https://www.google-analytics.com/collect', 'post', $postData);
 	}
 
 	/**

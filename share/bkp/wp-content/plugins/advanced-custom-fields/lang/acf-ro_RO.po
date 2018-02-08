@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2016-04-06 12:20+0100\n"
 "PO-Revision-Date: 2017-09-19 22:34+0300\n"
 "Language-Team: \n"
@@ -1842,8 +1842,8 @@ msgid "Send Trackbacks"
 msgstr "Trimite trackback-uri"
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.advancedcustomfields.com/"
-msgstr "http://www.advancedcustomfields.com/"
+msgid "https://www.advancedcustomfields.com/"
+msgstr "https://www.advancedcustomfields.com/"
 
 #. Description of the plugin/theme
 msgid "Customise WordPress with powerful, professional and intuitive fields"
@@ -1855,5 +1855,5 @@ msgid "Elliot Condon"
 msgstr "Elliot Condon"
 
 #. Author URI of the plugin/theme
-msgid "http://www.elliotcondon.com/"
-msgstr "http://www.elliotcondon.com/"
+msgid "https://www.elliotcondon.com/"
+msgstr "https://www.elliotcondon.com/"

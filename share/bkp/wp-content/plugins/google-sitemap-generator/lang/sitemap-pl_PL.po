@@ -1,5 +1,5 @@
 # Polish Language File for Google XML Sitemaps - sitemap-pl_PL.po)
-# Copyright (C) 2007 Kuba Zwolinski : http://kubazwolinski.com
+# Copyright (C) 2007 Kuba Zwolinski : https://kubazwolinski.com
 # This file is distributed under the same license as the WordPress package.
 # kuba <snowdog@o2.pl>, 2007.
 # $Id: sitemap-pl_PL.po 2504 2007-10-03 09:19:18Z
@@ -156,7 +156,7 @@ msgstr "Strona tłumaczenia"
 
 # F:\apache\htdocs\wordpress2-3\wp-content\plugins\google-sitemap-generator/sitemap.php:2854
 msgid "translator_url"
-msgstr "http://kubazwolinski.com/wordpress/tlumaczenie-wtyczki-google-xml-sitemaps/"
+msgstr "https://kubazwolinski.com/wordpress/tlumaczenie-wtyczki-google-xml-sitemaps/"
 
 msgid "Sitemap Resources:"
 msgstr "O mapie strony:"
@@ -497,8 +497,8 @@ msgstr "Jeśli twój blog znajduje się w podkatalogu i chcesz dodać strony kt�
 msgid "URL to the page"
 msgstr "URL strony"
 
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Wpisz adres URL strony. Przykłady: http://www.foo.com/index.html lub www.foo.com/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Wpisz adres URL strony. Przykłady: https://www.foo.com/index.html lub www.foo.com/home "
 
 msgid "Priority"
 msgstr "Priorytet"

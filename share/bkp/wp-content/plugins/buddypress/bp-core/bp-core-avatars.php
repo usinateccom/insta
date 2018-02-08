@@ -1563,7 +1563,7 @@ function bp_core_get_upload_dir( $type = 'upload_path' ) {
 				// If $key is 'baseurl', check to see if we're on SSL
 				// Workaround for WP13941, WP15928, WP19037.
 				if ( $key == 'baseurl' && is_ssl() ) {
-					$retval = str_replace( 'http://', 'https://', $retval );
+					$retval = str_replace( 'https://', 'https://', $retval );
 				}
 			}
 
@@ -1981,7 +1981,7 @@ function bp_avatar_use_webcam() {
 	/**
 	 * Bail when the browser does not support getUserMedia.
 	 *
-	 * @see http://caniuse.com/#feat=stream
+	 * @see https://caniuse.com/#feat=stream
 	 */
 	if ( $is_safari || $is_IE || ( $is_chrome && ! is_ssl() ) ) {
 		return false;

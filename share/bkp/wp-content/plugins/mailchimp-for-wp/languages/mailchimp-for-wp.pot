@@ -998,5 +998,5 @@ msgid "Example: %s"
 msgstr ""
 
 #: includes/forms/views/tabs/form-settings.php:123
-msgid "Leave empty or enter <code>0</code> for no redirect. Otherwise, use complete (absolute) URLs, including <code>http://</code>."
+msgid "Leave empty or enter <code>0</code> for no redirect. Otherwise, use complete (absolute) URLs, including <code>https://</code>."
 msgstr ""

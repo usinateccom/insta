@@ -3293,7 +3293,7 @@ class FMModelForm_maker {
         }
       }
     }
-    $https = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https://' : 'http://');
+    $https = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https://' : 'https://');
     if ( $row->submit_text_type != 4 ) {
       $_SESSION['massage_after_submit' . $id] = $msg;
       if ( $row->type == 'popover' || $row->type == 'topbar' || $row->type == 'scrollbox' ) {

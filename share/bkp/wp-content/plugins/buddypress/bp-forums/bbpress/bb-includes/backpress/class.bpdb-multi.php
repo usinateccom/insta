@@ -3,7 +3,7 @@
 
 //  ORIGINAL CODE FROM:
 //  Justin Vincent (justin@visunet.ie)
-//	http://php.justinvincent.com
+//	https://php.justinvincent.com
 
 require( BACKPRESS_PATH . 'class.bpdb.php' );
 

@@ -3,9 +3,9 @@
 /*
 Plugin Name: Grunion Contact Form
 Description: Add a contact form to any post, page or text widget.  Emails will be sent to the post's author by default, or any email address you choose.  As seen on WordPress.com.
-Plugin URI: http://automattic.com/#
+Plugin URI: https://automattic.com/#
 AUthor: Automattic, Inc.
-Author URI: http://automattic.com/
+Author URI: https://automattic.com/
 Version: 2.4
 License: GPLv2 or later
 */
@@ -934,7 +934,7 @@ class Grunion_Contact_Form_Plugin {
 	 *
 	 * Additionally, Excel exposes the ability to launch arbitrary commands through the DDE protocol.
 	 *
-	 * @see http://www.contextis.com/resources/blog/comma-separated-vulnerabilities/
+	 * @see https://www.contextis.com/resources/blog/comma-separated-vulnerabilities/
 	 *
 	 * @param string $field
 	 *
@@ -1903,7 +1903,7 @@ class Grunion_Contact_Form extends Crunion_Contact_Form_Shortcode {
 					apply_filters( 'pre_comment_author_url', addslashes( $field->value ) )
 				)
 			);
-			if ( 'http://' == $comment_author_url ) {
+			if ( 'https://' == $comment_author_url ) {
 				$comment_author_url = '';
 			}
 			$comment_author_url_label = Grunion_Contact_Form_Plugin::strip_tags( $field->get_attribute( 'label' ) );
@@ -2304,7 +2304,7 @@ class Grunion_Contact_Form extends Crunion_Contact_Form_Shortcode {
 			// They're removed so that they don't affect the final message sent to users
 			str_replace( "\t", '',
 				"<!doctype html>
-				<html xmlns=\"http://www.w3.org/1999/xhtml\">
+				<html xmlns=\"https://www.w3.org/1999/xhtml\">
 				<body>
 
 				%s

@@ -241,7 +241,7 @@ foreach ($cookie_settings as $bb_setting => $wp_setting) {
 	}
 }
 ?>
-		<p><?php printf(__('To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href="%s">"bbPress Integration" plugin for WordPress</a>.'), 'http://wordpress.org/extend/plugins/bbpress-integration/'); ?></p>
+		<p><?php printf(__('To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href="%s">"bbPress Integration" plugin for WordPress</a>.'), 'https://wordpress.org/extend/plugins/bbpress-integration/'); ?></p>
 		<p><?php _e('You will also have to manually ensure that the following constants are equivalent in WordPress\' and bbPress\' respective config files.'); ?></p>
 		<div class="table">
 			<table>

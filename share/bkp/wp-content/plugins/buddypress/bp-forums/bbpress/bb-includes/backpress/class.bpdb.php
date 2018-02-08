@@ -3,7 +3,7 @@
 
 //  ORIGINAL CODE FROM:
 //  Justin Vincent (justin@visunet.ie)
-//	http://php.justinvincent.com
+//	https://php.justinvincent.com
 
 define( 'EZSQL_VERSION', 'BP1.25' );
 define( 'OBJECT', 'OBJECT', true );
@@ -467,7 +467,7 @@ class BPDB
 	 * Does not support sign, padding, alignment, width or precision specifiers.
 	 * Does not support argument numbering/swapping.
 	 *
-	 * May be called like {@link http://php.net/sprintf sprintf()} or like {@link http://php.net/vsprintf vsprintf()}.
+	 * May be called like {@link https://php.net/sprintf sprintf()} or like {@link https://php.net/vsprintf vsprintf()}.
 	 *
 	 * Both %d and %s should be left unquoted in the query string.
 	 *
@@ -475,12 +475,12 @@ class BPDB
 	 * wpdb::prepare( "SELECT * FROM `table` WHERE `column` = %s AND `field` = %d", "foo", 1337 )
 	 * </code>
 	 *
-	 * @link http://php.net/sprintf Description of syntax.
+	 * @link https://php.net/sprintf Description of syntax.
 	 * @since 1.0
 	 *
 	 * @param string $query Query statement with sprintf()-like placeholders
-	 * @param array|mixed $args The array of variables to substitute into the query's placeholders if being called like {@link http://php.net/vsprintf vsprintf()}, or the first variable to substitute into the query's placeholders if being called like {@link http://php.net/sprintf sprintf()}.
-	 * @param mixed $args,... further variables to substitute into the query's placeholders if being called like {@link http://php.net/sprintf sprintf()}.
+	 * @param array|mixed $args The array of variables to substitute into the query's placeholders if being called like {@link https://php.net/vsprintf vsprintf()}, or the first variable to substitute into the query's placeholders if being called like {@link https://php.net/sprintf sprintf()}.
+	 * @param mixed $args,... further variables to substitute into the query's placeholders if being called like {@link https://php.net/sprintf sprintf()}.
 	 * @return null|string Sanitized query string
 	 */
 	function prepare( $query = null ) // ( $query, *$args )

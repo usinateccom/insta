@@ -27,7 +27,7 @@
  * $out = do_shortcode($content);
  * </code>
  *
- * @link http://codex.wordpress.org/Shortcode_API
+ * @link https://codex.wordpress.org/Shortcode_API
  *
  * @package WordPress
  * @subpackage Shortcodes

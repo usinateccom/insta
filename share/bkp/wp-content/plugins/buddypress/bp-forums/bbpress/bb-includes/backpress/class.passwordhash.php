@@ -6,7 +6,7 @@
  * @package phpass
  * @since 2.5
  * @version 0.2 / genuine.
- * @link http://www.openwall.com/phpass/
+ * @link https://www.openwall.com/phpass/
  */
 
 #
@@ -32,7 +32,7 @@
  *
  * @package phpass
  * @version 0.2 / genuine.
- * @link http://www.openwall.com/phpass/
+ * @link https://www.openwall.com/phpass/
  * @since 2.5
  */
 class PasswordHash {

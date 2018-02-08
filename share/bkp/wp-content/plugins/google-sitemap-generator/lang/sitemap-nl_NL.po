@@ -111,7 +111,7 @@ msgid "translator_name"
 msgstr "Mark Peters"
 
 msgid "translator_url"
-msgstr "http://www.zinloosverteld.nl"
+msgstr "https://www.zinloosverteld.nl"
 
 msgid "Sitemap Resources:"
 msgstr "Sitemap informatie:"
@@ -354,7 +354,7 @@ msgid "Additional pages"
 msgstr "Addtionele pagina's"
 
 msgid "Here you can specify files or URLs which should be included in the sitemap, but do not belong to your Blog/WordPress.<br />For example, if your domain is www.foo.com and your blog is located on www.foo.com/blog you might want to include your homepage at www.foo.com"
-msgstr "Hier kunnen de bestanden of URLHier können Sie zusätzliche Seiten in Form von URLs angeben, welche mit in Ihre Sitemap aufgenommen werden sollen aber nicht von WordPress erzeugt werden. Falls Sie z.B. Ihre Homepage auf www.beispiel.com haben, Ihr Blog aber unter www.beispiel.com/blog zu erreichen ist, tragen Sie Ihre Homepage als http://www.beispiel.com hier  ein."
+msgstr "Hier kunnen de bestanden of URLHier können Sie zusätzliche Seiten in Form von URLs angeben, welche mit in Ihre Sitemap aufgenommen werden sollen aber nicht von WordPress erzeugt werden. Falls Sie z.B. Ihre Homepage auf www.beispiel.com haben, Ihr Blog aber unter www.beispiel.com/blog zu erreichen ist, tragen Sie Ihre Homepage als https://www.beispiel.com hier  ein."
 
 msgid "Note"
 msgstr "Notitie"
@@ -365,8 +365,8 @@ msgstr "Indien het Blog in een subdirectory staat en je wilt pagina's toevoegen 
 msgid "URL to the page"
 msgstr "URL naar de pagina"
 
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Vul hier de URL naar de pagina in. Voorbeeld: http://www.zinloosverteld.nl of http://www.zinloosverteld.nl/blog"
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Vul hier de URL naar de pagina in. Voorbeeld: https://www.zinloosverteld.nl of https://www.zinloosverteld.nl/blog"
 
 msgid "Priority"
 msgstr "Prioriteit"

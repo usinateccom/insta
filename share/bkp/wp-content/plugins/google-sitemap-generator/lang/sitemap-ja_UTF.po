@@ -1,5 +1,5 @@
 # Japanese Language File for sitemap (sitemap-ja_JP.UTF-8.po)
-# Copyright (C) 2005 hiromasa : http://hiromasa.zone.ne.jp/
+# Copyright (C) 2005 hiromasa : https://hiromasa.zone.ne.jp/
 # This file is distributed under the same license as the WordPress package.
 # hiromasa <webmaster@hiromasa.zone.ne.jp>, 2005.
 #
@@ -121,8 +121,8 @@ msgid "URL to the page"
 msgstr "そのページのURL"
 
 #: sitemap.php:569
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "そのページのURL を入力して下さい。 例: http://www.foo.com/index.html や www.foo.com/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "そのページのURL を入力して下さい。 例: https://www.foo.com/index.html や www.foo.com/home "
 
 #: sitemap.php:571
 msgid "Priority"

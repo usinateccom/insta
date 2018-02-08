@@ -1015,7 +1015,7 @@ if ( !function_exists( '_make_web_ftp_clickable_cb' ) ) :
 function _make_web_ftp_clickable_cb($matches) {
 	$ret = '';
 	$dest = $matches[2];
-	$dest = 'http://' . $dest;
+	$dest = 'https://' . $dest;
 	$dest = esc_url($dest);
 	if ( empty($dest) )
 		return $matches[0];
@@ -1552,12 +1552,12 @@ function clean_url( $url, $protocols = null, $context = 'display' ) {
 	$url = _deep_replace($strip, $url);
 	$url = str_replace(';//', '://', $url);
 	/* If the URL doesn't appear to contain a scheme, we
-	 * presume it needs http:// appended (unless a relative
+	 * presume it needs https:// appended (unless a relative
 	 * link starting with / or a php file).
 	 */
 	if ( strpos($url, ':') === false &&
 		substr( $url, 0, 1 ) != '/' && substr( $url, 0, 1 ) != '#' && !preg_match('/^[a-z0-9-]+?\.php/i', $url) )
-		$url = 'http://' . $url;
+		$url = 'https://' . $url;
 
 	// Replace ampersands and single quotes only when displaying.
 	if ( 'display' == $context ) {
@@ -1797,8 +1797,8 @@ if ( !function_exists('wp_parse_str') ) :
 /**
  * Parses a string into variables to be stored in an array.
  *
- * Uses {@link http://www.php.net/parse_str parse_str()} and stripslashes if
- * {@link http://www.php.net/magic_quotes magic_quotes_gpc} is on.
+ * Uses {@link https://www.php.net/parse_str parse_str()} and stripslashes if
+ * {@link https://www.php.net/magic_quotes magic_quotes_gpc} is on.
  *
  * @since 2.2.1
  * @uses apply_filters() for the 'wp_parse_str' filter.

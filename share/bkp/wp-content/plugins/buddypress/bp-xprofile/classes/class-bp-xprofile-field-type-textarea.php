@@ -50,7 +50,7 @@ class BP_XProfile_Field_Type_Textarea extends BP_XProfile_Field_Type {
 	 * @since 2.0.0
 	 *
 	 * @param array $raw_properties Optional key/value array of
-	 *                              {@link http://dev.w3.org/html5/markup/textarea.html permitted attributes}
+	 *                              {@link https://dev.w3.org/html5/markup/textarea.html permitted attributes}
 	 *                              that you want to add.
 	 */
 	public function edit_field_html( array $raw_properties = array() ) {

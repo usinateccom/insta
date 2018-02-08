@@ -221,7 +221,7 @@ jQuery( document ).ready(
 							$formGroup.removeClass( 'is-empty' );
 						}
 
-						// Validation events do not bubble, so they must be attached directly to the input: http://jsfiddle.net/PEpRM/1/
+						// Validation events do not bubble, so they must be attached directly to the input: https://jsfiddle.net/PEpRM/1/
 						// Further, even the bind method is being caught, but since we are already calling #checkValidity here, just alter
 						// the form-group on change.
 						//

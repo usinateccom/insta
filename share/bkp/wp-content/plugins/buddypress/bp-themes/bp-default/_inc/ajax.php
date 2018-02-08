@@ -6,7 +6,7 @@
  * the default theme by adding AJAX functionality.
  *
  * For more information on how the custom AJAX functions work, see
- * http://codex.wordpress.org/AJAX_in_Plugins.
+ * https://codex.wordpress.org/AJAX_in_Plugins.
  *
  * @package BuddyPress
  * @since BuddyPress (1.2)

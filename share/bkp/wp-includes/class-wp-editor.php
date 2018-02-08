@@ -372,7 +372,7 @@ final class _WP_Editors {
 					 *
 					 * The url should be absolute, and should include the js filename
 					 * to be loaded. For example:
-					 * 'myplugin' => 'http://mysite.com/wp-content/plugins/myfolder/mce_plugin.js'.
+					 * 'myplugin' => 'https://mysite.com/wp-content/plugins/myfolder/mce_plugin.js'.
 					 *
 					 * If the external plugin adds a button, it should be added with
 					 * one of the 'mce_buttons' filters.

@@ -182,7 +182,7 @@ if ( !function_exists( 'build_query' ) ) :
  * separator to '&' and uses _http_build_query() function.
  *
  * @see _http_build_query() Used to build the query
- * @link http://us2.php.net/manual/en/function.http-build-query.php more on what
+ * @link https://us2.php.net/manual/en/function.http-build-query.php more on what
  *		http_build_query() does.
  *
  * @since 2.3.0
@@ -232,8 +232,8 @@ function add_query_arg() {
 	else
 		$frag = '';
 
-	if ( 0 === stripos( $uri, 'http://' ) ) {
-		$protocol = 'http://';
+	if ( 0 === stripos( $uri, 'https://' ) ) {
+		$protocol = 'https://';
 		$uri = substr( $uri, 7 );
 	} elseif ( 0 === stripos( $uri, 'https://' ) ) {
 		$protocol = 'https://';
@@ -1012,7 +1012,7 @@ endif;
 if ( !function_exists('_cleanup_header_comment') ) :
 /**
  * Strip close comment and close php tags from file headers used by WP
- * See http://core.trac.wordpress.org/ticket/8497
+ * See https://core.trac.wordpress.org/ticket/8497
  *
  * @since 2.8
  */
@@ -1150,8 +1150,8 @@ function backpress_die( $message, $title = '', $args = array() )
 		$language_attributes .= ' lang="' . $r['language'] . '"';
 	}
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"<?php echo $language_attributes; ?>>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml"<?php echo $language_attributes; ?>>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title><?php echo $title ?></title>

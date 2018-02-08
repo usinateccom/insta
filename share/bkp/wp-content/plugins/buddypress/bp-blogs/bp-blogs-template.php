@@ -444,7 +444,7 @@ function bp_blog_permalink() {
 		if ( empty( $blogs_template->blog->domain ) )
 			$permalink = bp_get_root_domain() . $blogs_template->blog->path;
 		else {
-			$protocol = 'http://';
+			$protocol = 'https://';
 			if ( is_ssl() )
 				$protocol = 'https://';
 

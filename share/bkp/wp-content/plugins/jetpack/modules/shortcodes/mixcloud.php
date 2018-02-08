@@ -5,15 +5,15 @@
  * examples:
  * [mixcloud MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/ /]
  * [mixcloud MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/ width=640 height=480 /]
- * [mixcloud http://www.mixcloud.com/MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/ /]
- * [mixcloud http://www.mixcloud.com/MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/ width=640 height=480 /]
- * [mixcloud]http://www.mixcloud.com/MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/[/mixcloud]
+ * [mixcloud https://www.mixcloud.com/MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/ /]
+ * [mixcloud https://www.mixcloud.com/MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/ width=640 height=480 /]
+ * [mixcloud]https://www.mixcloud.com/MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/[/mixcloud]
  * [mixcloud]MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/[/mixcloud]
 */
 
 // Register oEmbed provider
-// Example URL: http://www.mixcloud.com/oembed/?url=http://www.mixcloud.com/MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/
-wp_oembed_add_provider('#https?://(?:www\.)?mixcloud\.com/\S*#i', 'http://www.mixcloud.com/oembed', true);
+// Example URL: https://www.mixcloud.com/oembed/?url=https://www.mixcloud.com/MalibuRum/play-6-kissy-sellouts-winter-sun-house-party-mix/
+wp_oembed_add_provider('#https?://(?:www\.)?mixcloud\.com/\S*#i', 'https://www.mixcloud.com/oembed', true);
 
 // Register mixcloud shortcode
 add_shortcode( 'mixcloud', 'mixcloud_shortcode' );
@@ -42,7 +42,7 @@ function mixcloud_shortcode( $atts, $content = null ) {
 
 
 	// Build URL
-	$url = add_query_arg( $atts, "http://api.mixcloud.com/$resource_id/embed-html/" );
+	$url = add_query_arg( $atts, "https://api.mixcloud.com/$resource_id/embed-html/" );
 	$head = wp_remote_head( $url );
 	if ( is_wp_error( $head ) || 200 != $head['response']['code'] )
 		return "<!-- mixcloud error: invalid mixcloud resource -->";

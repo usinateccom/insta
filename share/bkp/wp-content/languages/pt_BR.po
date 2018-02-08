@@ -2611,7 +2611,7 @@ msgctxt "post revision title extra"
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Salvar automático]"
 
-#. translators: revision date format, see http://php.net/date
+#. translators: revision date format, see https://php.net/date
 #: wp-includes/post-template.php:1607 wp-includes/post-template.php:1643
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
@@ -3987,17 +3987,17 @@ msgstr "Solte arquivos aqui para enviar"
 msgid "Close media panel"
 msgstr "Fechar o painel de mídia"
 
-#. translators: localized date and time format, see http://php.net/date
+#. translators: localized date and time format, see https://php.net/date
 #: wp-includes/locale.php:378
 msgid "F j, Y g:i a"
 msgstr "j \\d\\e F \\d\\e Y, H:i"
 
-#. translators: localized time format, see http://php.net/date
+#. translators: localized time format, see https://php.net/date
 #: wp-includes/locale.php:376
 msgid "g:i a"
 msgstr "H:i"
 
-#. translators: localized date format, see http://php.net/date
+#. translators: localized date format, see https://php.net/date
 #: wp-includes/locale.php:374
 msgid "F j, Y"
 msgstr "j \\d\\e F \\d\\e Y"
@@ -4013,13 +4013,13 @@ msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
 
-#. translators: $dec_point argument for http://php.net/number_format, default
+#. translators: $dec_point argument for https://php.net/number_format, default
 #. is .
 #: wp-includes/locale.php:194
 msgid "number_format_decimal_point"
 msgstr ","
 
-#. translators: $thousands_sep argument for http://php.net/number_format,
+#. translators: $thousands_sep argument for https://php.net/number_format,
 #. default is ,
 #: wp-includes/locale.php:190
 msgid "number_format_thousands_sep"
@@ -8163,7 +8163,7 @@ msgstr "Menu"
 
 #: wp-includes/admin-bar.php:153
 msgid "https://wordpress.org/support/forum/requests-and-feedback"
-msgstr "http://br.forums.wordpress.org/forum/pedidos-e-feedback"
+msgstr "https://br.forums.wordpress.org/forum/pedidos-e-feedback"
 
 #: wp-includes/admin-bar.php:152
 msgid "Feedback"
@@ -8172,7 +8172,7 @@ msgstr "Feedback"
 #: wp-includes/admin-bar.php:145 wp-includes/wp-db.php:1085
 #: wp-includes/wp-db.php:1616 wp-includes/wp-db.php:1720 wp-login.php:780
 msgid "https://wordpress.org/support/"
-msgstr "http://br.forums.wordpress.org"
+msgstr "https://br.forums.wordpress.org"
 
 #: wp-includes/admin-bar.php:144
 msgid "Support Forums"

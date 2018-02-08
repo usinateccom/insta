@@ -72,7 +72,7 @@ function jetpack_instagram_handler( $matches, $atts, $url ) {
 	$min_width = 320;
 
 	if ( is_feed() ) {
-		$media_url = sprintf( 'http://instagr.am/p/%s/media/?size=l', $matches[4] );
+		$media_url = sprintf( 'https://instagr.am/p/%s/media/?size=l', $matches[4] );
 		return sprintf( '<a href="%s" title="%s" target="_blank"><img src="%s" alt="Instagram Photo" /></a>', esc_url( $url ), esc_attr__( 'View on Instagram', 'jetpack' ), esc_url( $media_url ) );
 	}
 
@@ -95,8 +95,8 @@ function jetpack_instagram_handler( $matches, $atts, $url ) {
 	$url = str_replace( 'instagr.am', 'instagram.com', $url );
 
 	// The oembed endpoint expects HTTP, but HTTP requests 301 to HTTPS
-	$instagram_http_url  = str_replace( 'https://', 'http://', $url );
-	$instagram_https_url = str_replace( 'http://', 'https://', $url );
+	$instagram_http_url  = str_replace( 'https://', 'https://', $url );
+	$instagram_https_url = str_replace( 'https://', 'https://', $url );
 
 	$url_args = array(
 		'url'      => $instagram_http_url,
@@ -172,8 +172,8 @@ function jetpack_instagram_alternate_format_handler( $matches, $atts, $url ) {
 	return jetpack_instagram_handler( $matches, $atts, $url );
 }
 
-// [instagram url="http://instagram.com/p/PSbF9sEIGP/"]
-// [instagram url="http://instagram.com/p/PSbF9sEIGP/" width="300"]
+// [instagram url="https://instagram.com/p/PSbF9sEIGP/"]
+// [instagram url="https://instagram.com/p/PSbF9sEIGP/" width="300"]
 add_shortcode( 'instagram', 'jetpack_shortcode_instagram' );
 function jetpack_shortcode_instagram( $atts ) {
 	global $wp_embed;

@@ -1,7 +1,7 @@
 /*!
- * Copyright (c) 2007 Paul Bakaus (paul.bakaus@googlemail.com) and Brandon Aaron (brandon.aaron@gmail.com || http://brandonaaron.net)
- * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
- * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
+ * Copyright (c) 2007 Paul Bakaus (paul.bakaus@googlemail.com) and Brandon Aaron (brandon.aaron@gmail.com || https://brandonaaron.net)
+ * Dual licensed under the MIT (https://www.opensource.org/licenses/mit-license.php)
+ * and GPL (https://www.opensource.org/licenses/gpl-license.php) licenses.
  *
  * $LastChangedDate: 2007-09-11 05:38:31 +0300 (Вт, 11 сен 2007) $
  * $Rev: 3238 $

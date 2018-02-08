@@ -39,7 +39,7 @@ function wp_print_styles( $handles = false ) {
  * @since r79
  * @see WP_Styles::add() For additional information.
  * @global object $wp_styles The WP_Styles object for printing styles.
- * @link http://www.w3.org/TR/CSS2/media.html#media-types List of CSS media types.
+ * @link https://www.w3.org/TR/CSS2/media.html#media-types List of CSS media types.
  *
  * @param string $handle Name of the stylesheet.
  * @param string|bool $src Path to the stylesheet from the root directory of WordPress. Example: '/css/mystyle.css'.
@@ -82,7 +82,7 @@ function wp_deregister_style( $handle ) {
  * @since r79
  * @see WP_Styles::add(), WP_Styles::enqueue()
  * @global object $wp_styles The WP_Styles object for printing styles.
- * @link http://www.w3.org/TR/CSS2/media.html#media-types List of CSS media types.
+ * @link https://www.w3.org/TR/CSS2/media.html#media-types List of CSS media types.
  *
  * @param string $handle Name of the stylesheet.
  * @param string|bool $src Path to the stylesheet from the root directory of WordPress. Example: '/css/mystyle.css'.

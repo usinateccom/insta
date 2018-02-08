@@ -34,7 +34,7 @@ class Jetpack_Sitemap_Buffer_Master extends Jetpack_Sitemap_Buffer {
 	protected function get_root_element() {
 		if ( ! isset( $this->root ) ) {
 			$this->root = $this->doc->createElement( 'sitemapindex' );
-			$this->root->setAttribute( 'xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9' );
+			$this->root->setAttribute( 'xmlns', 'https://www.sitemaps.org/schemas/sitemap/0.9' );
 			$this->doc->appendChild( $this->root );
 			$this->byte_capacity -= strlen( $this->doc->saveXML( $this->root ) );
 		}

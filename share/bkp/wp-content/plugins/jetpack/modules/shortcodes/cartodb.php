@@ -4,7 +4,7 @@
 /*
  * Carto (formerly CartoDB)
  *
- * example URL: http://osm2.carto.com/viz/08aef918-94da-11e4-ad83-0e0c41326911/public_map
+ * example URL: https://osm2.carto.com/viz/08aef918-94da-11e4-ad83-0e0c41326911/public_map
  *
  * possible patterns:
  * [username].carto.com/viz/[map-id]/public_map

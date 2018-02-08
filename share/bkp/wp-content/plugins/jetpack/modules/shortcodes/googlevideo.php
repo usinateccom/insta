@@ -2,7 +2,7 @@
 
 /**
  * google video is replaced by youtube, but its embeds will probably continue working indefinitely.
- * [googlevideo=http://video.google.com/googleplayer.swf?docId=-6006084025483872237]
+ * [googlevideo=https://video.google.com/googleplayer.swf?docId=-6006084025483872237]
  */
 
 function googlevideo_shortcode( $atts ) {
@@ -11,11 +11,11 @@ function googlevideo_shortcode( $atts ) {
 
 	$src = ltrim( $atts[0], '=' );
 
-	if ( 0 !== strpos( $src, 'http://video.google.com/googleplayer.swf' ) ) {
-		if ( !preg_match( '|^http://(video\.google\.[a-z]{2,3}(?:.[a-z]{2})?)/|', $src ) || !preg_match( '|.*docid=([0-9-]+).*|i', $src, $match ) || !is_numeric( $match[1] ) )
+	if ( 0 !== strpos( $src, 'https://video.google.com/googleplayer.swf' ) ) {
+		if ( !preg_match( '|^https://(video\.google\.[a-z]{2,3}(?:.[a-z]{2})?)/|', $src ) || !preg_match( '|.*docid=([0-9-]+).*|i', $src, $match ) || !is_numeric( $match[1] ) )
 			return '<!--Google Video Error: bad URL entered-->';
 
-		$src = 'http://video.google.com/googleplayer.swf?docId=' . $match[1];
+		$src = 'https://video.google.com/googleplayer.swf?docId=' . $match[1];
 	}
 
 	// default width should be 400 unless the theme's content width is smaller than that

@@ -979,7 +979,7 @@ function bp_do_register_theme_directory() {
 /**
  * Return the domain for the root blog.
  *
- * Eg: http://example.com OR https://example.com
+ * Eg: https://example.com OR https://example.com
  *
  * @since 1.0.0
  *
@@ -1029,7 +1029,7 @@ function bp_core_redirect( $location = '', $status = 302 ) {
  * Return the URL path of the referring page.
  *
  * This is a wrapper for `wp_get_referer()` that sanitizes the referer URL to
- * a webroot-relative path. For example, 'http://example.com/foo/' will be
+ * a webroot-relative path. For example, 'https://example.com/foo/' will be
  * reduced to '/foo/'.
  *
  * @since 2.3.0
@@ -1119,7 +1119,7 @@ function bp_core_current_time( $gmt = true, $type = 'mysql' ) {
 /**
  * Get an English-language representation of the time elapsed since a given date.
  *
- * Based on function created by Dunstan Orchard - http://1976design.com
+ * Based on function created by Dunstan Orchard - https://1976design.com
  *
  * This function will return an English representation of the time elapsed
  * since a given date.
@@ -1967,10 +1967,10 @@ function bp_get_root_blog_id() {
  * to be viewed on every blog on the network, each with their own settings.
  *
  * Thus, instead of having all 'boonebgorges' links go to
- *   http://example.com/members/boonebgorges
+ *   https://example.com/members/boonebgorges
  * on the root blog, each blog will have its own version of the same content, eg
- *   http://site2.example.com/members/boonebgorges (for subdomains)
- *   http://example.com/site2/members/boonebgorges (for subdirectories)
+ *   https://site2.example.com/members/boonebgorges (for subdomains)
+ *   https://example.com/site2/members/boonebgorges (for subdirectories)
  *
  * Multiblog mode is disabled by default, meaning that all BuddyPress content
  * must be viewed on the root blog. It's also recommended not to use the
@@ -2203,7 +2203,7 @@ function bp_verify_nonce_request( $action = '', $query_arg = '_wpnonce' ) {
 	}
 
 	// Build the currently requested URL.
-	$scheme        = is_ssl() ? 'https://' : 'http://';
+	$scheme        = is_ssl() ? 'https://' : 'https://';
 	$requested_url = strtolower( $scheme . $request_host . $_SERVER['REQUEST_URI'] );
 
 	/* Look for match ********************************************************/

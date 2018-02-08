@@ -49,7 +49,7 @@ class BP_XProfile_Field_Type_URL extends BP_XProfile_Field_Type {
 	 * @since 2.1.0
 	 *
 	 * @param array $raw_properties Optional key/value array of
-	 *                              {@link http://dev.w3.org/html5/markup/input.number.html permitted attributes}
+	 *                              {@link https://dev.w3.org/html5/markup/input.number.html permitted attributes}
 	 *                              that you want to add.
 	 */
 	public function edit_field_html( array $raw_properties = array() ) {
@@ -130,7 +130,7 @@ class BP_XProfile_Field_Type_URL extends BP_XProfile_Field_Type {
 	 * values saved in the database are fully-formed URLs. However, we
 	 * still want to allow users to enter URLs without a protocol, for a
 	 * better user experience. So we catch submitted URL values, and if
-	 * the protocol is missing, we prepend 'http://' before passing to
+	 * the protocol is missing, we prepend 'https://' before passing to
 	 * is_valid().
 	 *
 	 * @since 2.1.0
@@ -153,7 +153,7 @@ class BP_XProfile_Field_Type_URL extends BP_XProfile_Field_Type {
 			substr( $submitted_value, 0, 1 ) !== '#' &&
 			! preg_match( '/^[a-z0-9-]+?\.php/i', $submitted_value )
 		) {
-			$submitted_value = 'http://' . $submitted_value;
+			$submitted_value = 'https://' . $submitted_value;
 		}
 
 		return $submitted_value;

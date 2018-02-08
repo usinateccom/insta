@@ -258,7 +258,7 @@ function bbp_version_updater() {
 		/**
 		 * Repair private and hidden forum data
 		 *
-		 * @link http://bbpress.trac.wordpress.org/ticket/1891
+		 * @link https://bbpress.trac.wordpress.org/ticket/1891
 		 */
 		bbp_admin_repair_forum_visibility();
 	}

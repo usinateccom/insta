@@ -271,7 +271,7 @@ msgstr "Traduit par Serge"
 
 #: C:\Inetpub\wwwroot\wp_plugins\sitemap_beta/sitemap-ui.php:638
 msgid "translator_url"
-msgstr "http://wp.kalyxstudio.com"
+msgstr "https://wp.kalyxstudio.com"
 
 #: C:\Inetpub\wwwroot\wp_plugins\sitemap_beta/sitemap-ui.php:641
 msgid "Sitemap Resources:"
@@ -518,10 +518,10 @@ msgstr "URL de la page"
 
 #: C:\Inetpub\wwwroot\wp_plugins\sitemap_beta/sitemap-ui.php:799
 msgid ""
-"Enter the URL to the page. Examples: http://www.foo.com/index.html or www."
+"Enter the URL to the page. Examples: https://www.foo.com/index.html or www."
 "foo.com/home "
 msgstr ""
-"Indiquez l'URL de la page. Examples: http://www.foo.com/index.html ou www."
+"Indiquez l'URL de la page. Examples: https://www.foo.com/index.html ou www."
 "foo.com/home "
 
 #: C:\Inetpub\wwwroot\wp_plugins\sitemap_beta/sitemap-ui.php:801

@@ -628,7 +628,7 @@ function bp_notifications_get_unread_notification_count( $user_id = 0 ) {
  *
  * @since 1.9.1
  *
- * @see http://buddypress.trac.wordpress.org/ticket/5300
+ * @see https://buddypress.trac.wordpress.org/ticket/5300
  *
  * @return array $component_names Array of registered components.
  */

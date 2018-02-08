@@ -1,7 +1,7 @@
 // Password strength meter
 // This jQuery plugin is written by firas kassem [2007.04.05]
 // Firas Kassem  phiras.wordpress.com || phiras at gmail {dot} com
-// for more information : http://phiras.wordpress.com/2007/04/08/password-strength-meter-a-jquery-plugin/
+// for more information : https://phiras.wordpress.com/2007/04/08/password-strength-meter-a-jquery-plugin/
 
 var shortPass = pwsL10n.short
 var badPass = pwsL10n.bad

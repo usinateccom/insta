@@ -3,7 +3,7 @@
 /**
  * bbPress Converter
  *
- * Based on the hard work of Adam Ellis at http://bbconverter.com
+ * Based on the hard work of Adam Ellis at https://bbconverter.com
  *
  * @package bbPress
  * @subpackage Administration

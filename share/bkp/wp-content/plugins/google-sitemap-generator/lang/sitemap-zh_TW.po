@@ -257,7 +257,7 @@ msgstr "Hugo5688"
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:542
 msgid "translator_url"
-msgstr "http://take-ez.com"
+msgstr "https://take-ez.com"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2895
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:545
@@ -681,8 +681,8 @@ msgstr "頁面網址"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:822
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "輸入頁面的網址。例如：http://www.foo.com/index.html 或者 www.foo.com/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "輸入頁面的網址。例如：https://www.foo.com/index.html 或者 www.foo.com/home "
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3157
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3301

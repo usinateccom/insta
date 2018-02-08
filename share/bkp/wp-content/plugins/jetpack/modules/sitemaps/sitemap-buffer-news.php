@@ -46,10 +46,10 @@ class Jetpack_Sitemap_Buffer_News extends Jetpack_Sitemap_Buffer {
 			$namespaces = apply_filters(
 				'jetpack_sitemap_news_ns',
 				array(
-					'xmlns:xsi'          => 'http://www.w3.org/2001/XMLSchema-instance',
-					'xsi:schemaLocation' => 'http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd',
-					'xmlns'              => 'http://www.sitemaps.org/schemas/sitemap/0.9',
-					'xmlns:news'         => 'http://www.google.com/schemas/sitemap-news/0.9',
+					'xmlns:xsi'          => 'https://www.w3.org/2001/XMLSchema-instance',
+					'xsi:schemaLocation' => 'https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd',
+					'xmlns'              => 'https://www.sitemaps.org/schemas/sitemap/0.9',
+					'xmlns:news'         => 'https://www.google.com/schemas/sitemap-news/0.9',
 				)
 			);
 

@@ -225,7 +225,7 @@ Changelog
 
 **Additions**
 
-- Add `data-hide-if` attribute logic to forms. See [conditionally hide form fields](https://kb.mc4wp.com/conditional-fields-elements/). Thanks to [Kurt Zenisek](http://kurtzenisek.com/).
+- Add `data-hide-if` attribute logic to forms. See [conditionally hide form fields](https://kb.mc4wp.com/conditional-fields-elements/). Thanks to [Kurt Zenisek](https://kurtzenisek.com/).
 - Add hooks for delayed BuddyPress sign-up. Thanks to [Christian Wach](https://profiles.wordpress.org/needle).
 
 
@@ -698,7 +698,7 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 - Integrations can now be "implicit", thus no longer showing a checkbox option to visitors.
 - New JavaScript API, replacing jQuery event hooks.
 - Ninja Forms integration
-- Introduced various new filter & action hooks, please see the new [code reference for developers](http://developer.mc4wp.com/) for more information.
+- Introduced various new filter & action hooks, please see the new [code reference for developers](https://developer.mc4wp.com/) for more information.
 
 #### 2.3.18 - November 2, 2015
 
@@ -743,8 +743,8 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 
 **Improvements**
 
-- Only prefix `url` fields with `http://` if it is filled.
-- Updated Spanish & Catalan translations, thanks to [Xavier Gimeno Torrent](http://www.xaviergimeno.net/).
+- Only prefix `url` fields with `https://` if it is filled.
+- Updated Spanish & Catalan translations, thanks to [Xavier Gimeno Torrent](https://www.xaviergimeno.net/).
 - Fix `mc4wp_form_before_fields` being applied twice.
 - Position honeypot field to the right for Right-To-Left sites.
 - `_mc4wp_lists` can now be a comma-separated string of MailChimp list ID's to subscribe to (or an array).
@@ -771,7 +771,7 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 
 - Minor styling improvements for RTL sites.
 - MailChimp list fields of type "website" will now become HTML5 `url` type fields.
-- Auto-prefix fields of type `url` with `http://`
+- Auto-prefix fields of type `url` with `https://`
 
 #### 2.3.12 - September 21, 2015
 
@@ -1029,7 +1029,7 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 - Added support for [GitHub Updater Plugin](https://github.com/afragen/github-updater).
 - You can now specify whether you want to send a welcome email (only with double opt-in disabled).
 
-A huge thank you to [Stefan Oderbolz](http://metaodi.ch/) for various fixed and improvements related to translations in this release.
+A huge thank you to [Stefan Oderbolz](https://metaodi.ch/) for various fixed and improvements related to translations in this release.
 
 
 #### 2.2.4 - February 4, 2015

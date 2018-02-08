@@ -50,6 +50,6 @@
 <?php endif; ?>
 
 <br />
-<p><?php printf( __( 'You may also try your <a href="%s">search at Google</a>.' ), 'http://google.com/search?q=site:' . bb_get_uri( null, null, BB_URI_CONTEXT_TEXT ) . urlencode( ' ' . $q ) ); ?></p>
+<p><?php printf( __( 'You may also try your <a href="%s">search at Google</a>.' ), 'https://google.com/search?q=site:' . bb_get_uri( null, null, BB_URI_CONTEXT_TEXT ) . urlencode( ' ' . $q ) ); ?></p>
 
 <?php bb_get_footer(); ?>

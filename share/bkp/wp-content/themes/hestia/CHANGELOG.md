@@ -34,7 +34,7 @@
  ### v1.1.52 - 2017-10-24 
  **Changes:** 
  * Fixed problem with parallax effect in the Ribbon section on iOS
-* New filter for the header background wrapper to be used in a child theme, to allow users to have a featured image for each category - http://docs.themeisle.com/article/706-how-to-use-categories-featured-images-as-header-image-in-hestia
+* New filter for the header background wrapper to be used in a child theme, to allow users to have a featured image for each category - https://docs.themeisle.com/article/706-how-to-use-categories-featured-images-as-header-image-in-hestia
 * Fixed vertical alignment issue on frontpage Products section
 * Fixed compatibility responsive issues with Pirate Forms
 * Fixed callback function used for the custom logo
@@ -50,7 +50,7 @@
 * Fixed issues with blurred images in the Shop section on mobile
 * Improved frontpage sections hide/show control by adding selective refresh
 * Improved UX for the WYSIWYG control used in the About section
-* Added a basic Mega Menu compatibility - http://docs.themeisle.com/article/704-hestia-basic-mega-menu-setup
+* Added a basic Mega Menu compatibility - https://docs.themeisle.com/article/704-hestia-basic-mega-menu-setup
 * Integration with PayPal for WooCommerce plugin
 * Integration with MailChimp for WordPress
 * Fixed issues in the Primary menu with active items
@@ -58,7 +58,7 @@
 * Fixed small issue with selective refresh on Sidebar width option
 * Made all functions in template-tags.php pluggable to allow better child theme usage
 * Made all frontpage sections external links open in a new tab
-* Added some new filters to control the number of items per row appear in the Features, Testimonials and Blog Frontpage section - http://docs.themeisle.com/article/669-how-to-add-4-feature-items-on-a-line-in-hestia
+* Added some new filters to control the number of items per row appear in the Features, Testimonials and Blog Frontpage section - https://docs.themeisle.com/article/669-how-to-add-4-feature-items-on-a-line-in-hestia
 * Fixed issue in RTL mode with Sidebar layout control icons
 * Fixed selective refresh for the Tagline option
  

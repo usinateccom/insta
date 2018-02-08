@@ -446,7 +446,7 @@
 			if ( '' === itemName.val() ) {
 				itemName.addClass( 'invalid' );
 				return;
-			} else if ( '' === itemUrl.val() || 'http://' === itemUrl.val() ) {
+			} else if ( '' === itemUrl.val() || 'https://' === itemUrl.val() ) {
 				itemUrl.addClass( 'invalid' );
 				return;
 			}
@@ -462,7 +462,7 @@
 			this.currentMenuControl.addItemToMenu( menuItem );
 
 			// Reset the custom link form.
-			itemUrl.val( 'http://' );
+			itemUrl.val( 'https://' );
 			itemName.val( '' );
 		},
 

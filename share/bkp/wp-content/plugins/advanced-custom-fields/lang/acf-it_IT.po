@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2013-11-09 15:23+0100\n"
 "PO-Revision-Date: 2016-10-07 19:02+0100\n"
 "Last-Translator: ste <ste.yeu@gmail.com>\n"

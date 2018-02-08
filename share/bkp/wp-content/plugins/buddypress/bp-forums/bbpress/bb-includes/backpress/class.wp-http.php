@@ -6,7 +6,7 @@
  *
  * Will eventually replace and standardize the WordPress HTTP requests made.
  *
- * @link http://trac.wordpress.org/ticket/4779 HTTP API Proposal
+ * @link https://trac.wordpress.org/ticket/4779 HTTP API Proposal
  *
  * @package WordPress
  * @subpackage HTTP
@@ -520,7 +520,7 @@ class WP_Http {
 	 * WP_ACCESSIBLE_HOSTS constant is a comma separated list of hostnames to allow.
 	 *
 	 * @since 2.8.0
-	 * @link http://core.trac.wordpress.org/ticket/8927 Allow preventing external requests.
+	 * @link https://core.trac.wordpress.org/ticket/8927 Allow preventing external requests.
 	 *
 	 * @param string $uri URI of url.
 	 * @return bool True to block, false to allow.
@@ -831,7 +831,7 @@ class WP_Http_Fopen {
 				$theHeaders = $meta['wrapper_data']['headers'];
 		} else {
 			//$http_response_header is a PHP reserved variable which is set in the current-scope when using the HTTP Wrapper
-			//see http://php.oregonstate.edu/manual/en/reserved.variables.httpresponseheader.php
+			//see https://php.oregonstate.edu/manual/en/reserved.variables.httpresponseheader.php
 			$theHeaders = $http_response_header;
 		}
 
@@ -1397,7 +1397,7 @@ class WP_Http_Curl {
  * define('WP_PROXY_BYPASS_HOSTS', 'localhost, www.example.com');
  * </code>
  *
- * @link http://core.trac.wordpress.org/ticket/4011 Proxy support ticket in WordPress.
+ * @link https://core.trac.wordpress.org/ticket/4011 Proxy support ticket in WordPress.
  * @since 2.8
  */
 class WP_HTTP_Proxy {

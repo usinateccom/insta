@@ -121,15 +121,15 @@ class BP_Activity_Feed {
 			// Time-to-live - number of minutes to cache the data before an aggregator
 			// requests it again.  This is only acknowledged if the RSS client supports it
 			//
-			// See: http://www.rssboard.org/rss-profile#element-channel-ttl.
-			// See: http://www.kbcafe.com/rss/rssfeedstate.html#ttl.
+			// See: https://www.rssboard.org/rss-profile#element-channel-ttl.
+			// See: https://www.kbcafe.com/rss/rssfeedstate.html#ttl.
 			'ttl'              => '30',
 
 			// Syndication module - similar to ttl, but not really supported by RSS
 			// clients
 			//
-			// See: http://web.resource.org/rss/1.0/modules/syndication/#description.
-			// See: http://www.kbcafe.com/rss/rssfeedstate.html#syndicationmodule.
+			// See: https://web.resource.org/rss/1.0/modules/syndication/#description.
+			// See: https://www.kbcafe.com/rss/rssfeedstate.html#syndicationmodule.
 			'update_period'    => 'hourly',
 			'update_frequency' => 2,
 
@@ -400,10 +400,10 @@ class BP_Activity_Feed {
 	?>
 
 <rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:content="https://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="https://www.w3.org/2005/Atom"
+	xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="https://purl.org/rss/1.0/modules/slash/"
 	<?php
 
 	/**

@@ -3,7 +3,7 @@
 # cancel a the plan provided for the current site using the given partner keys
 
 usage () {
-	echo "Usage: partner-cancel.sh --partner_id=partner_id --partner_secret=partner_secret [--url=http://example.com] [--allow-root]"
+	echo "Usage: partner-cancel.sh --partner_id=partner_id --partner_secret=partner_secret [--url=https://example.com] [--allow-root]"
 }
 
 GLOBAL_ARGS=""

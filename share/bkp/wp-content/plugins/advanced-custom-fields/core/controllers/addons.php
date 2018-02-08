@@ -131,28 +131,28 @@ class acf_addons
 			'description' => __("Create infinite rows of repeatable data with this versatile interface!",'acf'),
 			'thumbnail' => $dir . 'images/add-ons/repeater-field-thumb.jpg',
 			'active' => class_exists('acf_field_repeater'),
-			'url' => 'http://www.advancedcustomfields.com/add-ons/repeater-field/'
+			'url' => 'https://www.advancedcustomfields.com/add-ons/repeater-field/'
 		);
 		$premium[] = array(
 			'title' => __("Gallery Field",'acf'),
 			'description' => __("Create image galleries in a simple and intuitive interface!",'acf'),
 			'thumbnail' => $dir . 'images/add-ons/gallery-field-thumb.jpg',
 			'active' => class_exists('acf_field_gallery'),
-			'url' => 'http://www.advancedcustomfields.com/add-ons/gallery-field/'
+			'url' => 'https://www.advancedcustomfields.com/add-ons/gallery-field/'
 		);
 		$premium[] = array(
 			'title' => __("Options Page",'acf'),
 			'description' => __("Create global data to use throughout your website!",'acf'),
 			'thumbnail' => $dir . 'images/add-ons/options-page-thumb.jpg',
 			'active' => class_exists('acf_options_page_plugin'),
-			'url' => 'http://www.advancedcustomfields.com/add-ons/options-page/'
+			'url' => 'https://www.advancedcustomfields.com/add-ons/options-page/'
 		);
 		$premium[] = array(
 			'title' => __("Flexible Content Field",'acf'),
 			'description' => __("Create unique designs with a flexible content layout manager!",'acf'),
 			'thumbnail' => $dir . 'images/add-ons/flexible-content-field-thumb.jpg',
 			'active' => class_exists('acf_field_flexible_content'),
-			'url' => 'http://www.advancedcustomfields.com/add-ons/flexible-content-field/'
+			'url' => 'https://www.advancedcustomfields.com/add-ons/flexible-content-field/'
 		);
 		
 		
@@ -169,7 +169,7 @@ class acf_addons
 			'description' => __("jQuery date & time picker",'acf'),
 			'thumbnail' => $dir . 'images/add-ons/date-time-field-thumb.jpg',
 			'active' => class_exists('acf_field_date_time_picker'),
-			'url' => 'http://wordpress.org/extend/plugins/acf-field-date-time-picker/'
+			'url' => 'https://wordpress.org/extend/plugins/acf-field-date-time-picker/'
 		);
 		$free[] = array(
 			'title' => __("Google Map Extended",'acf'),
@@ -198,7 +198,7 @@ class acf_addons
 	</div>
 	<?php /*
 	<div class="acf-alert">
-		<p><strong><?php _e("Just updated to version 4?",'acf'); ?></strong> <?php _e("Activation codes have changed to plugins! Download your purchased add-ons",'acf'); ?> <a href="http://www.advancedcustomfields.com/add-ons-download/" target="_blank"><?php _e("here",'acf'); ?></a></p>
+		<p><strong><?php _e("Just updated to version 4?",'acf'); ?></strong> <?php _e("Activation codes have changed to plugins! Download your purchased add-ons",'acf'); ?> <a href="https://www.advancedcustomfields.com/add-ons-download/" target="_blank"><?php _e("here",'acf'); ?></a></p>
 	</div>
 	*/ ?>
 	

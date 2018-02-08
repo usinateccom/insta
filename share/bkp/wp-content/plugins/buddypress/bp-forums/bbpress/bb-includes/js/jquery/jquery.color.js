@@ -24,7 +24,7 @@
 
     // Color Conversion functions from highlightFade
     // By Blair Mitchelmore
-    // http://jquery.offput.ca/highlightFade/
+    // https://jquery.offput.ca/highlightFade/
 
     // Parse strings looking for color tuples [255,255,255]
     function getRGB(color) {
@@ -76,7 +76,7 @@
 
     // Some named colors to work with
     // From Interface by Stefan Petre
-    // http://interface.eyecon.ro/
+    // https://interface.eyecon.ro/
 
     var colors = {
         aqua:[0,255,255],

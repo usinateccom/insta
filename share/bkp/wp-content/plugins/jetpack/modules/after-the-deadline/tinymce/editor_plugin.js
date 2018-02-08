@@ -2,7 +2,7 @@
  * TinyMCE Writing Improvement Tool Plugin
  * Author: Raphael Mudge (raffi@automattic.com)
  *
- * http://www.afterthedeadline.com
+ * https://www.afterthedeadline.com
  *
  * Distributed under the LGPL
  *
@@ -33,8 +33,8 @@
          return {
 			longname :  'After The Deadline',
 			author :    'Raphael Mudge',
-			authorurl : 'http://blog.afterthedeadline.com',
-			infourl :   'http://www.afterthedeadline.com',
+			authorurl : 'https://blog.afterthedeadline.com',
+			infourl :   'https://www.afterthedeadline.com',
 			version :   tinymce.majorVersion + '.' + tinymce.minorVersion
 		};
       },

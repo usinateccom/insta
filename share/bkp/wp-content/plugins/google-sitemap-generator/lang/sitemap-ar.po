@@ -241,7 +241,7 @@ msgstr "إعادة الترجمة : حازم خالد"
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:542
 msgid "translator_url"
-msgstr "http://HazemKhaled.com"
+msgstr "https://HazemKhaled.com"
 
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:545
 msgid "Sitemap Resources:"
@@ -646,8 +646,8 @@ msgid "URL to the page"
 msgstr "رابط الصفحة"
 
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:822
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "ضع رابط الصفحة ، مثلاً : http://www.foo.com/index.html أو www.foo.com/home ."
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "ضع رابط الصفحة ، مثلاً : https://www.foo.com/index.html أو www.foo.com/home ."
 
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:824
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:861

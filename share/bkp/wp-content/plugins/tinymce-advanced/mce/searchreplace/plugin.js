@@ -90,8 +90,8 @@ defineGlobal("global!tinymce.util.Tools.resolve", tinymce.util.Tools.resolve);
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 define(
@@ -110,8 +110,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 define(
@@ -130,8 +130,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 /*jshint smarttabs:true, undef:true, unused:true, latedef:true, curly:true, bitwise:true */
@@ -146,7 +146,7 @@ define(
       return node && node.nodeType == 1 && node.contentEditable === "false";
     }
 
-    // Based on work developed by: James Padolsey http://james.padolsey.com
+    // Based on work developed by: James Padolsey https://james.padolsey.com
     // released under UNLICENSE that is compatible with LGPL
     // TODO: Handle contentEditable edgecase:
     // <p>text<span contentEditable="false">text<span contentEditable="true">text</span>text</span>text</p>
@@ -406,8 +406,8 @@ define(
  * Released under LGPL License.
  * Copyright (c) 1999-2017 Ephox Corp. All rights reserved
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 /*jshint smarttabs:true, undef:true, unused:true, latedef:true, curly:true, bitwise:true */

@@ -274,7 +274,7 @@ function bb_admin_menu()
 			}
 			$m[0] = '<br />';
 			$class .= ' bb-menu-separator';
-		} elseif ( strpos( $m[2], 'http://' ) === 0 || strpos( $m[2], 'https://' ) === 0 ) {
+		} elseif ( strpos( $m[2], 'https://' ) === 0 || strpos( $m[2], 'https://' ) === 0 ) {
 			$href = esc_url( $m[2] );
 			$class .= ' bb-menu-external';
 		} else {
@@ -304,7 +304,7 @@ function bb_admin_menu()
 				if ( isset( $sm[3] ) ) {
 					$sclass .= ' ' . $sm[3];
 				}
-				if ( strpos( $sm[2], 'http://' ) === 0 || strpos( $sm[2], 'https://' ) === 0 ) {
+				if ( strpos( $sm[2], 'https://' ) === 0 || strpos( $sm[2], 'https://' ) === 0 ) {
 					$shref = $sm[2];
 					$sclass .= ' bb-menu-external';
 				} else {

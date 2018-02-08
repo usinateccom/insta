@@ -311,7 +311,7 @@ function wpcf7_build_query( $args, $key = '' ) {
 /**
  * Returns the number of code units in a string.
  *
- * @see http://www.w3.org/TR/html5/infrastructure.html#code-unit-length
+ * @see https://www.w3.org/TR/html5/infrastructure.html#code-unit-length
  *
  * @return int|bool The number of code units, or false if mb_convert_encoding is not available.
  */

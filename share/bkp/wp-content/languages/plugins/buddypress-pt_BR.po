@@ -2333,8 +2333,8 @@ msgid "Search Results"
 msgstr "Resultados da Pesquisa"
 
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:55
-msgid "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
-msgstr "Seu avatar será usado em seu perfil e em todo site. Para mudá-lo, crie uma conta em <a href=\\\"http://gravatar.com\\\">Gravatar</a> usando o mesmo email que usou para se registrar neste site."
+msgid "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"https://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
+msgstr "Seu avatar será usado em seu perfil e em todo site. Para mudá-lo, crie uma conta em <a href=\\\"https://gravatar.com\\\">Gravatar</a> usando o mesmo email que usou para se registrar neste site."
 
 #: bp-themes/bp-default/members/single/settings/notifications.php:49
 msgid "Email Notification"
@@ -2387,8 +2387,8 @@ msgid "Sorry, no posts matched your criteria."
 msgstr "Desculpe, nenhum post foi encontrado."
 
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:7
-msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
-msgstr "Seu avatar será usado em seu perfil por todo o site. Se houver um <a href=\\\"http://gravatar.com\\\">Gravatar</a> associado à sua conta de email, nós o usaremos, ou você pode enviar uma imagem de seu computador."
+msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"https://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
+msgstr "Seu avatar será usado em seu perfil por todo o site. Se houver um <a href=\\\"https://gravatar.com\\\">Gravatar</a> associado à sua conta de email, nós o usaremos, ou você pode enviar uma imagem de seu computador."
 
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:23
 msgid "If you'd like to delete your current avatar but not upload a new one, please use the delete avatar button."
@@ -3301,8 +3301,8 @@ msgid "Editing '%s' Profile Group"
 msgstr "Editando o perfil de '%s'"
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:84
-msgid "Your profile photo will be used on your profile and throughout the site. To change your profile photo, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
-msgstr "A sua foto de perfil será utilizada em seu perfil e em todo o site. Para alterar sua foto, por favor crie uma conta no <a href=\"http://gravatar.com\">Gravatar</a> usando o mesmo endereço de email que você usou para se cadastrar no site."
+msgid "Your profile photo will be used on your profile and throughout the site. To change your profile photo, please create an account with <a href=\"https://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
+msgstr "A sua foto de perfil será utilizada em seu perfil e em todo o site. Para alterar sua foto, por favor crie uma conta no <a href=\"https://gravatar.com\">Gravatar</a> usando o mesmo endereço de email que você usou para se cadastrar no site."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:52
 msgid "Crop Your New Profile Photo"
@@ -3314,8 +3314,8 @@ msgid "Click below to select a JPG, GIF or PNG format photo from your computer a
 msgstr "Clique abaixo para selecionar uma imagem no formato JPG, GIF ou PNG de seu computador e clique em 'Enviar Imagem' para continuar."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:24
-msgid "Your profile photo will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
-msgstr "Sua foto do perfil será usada em seu perfil e em todo o site. Se houver um <a href=\"http://gravatar.com\">Gravatar</a> associado à sua conta de e-mail, vamos usá-lo ou você pode enviar uma imagem do seu computador."
+msgid "Your profile photo will be used on your profile and throughout the site. If there is a <a href=\"https://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
+msgstr "Sua foto do perfil será usada em seu perfil e em todo o site. Se houver um <a href=\"https://gravatar.com\">Gravatar</a> associado à sua conta de e-mail, vamos usá-lo ou você pode enviar uma imagem do seu computador."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:11
 msgid "Change Profile Photo"
@@ -9967,7 +9967,7 @@ msgstr "Atualizar"
 msgid "Edit"
 msgstr "Editar"
 
-#. Translators: Publish box date format, see http://php.net/date.
+#. Translators: Publish box date format, see https://php.net/date.
 #: bp-activity/bp-activity-admin.php:762
 #: bp-members/classes/class-bp-members-admin.php:1061
 #: bp-members/classes/class-bp-members-admin.php:1121

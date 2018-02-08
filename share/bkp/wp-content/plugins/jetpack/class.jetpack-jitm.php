@@ -351,7 +351,7 @@ class Jetpack_JITM {
 					$envelope->content->icon = '<div class="jp-emblem">' . Jetpack::get_jp_emblem() . '</div>';
 					break;
 				case 'woocommerce':
-					$envelope->content->icon = '<div class="jp-emblem"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 168 100" xml:space="preserve" enable-background="new 0 0 168 100" width="50" height="30"><style type="text/css">
+					$envelope->content->icon = '<div class="jp-emblem"><svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 168 100" xml:space="preserve" enable-background="new 0 0 168 100" width="50" height="30"><style type="text/css">
 					.st0{clip-path:url(#SVGID_2_);enable-background:new    ;}
 					.st1{clip-path:url(#SVGID_4_);}
 					.st2{clip-path:url(#SVGID_6_);}

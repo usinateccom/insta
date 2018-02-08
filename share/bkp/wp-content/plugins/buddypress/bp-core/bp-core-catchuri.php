@@ -21,11 +21,11 @@ defined( 'ABSPATH' ) || exit;
  * URI structures with very little work.
  *
  * The URIs are broken down as follows:
- *   - http:// example.com / members / andy / [current_component] / [current_action] / [action_variables] / [action_variables] / ...
- *   - OUTSIDE ROOT: http:// example.com / sites / buddypress / members / andy / [current_component] / [current_action] / [action_variables] / [action_variables] / ...
+ *   - https:// example.com / members / andy / [current_component] / [current_action] / [action_variables] / [action_variables] / ...
+ *   - OUTSIDE ROOT: https:// example.com / sites / buddypress / members / andy / [current_component] / [current_action] / [action_variables] / [action_variables] / ...
  *
  * Example:
- *    - http://example.com/members/andy/profile/edit/group/5/
+ *    - https://example.com/members/andy/profile/edit/group/5/
  *    - $bp->current_component: string 'xprofile'
  *    - $bp->current_action: string 'edit'
  *    - $bp->action_variables: array ['group', 5]
@@ -632,7 +632,7 @@ add_action( 'bp_template_redirect', 'bp_core_catch_no_access', 1 );
 function bp_core_no_access( $args = '' ) {
 
 	// Build the redirect URL.
-	$redirect_url  = is_ssl() ? 'https://' : 'http://';
+	$redirect_url  = is_ssl() ? 'https://' : 'https://';
 	$redirect_url .= $_SERVER['HTTP_HOST'];
 	$redirect_url .= $_SERVER['REQUEST_URI'];
 
@@ -969,7 +969,7 @@ function bp_get_requested_url() {
 	$bp = buddypress();
 
 	if ( empty( $bp->canonical_stack['requested_url'] ) ) {
-		$bp->canonical_stack['requested_url']  = is_ssl() ? 'https://' : 'http://';
+		$bp->canonical_stack['requested_url']  = is_ssl() ? 'https://' : 'https://';
 		$bp->canonical_stack['requested_url'] .= $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	}
 

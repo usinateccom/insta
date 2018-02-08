@@ -236,7 +236,7 @@ class WPCOM_Widget_Facebook_LikeBox extends WP_Widget {
 		// Validate the Facebook Page URL
 		if ( $this->is_valid_facebook_url( $args['href'] ) ) {
 			$temp = explode( '?', $args['href'] );
-			$args['href'] = str_replace( array( 'http://facebook.com', 'https://facebook.com' ), array( 'http://www.facebook.com', 'https://www.facebook.com' ), $temp[0] );
+			$args['href'] = str_replace( array( 'https://facebook.com', 'https://facebook.com' ), array( 'https://www.facebook.com', 'https://www.facebook.com' ), $temp[0] );
 		} else {
 			$args['href'] = '';
 		}

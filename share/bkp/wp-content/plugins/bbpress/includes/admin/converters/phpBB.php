@@ -4,7 +4,7 @@
  * Implementation of phpBB v3 Converter.
  *
  * @since bbPress (r4689)
- * @link Codex Docs http://codex.bbpress.org/import-forums/phpbb
+ * @link Codex Docs https://codex.bbpress.org/import-forums/phpbb
  */
 class phpBB extends BBP_Converter_Base {
 
@@ -602,8 +602,8 @@ class phpBB extends BBP_Converter_Base {
 	 * @param string $password The password in plain text
 	 * @param string $hash The stored password hash
 	 *
-	 * @link Original source for password functions http://openwall.com/phpass/
-	 * @link phpass is now included in WP Core http://core.trac.wordpress.org/browser/trunk/wp-includes/class-phpass.php
+	 * @link Original source for password functions https://openwall.com/phpass/
+	 * @link phpass is now included in WP Core https://core.trac.wordpress.org/browser/trunk/wp-includes/class-phpass.php
 	 *
 	 * @return bool Returns true if the password is correct, false if not.
 	 */
@@ -859,11 +859,11 @@ class phpBB extends BBP_Converter_Base {
 		// Replace '<!-- m --><a class="postlink" href="$1">$1</a><!-- m -->' with '$1'
 		$phpbb_uid = preg_replace( '/\<!-- m --\>\<a class="postlink" href="([^\[]+?)"\>([^\[]+?)\<\/a\>\<!-- m --\>/', '$1', $phpbb_uid );
 
-		// Replace '[url:XXXXXXX]$1[/url:XXXXXXX]' with '<a href="http://$1">$1</a>'
-		$phpbb_uid = preg_replace( '/\[url:(?:[^\]]+)\]([^\[]+?)\[\/url:(?:[^\]]+)\]/',       '<a href="http://$1">$1</a>',  $phpbb_uid );
-		// Replace '[url=http://$1:XXXXXXX]$3[/url:XXXXXXX]' with '<a href="http://$1">$3</a>'
-		$phpbb_uid = preg_replace( '/\[url\=http\:\/\/(.*?)\:(.*?)\](.*?)\[\/url:(.*?)\]/i',  '<a href="http://$1">$3</a>',  $phpbb_uid );
-		// Replace '[url=https://$1:XXXXXXX]$3[/url:XXXXXXX]' with '<a href="http://$1">$3</a>'
+		// Replace '[url:XXXXXXX]$1[/url:XXXXXXX]' with '<a href="https://$1">$1</a>'
+		$phpbb_uid = preg_replace( '/\[url:(?:[^\]]+)\]([^\[]+?)\[\/url:(?:[^\]]+)\]/',       '<a href="https://$1">$1</a>',  $phpbb_uid );
+		// Replace '[url=https://$1:XXXXXXX]$3[/url:XXXXXXX]' with '<a href="https://$1">$3</a>'
+		$phpbb_uid = preg_replace( '/\[url\=http\:\/\/(.*?)\:(.*?)\](.*?)\[\/url:(.*?)\]/i',  '<a href="https://$1">$3</a>',  $phpbb_uid );
+		// Replace '[url=https://$1:XXXXXXX]$3[/url:XXXXXXX]' with '<a href="https://$1">$3</a>'
 		$phpbb_uid = preg_replace( '/\[url\=https\:\/\/(.*?)\:(.*?)\](.*?)\[\/url:(.*?)\]/i', '<a href="https://$1">$3</a>', $phpbb_uid );
 
 		// Replace '[email:XXXXXXX]' with '<a href="mailto:$2">$2</a>'

@@ -268,7 +268,7 @@ msgstr "Outshine Solutions"
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:589
 msgid "translator_url"
-msgstr "http://outshinesolutions.com"
+msgstr "https://outshinesolutions.com"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2895
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:593
@@ -698,8 +698,8 @@ msgstr "पृष्ठ के यूआरएल"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
 #: H:\Webdev\htdocs\wp_plugins\sitemap_beta/sitemap-ui.php:879
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "पृष्ठ के URL दर्ज करें. उदाहरण: http://www.foo.com/index.html or www.foo.com/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "पृष्ठ के URL दर्ज करें. उदाहरण: https://www.foo.com/index.html or www.foo.com/home "
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3157
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3301

@@ -18,7 +18,7 @@ defined( 'ABSPATH' ) || exit;
  * The supported types are links, mentions, images, shortcodes, embeds, audio, video, and "all".
  * This is what each type extracts:
  *
- * Links:      <a href="http://example.com">
+ * Links:      <a href="https://example.com">
  * Mentions:   @name
  *             If the Activity component is enabled, we use it to parse out any at-names. A consequence
  *             to note is that the "name" mentioned must match a real user account. If it's a made-up

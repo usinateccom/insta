@@ -13,7 +13,7 @@
  */
 
 /*
-Based on the Cerberus "Fluid" template by Ted Goas (http://tedgoas.github.io/Cerberus/).
+Based on the Cerberus "Fluid" template by Ted Goas (https://tedgoas.github.io/Cerberus/).
 License for the original template:
 
 
@@ -44,8 +44,8 @@ defined( 'ABSPATH' ) || exit;
 
 $settings = bp_email_get_appearance_settings();
 
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="<?php echo esc_attr( get_bloginfo( 'charset' ) ); ?>">
 	<meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->

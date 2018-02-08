@@ -4,9 +4,9 @@ echo '<' . '?xml version="1.0" encoding="UTF-8"?' . '>' . "\n";
 bb_generator( 'comment' );
 ?>
 <rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="https://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="https://purl.org/dc/elements/1.1/"
+	xmlns:atom="https://www.w3.org/2005/Atom"
 	<?php do_action( 'bb_rss2_ns'); ?>
 	>
 	<channel>

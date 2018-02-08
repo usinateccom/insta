@@ -45,8 +45,8 @@
  * @package   RSA
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2009 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib\Crypt;
@@ -68,7 +68,7 @@ class RSA
      * @see self::decrypt()
      */
     /**
-     * Use {@link http://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding Optimal Asymmetric Encryption Padding}
+     * Use {@link https://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding Optimal Asymmetric Encryption Padding}
      * (OAEP) for encryption / decryption.
      *
      * Uses sha1 by default.
@@ -534,10 +534,10 @@ class RSA
     function createKey($bits = 1024, $timeout = false, $partial = array())
     {
         if (!defined('CRYPT_RSA_EXPONENT')) {
-            // http://en.wikipedia.org/wiki/65537_%28number%29
+            // https://en.wikipedia.org/wiki/65537_%28number%29
             define('CRYPT_RSA_EXPONENT', '65537');
         }
-        // per <http://cseweb.ucsd.edu/~hovav/dist/survey.pdf#page=5>, this number ought not result in primes smaller
+        // per <https://cseweb.ucsd.edu/~hovav/dist/survey.pdf#page=5>, this number ought not result in primes smaller
         // than 256 bits. as a consequence if the key you're trying to create is 1024 bits and you've set CRYPT_RSA_SMALLEST_PRIME
         // to 384 bits then you're going to get a 384 bit prime and a 640 bit prime (384 + 1024 % 384). at least if
         // CRYPT_RSA_MODE is set to self::MODE_INTERNAL. if CRYPT_RSA_MODE is set to self::MODE_OPENSSL then
@@ -666,7 +666,7 @@ class RSA
                 $temp = $primes[$i]->subtract($this->one);
 
                 // textbook RSA implementations use Euler's totient function instead of the least common multiple.
-                // see http://en.wikipedia.org/wiki/Euler%27s_totient_function
+                // see https://en.wikipedia.org/wiki/Euler%27s_totient_function
                 $lcm['top'] = $lcm['top']->multiply($temp);
                 $lcm['bottom'] = $lcm['bottom'] === false ? $temp : $lcm['bottom']->gcd($temp);
 
@@ -682,7 +682,7 @@ class RSA
 
         $coefficients[2] = $primes[2]->modInverse($primes[1]);
 
-        // from <http://tools.ietf.org/html/rfc3447#appendix-A.1.2>:
+        // from <https://tools.ietf.org/html/rfc3447#appendix-A.1.2>:
         // RSAPrivateKey ::= SEQUENCE {
         //     version           Version,
         //     modulus           INTEGER,  -- n
@@ -957,7 +957,7 @@ class RSA
                        '</RSAKeyValue>';
                 break;
             case self::PUBLIC_FORMAT_OPENSSH:
-                // from <http://tools.ietf.org/html/rfc4253#page-15>:
+                // from <https://tools.ietf.org/html/rfc4253#page-15>:
                 // string    "ssh-rsa"
                 // mpint     e
                 // mpint     n
@@ -966,7 +966,7 @@ class RSA
 
                 return $RSAPublicKey;
             default: // eg. self::PUBLIC_FORMAT_PKCS1_RAW or self::PUBLIC_FORMAT_PKCS1
-                // from <http://tools.ietf.org/html/rfc3447#appendix-A.1.1>:
+                // from <https://tools.ietf.org/html/rfc3447#appendix-A.1.1>:
                 // RSAPublicKey ::= SEQUENCE {
                 //     modulus           INTEGER,  -- n
                 //     publicExponent    INTEGER   -- e
@@ -1067,8 +1067,8 @@ class RSA
                    protect private keys, however, that's not what OpenSSL* does.  OpenSSL protects private keys by adding
                    two new "fields" to the key - DEK-Info and Proc-Type.  These fields are discussed here:
 
-                   http://tools.ietf.org/html/rfc1421#section-4.6.1.1
-                   http://tools.ietf.org/html/rfc1421#section-4.6.1.3
+                   https://tools.ietf.org/html/rfc1421#section-4.6.1.1
+                   https://tools.ietf.org/html/rfc1421#section-4.6.1.3
 
                    DES-EDE3-CBC as an algorithm, however, is not discussed anywhere, near as I can tell.
                    DES-CBC and DES-EDE are discussed in RFC1423, however, DES-EDE3-CBC isn't, nor is its key derivation
@@ -1200,7 +1200,7 @@ class RSA
                     $this->_decodeLength($key); // skip over the BIT STRING / OCTET STRING length
                     // "The initial octet shall encode, as an unsigned binary integer wtih bit 1 as the least significant bit, the number of
                     //  unused bits in the final subsequent octet. The number shall be in the range zero to seven."
-                    //  -- http://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf (section 8.6.2.2)
+                    //  -- https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf (section 8.6.2.2)
                     if ($tag == self::ASN1_BITSTRING) {
                         $this->_string_shift($key);
                     }
@@ -1317,8 +1317,8 @@ class RSA
                         'comment' => $comment
                     );
                 }
-            // http://www.w3.org/TR/xmldsig-core/#sec-RSAKeyValue
-            // http://en.wikipedia.org/wiki/XML_Signature
+            // https://www.w3.org/TR/xmldsig-core/#sec-RSAKeyValue
+            // https://en.wikipedia.org/wiki/XML_Signature
             case self::PRIVATE_FORMAT_XML:
             case self::PUBLIC_FORMAT_XML:
                 $this->components = array();
@@ -1900,7 +1900,7 @@ class RSA
      * DER-decode the length
      *
      * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
-     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
+     * {@link https://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
      *
      * @access private
      * @param string $string
@@ -1921,7 +1921,7 @@ class RSA
      * DER-encode the length
      *
      * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
-     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
+     * {@link https://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
      *
      * @access private
      * @param int $length
@@ -2037,7 +2037,7 @@ class RSA
     /**
      * Determines the salt length
      *
-     * To quote from {@link http://tools.ietf.org/html/rfc3447#page-38 RFC3447#page-38}:
+     * To quote from {@link https://tools.ietf.org/html/rfc3447#page-38 RFC3447#page-38}:
      *
      *    Typical salt lengths in octets are hLen (the length of the output
      *    of the hash function Hash) and 0.
@@ -2053,7 +2053,7 @@ class RSA
     /**
      * Integer-to-Octet-String primitive
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-4.1 RFC3447#section-4.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-4.1 RFC3447#section-4.1}.
      *
      * @access private
      * @param \phpseclib\Math\BigInteger $x
@@ -2073,7 +2073,7 @@ class RSA
     /**
      * Octet-String-to-Integer primitive
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-4.2 RFC3447#section-4.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-4.2 RFC3447#section-4.2}.
      *
      * @access private
      * @param string $x
@@ -2087,7 +2087,7 @@ class RSA
     /**
      * Exponentiate with or without Chinese Remainder Theorem
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.1.1 RFC3447#section-5.1.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.1.1 RFC3447#section-5.1.2}.
      *
      * @access private
      * @param \phpseclib\Math\BigInteger $x
@@ -2196,7 +2196,7 @@ class RSA
      *
      * Protects against a particular type of timing attack described.
      *
-     * See {@link http://codahale.com/a-lesson-in-timing-attacks/ A Lesson In Timing Attacks (or, Don't use MessageDigest.isEquals)}
+     * See {@link https://codahale.com/a-lesson-in-timing-attacks/ A Lesson In Timing Attacks (or, Don't use MessageDigest.isEquals)}
      *
      * Thanks for the heads up singpolyma!
      *
@@ -2222,7 +2222,7 @@ class RSA
     /**
      * RSAEP
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.1.1 RFC3447#section-5.1.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.1.1 RFC3447#section-5.1.1}.
      *
      * @access private
      * @param \phpseclib\Math\BigInteger $m
@@ -2240,7 +2240,7 @@ class RSA
     /**
      * RSADP
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.1.2 RFC3447#section-5.1.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.1.2 RFC3447#section-5.1.2}.
      *
      * @access private
      * @param \phpseclib\Math\BigInteger $c
@@ -2258,7 +2258,7 @@ class RSA
     /**
      * RSASP1
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.2.1 RFC3447#section-5.2.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.2.1 RFC3447#section-5.2.1}.
      *
      * @access private
      * @param \phpseclib\Math\BigInteger $m
@@ -2276,7 +2276,7 @@ class RSA
     /**
      * RSAVP1
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.2.2 RFC3447#section-5.2.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.2.2 RFC3447#section-5.2.2}.
      *
      * @access private
      * @param \phpseclib\Math\BigInteger $s
@@ -2294,7 +2294,7 @@ class RSA
     /**
      * MGF1
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#appendix-B.2.1 RFC3447#appendix-B.2.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#appendix-B.2.1 RFC3447#appendix-B.2.1}.
      *
      * @access private
      * @param string $mgfSeed
@@ -2318,8 +2318,8 @@ class RSA
     /**
      * RSAES-OAEP-ENCRYPT
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-7.1.1 RFC3447#section-7.1.1} and
-     * {http://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding OAES}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-7.1.1 RFC3447#section-7.1.1} and
+     * {https://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding OAES}.
      *
      * @access private
      * @param string $m
@@ -2366,7 +2366,7 @@ class RSA
     /**
      * RSAES-OAEP-DECRYPT
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-7.1.2 RFC3447#section-7.1.2}.  The fact that the error
+     * See {@link https://tools.ietf.org/html/rfc3447#section-7.1.2 RFC3447#section-7.1.2}.  The fact that the error
      * messages aren't distinguishable from one another hinders debugging, but, to quote from RFC3447#section-7.1.2:
      *
      *    Note.  Care must be taken to ensure that an opponent cannot
@@ -2377,7 +2377,7 @@ class RSA
      *    ciphertext C, leading to a chosen-ciphertext attack such as the one
      *    observed by Manger [36].
      *
-     * As for $l...  to quote from {@link http://tools.ietf.org/html/rfc3447#page-17 RFC3447#page-17}:
+     * As for $l...  to quote from {@link https://tools.ietf.org/html/rfc3447#page-17 RFC3447#page-17}:
      *
      *    Both the encryption and the decryption operations of RSAES-OAEP take
      *    the value of a label L as input.  In this version of PKCS #1, L is
@@ -2457,7 +2457,7 @@ class RSA
     /**
      * RSAES-PKCS1-V1_5-ENCRYPT
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-7.2.1 RFC3447#section-7.2.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-7.2.1 RFC3447#section-7.2.1}.
      *
      * @access private
      * @param string $m
@@ -2505,7 +2505,7 @@ class RSA
     /**
      * RSAES-PKCS1-V1_5-DECRYPT
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-7.2.2 RFC3447#section-7.2.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-7.2.2 RFC3447#section-7.2.2}.
      *
      * For compatibility purposes, this function departs slightly from the description given in RFC3447.
      * The reason being that RFC2313#section-8.1 (PKCS#1 v1.5) states that ciphertext's encrypted by the
@@ -2565,7 +2565,7 @@ class RSA
     /**
      * EMSA-PSS-ENCODE
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-9.1.1 RFC3447#section-9.1.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-9.1.1 RFC3447#section-9.1.1}.
      *
      * @access private
      * @param string $m
@@ -2601,7 +2601,7 @@ class RSA
     /**
      * EMSA-PSS-VERIFY
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-9.1.2 RFC3447#section-9.1.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-9.1.2 RFC3447#section-9.1.2}.
      *
      * @access private
      * @param string $m
@@ -2648,7 +2648,7 @@ class RSA
     /**
      * RSASSA-PSS-SIGN
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-8.1.1 RFC3447#section-8.1.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-8.1.1 RFC3447#section-8.1.1}.
      *
      * @access private
      * @param string $m
@@ -2674,7 +2674,7 @@ class RSA
     /**
      * RSASSA-PSS-VERIFY
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-8.1.2 RFC3447#section-8.1.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-8.1.2 RFC3447#section-8.1.2}.
      *
      * @access private
      * @param string $m
@@ -2714,7 +2714,7 @@ class RSA
     /**
      * EMSA-PKCS1-V1_5-ENCODE
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-9.2 RFC3447#section-9.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-9.2 RFC3447#section-9.2}.
      *
      * @access private
      * @param string $m
@@ -2728,7 +2728,7 @@ class RSA
             return false;
         }
 
-        // see http://tools.ietf.org/html/rfc3447#page-43
+        // see https://tools.ietf.org/html/rfc3447#page-43
         switch ($this->hashName) {
             case 'md2':
                 $t = pack('H*', '3020300c06082a864886f70d020205000410');
@@ -2766,7 +2766,7 @@ class RSA
     /**
      * RSASSA-PKCS1-V1_5-SIGN
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-8.2.1 RFC3447#section-8.2.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-8.2.1 RFC3447#section-8.2.1}.
      *
      * @access private
      * @param string $m
@@ -2796,7 +2796,7 @@ class RSA
     /**
      * RSASSA-PKCS1-V1_5-VERIFY
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-8.2.2 RFC3447#section-8.2.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-8.2.2 RFC3447#section-8.2.2}.
      *
      * @access private
      * @param string $m

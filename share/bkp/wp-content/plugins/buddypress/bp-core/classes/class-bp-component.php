@@ -210,7 +210,7 @@ class BP_Component {
 	 * @param array $args {
 	 *     All values are optional.
 	 *     @type string   $slug                  The component slug. Used to construct certain URLs, such as 'friends' in
-	 *                                           http://example.com/members/joe/friends/. Default: the value of $this->id.
+	 *                                           https://example.com/members/joe/friends/. Default: the value of $this->id.
 	 *     @type string   $root_slug             The component root slug. Note that this value is generally unused if the
 	 *                                           component has a root directory (the slug will be overridden by the
 	 *                                           post_name of the directory page). Default: the slug of the directory page

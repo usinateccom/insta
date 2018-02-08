@@ -18,7 +18,7 @@ add_filter( 'pre_kses', array( 'Filter_Embedded_HTML_Objects', 'maybe_create_lin
  *
  * Not completely done, but seems to work okay
  * Stolen from Mike's Seaside presentation:
- * @link http://mdawaffepresents.wordpress.com/?p=36
+ * @link https://mdawaffepresents.wordpress.com/?p=36
  */
 
 class Filter_Embedded_HTML_Objects {

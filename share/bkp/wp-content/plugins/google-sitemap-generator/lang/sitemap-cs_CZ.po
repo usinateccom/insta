@@ -150,7 +150,7 @@ msgstr "Peter \"Kahi\" Kahoun"
 
 # C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
 msgid "translator_url"
-msgstr "http://kahi.cz/wordpress"
+msgstr "https://kahi.cz/wordpress"
 
 msgid "Sitemap Resources:"
 msgstr "Zdroje:"
@@ -461,8 +461,8 @@ msgstr "Je-li váš blog v podsložce a chcete-li přidat stránky, které NEJSO
 msgid "URL to the page"
 msgstr "URL stránky"
 
-msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
-msgstr "Vložte URL (adresu) stránky. Příklady: http://www.něco.cz/index.html nebo www.něco.cz/home "
+msgid "Enter the URL to the page. Examples: https://www.foo.com/index.html or www.foo.com/home "
+msgstr "Vložte URL (adresu) stránky. Příklady: https://www.něco.cz/index.html nebo www.něco.cz/home "
 
 msgid "Priority"
 msgstr "Priorita"

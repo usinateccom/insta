@@ -1903,8 +1903,8 @@ msgid "{{li}}The JETPACK_DEV_DEBUG constant is defined{{/li}}"
 msgstr "{{li}}A constante JETPACK_DEV_DEBUG está definida{{/li}}"
 
 #: _inc/jetpack-strings.php:481
-msgid "{{li}}Your site URL lacks a dot (e.g. http://localhost){{/li}}"
-msgstr "{{li}}A URL do seu site está em um ponto (ex.: http://localhost){{/li}}"
+msgid "{{li}}Your site URL lacks a dot (e.g. https://localhost){{/li}}"
+msgstr "{{li}}A URL do seu site está em um ponto (ex.: https://localhost){{/li}}"
 
 #: modules/wordads/php/widgets.php:34 modules/wordads/wordads.php:354
 msgid "Advertisements"
@@ -8149,7 +8149,7 @@ msgstr "Plataforma semântica pessoal de publicação"
 
 #: modules/minileven/theme/pub/minileven/footer.php:59
 msgid "https://wordpress.org/"
-msgstr "http://wordpress.org/"
+msgstr "https://wordpress.org/"
 
 #: modules/minileven/theme/pub/minileven/footer.php:35
 msgid "View Full Site"
@@ -9128,7 +9128,7 @@ msgid ""
 "\n"
 "Your webcomic's new site is ready to go. Get started by <a href=\"BLOG_URLwp-admin/customize.php#title\">setting your comic's title and tagline</a> so your readers know what it's all about.\n"
 "\n"
-"Looking for more help with setting up your site? Check out the WordPress.com <a href=\"http://learn.wordpress.com/\" target=\"_blank\">beginner's tutorial</a> and the <a href=\"http://en.support.wordpress.com/comics/\" target=\"_blank\">guide to comics on WordPress.com</a>. Dive right in by <a href=\"BLOG_URLwp-admin/customize.php#title\">publishing your first strip!</a>\n"
+"Looking for more help with setting up your site? Check out the WordPress.com <a href=\"https://learn.wordpress.com/\" target=\"_blank\">beginner's tutorial</a> and the <a href=\"https://en.support.wordpress.com/comics/\" target=\"_blank\">guide to comics on WordPress.com</a>. Dive right in by <a href=\"BLOG_URLwp-admin/customize.php#title\">publishing your first strip!</a>\n"
 "\n"
 "Lots of laughs,\n"
 "The WordPress.com Team"
@@ -9137,7 +9137,7 @@ msgstr ""
 "\n"
 "O seu novo site de webcomics está pronto. Comece <a href=\"BLOG_URLwp-admin/customize.php#title\">fornecendo um título e uma tagline</a> para que os leitores saibam do que se trata.\n"
 "\n"
-"Em busca de mais ajuda para configurar o seu site? Confira o <a href=\"http://learn.wordpress.com/\" target=\"_blank\">tutorial para iniciantes</a> do WordPress.com e o <a href=\"http://en.support.wordpress.com/comics/\" target=\"_blank\">guia de como publicar tirinhas no WordPress.com</a>. Comece <a href=\"BLOG_URLwp-admin/customize.php#title\">publicando a sua primeira tirinha!</a>\n"
+"Em busca de mais ajuda para configurar o seu site? Confira o <a href=\"https://learn.wordpress.com/\" target=\"_blank\">tutorial para iniciantes</a> do WordPress.com e o <a href=\"https://en.support.wordpress.com/comics/\" target=\"_blank\">guia de como publicar tirinhas no WordPress.com</a>. Comece <a href=\"BLOG_URLwp-admin/customize.php#title\">publicando a sua primeira tirinha!</a>\n"
 "\n"
 "Desejamos muitas risadas,\n"
 "Equipe WordPress.com"
@@ -9150,7 +9150,7 @@ msgstr "Nonce inválido ou expirado. "
 msgid "Comic draft updated. <a target=\"_blank\" href=\"%s\">Preview comic</a>"
 msgstr "O rascunho do quadrinho foi atualizado. <a target=\"_blank\" href=\"%s\">Pré-visualizar quadrinho</a>"
 
-#. translators: Publish box date format, see http://php.net/date
+#. translators: Publish box date format, see https://php.net/date
 #: modules/custom-post-types/comics.php:312
 #: modules/custom-post-types/nova.php:286
 #: modules/custom-post-types/portfolios.php:351
@@ -9377,10 +9377,10 @@ msgstr "Observação: O CSS personalizado será reiniciado quando os temas forem
 
 #: modules/custom-css/custom-css.php:989
 msgid ""
-"New to CSS? Start with a <a href=\"http://www.htmldog.com/guides/cssbeginner/\" target=\"_blank\">beginner tutorial</a>. Questions?\n"
+"New to CSS? Start with a <a href=\"https://www.htmldog.com/guides/cssbeginner/\" target=\"_blank\">beginner tutorial</a>. Questions?\n"
 "\t\tAsk in the <a href=\"https://wordpress.org/support/forum/themes-and-templates\" target=\"_blank\">Themes and Templates forum</a>."
 msgstr ""
-"Novo em CSS? Comece lendo um <a href=\"http://www.htmldog.com/guides/cssbeginner/\" target=\"_blank\">. Perguntas?\n"
+"Novo em CSS? Comece lendo um <a href=\"https://www.htmldog.com/guides/cssbeginner/\" target=\"_blank\">. Perguntas?\n"
 "\t\tPergunte no <a href=\"https://br.forums.wordpress.org/forum/temas-e-modelos\" target=\"_blank\">fórum Temas e Modelos</a>."
 
 #: modules/custom-css/custom-css.php:971
@@ -9425,11 +9425,11 @@ msgstr "Pré-visualização: as mudanças devem ser salvas ou serão perdidas"
 msgid ""
 "Welcome to Custom CSS!\n"
 "\n"
-"To learn how this works, see http://wp.me/PEmnE-Bt"
+"To learn how this works, see https://wp.me/PEmnE-Bt"
 msgstr ""
 "Bem-vindo ao CSS Personalizado!\n"
 "\n"
-"Para saber como isso funciona, veja http://wp.me/PEmnE-Bt"
+"Para saber como isso funciona, veja https://wp.me/PEmnE-Bt"
 
 #: modules/custom-content-types.php:47
 msgid "Use these settings to display different types of content on your site."
@@ -9984,8 +9984,8 @@ msgstr "Mostrar mapa da localização da foto em carrossel, quando disponível."
 
 #: _inc/lib/class.core-rest-api-endpoints.php:1191
 #: modules/carousel/jetpack-carousel.php:696
-msgid "Show photo metadata (<a href=\"http://en.wikipedia.org/wiki/Exchangeable_image_file_format\" target=\"_blank\">Exif</a>) in carousel, when available."
-msgstr "Mostrar fotos de metadados (<a href=\"http://en.wikipedia.org/wiki/Exchangeable_image_file_format\" target=\"_blank\">Exif</a>) em carrossel, quando disponível."
+msgid "Show photo metadata (<a href=\"https://en.wikipedia.org/wiki/Exchangeable_image_file_format\" target=\"_blank\">Exif</a>) in carousel, when available."
+msgstr "Mostrar fotos de metadados (<a href=\"https://en.wikipedia.org/wiki/Exchangeable_image_file_format\" target=\"_blank\">Exif</a>) em carrossel, quando disponível."
 
 #: modules/carousel/jetpack-carousel.php:639
 msgid "Metadata"
@@ -10824,8 +10824,8 @@ msgstr "Em <a href=\"%s\" target=\"_blank\">Modo de desenvolvimento</a>, por mei
 
 #. translators: %s is a URL
 #: class.jetpack.php:1569
-msgid "In <a href=\"%s\" target=\"_blank\">Development Mode</a>, via site URL lacking a dot (e.g. http://localhost)."
-msgstr "Em <a href=\"%s\" target=\"_blank\">Modo de desenvolvimento</a>, por meio de uma URL sem um ponto (por exemplo, http://localhost)."
+msgid "In <a href=\"%s\" target=\"_blank\">Development Mode</a>, via site URL lacking a dot (e.g. https://localhost)."
+msgstr "Em <a href=\"%s\" target=\"_blank\">Modo de desenvolvimento</a>, por meio de uma URL sem um ponto (por exemplo, https://localhost)."
 
 #. translators: %s is a URL
 #: class.jetpack.php:1563
