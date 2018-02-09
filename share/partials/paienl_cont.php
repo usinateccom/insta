@@ -6,7 +6,7 @@
 
 <?php
 
-include "funcoes/funcoes_painel_relatorios.php";
+//include "funcoes/funcoes_painel_relatorios.php";
 
 //echo $idzinho;
 $usuario_nom = get_usr($idzinho);
