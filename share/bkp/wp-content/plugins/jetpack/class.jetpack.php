@@ -1566,7 +1566,7 @@ class Jetpack {
 			} elseif ( site_url() && false === strpos( site_url(), '.' ) ) {
 				$notice = sprintf(
 					/* translators: %s is a URL */
-					__( 'In <a href="%s" target="_blank">Development Mode</a>, via site URL lacking a dot (e.g. https://localhost).', 'jetpack' ),
+					__( 'In <a href="%s" target="_blank">Development Mode</a>, via site URL lacking a dot (e.g. http://localhost).', 'jetpack' ),
 					'https://jetpack.com/support/development-mode/'
 				);
 			} else {
@@ -6455,7 +6455,7 @@ p {
 	 *  - Normal, relative URLs     `feh.png`
 	 *  - Data URLs                 `data:image/gif;base64,eh129ehiuehjdhsa==`
 	 *  - Schema-agnostic URLs      `//domain.com/feh.png`
-	 *  - Absolute URLs             `https://domain.com/feh.png`
+	 *  - Absolute URLs             `http://domain.com/feh.png`
 	 *  - Domain root relative URLs `/feh.png`
 	 *
 	 * @param $css string: The raw CSS -- should be read in directly from the file.
@@ -6713,7 +6713,7 @@ p {
 	}
 
 	/*
-	 * Strip https:// or https:// from a url, replaces forward slash with ::,
+	 * Strip http:// or https:// from a url, replaces forward slash with ::,
 	 * so we can bring them directly to their site in calypso.
 	 *
 	 * @param string | url
@@ -6855,7 +6855,7 @@ p {
 	 * @return string
 	 */
 	public static function get_jp_emblem() {
-		return '<svg id="jetpack-logo__icon" xmlns="https://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 32 32"><path fill="#00BE28" d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0z M15.2,18.7h-8l8-15.5V18.7z M16.8,28.8 V13.3h8L16.8,28.8z"/></svg>';
+		return '<svg id="jetpack-logo__icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 32 32"><path fill="#00BE28" d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0z M15.2,18.7h-8l8-15.5V18.7z M16.8,28.8 V13.3h8L16.8,28.8z"/></svg>';
 	}
 
 	/*

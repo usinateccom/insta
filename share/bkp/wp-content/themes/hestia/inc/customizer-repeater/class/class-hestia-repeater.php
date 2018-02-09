@@ -682,7 +682,7 @@ class Hestia_Repeater extends WP_Customize_Control {
 					/* translators: Fontawesome link with full list of icons available */
 					esc_html__( 'Note: Some icons may not be displayed here. You can see the full list of icons at %1$s.', 'hestia' ),
 					/* translators: Fontawesome link with full list of icons available */
-					sprintf( '<a href="https://fontawesome.io/icons/" rel="nofollow">%s</a>', esc_html__( 'https://fontawesome.io/icons/', 'hestia' ) )
+					sprintf( '<a href="http://fontawesome.io/icons/" rel="nofollow">%s</a>', esc_html__( 'http://fontawesome.io/icons/', 'hestia' ) )
 				);
 				?>
 			</span>
@@ -760,7 +760,7 @@ class Hestia_Repeater extends WP_Customize_Control {
 			/* translators: Fontawesome link with full list of icons available */
 			esc_html__( 'Note: Some icons may not be displayed here. You can see the full list of icons at %1$s.', 'hestia' ),
 			/* translators: Fontawesome link with full list of icons available */
-			sprintf( '<a href="https://fontawesome.io/icons/" rel="nofollow">%s</a>', esc_html__( 'https://fontawesome.io/icons/', 'hestia' ) )
+			sprintf( '<a href="http://fontawesome.io/icons/" rel="nofollow">%s</a>', esc_html__( 'http://fontawesome.io/icons/', 'hestia' ) )
 		);
 		echo '</span>';
 		if ( ! empty( $value ) ) {

@@ -310,7 +310,7 @@ $("#sului").attr("src", nil);
 
 
 
-include "partials_n/funcoes_checkout_afins.php";
+//include "partials_n/funcoes_checkout_afins.php";
 
 
 

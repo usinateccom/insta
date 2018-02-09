@@ -58,7 +58,7 @@ function parallax_one_setup() {
 
 	/*
 	 * Enable support for Post Formats.
-	 * See https://codex.wordpress.org/Post_Formats
+	 * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
 		'aside', 'image', 'video', 'quote', 'link',
@@ -74,7 +74,7 @@ function parallax_one_setup() {
 	 /*
 	 * This feature enables Custom_Headers support for a theme as of Version 3.4.
 	 *
-	 * @link https://codex.wordpress.org/Function_Reference/add_theme_support#Custom_Header
+	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Custom_Header
 	 */
 	
 	add_theme_support( 'custom-header',apply_filters( 'parallax_one_custom_header_args', array(
@@ -98,7 +98,7 @@ function parallax_one_setup() {
     /*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
-	 * @link https://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
+	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' ); 
 
@@ -131,7 +131,7 @@ function parallax_one_media_uploader_custom_sizes( $sizes ) {
 /**
  * Register widget area.
  *
- * @link https://codex.wordpress.org/Function_Reference/register_sidebar
+ * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
 function parallax_one_widgets_init() {
 	
@@ -400,7 +400,7 @@ function parallax_one_related_products_args( $args ) {
 /* Prevent theme from beeing updated by wordpress.org updates */
 
 function parallax_one_prevent_wporg_update( $r, $url ) {
-    if ( 0 !== strpos( $url, 'https://api.wordpress.org/themes/update-check' ) )
+    if ( 0 !== strpos( $url, 'http://api.wordpress.org/themes/update-check' ) )
         return $r; // Not a theme update request. Bail immediately.
  
     $themes = @unserialize( $r['body']['themes'] );

@@ -678,7 +678,7 @@ class Jetpack_User_Agent_Info {
 	/*
 	 * Detects if the current browser is Firefox Mobile (Fennec)
 	 *
-	 * https://www.useragentstring.com/pages/Fennec/
+	 * http://www.useragentstring.com/pages/Fennec/
 	 * Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.1.1) Gecko/20110415 Firefox/4.0.2pre Fennec/4.0.1
 	 * Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b2pre) Gecko/20081015 Fennec/1.0a1
 	 */

@@ -794,7 +794,7 @@ if ( ! function_exists( 'hesta_bottom_footer_content' ) ) :
 				/* translators: %s is WordPress */
 				sprintf(
 					'<a href="%1$s" rel="nofollow">%2$s</a>',
-					esc_url( __( 'https://wordpress.org', 'hestia' ) ),
+					esc_url( __( 'http://wordpress.org', 'hestia' ) ),
 					esc_html__( 'WordPress', 'hestia' )
 				)
 			)

@@ -6,7 +6,7 @@
  *
  * @package     ThemeIsleSDK
  * @copyright   Copyright (c) 2017, Marius Cristea
- * @license     https://opensource.org/licenses/gpl-2.0.php GNU Public License
+ * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @since       1.1.0
  */
 

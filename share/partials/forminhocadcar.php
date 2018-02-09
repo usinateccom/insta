@@ -15,12 +15,27 @@ echo "<center><br><div class='avisoni reguad central' style='margin-bottom:60px;
 
 </div><br></center>";
 
+
+
+
+<script>
+
+$("#form_habilita: input").prop("disabled", true);
+
+</script>
+
+
 }else{
 
 
 echo "<center><br><div class='avisonin reguad central'>
 </div>
-<br></center>";
+<br></center>
+
+
+
+
+";
 
 
 }
@@ -28,8 +43,6 @@ echo "<center><br><div class='avisonin reguad central'>
 
 
 
-?>
-<?php
 
 
 include "partials_n/form_novo_envio_galeria.php";
@@ -94,7 +107,7 @@ include "partials_n/funcoes_formulario_novas.php";
 #baril_c h3{text-decoration: ;}
 
 </style>
-<div class="encaixa reguad formboardo" style="
+<div class="encaixa reguad formboardo" id="form_habilita" style="
 
 
 display: inline-table; 

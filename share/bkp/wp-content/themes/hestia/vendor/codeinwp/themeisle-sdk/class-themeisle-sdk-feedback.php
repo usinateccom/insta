@@ -5,7 +5,7 @@
  * @package     ThemeIsleSDK
  * @subpackage  Feedback
  * @copyright   Copyright (c) 2017, Marius Cristea
- * @license     https://opensource.org/licenses/gpl-3.0.php GNU Public License
+ * @license     http://opensource.org/licenses/gpl-3.0.php GNU Public License
  * @since       1.0.0
  */
 // Exit if accessed directly.
@@ -25,7 +25,7 @@ if ( ! class_exists( 'ThemeIsle_SDK_Feedback' ) ) :
 		/**
 		 * @var string $feedback_url Url where to send the feedback
 		 */
-		private $feedback_url = 'https://feedback.themeisle.com/wordpress/wp-json/__pirate_feedback_/v1/feedback';
+		private $feedback_url = 'http://feedback.themeisle.com/wordpress/wp-json/__pirate_feedback_/v1/feedback';
 
 		/**
 		 * ThemeIsle_SDK_Feedback constructor.

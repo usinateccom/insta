@@ -4,7 +4,7 @@
 # executes wp-cli command to provision Jetpack site for given partner
 
 usage () {
-	echo "Usage: partner-provision.sh --partner_id=partner_id --partner_secret=partner_secret [--user=wp_user_id] [--plan=plan_name] [--onboarding=1] [--wpcom_user_id=1234] [--url=https://example.com] [--force_connect=1] [--force_register=1] [--allow-root] [--home_url] [--site_url]"
+	echo "Usage: partner-provision.sh --partner_id=partner_id --partner_secret=partner_secret [--user=wp_user_id] [--plan=plan_name] [--onboarding=1] [--wpcom_user_id=1234] [--url=http://example.com] [--force_connect=1] [--force_register=1] [--allow-root] [--home_url] [--site_url]"
 }
 
 GLOBAL_ARGS=""

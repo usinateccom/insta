@@ -64,7 +64,7 @@ add_action( 'jetpack_module_more_info_shortcodes', 'jetpack_shortcodes_more_info
  * Shortlinks
  */
 function wpme_load_more_link() {
-	echo 'https://wp.me/p1moTy-DL';
+	echo 'http://wp.me/p1moTy-DL';
 }
 add_filter( 'jetpack_learn_more_button_shortlinks', 'wpme_load_more_link' );
 
@@ -139,7 +139,7 @@ function latex_more_info() { ?>
 		in math blogging platforms. Use $latex your latex code here$ or [latex]your latex code here[/latex]
 		to include  in your posts and comments. Enjoy all sorts of options and embrace your inner nerd.'
 		, 'jetpack' )
-		, '<a href="https://www.latex-project.org/" target="_blank"><img src="//s0.wp.com/latex.php?latex=%5CLaTeX&amp;bg=transparent&amp;fg=000&amp;s=-1" alt="LaTeX logo" title="LaTeX" style="vertical-align: -25%" /></a>'
+		, '<a href="http://www.latex-project.org/" target="_blank"><img src="//s0.wp.com/latex.php?latex=%5CLaTeX&amp;bg=transparent&amp;fg=000&amp;s=-1" alt="LaTeX logo" title="LaTeX" style="vertical-align: -25%" /></a>'
 	); ?>
 <?php
 }

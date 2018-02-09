@@ -10,7 +10,21 @@ function initialize(){
 
 $("#alfa").addClass("dnone");
 $(".popup").css("display", "none");
-//$('#satanazi_f').val('not');
+
+
+<?php
+echo $pagina;
+if(($pagina == 'cadastro-veiculo/') AND ($logado != 'sim')){
+
+
+echo '$("#concha_loginn").focus();';
+
+
+}
+
+?>
+
+
 
 geocoder = new google.maps.Geocoder();
 
@@ -94,6 +108,20 @@ document.getElementById("nome_geog").innerHTML = "<b>" + rit + "</b> ";
 
 document.getElementById("busca_rua").value = rat ;
 
+// registra localização de acesso e pagina
+
+
+
+$.getJSON("<?php echo $ponto; ?>funcoes/registra_regiao.php",
+    {bingo: "<?php echo getRealIpAddr().':::'; ?>"+rit},
+
+    function(json){
+        
+        var belga = json.campo;
+        
+      
+    
+    }); // fim do json
 
 
 

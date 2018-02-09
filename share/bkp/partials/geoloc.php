@@ -7,9 +7,22 @@
 
 function initialize(){
 
+//alert('teste');
+
+<?php
+//echo $pagina;
+if(($pagina == 'cadastro-veiculo/') AND ($logado != 'sim')){
+
+
+echo '$("#concha_loginn").focus();';
+
+
+}
+
+?>
 
 $("#alfa").addClass("dnone");
-$(".popup").css("display", "none");
+//$(".popup").css("display", "none");
 //$('#satanazi_f').val('not');
 
 geocoder = new google.maps.Geocoder();
@@ -34,7 +47,7 @@ var lng = position.coords.longitude;
 codeLatLng(lat, lng)
 }
 function errorFunction(){
-setCookieLoc("");
+//setCookieLoc("");
 
 }
 
@@ -94,7 +107,20 @@ document.getElementById("nome_geog").innerHTML = "<b>" + rit + "</b> ";
 
 document.getElementById("busca_rua").value = rat ;
 
+document.getElementById("regra_geog").innerHTML = "";
 
+
+
+$.getJSON("<?php echo $ponto; ?>funcoes/registra_regiao.php",
+    {bingo: "<?php echo getRealIpAddr().':::'; ?>"+rit},
+
+    function(json){
+        
+        var belga = json.campo;
+        
+      
+    
+    }); // fim do json
 
 
 }

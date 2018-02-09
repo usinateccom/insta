@@ -1,0 +1,45 @@
+<html><head>
+
+<script src="jquery.min.js"></script>
+
+
+</head>
+<body>
+<script>
+
+$("#cantanon", window.parent.document).click(function(){
+
+var titulo = $("#titulo", window.parent.document).val(), kword = $("#kword", window.parent.document).val(), descric = $("#descric", window.parent.document).val(), urlh = $("#urle", window.parent.document).val(), hu = $("#hu", window.parent.document).val(), titu ='-', alte = $("#alte", window.parent.document).val(), nivel = $("#nivel", window.parent.document).val(), quale = $("#quale", window.parent.document).val();
+
+
+var canon = titulo +":::"+ kword +":::"+ descric+":::"+ urlh+":::"+ hu +":::"+ titu+":::"+ alte +":::"+ nivel+":::"+ quale;
+
+
+
+//alert(canon);
+$("#vumora", window.parent.document).html("Aguarde...");
+    $.getJSON("../../../../funcoes/atualiz_tags.php",
+    {bingo: canon},
+
+    function(json){
+
+        var belga = json.campo;
+
+        $("#vumora", window.parent.document).html(belga);
+
+
+
+
+    }); // fim do json
+
+
+
+
+
+
+
+
+});
+</script>
+
+</body></html>

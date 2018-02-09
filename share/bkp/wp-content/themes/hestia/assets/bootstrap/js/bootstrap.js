@@ -1,11 +1,11 @@
 /*!
- * Bootstrap v3.3.7 (https://getbootstrap.com)
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
 /*!
- * Generated using the Bootstrap Customizer (https://getbootstrap.com/customize/?id=594e856fa8e8e557fa367de5be387bf7)
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=594e856fa8e8e557fa367de5be387bf7)
  * Config saved to config.json and https://gist.github.com/594e856fa8e8e557fa367de5be387bf7
  */
 if (typeof jQuery === 'undefined') {
@@ -21,7 +21,7 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: carousel.js v3.3.7
- * https://getbootstrap.com/javascript/#carousel
+ * http://getbootstrap.com/javascript/#carousel
  * ========================================================================
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -288,7 +288,7 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: dropdown.js v3.3.7
- * https://getbootstrap.com/javascript/#dropdowns
+ * http://getbootstrap.com/javascript/#dropdowns
  * ========================================================================
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -481,7 +481,7 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: tooltip.js v3.3.7
- * https://getbootstrap.com/javascript/#tooltip
+ * http://getbootstrap.com/javascript/#tooltip
  * Inspired by the original jQuery.tipsy by Jason Frame
  * ========================================================================
  * Copyright 2011-2016 Twitter, Inc.
@@ -1060,7 +1060,7 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: collapse.js v3.3.7
- * https://getbootstrap.com/javascript/#collapse
+ * http://getbootstrap.com/javascript/#collapse
  * ========================================================================
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -1300,7 +1300,7 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: transition.js v3.3.7
- * https://getbootstrap.com/javascript/#transitions
+ * http://getbootstrap.com/javascript/#transitions
  * ========================================================================
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -1310,7 +1310,7 @@ if (typeof jQuery === 'undefined') {
 + function ($) {
 	'use strict';
 
-	// CSS TRANSITION SUPPORT (Shoutout: https://www.modernizr.com/)
+	// CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
 	// ============================================================
 	function transitionEnd() {
 		var el = document.createElement( 'bootstrap' )
@@ -1331,7 +1331,7 @@ if (typeof jQuery === 'undefined') {
 		return false // explicit for ie8 (  ._.)
 	}
 
-	// https://blog.alexmaccaw.com/css-transitions
+	// http://blog.alexmaccaw.com/css-transitions
 	$.fn.emulateTransitionEnd = function (duration) {
 		var called = false
 		var $el    = this

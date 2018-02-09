@@ -84,12 +84,12 @@ var wpLink;
 			inputs.url.on( 'blur', wpLink.correctURL );
 		},
 
-		// If URL wasn't corrected last time and doesn't start with http:, https:, ? # or /, prepend https://
+		// If URL wasn't corrected last time and doesn't start with http:, https:, ? # or /, prepend http://
 		correctURL: function () {
 			var url = $.trim( inputs.url.val() );
 
 			if ( url && correctedURL !== url && ! /^(?:[a-z]+:|#|\?|\.|\/)/.test( url ) ) {
-				inputs.url.val( 'https://' + url );
+				inputs.url.val( 'http://' + url );
 				correctedURL = url;
 			}
 		},

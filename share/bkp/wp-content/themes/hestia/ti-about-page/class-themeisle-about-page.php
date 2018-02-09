@@ -137,7 +137,7 @@
  *                        'slug'        => 'pirate-forms',
  *                    ),
  *                    array(
- *                        'link'        => 'https://themeisle.com/plugins/easy-content-types/',
+ *                        'link'        => 'http://themeisle.com/plugins/easy-content-types/',
  *                    ),
  *                    array(
  *                        'slug'        => 'siteorigin-panels',

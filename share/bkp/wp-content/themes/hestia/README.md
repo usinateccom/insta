@@ -15,53 +15,53 @@ Hestia is based on Material Kit by Creative Tim - MIT License.
 ## Libraries ##
 
 wp_bootstrap_navwalker, https://github.com/twittem/wp-bootstrap-navwalker
-Copyright 2014 Twitter, Edward McIntyre, GPL-2.0+, https://www.gnu.org/licenses/gpl-2.0.txt
+Copyright 2014 Twitter, Edward McIntyre, GPL-2.0+, http://www.gnu.org/licenses/gpl-2.0.txt
 
-Bootstrap, https://getbootstrap.com/
-Copyright 2011-2015 Twitter, Inc, MIT License, https://www.opensource.org/licenses/MIT
+Bootstrap, http://getbootstrap.com/
+Copyright 2011-2015 Twitter, Inc, MIT License, http://www.opensource.org/licenses/MIT
 
-FontAwesome, https://fontawesome.io/
+FontAwesome, http://fontawesome.io/
 Copyright 2015, Dave Gandy,
-Font Awesome licensed under SIL OFL 1.1, https://scripts.sil.org/OFL
-Code licensed under MIT License, https://www.opensource.org/licenses/MIT
-Documentation licensed under CC BY 3.0, https://creativecommons.org/licenses/by/3.0/
+Font Awesome licensed under SIL OFL 1.1, http://scripts.sil.org/OFL
+Code licensed under MIT License, http://www.opensource.org/licenses/MIT
+Documentation licensed under CC BY 3.0, http://creativecommons.org/licenses/by/3.0/
 
-Copyright 2014, liabru, MIT License, https://www.opensource.org/licenses/MIT
+Copyright 2014, liabru, MIT License, http://www.opensource.org/licenses/MIT
 
 Hammer.js, https://hammerjs.github.io/
-Copyright 2011-2017, Jorik Tangelder (Eight Media), MIT License, https://www.opensource.org/licenses/MIT
+Copyright 2011-2017, Jorik Tangelder (Eight Media), MIT License, http://www.opensource.org/licenses/MIT
 
 ## Images ##
 
-License: All mystock.photos images are licensed under the terms of the Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.0/, https://mystock.photos/license/
-License: All pexels.com images are licensed under the terms of the Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.0/, https://www.pexels.com/photo-license/	
+License: All mystock.photos images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/, http://mystock.photos/license/
+License: All pexels.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/, https://www.pexels.com/photo-license/	
 
 assets/img/slider1.jpg and image used in the screenshot - https://www.pexels.com/photo/mountains-nature-sky-sunset-109243/ 
-assets/img/slider2.jpg - https://mystock.photos/teddy/
-assets/img/slider3.jpg - https://mystock.photos/new-york-cityscape/
+assets/img/slider2.jpg - http://mystock.photos/teddy/
+assets/img/slider3.jpg - http://mystock.photos/new-york-cityscape/
 
-assets/img/1.jpg - https://mystock.photos/girl/
-assets/img/2.jpg - https://mystock.photos/winter-hat/
-assets/img/3.jpg - https://mystock.photos/growing-old-together/
-assets/img/4.jpg - https://mystock.photos/thinking-time/
+assets/img/1.jpg - http://mystock.photos/girl/
+assets/img/2.jpg - http://mystock.photos/winter-hat/
+assets/img/3.jpg - http://mystock.photos/growing-old-together/
+assets/img/4.jpg - http://mystock.photos/thinking-time/
 
-assets/img/5.jpg - https://mystock.photos/growing-old-together/
-assets/img/6.jpg - https://mystock.photos/mysterious-man-2/
-assets/img/7.jpg - https://mystock.photos/sun-hat/
+assets/img/5.jpg - http://mystock.photos/growing-old-together/
+assets/img/6.jpg - http://mystock.photos/mysterious-man-2/
+assets/img/7.jpg - http://mystock.photos/sun-hat/
 
-assets/img/about.jpg - https://mystock.photos/street-blur/
-assets/img/contact.jpg - https://mystock.photos/city/
+assets/img/about.jpg - http://mystock.photos/street-blur/
+assets/img/contact.jpg - http://mystock.photos/city/
 
-demo-preview-images/img/1.jpg - https://mystock.photos/teddy/
-demo-preview-images/img/2.jpg - https://mystock.photos/seascape/
-demo-preview-images/img/3.jpg - https://mystock.photos/winter-lights/
-demo-preview-images/img/4.jpg - https://mystock.photos/big-ben-perspective/
-demo-preview-images/img/5.jpg - https://mystock.photos/street-blur/
-demo-preview-images/img/6.jpg - https://mystock.photos/branch-macro/
-demo-preview-images/img/7.jpg - https://mystock.photos/urban-flowers/
-demo-preview-images/img/8.jpg - https://mystock.photos/pidgeons/
-demo-preview-images/img/9.jpg - https://mystock.photos/thinking-time/
-demo-preview-images/img/10.jpg - https://mystock.photos/london-eye-2/
+demo-preview-images/img/1.jpg - http://mystock.photos/teddy/
+demo-preview-images/img/2.jpg - http://mystock.photos/seascape/
+demo-preview-images/img/3.jpg - http://mystock.photos/winter-lights/
+demo-preview-images/img/4.jpg - http://mystock.photos/big-ben-perspective/
+demo-preview-images/img/5.jpg - http://mystock.photos/street-blur/
+demo-preview-images/img/6.jpg - http://mystock.photos/branch-macro/
+demo-preview-images/img/7.jpg - http://mystock.photos/urban-flowers/
+demo-preview-images/img/8.jpg - http://mystock.photos/pidgeons/
+demo-preview-images/img/9.jpg - http://mystock.photos/thinking-time/
+demo-preview-images/img/10.jpg - http://mystock.photos/london-eye-2/
 
 
 # Changelog  #

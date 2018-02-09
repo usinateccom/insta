@@ -3,7 +3,9 @@
 
 <?php
 
-include "partials/mapa_https.php";?>
+//include "partials/mapa_https.php";
+
+?>
 
 </div>
 
@@ -31,6 +33,13 @@ include "partials/mapa_https.php";?>
 
 <div class="regua">
 
+<div class="central">
+
+<h2>Veículos Similares</h2>
+<div class="colored-line"></div>
+<br><br>
+
+</div>
 
 	<?php
 

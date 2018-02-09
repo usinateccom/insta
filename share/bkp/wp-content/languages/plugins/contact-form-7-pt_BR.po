@@ -382,7 +382,7 @@ msgstr "CAPTCHA (Really Simple CAPTCHA)"
 
 #. Author URI of the plugin/theme
 msgid "https://ideasilo.wordpress.com/"
-msgstr "https://ideasilo.wordpress.com/"
+msgstr "http://ideasilo.wordpress.com/"
 
 #. Author of the plugin/theme
 msgid "Takayuki Miyoshi"

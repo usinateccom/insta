@@ -175,9 +175,9 @@ class WP_REST_Request implements ArrayAccess {
 	 * Note that we treat `-` (dashes) and `_` (underscores) as the same
 	 * character, as per header parsing rules in both Apache and nginx.
 	 *
-	 * @link https://stackoverflow.com/q/18185366
-	 * @link https://wiki.nginx.org/Pitfalls#Missing_.28disappearing.29_HTTP_headers
-	 * @link https://nginx.org/en/docs/http/ngx_http_core_module.html#underscores_in_headers
+	 * @link http://stackoverflow.com/q/18185366
+	 * @link http://wiki.nginx.org/Pitfalls#Missing_.28disappearing.29_HTTP_headers
+	 * @link http://nginx.org/en/docs/http/ngx_http_core_module.html#underscores_in_headers
 	 *
 	 * @since 4.4.0
 	 * @access public

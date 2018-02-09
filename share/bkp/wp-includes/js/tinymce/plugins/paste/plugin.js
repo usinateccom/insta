@@ -105,8 +105,8 @@
  * Released under LGPL License.
  * Copyright (c) 1999-2015 Ephox Corp. All rights reserved
  *
- * License: https://www.tinymce.com/license
- * Contributing: https://www.tinymce.com/contributing
+ * License: http://www.tinymce.com/license
+ * Contributing: http://www.tinymce.com/contributing
  */
 
 /**
@@ -237,8 +237,8 @@ define("tinymce/pasteplugin/Utils", [
  * Released under LGPL License.
  * Copyright (c) 1999-2015 Ephox Corp. All rights reserved
  *
- * License: https://www.tinymce.com/license
- * Contributing: https://www.tinymce.com/contributing
+ * License: http://www.tinymce.com/license
+ * Contributing: http://www.tinymce.com/contributing
  */
 
 /**
@@ -928,8 +928,8 @@ define("tinymce/pasteplugin/Clipboard", [
  * Released under LGPL License.
  * Copyright (c) 1999-2015 Ephox Corp. All rights reserved
  *
- * License: https://www.tinymce.com/license
- * Contributing: https://www.tinymce.com/contributing
+ * License: http://www.tinymce.com/license
+ * Contributing: http://www.tinymce.com/contributing
  */
 
 /**
@@ -1431,8 +1431,8 @@ define("tinymce/pasteplugin/WordFilter", [
  * Released under LGPL License.
  * Copyright (c) 1999-2015 Ephox Corp. All rights reserved
  *
- * License: https://www.tinymce.com/license
- * Contributing: https://www.tinymce.com/contributing
+ * License: http://www.tinymce.com/license
+ * Contributing: http://www.tinymce.com/contributing
  */
 
 /**
@@ -1593,8 +1593,8 @@ define("tinymce/pasteplugin/Quirks", [
  * Released under LGPL License.
  * Copyright (c) 1999-2015 Ephox Corp. All rights reserved
  *
- * License: https://www.tinymce.com/license
- * Contributing: https://www.tinymce.com/contributing
+ * License: http://www.tinymce.com/license
+ * Contributing: http://www.tinymce.com/contributing
  */
 
 /**

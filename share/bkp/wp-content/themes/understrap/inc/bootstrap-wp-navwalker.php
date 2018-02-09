@@ -21,7 +21,7 @@ if (! class_exists ( 'understrap_WP_Bootstrap_Navwalker' )) :
  * Version: 2.0.4
  * Author: Edward McIntyre - @twittem
  * License: GPL-2.0+
- * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 class understrap_WP_Bootstrap_Navwalker extends Walker_Nav_Menu {
 	/**

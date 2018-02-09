@@ -2,7 +2,7 @@
 /**
  * The template for displaying Archive pages.
  *
- * Learn more: https://codex.wordpress.org/Template_Hierarchy
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package Clean Lite
  */

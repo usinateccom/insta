@@ -49,7 +49,7 @@ class Jetpack_Network_Sites_List_Table extends WP_List_Table {
 	}
 
 	public function column_blogname( $item ) {
-		// https://jpms/wp-admin/network/site-info.php?id=1
+		// http://jpms/wp-admin/network/site-info.php?id=1
 		switch_to_blog( $item->blog_id );
 		$jp_url = admin_url( 'admin.php?page=jetpack' );
 		restore_current_blog();
@@ -69,7 +69,7 @@ class Jetpack_Network_Sites_List_Table extends WP_List_Table {
                          '<a href="' .
                          get_site_url( $item->blog_id, '', 'admin' ) .
                          '">' .
-                         str_replace( array( 'https://', 'https://' ), '', get_site_url( $item->blog_id, '', 'admin' ) ) .
+                         str_replace( array( 'http://', 'https://' ), '', get_site_url( $item->blog_id, '', 'admin' ) ) .
                          '</a>';
 	}
 

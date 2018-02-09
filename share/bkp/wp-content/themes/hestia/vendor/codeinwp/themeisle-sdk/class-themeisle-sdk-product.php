@@ -5,7 +5,7 @@
  * @package     ThemeIsleSDK
  * @subpackage  Product
  * @copyright   Copyright (c) 2017, Marius Cristea
- * @license     https://opensource.org/licenses/gpl-3.0.php GNU Public License
+ * @license     http://opensource.org/licenses/gpl-3.0.php GNU Public License
  * @since       1.0.0
  */
 // Exit if accessed directly.

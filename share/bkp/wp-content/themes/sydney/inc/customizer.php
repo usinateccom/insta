@@ -1705,7 +1705,7 @@ function sydney_customize_register( $wp_customize ) {
         array(
             'title' => __('Theme info', 'sydney'),
             'priority' => 139,
-            'description' => '<p style="padding-bottom: 10px;border-bottom: 1px solid #d3d2d2">' . __('1. Documentation for Sydney can be found ', 'sydney') . '<a target="_blank" href="https://athemes.com/documentation/sydney/">here</a></p><p style="padding-bottom: 10px;border-bottom: 1px solid #d3d2d2">' . __('2. A full theme demo can be found ', 'sydney') . '<a target="_blank" href="https://demo.athemes.com/sydney/">here</a></p>',         
+            'description' => '<p style="padding-bottom: 10px;border-bottom: 1px solid #d3d2d2">' . __('1. Documentation for Sydney can be found ', 'sydney') . '<a target="_blank" href="http://athemes.com/documentation/sydney/">here</a></p><p style="padding-bottom: 10px;border-bottom: 1px solid #d3d2d2">' . __('2. A full theme demo can be found ', 'sydney') . '<a target="_blank" href="http://demo.athemes.com/sydney/">here</a></p>',         
         )
     );
     $wp_customize->add_setting('sydney_theme_docs', array(

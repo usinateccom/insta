@@ -7,7 +7,7 @@
 
 /**
  * Custom Pagination with numbers
- * Credits to https://www.wpbeginner.com/wp-themes/how-to-add-numeric-pagination-in-your-wordpress-theme/
+ * Credits to http://www.wpbeginner.com/wp-themes/how-to-add-numeric-pagination-in-your-wordpress-theme/
  */
 
 if ( ! function_exists( 'understrap_pagination' ) ) :

@@ -7,7 +7,7 @@
  * Dual licensed under the MIT (MIT-LICENSE.txt)
  * and GPL (GPL-LICENSE.txt) licenses.
  *
- * https://odyniec.net/projects/imgareaselect/
+ * http://odyniec.net/projects/imgareaselect/
  *
  */
 

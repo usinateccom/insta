@@ -1,5 +1,5 @@
 # See more about this script here
-# https://austinpray.com/ops/2015/09/20/change-travis-node-version.html
+# http://austinpray.com/ops/2015/09/20/change-travis-node-version.html
 
 # Define a node version.
 TRAVIS_NODE_VERSION="5"

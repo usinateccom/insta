@@ -4,9 +4,9 @@ namespace GuzzleHttp;
 /**
  * This class contains a list of built-in Guzzle request options.
  *
- * More documentation for each option can be found at https://guzzlephp.org/.
+ * More documentation for each option can be found at http://guzzlephp.org/.
  *
- * @link https://docs.guzzlephp.org/en/v6/request-options.html
+ * @link http://docs.guzzlephp.org/en/v6/request-options.html
  */
 final class RequestOptions
 {

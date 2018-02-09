@@ -14,7 +14,7 @@
  * @author WPForms
  * @copyright WPForms, 2007-17, All Rights Reserved
  * This code is released under the GPL licence version 3 or later, available here
- * https://www.gnu.org/licenses/gpl.txt
+ * http://www.gnu.org/licenses/gpl.txt
  */
 
 define( 'WPMS_PLUGIN_VER', '1.1.0' );
@@ -214,7 +214,7 @@ if ( ! function_exists( 'phpmailer_init_smtp' ) ) :
 			}
 		}
 
-		// You can add your own options here, see the phpmailer documentation for more info: https://phpmailer.sourceforge.net/docs/.
+		// You can add your own options here, see the phpmailer documentation for more info: http://phpmailer.sourceforge.net/docs/.
 		/** @noinspection PhpUnusedLocalVariableInspection It's passed by reference. */
 		$phpmailer = apply_filters( 'wp_mail_smtp_custom_options', $phpmailer );
 	}
@@ -665,7 +665,7 @@ if ( ! function_exists( 'wp_mail_smtp_mail_from' ) ) :
 	function wp_mail_smtp_mail_from( $orig ) {
 		/*
 		 * This is copied from pluggable.php lines 348-354 as at revision 10150
-		 * https://trac.wordpress.org/browser/branches/2.7/wp-includes/pluggable.php#L348.
+		 * http://trac.wordpress.org/browser/branches/2.7/wp-includes/pluggable.php#L348.
 		 */
 
 		// In case of CLI we don't have SERVER_NAME, so use host name instead, may be not a domain name.

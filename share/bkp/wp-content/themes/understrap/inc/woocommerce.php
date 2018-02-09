@@ -25,7 +25,7 @@ if ( ! function_exists( 'understrap_woocommerce_support' ) ) {
 }
 /**
  * Filter hook function monkey patching form classes
- * Author: Adriano Monecchi https://stackoverflow.com/a/36724593/307826
+ * Author: Adriano Monecchi http://stackoverflow.com/a/36724593/307826
  *
  * @param string $args Form attributes.
  * @param string $key Not in use.

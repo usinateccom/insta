@@ -1,6 +1,6 @@
 <?php
 if (!defined('TI_SL_STORE_URL')) {
-    define( 'TI_SL_STORE_URL', 'https://themeisle.com' );
+    define( 'TI_SL_STORE_URL', 'http://themeisle.com' );
 }
 
 function Parallax_One_theme_updater() {
@@ -30,7 +30,7 @@ if(!class_exists('Parallax_One_Theme_Updater')) {
 
         function __construct( $args = array() ) {
             $args = wp_parse_args( $args, array(
-                'remote_api_url' => 'https://easydigitaldownloads.com',
+                'remote_api_url' => 'http://easydigitaldownloads.com',
                 'request_data'   => array(),
                 'theme_slug'     => get_template(),
                 'item_name'      => '',

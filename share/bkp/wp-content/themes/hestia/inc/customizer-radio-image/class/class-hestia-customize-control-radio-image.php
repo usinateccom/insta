@@ -13,8 +13,8 @@
  * @since Hestia 1.1.24
  * @author     Justin Tadlock <justin@justintadlock.com>
  * @copyright  Copyright (c) 2008 - 2015, Justin Tadlock
- * @link       https://themehybrid.com/hybrid-core
- * @license    https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @link       http://themehybrid.com/hybrid-core
+ * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 if ( ! class_exists( 'WP_Customize_Control' ) ) {

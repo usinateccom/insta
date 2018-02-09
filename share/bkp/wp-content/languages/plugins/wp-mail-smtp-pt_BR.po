@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Plugins - WP Mail SMTP - Stable (latest release)\n"
 
 #. Author URI of the plugin/theme
-msgid "https://www.callum-macdonald.com/"
-msgstr "https://www.callum-macdonald.com/"
+msgid "http://www.callum-macdonald.com/"
+msgstr "http://www.callum-macdonald.com/"
 
 #. Author of the plugin/theme
 msgid "Callum Macdonald"
@@ -24,8 +24,8 @@ msgid "Reconfigures the wp_mail() function to use SMTP instead of mail() and cre
 msgstr "Reconfigura a função wp_mail() para usar SMTP no lugar de mail() e cria uma página de opções para gerenciar as configurações."
 
 #. Plugin URI of the plugin/theme
-msgid "https://www.callum-macdonald.com/code/wp-mail-smtp/"
-msgstr "https://www.callum-macdonald.com/code/wp-mail-smtp/"
+msgid "http://www.callum-macdonald.com/code/wp-mail-smtp/"
+msgstr "http://www.callum-macdonald.com/code/wp-mail-smtp/"
 
 #. Plugin Name of the plugin/theme
 msgid "WP-Mail-SMTP"

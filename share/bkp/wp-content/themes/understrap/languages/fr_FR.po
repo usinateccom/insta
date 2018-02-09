@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: understrap\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/_s\n"
 "POT-Creation-Date: 2016-12-20 18:30+0100\n"
 "PO-Revision-Date: 2016-12-21 11:31+0100\n"
 "Last-Translator: \n"
@@ -120,8 +120,8 @@ msgid "Comments are closed."
 msgstr "Les commentaires sont fermés."
 
 #: footer.php:27
-msgid "https://wordpress.org/"
-msgstr "https://wordpress.org/"
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
 
 #: footer.php:28
 #, php-format
@@ -779,16 +779,16 @@ msgstr ""
 "et \"gulp copy-assets\" dans le dossier extract / understrap."
 
 #. Theme URI of the theme
-msgid "https://understrap.com"
-msgstr "https://understrap.com"
+msgid "http://understrap.com"
+msgstr "http://understrap.com"
 
 #. Author of the theme
 msgid "Holger Koenemann"
 msgstr "Holger Koenemann"
 
 #. Author URI of the theme
-msgid "https://www.holgerkoenemann.de"
-msgstr "https://www.holgerkoenemann.de"
+msgid "http://www.holgerkoenemann.de"
+msgstr "http://www.holgerkoenemann.de"
 
 #~ msgid "Sidebar"
 #~ msgstr "Sidebar"

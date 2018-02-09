@@ -16,7 +16,7 @@ _deprecated_file(
 	sprintf( __( 'Please include a %s template in your theme.' ), basename( __FILE__ ) )
 );
 ?><!DOCTYPE html>
-<html xmlns="https://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
      <title><?php printf(__('%1$s - Comments on %2$s'), get_option('blogname'), the_title('','',false)); ?></title>
 
@@ -120,7 +120,7 @@ else: // have_posts()
 <!-- // this is just the end of the motor - don't touch that line either :) -->
 <?php //} ?>
 <p class="credit"><?php timer_stop(1); ?> <cite><?php printf(__('Powered by <a href="%s" title="Powered by WordPress, state-of-the-art semantic personal publishing platform"><strong>WordPress</strong></a>'), 'https://wordpress.org/'); ?></cite></p>
-<?php // Seen at https://www.mijnkopthee.nl/log2/archive/2003/05/28/esc(18) ?>
+<?php // Seen at http://www.mijnkopthee.nl/log2/archive/2003/05/28/esc(18) ?>
 <script type="text/javascript">
 <!--
 document.onkeypress = function esc(e) {

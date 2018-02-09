@@ -173,7 +173,7 @@ class Jetpack_Protect_Module {
 			<div class="jp-banner__content">
 				<h2><?php esc_html_e( 'Protect cannot keep your site secure.', 'jetpack' ); ?></h2>
 
-				<p><?php printf( __( 'Thanks for activating Protect! To start protecting your site, please network activate Jetpack on your Multisite installation and activate Protect on your primary site. Due to the way logins are handled on WordPress Multisite, Jetpack must be network-enabled in order for Protect to work properly. <a href="%s" target="_blank">Learn More</a>', 'jetpack' ), 'https://jetpack.com/support/multisite-protect' ); ?></p>
+				<p><?php printf( __( 'Thanks for activating Protect! To start protecting your site, please network activate Jetpack on your Multisite installation and activate Protect on your primary site. Due to the way logins are handled on WordPress Multisite, Jetpack must be network-enabled in order for Protect to work properly. <a href="%s" target="_blank">Learn More</a>', 'jetpack' ), 'http://jetpack.com/support/multisite-protect' ); ?></p>
 			</div>
 			<div class="jp-banner__action-container is-opt-in">
 				<a href="<?php echo esc_url( network_admin_url( 'plugins.php' ) ); ?>" class="jp-banner__button"
@@ -587,7 +587,7 @@ class Jetpack_Protect_Module {
 		do_action( 'jpp_kill_login', $ip );
 
 		if( defined( 'XMLRPC_REQUEST' ) && XMLRPC_REQUEST ) {
-			$die_string = sprintf( __( 'Your IP (%1$s) has been flagged for potential security violations.', 'jetpack' ), str_replace( 'https://', '', esc_url( 'https://' . $ip ) ) );
+			$die_string = sprintf( __( 'Your IP (%1$s) has been flagged for potential security violations.', 'jetpack' ), str_replace( 'http://', '', esc_url( 'http://' . $ip ) ) );
 			wp_die(
 				$die_string,
 				__( 'Login Blocked by Jetpack', 'jetpack' ),
@@ -881,7 +881,7 @@ class Jetpack_Protect_Module {
 			return $this->local_host;
 		}
 
-		$uri = 'https://' . strtolower( $_SERVER['HTTP_HOST'] );
+		$uri = 'http://' . strtolower( $_SERVER['HTTP_HOST'] );
 
 		if ( is_multisite() ) {
 			$uri = network_home_url();

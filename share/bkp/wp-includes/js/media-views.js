@@ -4568,7 +4568,7 @@ EmbedLink = wp.media.view.Settings.extend({
 		this.$( '.setting' ).hide();
 
 		// only proceed with embed if the field contains more than 11 characters
-		// Example: https://a.io is 11 chars
+		// Example: http://a.io is 11 chars
 		if ( url && ( url.length < 11 || ! url.match(/^http(s)?:\/\//) ) ) {
 			return;
 		}
@@ -4676,7 +4676,7 @@ EmbedUrl = View.extend({
 			return;
 		}
 
-		this.input.value = this.model.get('url') || 'https://';
+		this.input.value = this.model.get('url') || 'http://';
 		/**
 		 * Call `render` directly on parent class with passed arguments
 		 */
@@ -7356,7 +7356,7 @@ AttachmentDisplay = Settings.extend({
 			} else if ( 'file' === linkTo ) {
 				$input.val( attachment.get('url') );
 			} else if ( ! this.model.get('linkUrl') ) {
-				$input.val('https://');
+				$input.val('http://');
 			}
 
 			$input.prop( 'readonly', 'custom' !== linkTo );
@@ -7744,7 +7744,7 @@ Embed = Select.extend({
 
 	refresh: function() {
 		var url = this.controller.state().props.get('url');
-		this.get('select').model.set( 'disabled', ! url || url === 'https://' );
+		this.get('select').model.set( 'disabled', ! url || url === 'http://' );
 		/**
 		 * call 'refresh' directly on the parent class
 		 */

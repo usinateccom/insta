@@ -4,7 +4,7 @@
  *
  * If the user has selected a static page for their homepage, this is what will
  * appear.
- * Learn more: https://codex.wordpress.org/Template_Hierarchy
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package Hestia
  * @since Hestia 1.0

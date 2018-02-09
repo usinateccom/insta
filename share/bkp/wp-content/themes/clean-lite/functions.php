@@ -126,8 +126,8 @@ add_action( 'wp_enqueue_scripts', 'clean_lite_scripts' );
 define('SKT_URL','https://www.sktthemes.net','clean-lite');
 define('SKT_PRO_THEME_URL','https://www.sktthemes.net/shop/clean-multipurpose-wordpress-theme/','clean-lite');
 define('SKT_FREE_THEME_URL','https://www.sktthemes.net/shop/free-clean-wordpress-theme/','clean-lite');
-define('SKT_THEME_DOC','https://sktthemesdemo.net/documentation/clean-doc/','clean-lite');
-define('SKT_LIVE_DEMO','https://sktthemesdemo.net/clean/','clean-lite');
+define('SKT_THEME_DOC','http://sktthemesdemo.net/documentation/clean-doc/','clean-lite');
+define('SKT_LIVE_DEMO','http://sktthemesdemo.net/clean/','clean-lite');
 define('SKT_THEMES','https://www.sktthemes.net/themes/','clean-lite');
 
 /**

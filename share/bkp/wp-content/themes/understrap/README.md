@@ -18,7 +18,7 @@ You can use it as starter theme and build your own theme on top of it. Or you us
 UnderStrap WordPress Theme, Copyright 2013-2017 Holger Koenemann
 UnderStrap is distributed under the terms of the GNU GPL version 2
 
-https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 ## Changelog
 See [changelog](CHANGELOG.md)
@@ -29,7 +29,7 @@ See [changelog](CHANGELOG.md)
 - Combines Underscore’s PHP/JS files and Bootstrap’s HTML/CSS/JS.
 - Comes with Bootstrap (v4) Sass source files and additional .scss files. Nicely sorted and ready to add your own variables and customize the Bootstrap variables.
 - Uses a single and minified CSS file for all the basic stuff.
-- [Font Awesome](https://fortawesome.github.io/Font-Awesome/) integration (v4.7.0)
+- [Font Awesome](http://fortawesome.github.io/Font-Awesome/) integration (v4.7.0)
 - Jetpack ready.
 - WooCommerce support.
 - Contact Form 7 support.
@@ -129,12 +129,12 @@ The `empty.php` template displays a header and a footer only. A good starting po
 
 The `fullwidthpage.php` template has full width layout without a sidebar.
 
-[1] Visit [https://browsersync.io](https://browsersync.io) for more information on Browser Sync
+[1] Visit [http://browsersync.io](http://browsersync.io) for more information on Browser Sync
 
 Licenses & Credits
 =
-- Font Awesome: https://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
-- Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT documentation under CC BY 3.0.)
+- Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+- Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT documentation under CC BY 3.0.)
 and of course
 - jQuery: https://jquery.org | (Code licensed under MIT)
 - WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL

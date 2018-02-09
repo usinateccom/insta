@@ -2,12 +2,21 @@
 
 //parametros iniciais
 //alterar aqui
-$titulo = "Painel InstaShare - Manutenção";
+$titulo = "Painel InstaShare";
 session_start();
 
 
+$area = "4";
 
-include "config/configl.php";
+if(!isset($_SESSION['login']) and !isset($_SESSION['senha'])){
+
+}
+else{
+echo "<script>location.href='adm/'</script>";
+}
+
+
+include "../config/config.php";
 
 
 
@@ -21,14 +30,16 @@ include "config/configl.php";
 
 
 
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="../config/css/geral.css">
-<link rel="stylesheet" href="config/css/login.css">
-<script src="config/js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/login.css">
+<script src="../config/js/jquery.min.js"></script>
 <script src="../config/js/funcoes.js"></script>
 
 
+<LINK href="../favcon.ico" rel="shortcut icon">
+<LINK href="../favicon.ico" rel="icon">
 
 
 <script>
@@ -49,7 +60,7 @@ $("#notif_log").html("Aguarde...");
 disab('login', 'senha');
 	recado('notif_log', 'Aguarde...');
 	
-
+$("#balgo").val("<?php echo $area.':::'; ?>"+cat_duplo('login', 'senha'));
 
 if(($("#login").val() == '') || ($("#senha").val() == '') ){
 
@@ -64,8 +75,8 @@ if(($("#login").val() == '') || ($("#senha").val() == '') ){
 }else{
 
 	
-    $.getJSON("funcoes/login_protegido.php",
-    {bingo: cat_duplo('login', 'senha')},
+    $.getJSON("../funcoes/login_protegido.php",
+    {bingo: "<?php echo $area.':::'; ?>"+cat_duplo('login', 'senha')},
 
     function(json){
         
@@ -91,8 +102,10 @@ if((belga == "Login/Senha Inválido(s).")||(belga == 'Acesso não permitido.')){
 
 if(belga == "Login Bem-Sucedido."){
 
+var tomo = $("#balgo").val();
 
-window.location.replace("adm/");
+
+$("#sinji").submit();
 
 
 }
@@ -115,6 +128,12 @@ window.location.replace("adm/");
 
 </script>
 
+<?php
+
+include "../funcoes/funcoesjs.php";
+
+?>
+
 </head>
 
 <body onload="foca()">
@@ -123,7 +142,7 @@ window.location.replace("adm/");
 <div  class="meio">
 
 <br>
-<center><img src="../wp-content/uploads/2017/12/IMG-20171213-WA0053.png" class="sess"><br><br>
+<center><img src="../imagens/carro compartilhado locacao instashare logo.png" class="sess"><br><br>
 
 <label>LOGIN : &nbsp;</label>
 
@@ -136,7 +155,10 @@ window.location.replace("adm/");
 <div id="notif_log" class="vermelho"></div><br><br><br><br>
 </center>
 
+<form method='post' action='adm/' id='sinji' class="dnone">
+	<input type="text" name="belgo" id='balgo'>
 
+</form>
 
 </div>
 

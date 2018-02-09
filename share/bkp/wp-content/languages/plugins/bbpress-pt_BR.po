@@ -58,7 +58,7 @@ msgstr "bbPress é o software para fóruns com um gostinho dos criadores do Word
 #. #-#-#-#-#  bbpress-code.pot (bbPress 2.5.13)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://bbpress.org"
-msgstr "https://bbpress.org"
+msgstr "http://bbpress.org"
 
 #: includes/admin/tools.php:1148
 msgid "No reply positions to recalculate!"
@@ -3851,7 +3851,7 @@ msgstr "Discussão"
 msgid "Forum draft updated. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
 msgstr "Rascunho do Fórum atualizado. <a target=\"_blank\" href=\"%s\">Pré-visualizar fórum</a>"
 
-#. translators: Publish box date format, see https://php.net/date
+#. translators: Publish box date format, see http://php.net/date
 #: includes/admin/forums.php:558 includes/admin/replies.php:878
 #: includes/admin/topics.php:948
 msgid "M j, Y @ G:i"
@@ -4016,15 +4016,15 @@ msgstr "O campo de título e a grande área de edição do fórum são fixos no 
 #: includes/admin/replies.php:179 includes/admin/replies.php:236
 #: includes/admin/settings.php:1597 includes/admin/topics.php:180
 #: includes/admin/topics.php:236
-msgid "<a href=\"https://bbpress.org/forums/\" target=\"_blank\">bbPress Support Forums</a>"
-msgstr "<a href=\"https://bbpress.org/forums/\" target=\"_blank\">Fóruns de Suporte do bbPress</a>"
+msgid "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress Support Forums</a>"
+msgstr "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">Fóruns de Suporte do bbPress</a>"
 
 #: includes/admin/forums.php:164 includes/admin/forums.php:223
 #: includes/admin/replies.php:178 includes/admin/replies.php:235
 #: includes/admin/settings.php:1596 includes/admin/topics.php:179
 #: includes/admin/topics.php:235
-msgid "<a href=\"https://codex.bbpress.org\" target=\"_blank\">bbPress Documentation</a>"
-msgstr "<a href=\"https://codex.bbpress.org\" target=\"_blank\">Documentação do bbPress</a>"
+msgid "<a href=\"http://codex.bbpress.org\" target=\"_blank\">bbPress Documentation</a>"
+msgstr "<a href=\"http://codex.bbpress.org\" target=\"_blank\">Documentação do bbPress</a>"
 
 #: includes/admin/forums.php:163 includes/admin/forums.php:222
 #: includes/admin/replies.php:177 includes/admin/replies.php:234
