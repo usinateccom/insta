@@ -12,7 +12,7 @@ $bot = $_POST['belgo'];
 } else{
 
 
-header("location: http://www.instashare.me/manutencao/");
+header("location: https://www.instashare.me/manutencao/");
 
 }// post
 

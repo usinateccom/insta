@@ -14,7 +14,7 @@ $usuario = $tuk[1];
 } else{
 
 
-header("location: http://www.instashare.me/manutencao/");
+header("location: https://www.instashare.me/manutencao/");
 
 }// post
 

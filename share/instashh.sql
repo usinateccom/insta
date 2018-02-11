@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 09-Fev-2018 às 18:52
+-- Generation Time: 11-Fev-2018 às 08:08
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -39365,7 +39365,13 @@ INSERT INTO `cadcomp` (`um`, `id_usr`, `status`) VALUES
 (5, '7', '1'),
 (6, '8', '1'),
 (7, '9', '2'),
-(9, '25', '1');
+(14, '45', '1'),
+(15, '46', '1'),
+(16, '47', '1'),
+(17, '48', '1'),
+(18, '49', '1'),
+(19, '50', '1'),
+(20, '51', '1');
 
 -- --------------------------------------------------------
 
@@ -49779,7 +49785,14 @@ INSERT INTO `dados_sensveis` (`um`, `cfp_cnpj`, `rg_insc`, `cnh_reg`, `logradour
 (5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '5', NULL, NULL),
 (6, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '6', NULL, NULL),
 (7, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '7', NULL, NULL),
-(8, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '8', NULL, NULL);
+(8, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '8', NULL, NULL),
+(13, '000.000.000-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '45', '06/12/1988', '(00) 00000-0000'),
+(14, '000.000.000-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '46', '06/07/1991', '(00) 00000-0000'),
+(15, '000.000.000-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '47', '10/12/1980', '(00) 00000-0000'),
+(16, '000.000.000-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '48', '18/12/1980', '(00) 00000-0000'),
+(17, '000.000.000-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '49', '18/08/1980', '(00) 00000-0000'),
+(18, '000.000.000-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '50', '19/09/1980', '(00) 00000-0000'),
+(19, '18.388.770/0001-19', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '51', '06/06/2013', '(31) 98721-2586');
 
 -- --------------------------------------------------------
 
@@ -50043,14 +50056,21 @@ CREATE TABLE `foto_usr` (
 
 INSERT INTO `foto_usr` (`um`, `idUsr`, `foto`) VALUES
 (1, '3', 'wp-content/themes/Parallax-One/images/clients/1.jpg'),
-(0, '4', 'wp-content/themes/Parallax-One/images/clients/2.jpg'),
-(2, '2', 'wp-content/uploads/2017/12/c0622565ca9653ea91e55da781584060.jpeg'),
-(0, '5', 'imagens/cadastros/2.jpg'),
-(0, '6', 'imagens/cadastros/3.jpg'),
-(0, '7', 'imagens/cadastros/4.jpg'),
-(0, '7', 'imagens/anuncios/6.jpg'),
-(0, '8', 'wp-content/themes/Parallax-One/images/clients/3.jpg'),
-(0, '9', 'imagens/cadastros/7.jpg');
+(2, '4', 'wp-content/themes/Parallax-One/images/clients/2.jpg'),
+(3, '2', 'wp-content/uploads/2017/12/c0622565ca9653ea91e55da781584060.jpeg'),
+(4, '5', 'imagens/cadastros/2.jpg'),
+(5, '6', 'imagens/cadastros/3.jpg'),
+(6, '7', 'imagens/cadastros/4.jpg'),
+(7, '7', 'imagens/anuncios/6.jpg'),
+(8, '8', 'wp-content/themes/Parallax-One/images/clients/3.jpg'),
+(9, '9', 'imagens/cadastros/7.jpg'),
+(17, '45', 'imagens/cadastros/indefinido.png'),
+(18, '46', 'imagens/cadastros/indefinido.png'),
+(19, '47', 'imagens/cadastros/indefinido.png'),
+(20, '48', 'imagens/cadastros/indefinido.png'),
+(21, '49', 'imagens/cadastros/indefinido.png'),
+(22, '50', 'imagens/cadastros/indefinido.png'),
+(23, '51', 'imagens/cadastros/indefinido.png');
 
 -- --------------------------------------------------------
 
@@ -50718,7 +50738,34 @@ INSERT INTO `logs_ff` (`um`, `data`, `hora`, `ip`, `local`, `usuario`, `log`, `f
 (628, '08/02/2018', '22:05', '::1', NULL, 'NUBIAVIL5541', 'USUÁRIO NUBIAVIL5541 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
 (629, '08/02/2018', '22:16', '::1', NULL, 'NUBIAVIL5541', 'USUÁRIO NUBIAVIL5541 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
 (630, '08/02/2018', '22:16', '::1', NULL, 'NUBIAVIL5541', 'USUÁRIO NUBIAVIL5541 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
-(631, '08/02/2018', '22:20', '::1', NULL, 'NUBIAVIL5541', 'USUÁRIO NUBIAVIL5541 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO');
+(631, '08/02/2018', '22:20', '::1', NULL, 'NUBIAVIL5541', 'USUÁRIO NUBIAVIL5541 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(632, '10/02/2018', '13:32', '::1', NULL, 'NUBIAVIL5541', 'USUÁRIO NUBIAVIL5541 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(633, '11/02/2018', '04:02', '::1', NULL, 'MANUT', 'USUÁRIO MANUT ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(634, '11/02/2018', '04:06', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(635, '11/02/2018', '04:07', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(636, '11/02/2018', '04:08', '::1', NULL, 'MANUT', 'USUÁRIO MANUT ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(637, '11/02/2018', '04:10', '::1', NULL, 'MANUT', 'USUÁRIO MANUT DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(638, '11/02/2018', '04:11', '::1', NULL, 'MANUT', 'USUÁRIO MANUT ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(639, '11/02/2018', '04:11', '::1', NULL, 'MANUT', 'USUÁRIO MANUT DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(640, '11/02/2018', '04:12', '::1', NULL, 'GILSONES7096', 'USUÁRIO GILSONES7096 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(641, '11/02/2018', '04:13', '::1', NULL, 'GILSONES7096', 'USUÁRIO GILSONES7096 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(642, '11/02/2018', '04:13', '::1', NULL, 'ALEXSOS2349', 'USUÁRIO ALEXSOS2349 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(643, '11/02/2018', '04:14', '::1', NULL, 'ALEXSOS2349', 'USUÁRIO ALEXSOS2349 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(644, '11/02/2018', '04:14', '::1', NULL, 'MANUT', 'USUÁRIO MANUT ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(645, '11/02/2018', '04:16', '::1', NULL, 'AURELIOSECA5278', 'USUÁRIO AURELIOSECA5278 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(646, '11/02/2018', '04:16', '::1', NULL, 'AURELIOSECA5278', 'USUÁRIO AURELIOSECA5278 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(647, '11/02/2018', '04:56', '::1', NULL, 'indefinido', 'BUSCA REALIZADA PELO USUÁRIO indefinido', 'BUSCA'),
+(648, '11/02/2018', '04:57', '::1', NULL, 'indefinido', 'BUSCA REALIZADA PELO USUÁRIO indefinido', 'BUSCA'),
+(649, '11/02/2018', '04:58', '::1', NULL, 'indefinido', 'BUSCA REALIZADA PELO USUÁRIO indefinido', 'BUSCA'),
+(650, '11/02/2018', '04:58', '::1', NULL, 'indefinido', 'BUSCA REALIZADA PELO USUÁRIO indefinido', 'BUSCA'),
+(651, '11/02/2018', '04:58', '::1', NULL, 'indefinido', 'BUSCA REALIZADA PELO USUÁRIO indefinido', 'BUSCA'),
+(652, '11/02/2018', '04:59', '::1', NULL, 'AURELIOSECA5278', 'USUÁRIO AURELIOSECA5278 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(653, '11/02/2018', '05:01', '::1', NULL, 'ALEXANDRE DEC9014', 'USUÁRIO ALEXANDRE DEC9014 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(654, '11/02/2018', '05:51', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(655, '11/02/2018', '05:51', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(656, '11/02/2018', '05:52', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(657, '11/02/2018', '05:52', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(658, '11/02/2018', '05:53', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO');
 
 -- --------------------------------------------------------
 
@@ -54348,283 +54395,13 @@ INSERT INTO `tipo_cad` (`um`, `id_usr`, `tipo`) VALUES
 (6, '7', 'fisica'),
 (7, '8', 'fisica'),
 (8, '9', 'fisica'),
-(9, '9', 'fisica'),
-(10, '9', 'fisica'),
-(11, '9', 'fisica'),
-(12, '9', 'fisica'),
-(13, '9', 'fisica'),
-(14, '9', 'fisica'),
-(15, '9', 'fisica'),
-(16, '9', 'fisica'),
-(17, '9', 'fisica'),
-(18, '9', 'fisica'),
-(19, '9', 'fisica'),
-(20, '9', 'fisica'),
-(21, '9', 'fisica'),
-(22, '9', 'fisica'),
-(23, '9', 'fisica'),
-(24, '9', 'fisica'),
-(25, '9', 'fisica'),
-(26, '9', 'fisica'),
-(27, '9', 'fisica'),
-(28, '9', 'fisica'),
-(29, '9', 'fisica'),
-(30, '9', 'fisica'),
-(31, '9', 'fisica'),
-(32, '9', 'fisica'),
-(33, '9', 'fisica'),
-(34, '9', 'fisica'),
-(35, '9', 'fisica'),
-(36, '9', 'fisica'),
-(37, '9', 'fisica'),
-(38, '9', 'fisica'),
-(39, '9', 'fisica'),
-(40, '9', 'fisica'),
-(41, '9', 'fisica'),
-(42, '9', 'fisica'),
-(43, '9', 'fisica'),
-(44, '9', 'fisica'),
-(45, '9', 'fisica'),
-(46, '9', 'fisica'),
-(47, '9', 'fisica'),
-(48, '9', 'fisica'),
-(49, '9', 'fisica'),
-(50, '9', 'fisica'),
-(51, '9', 'fisica'),
-(52, '9', 'fisica'),
-(53, '9', 'fisica'),
-(54, '9', 'fisica'),
-(55, '9', 'fisica'),
-(56, '9', 'fisica'),
-(57, '9', 'fisica'),
-(58, '9', 'fisica'),
-(59, '9', 'fisica'),
-(60, '9', 'fisica'),
-(61, '9', 'fisica'),
-(62, '9', 'fisica'),
-(63, '9', 'fisica'),
-(64, '9', 'fisica'),
-(65, '9', 'fisica'),
-(66, '9', 'fisica'),
-(67, '9', 'fisica'),
-(68, '9', 'fisica'),
-(69, '9', 'fisica'),
-(70, '9', 'fisica'),
-(71, '9', 'fisica'),
-(72, '9', 'fisica'),
-(73, '9', 'fisica'),
-(74, '9', 'fisica'),
-(75, '9', 'fisica'),
-(76, '9', 'fisica'),
-(77, '9', 'fisica'),
-(78, '9', 'fisica'),
-(79, '9', 'fisica'),
-(80, '9', 'fisica'),
-(81, '9', 'fisica'),
-(82, '9', 'fisica'),
-(83, '9', 'fisica'),
-(84, '9', 'fisica'),
-(85, '9', 'fisica'),
-(86, '9', 'fisica'),
-(87, '9', 'fisica'),
-(88, '9', 'fisica'),
-(89, '9', 'fisica'),
-(90, '9', 'fisica'),
-(91, '9', 'fisica'),
-(92, '9', 'fisica'),
-(93, '9', 'fisica'),
-(94, '9', 'fisica'),
-(95, '9', 'fisica'),
-(96, '9', 'fisica'),
-(97, '9', 'fisica'),
-(98, '9', 'fisica'),
-(99, '9', 'fisica'),
-(100, '9', 'fisica'),
-(101, '9', 'fisica'),
-(102, '9', 'fisica'),
-(103, '9', 'fisica'),
-(104, '9', 'fisica'),
-(105, '9', 'fisica'),
-(106, '9', 'fisica'),
-(107, '9', 'fisica'),
-(108, '9', 'fisica'),
-(109, '9', 'fisica'),
-(110, '9', 'fisica'),
-(111, '9', 'fisica'),
-(112, '9', 'fisica'),
-(113, '9', 'fisica'),
-(114, '9', 'fisica'),
-(115, '9', 'fisica'),
-(116, '9', 'fisica'),
-(117, '9', 'fisica'),
-(118, '9', 'fisica'),
-(119, '9', 'fisica'),
-(120, '9', 'fisica'),
-(121, '9', 'fisica'),
-(122, '9', 'fisica'),
-(123, '9', 'fisica'),
-(124, '9', 'fisica'),
-(125, '9', 'fisica'),
-(126, '9', 'fisica'),
-(127, '9', 'fisica'),
-(128, '9', 'fisica'),
-(129, '9', 'fisica'),
-(130, '9', 'fisica'),
-(131, '9', 'fisica'),
-(132, '9', 'fisica'),
-(133, '9', 'fisica'),
-(134, '9', 'fisica'),
-(135, '9', 'fisica'),
-(136, '9', 'fisica'),
-(137, '9', 'fisica'),
-(138, '9', 'fisica'),
-(139, '9', 'fisica'),
-(140, '9', 'fisica'),
-(141, '9', 'fisica'),
-(142, '9', 'fisica'),
-(143, '9', 'fisica'),
-(144, '9', 'fisica'),
-(145, '9', 'fisica'),
-(146, '9', 'fisica'),
-(147, '9', 'fisica'),
-(148, '9', 'fisica'),
-(149, '9', 'fisica'),
-(150, '9', 'fisica'),
-(151, '9', 'fisica'),
-(152, '9', 'fisica'),
-(153, '9', 'fisica'),
-(154, '9', 'fisica'),
-(155, '9', 'fisica'),
-(156, '9', 'fisica'),
-(157, '9', 'fisica'),
-(158, '9', 'fisica'),
-(159, '9', 'fisica'),
-(160, '9', 'fisica'),
-(161, '9', 'fisica'),
-(162, '9', 'fisica'),
-(163, '9', 'fisica'),
-(164, '9', 'fisica'),
-(165, '9', 'fisica'),
-(166, '9', 'fisica'),
-(167, '9', 'fisica'),
-(168, '9', 'fisica'),
-(169, '9', 'fisica'),
-(170, '9', 'fisica'),
-(171, '9', 'fisica'),
-(172, '9', 'fisica'),
-(173, '9', 'fisica'),
-(174, '9', 'fisica'),
-(175, '9', 'fisica'),
-(176, '9', 'fisica'),
-(177, '9', 'fisica'),
-(178, '9', 'fisica'),
-(179, '9', 'fisica'),
-(180, '9', 'fisica'),
-(181, '9', 'fisica'),
-(182, '9', 'fisica'),
-(183, '9', 'fisica'),
-(184, '9', 'fisica'),
-(185, '9', 'fisica'),
-(186, '9', 'fisica'),
-(187, '9', 'fisica'),
-(188, '9', 'fisica'),
-(189, '9', 'fisica'),
-(190, '9', 'fisica'),
-(191, '9', 'fisica'),
-(192, '9', 'fisica'),
-(193, '9', 'fisica'),
-(194, '9', 'fisica'),
-(195, '9', 'fisica'),
-(196, '9', 'fisica'),
-(197, '9', 'fisica'),
-(198, '9', 'fisica'),
-(199, '9', 'fisica'),
-(200, '9', 'fisica'),
-(201, '9', 'fisica'),
-(202, '9', 'fisica'),
-(203, '9', 'fisica'),
-(204, '9', 'fisica'),
-(205, '9', 'fisica'),
-(206, '9', 'fisica'),
-(207, '9', 'fisica'),
-(208, '9', 'fisica'),
-(209, '9', 'fisica'),
-(210, '9', 'fisica'),
-(211, '9', 'fisica'),
-(212, '9', 'fisica'),
-(213, '9', 'fisica'),
-(214, '9', 'fisica'),
-(215, '9', 'fisica'),
-(216, '9', 'fisica'),
-(217, '9', 'fisica'),
-(218, '9', 'fisica'),
-(219, '9', 'fisica'),
-(220, '9', 'fisica'),
-(221, '9', 'fisica'),
-(222, '9', 'fisica'),
-(223, '9', 'fisica'),
-(224, '9', 'fisica'),
-(225, '9', 'fisica'),
-(226, '9', 'fisica'),
-(227, '9', 'fisica'),
-(228, '9', 'fisica'),
-(229, '9', 'fisica'),
-(230, '9', 'fisica'),
-(231, '9', 'fisica'),
-(232, '9', 'fisica'),
-(233, '9', 'fisica'),
-(234, '9', 'fisica'),
-(235, '9', 'fisica'),
-(236, '9', 'fisica'),
-(237, '9', 'fisica'),
-(238, '9', 'fisica'),
-(239, '9', 'fisica'),
-(240, '9', 'fisica'),
-(241, '9', 'fisica'),
-(242, '9', 'fisica'),
-(243, '9', 'fisica'),
-(244, '9', 'fisica'),
-(245, '9', 'fisica'),
-(246, '9', 'fisica'),
-(247, '9', 'fisica'),
-(248, '9', 'fisica'),
-(249, '9', 'fisica'),
-(250, '9', 'fisica'),
-(251, '9', 'fisica'),
-(252, '9', 'fisica'),
-(253, '9', 'fisica'),
-(254, '9', 'fisica'),
-(255, '9', 'fisica'),
-(256, '9', 'fisica'),
-(257, '9', 'fisica'),
-(258, '9', 'fisica'),
-(259, '9', 'fisica'),
-(260, '9', 'fisica'),
-(261, '9', 'fisica'),
-(262, '9', 'fisica'),
-(263, '9', 'fisica'),
-(264, '9', 'fisica'),
-(265, '9', 'fisica'),
-(266, '9', 'fisica'),
-(267, '9', 'fisica'),
-(268, '9', 'fisica'),
-(269, '9', 'fisica'),
-(270, '9', 'fisica'),
-(271, '9', 'fisica'),
-(272, '9', 'fisica'),
-(273, '9', 'fisica'),
-(274, '9', 'fisica'),
-(275, '9', 'fisica'),
-(276, '9', 'fisica'),
-(277, '9', 'fisica'),
-(278, '9', 'fisica'),
-(279, '9', 'fisica'),
-(280, '9', 'fisica'),
-(281, '9', 'fisica'),
-(282, '9', 'fisica'),
-(283, '9', 'fisica'),
-(284, '9', 'fisica'),
-(285, '25', 'fisica');
+(302, '51', 'juridica'),
+(301, '50', 'fisica'),
+(300, '49', 'fisica'),
+(299, '48', 'fisica'),
+(298, '47', 'fisica'),
+(297, '46', 'fisica'),
+(296, '45', 'fisica');
 
 -- --------------------------------------------------------
 
@@ -54819,7 +54596,14 @@ INSERT INTO `usuarios_tt` (`um`, `login_t`, `senha_t`, `tipo`, `local`, `data_ca
 (6, 'SILVIOD5584', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '16/12/2017'),
 (7, 'DALTONSAN4156', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '16/12/2017'),
 (8, 'NUBIAVIL5541', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '16/12/2017'),
-(9, 'ALEXANDRELIS1420', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '16/12/2017');
+(9, 'ALEXANDRELIS1420', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '16/12/2017'),
+(47, 'MARTAMARAES5682', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '11/02/2018'),
+(46, 'JULIOENARA3187', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '11/02/2018'),
+(45, 'MILTONSIL4560', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '11/02/2018'),
+(48, 'GILSONES7096', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '11/02/2018'),
+(49, 'ALEXSOS2349', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '11/02/2018'),
+(50, 'AURELIOSECA5278', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '11/02/2018'),
+(51, 'ALEXANDREDEC9014', 'acda27c90c1b9ded7ac74610e2f77370', '2', '2', '11/02/2018');
 
 -- --------------------------------------------------------
 
@@ -54829,7 +54613,7 @@ INSERT INTO `usuarios_tt` (`um`, `login_t`, `senha_t`, `tipo`, `local`, `data_ca
 
 CREATE TABLE `us_nome_mail` (
   `um` int(11) NOT NULL,
-  `nome` varchar(120) DEFAULT NULL,
+  `nome` varchar(2800) DEFAULT NULL,
   `email` varchar(120) DEFAULT NULL,
   `is_id` varchar(30) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
@@ -54847,7 +54631,13 @@ INSERT INTO `us_nome_mail` (`um`, `nome`, `email`, `is_id`) VALUES
 (6, 'Dalton Santana', 'exemplodalton@exemplo.com', '7'),
 (7, 'Nubia Vilaça', 'exemplonubia@exemplo.com', '8'),
 (8, 'Alexandre Lisboa', 'alexandredepaula1320@yahoo.com.br', '9'),
-(21, 'Yuriko Aika', 'undefined', '25');
+(31, 'Milton Brasil', 'miltonbras@gmail.com', '45'),
+(32, 'Julio Alvenara', 'juliob12@gmail.com', '46'),
+(33, 'Marta Guimarães', 'exemplomarta@exemplo.com', '47'),
+(34, 'Gilson Nunes', 'exemplogilson@exemplo.com', '48'),
+(35, 'Alex Passos', 'exemploalex@exemplo.com', '49'),
+(36, 'Aurelio Fonseca', 'exemploaurelio@exemplo.com', '50'),
+(37, 'Alexandre de | Usina Tec Com', 'comercial@tecnologiacomercialbh.com.br', '51');
 
 -- --------------------------------------------------------
 
@@ -55176,7 +54966,10 @@ INSERT INTO `visualizanuncio` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VAL
 (277, '09/02/2018', '16:43', '7', '::1', '8'),
 (278, '09/02/2018', '16:43', '7', '::1', 'indefinido'),
 (279, '09/02/2018', '16:46', '2', '::1', '8'),
-(280, '09/02/2018', '16:48', '3', '::1', '8');
+(280, '09/02/2018', '16:48', '3', '::1', '8'),
+(281, '09/02/2018', '17:19', '2', '::1', 'indefinido'),
+(282, '09/02/2018', '17:24', '7', '::1', '8'),
+(283, '09/02/2018', '17:24', '9', '::1', '8');
 
 -- --------------------------------------------------------
 
@@ -56726,7 +56519,88 @@ INSERT INTO `visualizpag` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VALUES
 (1508, '09/02/2018', '16:34', 'principal', '::1', '8'),
 (1509, '09/02/2018', '16:34', 'anuncios/', '::1', '8'),
 (1510, '09/02/2018', '16:46', 'principal', '::1', '8'),
-(1511, '09/02/2018', '16:46', 'principal', '::1', '8');
+(1511, '09/02/2018', '16:46', 'principal', '::1', '8'),
+(1512, '09/02/2018', '17:20', 'membros/', '::1', 'indefinido'),
+(1513, '09/02/2018', '17:54', 'principal', '::1', '8'),
+(1514, '09/02/2018', '17:54', 'principal', '::1', '8'),
+(1515, '09/02/2018', '17:55', 'principal', '::1', '8'),
+(1516, '09/02/2018', '17:55', 'principal', '::1', '8'),
+(1517, '09/02/2018', '17:55', 'principal', '::1', 'indefinido'),
+(1518, '09/02/2018', '17:56', 'principal', '::1', 'indefinido'),
+(1519, '09/02/2018', '17:56', 'principal', '::1', 'indefinido'),
+(1520, '09/02/2018', '17:57', 'principal', '::1', 'indefinido'),
+(1521, '09/02/2018', '17:59', 'principal', '::1', 'indefinido'),
+(1522, '09/02/2018', '18:03', 'principal', '::1', '8'),
+(1523, '09/02/2018', '18:04', 'principal', '::1', '8'),
+(1524, '09/02/2018', '18:04', 'principal', '::1', 'indefinido'),
+(1525, '09/02/2018', '18:30', 'principal', '::1', '8'),
+(1526, '09/02/2018', '18:30', 'principal', '::1', '8'),
+(1527, '09/02/2018', '19:22', 'principal', '::1', '8'),
+(1528, '09/02/2018', '20:00', 'principal', '::1', '8'),
+(1529, '09/02/2018', '20:01', 'principal', '::1', '8'),
+(1530, '09/02/2018', '20:01', 'principal', '::1', '8'),
+(1531, '09/02/2018', '20:02', 'principal', '::1', '8'),
+(1532, '09/02/2018', '20:13', 'principal', '::1', '8'),
+(1533, '09/02/2018', '20:13', 'principal', '::1', '8'),
+(1534, '09/02/2018', '20:14', 'principal', '::1', '8'),
+(1535, '10/02/2018', '13:32', 'principal', '::1', '8'),
+(1536, '10/02/2018', '13:32', 'principal', '::1', 'indefinido'),
+(1537, '10/02/2018', '13:53', 'cadastro/', '::1', 'indefinido'),
+(1538, '10/02/2018', '15:25', 'cadastro-veiculo/', '::1', 'indefinido'),
+(1539, '10/02/2018', '15:25', 'cadastro/', '::1', 'indefinido'),
+(1540, '10/02/2018', '23:31', 'principal', '::1', 'indefinido'),
+(1541, '10/02/2018', '23:32', 'cadastro/', '::1', 'indefinido'),
+(1542, '11/02/2018', '01:08', 'cadastro/', '::1', 'indefinido'),
+(1543, '11/02/2018', '01:37', 'senha/', '::1', 'indefinido'),
+(1544, '11/02/2018', '01:37', 'cadastro/', '::1', 'indefinido'),
+(1545, '11/02/2018', '01:58', 'cadastro/', '::1', 'indefinido'),
+(1546, '11/02/2018', '03:46', 'cadastro/', '::1', 'indefinido'),
+(1547, '11/02/2018', '03:46', 'cadastro/', '::1', 'indefinido'),
+(1548, '11/02/2018', '04:01', 'cadastro/', '::1', 'indefinido'),
+(1549, '11/02/2018', '04:06', 'cadastro-veiculo/', '::1', 'indefinido'),
+(1550, '11/02/2018', '04:06', 'cadastro-veiculo/', '::1', '45'),
+(1551, '11/02/2018', '04:07', 'cadastro-veiculo/', '::1', 'indefinido'),
+(1552, '11/02/2018', '04:07', 'cadastro/', '::1', 'indefinido'),
+(1553, '11/02/2018', '04:10', 'principal', '::1', ''),
+(1554, '11/02/2018', '04:10', 'principal', '::1', 'indefinido'),
+(1555, '11/02/2018', '04:10', 'cadastro/', '::1', 'indefinido'),
+(1556, '11/02/2018', '04:11', 'principal', '::1', ''),
+(1557, '11/02/2018', '04:11', 'principal', '::1', 'indefinido'),
+(1558, '11/02/2018', '04:11', 'cadastro/', '::1', 'indefinido'),
+(1559, '11/02/2018', '04:13', 'como-funciona/', '::1', '48'),
+(1560, '11/02/2018', '04:13', 'como-funciona/', '::1', 'indefinido'),
+(1561, '11/02/2018', '04:13', 'cadastro/', '::1', 'indefinido'),
+(1562, '11/02/2018', '04:15', 'principal', '::1', 'indefinido'),
+(1563, '11/02/2018', '04:15', 'cadastro/', '::1', 'indefinido'),
+(1564, '11/02/2018', '04:16', 'completar-cadastro/', '::1', '50'),
+(1565, '11/02/2018', '04:17', 'principal', '::1', '50'),
+(1566, '11/02/2018', '04:19', 'principal', '::1', '50'),
+(1567, '11/02/2018', '04:20', 'principal', '::1', 'indefinido'),
+(1568, '11/02/2018', '04:22', 'principal', '::1', 'indefinido'),
+(1569, '11/02/2018', '04:46', 'principal', '::1', 'indefinido'),
+(1570, '11/02/2018', '04:51', 'principal', '::1', 'indefinido'),
+(1571, '11/02/2018', '04:52', 'principal', '::1', 'indefinido'),
+(1572, '11/02/2018', '04:53', 'principal', '::1', 'indefinido'),
+(1573, '11/02/2018', '04:53', 'principal', '::1', 'indefinido'),
+(1574, '11/02/2018', '04:54', 'principal', '::1', 'indefinido'),
+(1575, '11/02/2018', '04:54', 'principal', '::1', 'indefinido'),
+(1576, '11/02/2018', '04:55', 'principal', '::1', 'indefinido'),
+(1577, '11/02/2018', '04:55', 'principal', '::1', 'indefinido'),
+(1578, '11/02/2018', '04:56', 'principal', '::1', 'indefinido'),
+(1579, '11/02/2018', '04:56', 'busca/', '::1', 'indefinido'),
+(1580, '11/02/2018', '04:57', 'busca/', '::1', 'indefinido'),
+(1581, '11/02/2018', '04:58', 'busca/', '::1', 'indefinido'),
+(1582, '11/02/2018', '04:58', 'busca/', '::1', 'indefinido'),
+(1583, '11/02/2018', '04:58', 'busca/', '::1', 'indefinido'),
+(1584, '11/02/2018', '04:58', 'cadastro/', '::1', 'indefinido'),
+(1585, '11/02/2018', '04:59', 'principal', '::1', 'indefinido'),
+(1586, '11/02/2018', '04:59', 'cadastro/', '::1', 'indefinido'),
+(1587, '11/02/2018', '05:50', 'principal', '::1', '51'),
+(1588, '11/02/2018', '05:51', 'completar-cadastro/', '::1', '51'),
+(1589, '11/02/2018', '05:52', 'completar-cadastro/', '::1', '51');
+INSERT INTO `visualizpag` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VALUES
+(1590, '11/02/2018', '05:52', 'completar-cadastro/', '::1', '51'),
+(1591, '11/02/2018', '05:53', 'completar-cadastro/', '::1', '51');
 
 -- --------------------------------------------------------
 
@@ -57966,6 +57840,12 @@ ALTER TABLE `fotos_gal`
   ADD PRIMARY KEY (`um`);
 
 --
+-- Indexes for table `foto_usr`
+--
+ALTER TABLE `foto_usr`
+  ADD PRIMARY KEY (`um`);
+
+--
 -- Indexes for table `img_sec`
 --
 ALTER TABLE `img_sec`
@@ -58343,12 +58223,12 @@ ALTER TABLE `avaliander`
 -- AUTO_INCREMENT for table `cadcomp`
 --
 ALTER TABLE `cadcomp`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
 -- AUTO_INCREMENT for table `dados_sensveis`
 --
 ALTER TABLE `dados_sensveis`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 --
 -- AUTO_INCREMENT for table `descric_anunc`
 --
@@ -58370,6 +58250,11 @@ ALTER TABLE `fotos_anuncio`
 ALTER TABLE `fotos_gal`
   MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
+-- AUTO_INCREMENT for table `foto_usr`
+--
+ALTER TABLE `foto_usr`
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+--
 -- AUTO_INCREMENT for table `img_sec`
 --
 ALTER TABLE `img_sec`
@@ -58378,7 +58263,7 @@ ALTER TABLE `img_sec`
 -- AUTO_INCREMENT for table `logs_ff`
 --
 ALTER TABLE `logs_ff`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=632;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=659;
 --
 -- AUTO_INCREMENT for table `negoc`
 --
@@ -58423,7 +58308,7 @@ ALTER TABLE `sessoes`
 -- AUTO_INCREMENT for table `tipo_cad`
 --
 ALTER TABLE `tipo_cad`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=286;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=303;
 --
 -- AUTO_INCREMENT for table `usr_docs`
 --
@@ -58433,12 +58318,12 @@ ALTER TABLE `usr_docs`
 -- AUTO_INCREMENT for table `usuarios_tt`
 --
 ALTER TABLE `usuarios_tt`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 --
 -- AUTO_INCREMENT for table `us_nome_mail`
 --
 ALTER TABLE `us_nome_mail`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 --
 -- AUTO_INCREMENT for table `validacao_cad`
 --
@@ -58448,7 +58333,7 @@ ALTER TABLE `validacao_cad`
 -- AUTO_INCREMENT for table `visualizanuncio`
 --
 ALTER TABLE `visualizanuncio`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=281;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=284;
 --
 -- AUTO_INCREMENT for table `visualiza_regiao`
 --
@@ -58458,7 +58343,7 @@ ALTER TABLE `visualiza_regiao`
 -- AUTO_INCREMENT for table `visualizpag`
 --
 ALTER TABLE `visualizpag`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1512;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1592;
 --
 -- AUTO_INCREMENT for table `wpd_bp_activity`
 --

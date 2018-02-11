@@ -28,7 +28,7 @@ class BP_XProfile_Field_Type_URL extends BP_XProfile_Field_Type {
 		$this->category = _x( 'Single Fields', 'xprofile field type category', 'buddypress' );
 		$this->name     = _x( 'URL', 'xprofile field type', 'buddypress' );
 
-		$this->set_format( '_^(?:(?:https?|ftp)://)(?:\S+(?::\S*)?@)?(?:(?!10(?:\.\d{1,3}){3})(?!127(?:\.\d{1,3}){3})(?!169\.254(?:\.\d{1,3}){2})(?!192\.168(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\x{00a1}-\x{ffff}0-9]+-?)*[a-z\x{00a1}-\x{ffff}0-9]+)(?:\.(?:[a-z\x{00a1}-\x{ffff}0-9]+-?)*[a-z\x{00a1}-\x{ffff}0-9]+)*(?:\.(?:[a-z\x{00a1}-\x{ffff}]{2,})))(?::\d{2,5})?(?:/[^\s]*)?$_iuS', 'replace' );
+		$this->set_format( '_^(?:(?:httpsss?|ftp)://)(?:\S+(?::\S*)?@)?(?:(?!10(?:\.\d{1,3}){3})(?!127(?:\.\d{1,3}){3})(?!169\.254(?:\.\d{1,3}){2})(?!192\.168(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\x{00a1}-\x{ffff}0-9]+-?)*[a-z\x{00a1}-\x{ffff}0-9]+)(?:\.(?:[a-z\x{00a1}-\x{ffff}0-9]+-?)*[a-z\x{00a1}-\x{ffff}0-9]+)*(?:\.(?:[a-z\x{00a1}-\x{ffff}]{2,})))(?::\d{2,5})?(?:/[^\s]*)?$_iuS', 'replace' );
 
 		/**
 		 * Fires inside __construct() method for BP_XProfile_Field_Type_URL class.
@@ -49,7 +49,7 @@ class BP_XProfile_Field_Type_URL extends BP_XProfile_Field_Type {
 	 * @since 2.1.0
 	 *
 	 * @param array $raw_properties Optional key/value array of
-	 *                              {@link https://dev.w3.org/html5/markup/input.number.html permitted attributes}
+	 *                              {@link httpss://dev.w3.org/html5/markup/input.number.html permitted attributes}
 	 *                              that you want to add.
 	 */
 	public function edit_field_html( array $raw_properties = array() ) {
@@ -126,11 +126,11 @@ class BP_XProfile_Field_Type_URL extends BP_XProfile_Field_Type {
 	/**
 	 * Modify submitted URL values before validation.
 	 *
-	 * The URL validation regex requires a http(s) protocol, so that all
+	 * The URL validation regex requires a httpss(s) protocol, so that all
 	 * values saved in the database are fully-formed URLs. However, we
 	 * still want to allow users to enter URLs without a protocol, for a
 	 * better user experience. So we catch submitted URL values, and if
-	 * the protocol is missing, we prepend 'https://' before passing to
+	 * the protocol is missing, we prepend 'httpss://' before passing to
 	 * is_valid().
 	 *
 	 * @since 2.1.0
@@ -153,7 +153,7 @@ class BP_XProfile_Field_Type_URL extends BP_XProfile_Field_Type {
 			substr( $submitted_value, 0, 1 ) !== '#' &&
 			! preg_match( '/^[a-z0-9-]+?\.php/i', $submitted_value )
 		) {
-			$submitted_value = 'https://' . $submitted_value;
+			$submitted_value = 'httpss://' . $submitted_value;
 		}
 
 		return $submitted_value;
@@ -171,7 +171,7 @@ class BP_XProfile_Field_Type_URL extends BP_XProfile_Field_Type {
 	 */
 	public static function display_filter( $field_value, $field_id = '' ) {
 		$link      = strip_tags( $field_value );
-		$no_scheme = preg_replace( '#^https?://#', '', rtrim( $link, '/' ) );
+		$no_scheme = preg_replace( '#^httpsss?://#', '', rtrim( $link, '/' ) );
 		$url_text  = str_replace( $link, $no_scheme, $field_value );
 		return '<a href="' . esc_url( $field_value ) . '" rel="nofollow">' . esc_html( $url_text ) . '</a>';
 	}
