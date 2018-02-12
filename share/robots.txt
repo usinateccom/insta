@@ -16,6 +16,8 @@ Disallow: /slider/
 Disallow: /bkp/
 Disallow: /bkp2/
 Disallow: /termos-compromisso/
+Disallow: /docs/
+Disallow: /mapas_https/
 
 User-agent: Slurp
 
@@ -35,6 +37,8 @@ Disallow: /slider/
 Disallow: /bkp/
 Disallow: /bkp2/
 Disallow: /termos-compromisso/
+Disallow: /docs/
+Disallow: /mapas_https/
 
 User-agent: Bingbot
 
@@ -52,8 +56,9 @@ Disallow: /etapa-cadastro/
 Disallow: /cadastro-veiculo/
 Disallow: /slider/
 Disallow: /bkp/
+Disallow: /mapas_https/
 Disallow: /bkp2/
 Disallow: /termos-compromisso/
-
+Disallow: /docs/
 
 Sitemap: sitemap.xml

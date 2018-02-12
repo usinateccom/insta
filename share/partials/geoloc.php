@@ -1,4 +1,4 @@
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCG_t2l6fPkH3zL4YNUgvcwH7PQEwRXHGk" ></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCG_t2l6fPkH3zL4YNUgvcwH7PQEwRXHGk" ></script>
 
 <script src="<?php echo $ponto; ?>config/js/geomap.js"></script>
 
@@ -43,6 +43,48 @@ var lat = position.coords.latitude;
 var lng = position.coords.longitude;
 
 
+//alert(lat + "::" + lng);
+
+$("#teste_g").val(lat + "::" + lng);
+
+
+
+
+<?php
+/*
+
+if(($pagina == 'busca/') || ($pagina == 'anucios/')){
+
+
+
+
+echo 'var latlng = lat + "," +lng; 
+var url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + latlng + "&sensor=true"; 
+$.getJSON(url, function (data) { 
+    for(var i=0;i<data.results.length;i++) 
+    { 
+        var adress = data.results[i].formatted_address; 
+        alert(adress); 
+       // document.getElementById("mapa_novo").innerHTML = adress; 
+       // endereco_campo.value = adress; 
+    } 
+});';
+
+
+
+
+
+}
+
+OBSOLETO
+
+*/
+
+?>
+
+
+
+
 
 codeLatLng(lat, lng)
 }
@@ -58,7 +100,7 @@ function codeLatLng(lat, lng) {
 
 var latlng = new google.maps.LatLng(lat, lng); 
 
-//$("#satanu").val(lat + "::" + lng);
+//alert(lat + "::" + lng);
 
 var geocoder = new google.maps.Geocoder();
 
@@ -86,15 +128,15 @@ break;
 
 
 
-var ret = results[1].formatted_address;
-var reto = ret.split("- ");
-var rit = reto[2];
+var ret = results[2].formatted_address;
+//var reto = ret.split("- ");
+//var rit = reto[2];
 
-var rat = reto[1] + ' - ' + reto[2];
+var rat = results[0].formatted_address;
 
 
-var nome = rit.split(", ");
-if(nome[1] == 'Brasil'){
+var nome ="teste";
+if(nome == 'Brasil'){
 
 initialize();
 
@@ -102,7 +144,7 @@ initialize();
 
 //alert(ret);
 
-document.getElementById("nome_geog").innerHTML = "<b>" + rit + "</b> ";
+document.getElementById("nome_geog").innerHTML = "<b>" + ret + "</b> ";
 //document.getElementById('satan').value = rit; 
 
 document.getElementById("busca_rua").value = rat ;
@@ -112,7 +154,7 @@ document.getElementById("regra_geog").innerHTML = "";
 
 
 $.getJSON("<?php echo $ponto; ?>funcoes/registra_regiao.php",
-    {bingo: "<?php echo getRealIpAddr().':::'; ?>"+rit},
+    {bingo: "<?php echo '-:::'; ?>"+ret},
 
     function(json){
         

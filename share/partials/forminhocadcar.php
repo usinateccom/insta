@@ -11,23 +11,30 @@ if($status_cad == '1'){
 echo "<center><br><div class='avisoni reguad central' style='margin-bottom:60px;'>
 
 
-<b> $nome_l,</a> seu cadastro está incompleto! <a href='../completar-cadastro/' title='$tit_u'><b>Clique aqui</b></a> para atualizar seus dados!<br>A atualização dos dados é necessária para compartilhar e contratar veículos compartilhados.
+<b> $nome_l,</a> seu cadastro está incompleto! <a href='../completar-cadastro/' title='$tit_u'><b>Clique aqui</b></a> para atualizar seus dados!<br>A atualização dos dados é necessária para compartilhar e contratar veículos compartilhados.<br> O campos de cadastro permanecerão <u>desabilitados</u> até que seu cadastro esteja completo.
 
-</div><br></center>";
+</div><br></center>
 
 
 
 
 <script>
+$(document).ready(function(){
+$('#form_habilita input').prop('disabled', true);
+$('#form_habilita select').prop('disabled', true);
+$('#form-envia').prop('disabled', true);
 
-$("#form_habilita: input").prop("disabled", true);
 
+
+});
 </script>
+";
 
+$sukop = "disabled";
 
 }else{
 
-
+$sukop = "";
 echo "<center><br><div class='avisonin reguad central'>
 </div>
 <br></center>
@@ -45,9 +52,9 @@ echo "<center><br><div class='avisonin reguad central'>
 
 
 
-include "partials_n/form_novo_envio_galeria.php";
+//include "partials_n/form_novo_envio_galeria.php";
 
-include "partials_n/funcoes_formulario_novas.php";
+//include "partials_n/funcoes_formulario_novas.php";
 
 
 
@@ -278,50 +285,82 @@ exata somente após a sua confirmação.</p><div class="form-cadatro-carro-passo
 
 
 
-	<input type="text" id="cep_vvv" class="form-control" name="PrimeiroPasso[cep]" data-plugin-inputmask="inputmask_0bf71e59" style="width:200px;"><p class="help-block help-block-error"></p></div>
+	<input type="text" id="cep" class="form-control" name="PrimeiroPasso[cep]" data-plugin-inputmask="inputmask_0bf71e59" style="width:200px;"><p class="help-block help-block-error">
+		
+
+<br>
+</div>
 
 
 
 
 
-	 </div><div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+	 </div><div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="width: 730px;">
 
 
 
 
-<div class="form-group field-primeiropasso-numero required" style="display: inline-table; float: left;"><label class="control-label" for="primeiropasso-numero">Logradouro</label>
+<div class="form-group field-primeiropasso-numero required" style="display: inline-table; float: left;margin-right: 5px;"><label class="control-label" for="primeiropasso-numero">Logradouro</label>
 
 
 
-		<input type="text" id="logradouro" class="form-control" name="PrimeiroPasso[numero]" aria-required="true" style="width: 400px;"><p class="help-block help-block-error"></p></div> 
-
-
-
-
-		<div class="form-group field-primeiropasso-numero required" style="display: inline-table; float: left;"><label class="control-label" for="primeiropasso-numero">Número</label>
-
-
-
-		<input type="text" id="primeiropasso-numero" class="form-control" name="PrimeiroPasso[numero]" aria-required="true" style="width: 100px;"><p class="help-block help-block-error"></p></div> 
+		<input type="text" id="logradouro" class="form-control" value="PREENCHA O CEP" aria-required="true" style="width: 350px;"><p class="help-block help-block-error"></p></div> 
 
 
 
 
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><div class="form-group field-primeiropasso-complemento"><label class="control-label" for="primeiropasso-complemento">Complemento</label>
+		<div class="form-group field-primeiropasso-numero required" style="display: inline-table; float: left; margin-right: 5px;"><label class="control-label" for="primeiropasso-numero">Número</label>
+
+
+
+		<input type="text" id="numero" class="form-control" name="PrimeiroPasso[numero]" aria-required="true" style="width: 100px;"><p class="help-block help-block-error"></p></div> 
 
 
 
 
-		<input type="text" id="primeiropasso-complemento" class="form-control" name="PrimeiroPasso[complemento]" style="width: 100px;">
+	<div class="form-group field-primeiropasso-complemento" style="display: inline-table; float: left; margin-right:"><label class="control-label" for="primeiropasso-complemento">Complemento</label>
 
 
 
 
-			<hr><div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<input type="text" id="compç" class="form-control" name="PrimeiroPasso[complemento]" style="width: 100px;">
+</div>
+<br>
+
+<div style="display: table; width: 100%;">
 
 
 
-			<button type="submit" id="form-envia" class="pino" style="margin-left: -350px;">Continuar</button>
+
+<div style="display: inline-table;float: left; margin-right: 5px">
+
+<label class="control-label" for="primeiropasso-cep">Cidade</label>
+
+	<input type="text" id="estado" class="form-control" value="PREENCHA O CEP" style="width:200px;">
+
+</div>
+
+<div style="display: inline-table;float: left;">
+
+<label class="control-label" for="primeiropasso-cep">Estado</label>
+
+	<input type="text" id="estado" class="form-control" value="PREENCHA O CEP"  data-plugin-inputmask="inputmask_0bf71e59" style="width:200px;">
+
+</div>
+
+
+</div></div>
+<div class="regua">
+<hr class="bujo"></hr></div>
+
+<div class="regua central" id='ander'><br><br><br><br>[AGUARDANDO CEP]<br><br><br>
+
+
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<br><br></div></div>
+<br><br>
+			<button type="submit" id="form-envia" class="pino" style="margin-left: -0px;" <?php echo $sukop; ?>>Continuar</button>
 
 
 
@@ -331,6 +370,69 @@ exata somente após a sua confirmação.</p><div class="form-cadatro-carro-passo
 	<br><br>
 
 </div></div></div></div>
+<iframe class='dnone' src="../funcoes/mingo.php"></iframe>
+<style>
+
+#form-envia:disabled{background-color: #666;}
+#ander{width: 100%; background-color: #999; color:#ccc;}
+
+</style>
+
+
+
+
+
+<script>
+  
+//aletar foto
+
+
+
+
+ $('#cep').blur(function(){
+
+//alert('foi');
+
+$('#logradouro').val("Aguarde...");
+                        $('#bairro').val("Aguarde...");
+                        $('#cidade').val("Aguarde...");
+                        $('#estado').val("Aguarde...");
+
+           /* Configura a requisição AJAX */
+           $.ajax({
+                url : '../funcoes/consultar_cep.php', /* URL que será chamada */ 
+                type : 'POST', /* Tipo da requisição */ 
+                data: 'cep=' + $('#cep').val(), /* dado que será enviado via POST */
+                dataType: 'json', /* Tipo de transmissão */
+                success: function(data){
+                    if(data.sucesso == 1){
+                        $('#logradouro').val(data.rua);
+                        $('#bairro').val(data.bairro);
+                        $('#cidade').val(data.cidade);
+                        $('#estado').val(data.estado);
+ 
+   $('#logradouro').prop('disabled', false);
+                        $('#bairro').prop('disabled', false);
+                        $('#cidade').prop('disabled', false);
+                        $('#estado').prop('disabled', false);
+ 
+
+
+$('#numero').prop('disabled', false);
+$('#compl').prop('disabled', false);
+
+
+                        $('#numero').focus();
+                    }
+                }
+           });   
+   return false;    
+   })
+
+
+</script>
+
+
 
 
 <div class="encaixa">

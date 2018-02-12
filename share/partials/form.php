@@ -7,7 +7,7 @@ label{width: 120px;}
 
 if($logado == 'sim'){
 
-echo "<script> window.location.href='https://www.instashare.me/'; </script>";
+echo "<script> window.location.href='http://www.instashare.me/'; </script>";
 
 }
 
@@ -402,6 +402,7 @@ var nome = $("#nome_us").val(), sobrem = $("#sobrenome_us").val(), mail = $("#em
 // fa o json
 
 //alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::fisica::"+senha);
+//alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::fisica::"+senha);
 
 
 $.getJSON("<?php echo $ponto; ?>funcoes/cadastro_filtros.php",
@@ -413,7 +414,7 @@ $.getJSON("<?php echo $ponto; ?>funcoes/cadastro_filtros.php",
 var iki = json.campo;
 var nino = json.campon;
 
-concretiz_cad(iki, campon);
+concretiz_cad(iki, nino);
     }); //fim do jason
 
 } // if
@@ -434,7 +435,7 @@ if(($("#nome_usj").val() == "") || ($("#nome_f").val() == "") || ($("#email_usj"
 
 $("#bunjunda").html("Preencha todos os campos!");
 
-
+alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::fisica::"+senha);
 
 }else{
 //if verifica email
@@ -450,7 +451,7 @@ var nome = $("#nome_usj").val(), sobrem = $("#nome_f").val(), mail = $("#email_u
 
 
 
-alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::juridica::"+senha);
+//alert(nome+"::"+sobrem+"::"+mail+"::"+telef+"::"+cpf+"::"+datan+"::juridica::"+senha);
 
 // fa o json
 
@@ -466,7 +467,7 @@ var iki = json.campo;
 
 var nino = json.campon;
 
-concretiz_cad(iki, campon);
+concretiz_cad(iki, nino);
     }); //fim do jason
 
 } // if
@@ -491,7 +492,15 @@ $("#concha_login").val(campod);
 login_entra();
 
 
-}//if 1
+}else{
+
+
+
+setCookieno("brasilweb_instashare", campod);
+
+window.location.href='https://www.instashare.me/painel/'; 
+
+} // ger
 
 
 

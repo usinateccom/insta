@@ -7,7 +7,7 @@ label{width: 120px;}
 
 if($logado == 'sim'){
 
-echo "<script> window.location.href='https://www.instashare.me/'; </script>";
+echo "<script> window.location.href='http://www.instashare.me/'; </script>";
 
 }
 

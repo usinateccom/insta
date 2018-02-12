@@ -210,7 +210,11 @@ $nome = guina("dados_usr", $idusr, "id_tab_p", "nome");
 
  ?><title><?php
 
+if($pagina == 'busca/'){
 
+echo $pag_dados['titulo'];
+
+}
 
 
 
@@ -401,7 +405,7 @@ include "funcoes/face_def.php";
 <header class="regua cabecalho" style="font-family: 'Montserrat', sans-serif; font-size: 12px;">
 
 <div class="encaixa"><div class="tint esq_f aleft">
-<a href="https://www.instashare.me/" title="<?php echo $tit_u;?>" alt="<?php echo $alt_u; ?>">
+<a href="http://www.instashare.me/" title="<?php echo $tit_u;?>" alt="<?php echo $alt_u; ?>">
 
 
 <img src="<?php echo $ponto; ?>imagens/carro compartilhado locacao instashare logo.png" class="logo" title="<?php echo $tit_u; ?>" alt="<?php echo $alt_u; ?>">
@@ -438,7 +442,7 @@ include "partials/menu_logado.php";
 </header>
 
 <input type="text" id="sat_f" value="not" class="dnone">
-
+<input type="text" id="teste_g" value="" class="dnone">
 
 <?php if($pagina == "principal"){
 

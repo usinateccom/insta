@@ -14,6 +14,28 @@ function cookie_vai(){
 
 
 
+function subst_comp($sub){
+    $acentosu = array(
+        'à','á','ã','â',
+         'ê', 'é',
+        'í',
+         'ó', 'õ', 'ô',
+          'ú', 'ü',
+       'ç',
+
+        );
+    $remove_acentosu = array(
+        'À','Á','Ã','Â',
+
+        'Ê', 'É',
+          'Í',
+        'Ó','Õ','Ô',
+        'Ú','Ü',
+         'Ç',
+
+        );
+    return str_replace($acentosu, $remove_acentosu, urldecode($sub));
+}
 
 
 

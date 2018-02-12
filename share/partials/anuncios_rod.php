@@ -1,11 +1,17 @@
 <div class='regua'>
 <iframe class='dnone' src='../../funcoes/masco.php?pagina=principal'></iframe>
 
-<?php
+<?php 
 
-//include "partials/mapa_https.php";
+$latid = frinha("markers", 'lat', 'type', $id_anunc);
+$longid = frinha("markers", 'lng', 'type', $id_anunc);
+
+$coordenadas = $latid.",".$longid;
 
 ?>
+<iframe src="../../mapas_https/frame_anuncio.php?anuncio=<?php echo $id_anunc."&coordenadas=$coordenadas"; ?>" class='fadeIn' style="width: 100%; height: 450px; border:0px;"></iframe>
+
+
 
 </div>
 

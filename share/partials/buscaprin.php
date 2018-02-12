@@ -143,12 +143,12 @@ $("#myRange").click(function(){
 <li style="padding-top:10px; color: #fff; text-shadow: 1px 1px solid #000;">
 
 
-Em&nbsp</li>
+Próximo a</li>
 
 <li style="width: 800px;">
 
 
-	<input class="bus"  id='busca_rua' placeholder="Bairro, rua, etc..." type="text" value=""  style="background-color: #fff; color: #000; border-bottom: 2px solid #fff;  margin-left: 15px; width: 800px!important; border-bottom-left: 1px solid #000; border-bottom-right: 1px solid #fff; border-radius: 6px;"/></li><style> #busca_rua{width: 800px!important}</style>
+	<input class="bus"  id='busca_rua' placeholder="Bairro, rua, etc..." type="text" value=""  style="background-color: #fff; color: #000; border-bottom: 2px solid #fff;  margin-left: 15px; width: 780px!important; border-bottom-left: 1px solid #000; border-bottom-right: 1px solid #fff; border-radius: 6px;"/></li><style> #busca_rua{width: 800px!important}</style>
 
 <li style="padding-top:10px;" class="dnone"> &nbsp;De&nbsp</li><li class="dnone">
 

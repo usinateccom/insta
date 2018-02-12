@@ -28,7 +28,7 @@ echo '$("#concha_loginn").focus();';
 
 geocoder = new google.maps.Geocoder();
 
-//alerta();
+//alert('teste');
 
 }
 
@@ -45,7 +45,8 @@ var lng = position.coords.longitude;
 
 
 
-codeLatLng(lat, lng)
+
+codeLatLng(lat, lng);
 }
 function errorFunction(){
 setCookieLoc("");
@@ -59,7 +60,9 @@ function codeLatLng(lat, lng) {
 
 var latlng = new google.maps.LatLng(lat, lng); 
 
-//$("#satanu").val(lat + "::" + lng);
+alert(lat + "::" + lng);
+
+$("#teste_g").val(lat + "::" + lng);
 
 var geocoder = new google.maps.Geocoder();
 
@@ -89,9 +92,9 @@ break;
 
 var ret = results[1].formatted_address;
 var reto = ret.split("- ");
-var rit = reto[2];
+var rit = results[2].formatted_address
 
-var rat = reto[1] + ' - ' + reto[2];
+var rat = results[0].formatted_address
 
 
 var nome = rit.split(", ");

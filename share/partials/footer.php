@@ -12,7 +12,7 @@
 
 <div class="reguad">
 
-<a href="https://www.instashare.me/"  title="<?php echo $tit_u; ?>" alt="<?php echo $alt_u; ?>"  class="link_rod">
+<a href="http://www.instashare.me/"  title="<?php echo $tit_u; ?>" alt="<?php echo $alt_u; ?>"  class="link_rod">
 
 Home
 
@@ -165,7 +165,7 @@ Mapa do Site
 </div><!--cinquent-->
 
 
-<div class=" vinton dir_f" >
+<div class=" vinton dir_f" style="min-width: 520px;" >
 
 
 <div class="rod_inl central">

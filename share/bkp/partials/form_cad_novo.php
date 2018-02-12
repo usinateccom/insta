@@ -120,6 +120,6 @@ $mailon = $gil["email"];
 
 //inclue novas funcoes de b.e.
 
-//include "partials/validacao_cad.php";
+include "partials/validacao_cad.php";
 
 ?>

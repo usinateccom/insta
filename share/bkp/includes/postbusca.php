@@ -77,7 +77,7 @@ reglog("BUSCA", "BUSCA REALIZADA PELO USUÁRIO $usuario", $usuario);
 
 } else{
 
-echo "<script> window.location.href='https://www.instashare.me/'; </script>";
+echo "<script> window.location.href='http://www.instashare.me/'; </script>";
 
 }// post
 

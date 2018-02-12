@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 11-Fev-2018 às 08:08
+-- Generation Time: 12-Fev-2018 às 22:30
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -50765,7 +50765,127 @@ INSERT INTO `logs_ff` (`um`, `data`, `hora`, `ip`, `local`, `usuario`, `log`, `f
 (655, '11/02/2018', '05:51', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
 (656, '11/02/2018', '05:52', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
 (657, '11/02/2018', '05:52', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
-(658, '11/02/2018', '05:53', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO');
+(658, '11/02/2018', '05:53', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(659, '11/02/2018', '06:19', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(660, '11/02/2018', '06:22', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(661, '11/02/2018', '06:22', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(662, '11/02/2018', '06:23', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(663, '11/02/2018', '06:24', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(664, '11/02/2018', '06:25', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(665, '11/02/2018', '06:26', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(666, '11/02/2018', '06:26', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(667, '11/02/2018', '06:27', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(668, '11/02/2018', '06:28', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(669, '11/02/2018', '06:31', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(670, '11/02/2018', '06:38', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(671, '11/02/2018', '12:02', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(672, '11/02/2018', '12:05', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(673, '11/02/2018', '12:07', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(674, '11/02/2018', '12:19', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(675, '11/02/2018', '12:19', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(676, '11/02/2018', '12:20', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(677, '11/02/2018', '12:24', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(678, '11/02/2018', '12:24', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(679, '11/02/2018', '12:24', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(680, '11/02/2018', '12:25', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(681, '11/02/2018', '12:25', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(682, '11/02/2018', '14:55', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(683, '11/02/2018', '14:55', '::1', NULL, 'ALEXANDREDEC9014', 'USUÁRIO ALEXANDREDEC9014 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(684, '11/02/2018', '14:55', '::1', NULL, 'MANUT', 'USUÁRIO MANUT ACESSOU A ÁREA DO USUÁRIO', 'ACESSO'),
+(685, '11/02/2018', '14:55', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(686, '11/02/2018', '14:56', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(687, '11/02/2018', '14:56', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(688, '11/02/2018', '15:16', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(689, '11/02/2018', '15:23', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(690, '11/02/2018', '15:24', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(691, '11/02/2018', '15:49', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(692, '11/02/2018', '15:50', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(693, '11/02/2018', '16:00', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(694, '11/02/2018', '16:02', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(695, '11/02/2018', '16:14', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(696, '11/02/2018', '16:30', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(697, '11/02/2018', '16:37', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(698, '11/02/2018', '16:38', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(699, '11/02/2018', '16:39', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(700, '11/02/2018', '16:40', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(701, '11/02/2018', '16:41', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(702, '11/02/2018', '16:41', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(703, '11/02/2018', '16:41', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(704, '11/02/2018', '16:41', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(705, '11/02/2018', '16:43', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(706, '11/02/2018', '16:43', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(707, '11/02/2018', '16:43', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(708, '11/02/2018', '16:45', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(709, '11/02/2018', '16:46', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(710, '11/02/2018', '16:48', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(711, '11/02/2018', '16:48', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(712, '11/02/2018', '16:49', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(713, '11/02/2018', '16:53', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(714, '11/02/2018', '17:13', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(715, '11/02/2018', '17:19', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(716, '11/02/2018', '17:26', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(717, '11/02/2018', '17:26', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(718, '11/02/2018', '17:27', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(719, '11/02/2018', '20:50', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(720, '11/02/2018', '20:57', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(721, '11/02/2018', '20:57', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(722, '11/02/2018', '20:58', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(723, '11/02/2018', '20:58', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(724, '11/02/2018', '20:59', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(725, '11/02/2018', '20:59', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(726, '11/02/2018', '20:59', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(727, '11/02/2018', '20:59', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(728, '11/02/2018', '20:59', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(729, '11/02/2018', '21:00', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(730, '12/02/2018', '00:36', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(731, '12/02/2018', '13:05', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(732, '12/02/2018', '14:59', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(733, '12/02/2018', '15:07', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(734, '12/02/2018', '15:37', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(735, '12/02/2018', '15:39', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(736, '12/02/2018', '15:45', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(737, '12/02/2018', '15:45', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(738, '12/02/2018', '15:46', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(739, '12/02/2018', '15:47', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(740, '12/02/2018', '15:47', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(741, '12/02/2018', '15:48', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(742, '12/02/2018', '15:48', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(743, '12/02/2018', '15:53', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(744, '12/02/2018', '16:01', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(745, '12/02/2018', '16:04', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(746, '12/02/2018', '16:04', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(747, '12/02/2018', '16:05', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(748, '12/02/2018', '16:06', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(749, '12/02/2018', '16:10', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(750, '12/02/2018', '16:11', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(751, '12/02/2018', '16:11', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(752, '12/02/2018', '16:11', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(753, '12/02/2018', '16:14', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(754, '12/02/2018', '18:22', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(755, '12/02/2018', '18:24', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(756, '12/02/2018', '19:14', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(757, '12/02/2018', '19:15', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(758, '12/02/2018', '19:15', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(759, '12/02/2018', '19:24', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(760, '12/02/2018', '19:30', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(761, '12/02/2018', '19:31', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(762, '12/02/2018', '19:44', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(763, '12/02/2018', '19:44', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(764, '12/02/2018', '19:45', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(765, '12/02/2018', '19:46', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(766, '12/02/2018', '19:47', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(767, '12/02/2018', '19:47', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(768, '12/02/2018', '19:47', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(769, '12/02/2018', '19:47', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(770, '12/02/2018', '19:49', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(771, '12/02/2018', '19:50', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(772, '12/02/2018', '19:57', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(773, '12/02/2018', '19:58', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(774, '12/02/2018', '19:59', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(775, '12/02/2018', '19:59', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(776, '12/02/2018', '19:59', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(777, '12/02/2018', '20:00', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(778, '12/02/2018', '20:26', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA');
 
 -- --------------------------------------------------------
 
@@ -51568,6 +51688,37 @@ INSERT INTO `marca` (`id`, `marca`, `url`) VALUES
 (414, 'Jimbei', 'jimbei'),
 (415, 'Hafei', 'hafei'),
 (416, 'Shacman', 'shacman');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `markers`
+--
+
+CREATE TABLE `markers` (
+  `id` int(11) NOT NULL,
+  `name` varchar(60) NOT NULL,
+  `address` varchar(80) NOT NULL,
+  `lat` float(10,6) NOT NULL,
+  `lng` float(10,6) NOT NULL,
+  `type` varchar(30) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `markers`
+--
+
+INSERT INTO `markers` (`id`, `name`, `address`, `lat`, `lng`, `type`) VALUES
+(1, '08 - Opel Meriva ', 'R. Areado, 163 - Carlos Prates, Belo Horizonte', -19.908749, -43.961208, '8'),
+(2, '03 - Novo Uno', 'R. Aimorés, 2001 - Lourdes, Belo Horizonte', -19.927458, -43.945232, '3'),
+(3, '05 - CrossFox', 'R. José Amaury Ferrara, 168 - Buritis, Belo Horizonte', -19.977324, -43.969418, '5'),
+(4, '07 - Tucson Hyundai', 'R. do Ouro, 91 - Serra, Belo Horizonte', -19.932673, -43.925823, '7'),
+(5, '02 - Gol Geração 4', 'R. do Ouro, 325 - Serra, Belo Horizonte', -19.935123, -43.924870, '2'),
+(6, '06 - Strada Saveiro', 'R. dos Guajajaras, 1540 - Barro Preto, Belo Horizonte', -19.923082, -43.950600, '6'),
+(7, '07 - Ford Fiesta', 'R. Capivari, 700 - Serra, Belo Horizonte', -19.940622, -43.915287, '1'),
+(8, '14 - Ford KA', 'R. Itamarandiba, 10 - Carlos Prates Belo Horizonte', -19.911428, -43.963650, '14'),
+(9, '15 - Ford Ranger', 'R. Passos, 312 - Carlos Prates, Belo Horizonte', -19.909378, -43.961113, '15'),
+(10, '09 - Ford Ecosport', 'R. Cambuquira, 420 - Carlos Prates, Belo Horizonte', -19.910366, -43.961227, '9');
 
 -- --------------------------------------------------------
 
@@ -54969,7 +55120,19 @@ INSERT INTO `visualizanuncio` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VAL
 (280, '09/02/2018', '16:48', '3', '::1', '8'),
 (281, '09/02/2018', '17:19', '2', '::1', 'indefinido'),
 (282, '09/02/2018', '17:24', '7', '::1', '8'),
-(283, '09/02/2018', '17:24', '9', '::1', '8');
+(283, '09/02/2018', '17:24', '9', '::1', '8'),
+(284, '12/02/2018', '20:02', '2', '::1', '45'),
+(285, '12/02/2018', '20:09', '9', '::1', '45'),
+(286, '12/02/2018', '20:19', '14', '::1', '45'),
+(287, '12/02/2018', '20:19', '1', '::1', '45'),
+(288, '12/02/2018', '20:20', '5', '::1', '45'),
+(289, '12/02/2018', '20:21', '2', '::1', '45'),
+(290, '12/02/2018', '20:23', '8', '::1', '45'),
+(291, '12/02/2018', '20:23', '1', '::1', '45'),
+(292, '12/02/2018', '20:25', '8', '::1', '45'),
+(293, '12/02/2018', '20:27', '14', '::1', '45'),
+(294, '12/02/2018', '20:27', '15', '::1', '45'),
+(295, '12/02/2018', '20:28', '8', '::1', '45');
 
 -- --------------------------------------------------------
 
@@ -56600,7 +56763,194 @@ INSERT INTO `visualizpag` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VALUES
 (1589, '11/02/2018', '05:52', 'completar-cadastro/', '::1', '51');
 INSERT INTO `visualizpag` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VALUES
 (1590, '11/02/2018', '05:52', 'completar-cadastro/', '::1', '51'),
-(1591, '11/02/2018', '05:53', 'completar-cadastro/', '::1', '51');
+(1591, '11/02/2018', '05:53', 'completar-cadastro/', '::1', '51'),
+(1592, '11/02/2018', '06:19', 'completar-cadastro/', '::1', '51'),
+(1593, '11/02/2018', '06:22', 'completar-cadastro/', '::1', '51'),
+(1594, '11/02/2018', '06:22', 'completar-cadastro/', '::1', '51'),
+(1595, '11/02/2018', '06:23', 'completar-cadastro/', '::1', '51'),
+(1596, '11/02/2018', '06:24', 'completar-cadastro/', '::1', '51'),
+(1597, '11/02/2018', '06:25', 'completar-cadastro/', '::1', '51'),
+(1598, '11/02/2018', '06:26', 'completar-cadastro/', '::1', '51'),
+(1599, '11/02/2018', '06:26', 'completar-cadastro/', '::1', '51'),
+(1600, '11/02/2018', '06:27', 'completar-cadastro/', '::1', '51'),
+(1601, '11/02/2018', '06:28', 'completar-cadastro/', '::1', '51'),
+(1602, '11/02/2018', '06:31', 'completar-cadastro/', '::1', '51'),
+(1603, '11/02/2018', '06:38', 'completar-cadastro/', '::1', '51'),
+(1604, '11/02/2018', '12:02', 'completar-cadastro/', '::1', '51'),
+(1605, '11/02/2018', '12:05', 'completar-cadastro/', '::1', '51'),
+(1606, '11/02/2018', '12:07', 'completar-cadastro/', '::1', '51'),
+(1607, '11/02/2018', '12:19', 'completar-cadastro/', '::1', '51'),
+(1608, '11/02/2018', '12:19', 'completar-cadastro/', '::1', '51'),
+(1609, '11/02/2018', '12:20', 'completar-cadastro/', '::1', '51'),
+(1610, '11/02/2018', '12:24', 'completar-cadastro/', '::1', '51'),
+(1611, '11/02/2018', '12:24', 'completar-cadastro/', '::1', '51'),
+(1612, '11/02/2018', '12:24', 'completar-cadastro/', '::1', '51'),
+(1613, '11/02/2018', '12:25', 'completar-cadastro/', '::1', '51'),
+(1614, '11/02/2018', '12:25', 'completar-cadastro/', '::1', '51'),
+(1615, '11/02/2018', '14:55', 'principal', '::1', '51'),
+(1616, '11/02/2018', '14:55', 'cadastro-veiculo/', '::1', 'indefinido'),
+(1617, '11/02/2018', '14:56', 'cadastro-veiculo/', '::1', '45'),
+(1618, '11/02/2018', '14:56', 'completar-cadastro/', '::1', '45'),
+(1619, '11/02/2018', '15:16', 'completar-cadastro/', '::1', '45'),
+(1620, '11/02/2018', '15:23', 'completar-cadastro/', '::1', '45'),
+(1621, '11/02/2018', '15:24', 'completar-cadastro/', '::1', '45'),
+(1622, '11/02/2018', '15:49', 'completar-cadastro/', '::1', '45'),
+(1623, '11/02/2018', '15:50', 'completar-cadastro/', '::1', '45'),
+(1624, '11/02/2018', '16:00', 'completar-cadastro/', '::1', '45'),
+(1625, '11/02/2018', '16:02', 'completar-cadastro/', '::1', '45'),
+(1626, '11/02/2018', '16:14', 'completar-cadastro/', '::1', '45'),
+(1627, '11/02/2018', '16:30', 'completar-cadastro/', '::1', '45'),
+(1628, '11/02/2018', '16:37', 'completar-cadastro/', '::1', '45'),
+(1629, '11/02/2018', '16:38', 'completar-cadastro/', '::1', '45'),
+(1630, '11/02/2018', '16:39', 'completar-cadastro/', '::1', '45'),
+(1631, '11/02/2018', '16:40', 'completar-cadastro/', '::1', '45'),
+(1632, '11/02/2018', '16:41', 'completar-cadastro/', '::1', '45'),
+(1633, '11/02/2018', '16:41', 'completar-cadastro/', '::1', '45'),
+(1634, '11/02/2018', '16:41', 'completar-cadastro/', '::1', '45'),
+(1635, '11/02/2018', '16:41', 'completar-cadastro/', '::1', '45'),
+(1636, '11/02/2018', '16:43', 'completar-cadastro/', '::1', '45'),
+(1637, '11/02/2018', '16:43', 'completar-cadastro/', '::1', '45'),
+(1638, '11/02/2018', '16:43', 'completar-cadastro/', '::1', '45'),
+(1639, '11/02/2018', '16:45', 'completar-cadastro/', '::1', '45'),
+(1640, '11/02/2018', '16:46', 'completar-cadastro/', '::1', '45'),
+(1641, '11/02/2018', '16:48', 'completar-cadastro/', '::1', '45'),
+(1642, '11/02/2018', '16:48', 'completar-cadastro/', '::1', '45'),
+(1643, '11/02/2018', '16:49', 'completar-cadastro/', '::1', '45'),
+(1644, '11/02/2018', '16:53', 'completar-cadastro/', '::1', '45'),
+(1645, '11/02/2018', '17:13', 'completar-cadastro/', '::1', '45'),
+(1646, '11/02/2018', '17:19', 'completar-cadastro/', '::1', '45'),
+(1647, '11/02/2018', '17:26', 'completar-cadastro/', '::1', '45'),
+(1648, '11/02/2018', '17:26', 'completar-cadastro/', '::1', '45'),
+(1649, '11/02/2018', '17:27', 'completar-cadastro/', '::1', '45'),
+(1650, '11/02/2018', '20:50', 'completar-cadastro/', '::1', '45'),
+(1651, '11/02/2018', '20:57', 'completar-cadastro/', '::1', '45'),
+(1652, '11/02/2018', '20:57', 'completar-cadastro/', '::1', '45'),
+(1653, '11/02/2018', '20:58', 'completar-cadastro/', '::1', '45'),
+(1654, '11/02/2018', '20:58', 'completar-cadastro/', '::1', '45'),
+(1655, '11/02/2018', '20:59', 'completar-cadastro/', '::1', '45'),
+(1656, '11/02/2018', '20:59', 'completar-cadastro/', '::1', '45'),
+(1657, '11/02/2018', '20:59', 'completar-cadastro/', '::1', '45'),
+(1658, '11/02/2018', '20:59', 'completar-cadastro/', '::1', '45'),
+(1659, '11/02/2018', '20:59', 'completar-cadastro/', '::1', '45'),
+(1660, '11/02/2018', '21:00', 'completar-cadastro/', '::1', '45'),
+(1661, '11/02/2018', '21:30', 'cadastro-veiculo/', '::1', '45'),
+(1662, '11/02/2018', '22:07', 'cadastro-veiculo/', '::1', '45'),
+(1663, '11/02/2018', '22:39', 'cadastro-veiculo/', '::1', '45'),
+(1664, '11/02/2018', '23:08', 'cadastro-veiculo/', '::1', '45'),
+(1665, '11/02/2018', '23:09', 'cadastro-veiculo/', '::1', '45'),
+(1666, '11/02/2018', '23:09', 'cadastro-veiculo/', '::1', '45'),
+(1667, '11/02/2018', '23:09', 'cadastro-veiculo/', '::1', '45'),
+(1668, '11/02/2018', '23:10', 'cadastro-veiculo/', '::1', '45'),
+(1669, '11/02/2018', '23:10', 'cadastro-veiculo/', '::1', '45'),
+(1670, '11/02/2018', '23:11', 'cadastro-veiculo/', '::1', '45'),
+(1671, '11/02/2018', '23:37', 'cadastro-veiculo/', '::1', '45'),
+(1672, '12/02/2018', '00:33', 'cadastro-veiculo/', '::1', '45'),
+(1673, '12/02/2018', '00:34', 'cadastro-veiculo/', '::1', '45'),
+(1674, '12/02/2018', '00:35', 'cadastro-veiculo/', '::1', '45'),
+(1675, '12/02/2018', '00:36', 'completar-cadastro/', '::1', '45'),
+(1676, '12/02/2018', '12:45', 'cadastro-veiculo/', '::1', '45'),
+(1677, '12/02/2018', '12:45', 'cadastro-veiculo/', '::1', '45'),
+(1678, '12/02/2018', '12:46', 'cadastro-veiculo/', '::1', '45'),
+(1679, '12/02/2018', '12:47', 'cadastro-veiculo/', '::1', '45'),
+(1680, '12/02/2018', '12:51', 'cadastro-veiculo/', '::1', '45'),
+(1681, '12/02/2018', '12:51', 'cadastro-veiculo/', '::1', '45'),
+(1682, '12/02/2018', '12:52', 'cadastro-veiculo/', '::1', '45'),
+(1683, '12/02/2018', '13:04', 'cadastro-veiculo/', '::1', '45'),
+(1684, '12/02/2018', '13:04', 'cadastro-veiculo/', '::1', '45'),
+(1685, '12/02/2018', '13:05', 'completar-cadastro/', '::1', '45'),
+(1686, '12/02/2018', '13:06', 'cadastro-veiculo/', '::1', '45'),
+(1687, '12/02/2018', '13:12', 'cadastro-veiculo/', '::1', '45'),
+(1688, '12/02/2018', '13:13', 'cadastro-veiculo/', '::1', '45'),
+(1689, '12/02/2018', '13:13', 'cadastro-veiculo/', '::1', '45'),
+(1690, '12/02/2018', '13:13', 'cadastro-veiculo/', '::1', '45'),
+(1691, '12/02/2018', '13:14', 'cadastro-veiculo/', '::1', '45'),
+(1692, '12/02/2018', '13:14', 'cadastro-veiculo/', '::1', '45'),
+(1693, '12/02/2018', '13:14', 'cadastro-veiculo/', '::1', '45'),
+(1694, '12/02/2018', '13:15', 'cadastro-veiculo/', '::1', '45'),
+(1695, '12/02/2018', '13:15', 'cadastro-veiculo/', '::1', '45'),
+(1696, '12/02/2018', '13:16', 'cadastro-veiculo/', '::1', '45'),
+(1697, '12/02/2018', '13:17', 'cadastro-veiculo/', '::1', '45'),
+(1698, '12/02/2018', '13:17', 'cadastro-veiculo/', '::1', '45'),
+(1699, '12/02/2018', '13:17', 'cadastro-veiculo/', '::1', '45'),
+(1700, '12/02/2018', '13:19', 'cadastro-veiculo/', '::1', '45'),
+(1701, '12/02/2018', '13:19', 'cadastro-veiculo/', '::1', '45'),
+(1702, '12/02/2018', '13:47', 'cadastro-veiculo/', '::1', '45'),
+(1703, '12/02/2018', '13:47', 'cadastro-veiculo/', '::1', '45'),
+(1704, '12/02/2018', '13:49', 'cadastro-veiculo/', '::1', '45'),
+(1705, '12/02/2018', '13:49', 'cadastro-veiculo/', '::1', '45'),
+(1706, '12/02/2018', '13:49', 'cadastro-veiculo/', '::1', '45'),
+(1707, '12/02/2018', '13:50', 'cadastro-veiculo/', '::1', '45'),
+(1708, '12/02/2018', '13:50', 'cadastro-veiculo/', '::1', '45'),
+(1709, '12/02/2018', '13:50', 'cadastro-veiculo/', '::1', '45'),
+(1710, '12/02/2018', '13:50', 'cadastro-veiculo/', '::1', '45'),
+(1711, '12/02/2018', '13:51', 'cadastro-veiculo/', '::1', '45'),
+(1712, '12/02/2018', '13:51', 'cadastro-veiculo/', '::1', '45'),
+(1713, '12/02/2018', '13:51', 'cadastro-veiculo/', '::1', '45'),
+(1714, '12/02/2018', '13:51', 'cadastro-veiculo/', '::1', '45'),
+(1715, '12/02/2018', '13:51', 'cadastro-veiculo/', '::1', '45'),
+(1716, '12/02/2018', '13:52', 'cadastro-veiculo/', '::1', '45'),
+(1717, '12/02/2018', '13:52', 'cadastro-veiculo/', '::1', '45'),
+(1718, '12/02/2018', '13:53', 'cadastro-veiculo/', '::1', '45'),
+(1719, '12/02/2018', '13:56', 'cadastro-veiculo/', '::1', '45'),
+(1720, '12/02/2018', '14:56', 'principal', '::1', '45'),
+(1721, '12/02/2018', '14:58', 'cadastro-veiculo/', '::1', '45'),
+(1722, '12/02/2018', '14:58', 'como-funciona/', '::1', '45'),
+(1723, '12/02/2018', '14:59', 'principal', '::1', '45'),
+(1724, '12/02/2018', '14:59', 'busca/', '::1', '45'),
+(1725, '12/02/2018', '15:07', 'busca/', '::1', '45'),
+(1726, '12/02/2018', '15:07', 'principal', '::1', '45'),
+(1727, '12/02/2018', '15:09', 'principal', '::1', '45'),
+(1728, '12/02/2018', '15:10', 'principal', '::1', '45'),
+(1729, '12/02/2018', '15:37', 'busca/', '::1', '45'),
+(1730, '12/02/2018', '15:39', 'busca/', '::1', '45'),
+(1731, '12/02/2018', '15:45', 'busca/', '::1', '45'),
+(1732, '12/02/2018', '15:45', 'busca/', '::1', '45'),
+(1733, '12/02/2018', '15:46', 'busca/', '::1', '45'),
+(1734, '12/02/2018', '15:47', 'busca/', '::1', '45'),
+(1735, '12/02/2018', '15:47', 'busca/', '::1', '45'),
+(1736, '12/02/2018', '15:48', 'busca/', '::1', '45'),
+(1737, '12/02/2018', '15:48', 'busca/', '::1', '45'),
+(1738, '12/02/2018', '15:53', 'busca/', '::1', '45'),
+(1739, '12/02/2018', '16:01', 'busca/', '::1', '45'),
+(1740, '12/02/2018', '16:04', 'busca/', '::1', '45'),
+(1741, '12/02/2018', '16:04', 'busca/', '::1', '45'),
+(1742, '12/02/2018', '16:05', 'busca/', '::1', '45'),
+(1743, '12/02/2018', '16:06', 'busca/', '::1', '45'),
+(1744, '12/02/2018', '16:10', 'busca/', '::1', '45'),
+(1745, '12/02/2018', '16:11', 'busca/', '::1', '45'),
+(1746, '12/02/2018', '16:11', 'busca/', '::1', '45'),
+(1747, '12/02/2018', '16:11', 'busca/', '::1', '45'),
+(1748, '12/02/2018', '16:14', 'busca/', '::1', '45'),
+(1749, '12/02/2018', '18:21', 'principal', '::1', '45'),
+(1750, '12/02/2018', '18:22', 'busca/', '::1', '45'),
+(1751, '12/02/2018', '18:24', 'busca/', '::1', '45'),
+(1752, '12/02/2018', '18:30', 'principal', '::1', '45'),
+(1753, '12/02/2018', '19:14', 'busca/', '::1', '45'),
+(1754, '12/02/2018', '19:15', 'busca/', '::1', '45'),
+(1755, '12/02/2018', '19:15', 'busca/', '::1', '45'),
+(1756, '12/02/2018', '19:24', 'busca/', '::1', '45'),
+(1757, '12/02/2018', '19:30', 'busca/', '::1', '45'),
+(1758, '12/02/2018', '19:31', 'busca/', '::1', '45'),
+(1759, '12/02/2018', '19:44', 'busca/', '::1', '45'),
+(1760, '12/02/2018', '19:44', 'busca/', '::1', '45'),
+(1761, '12/02/2018', '19:45', 'busca/', '::1', '45'),
+(1762, '12/02/2018', '19:46', 'busca/', '::1', '45'),
+(1763, '12/02/2018', '19:47', 'busca/', '::1', '45'),
+(1764, '12/02/2018', '19:47', 'busca/', '::1', '45'),
+(1765, '12/02/2018', '19:47', 'busca/', '::1', '45'),
+(1766, '12/02/2018', '19:47', 'busca/', '::1', '45'),
+(1767, '12/02/2018', '19:49', 'busca/', '::1', '45'),
+(1768, '12/02/2018', '19:50', 'busca/', '::1', '45'),
+(1769, '12/02/2018', '19:57', 'busca/', '::1', '45'),
+(1770, '12/02/2018', '19:58', 'busca/', '::1', '45'),
+(1771, '12/02/2018', '19:59', 'busca/', '::1', '45'),
+(1772, '12/02/2018', '19:59', 'busca/', '::1', '45'),
+(1773, '12/02/2018', '19:59', 'busca/', '::1', '45'),
+(1774, '12/02/2018', '20:00', 'busca/', '::1', '45'),
+(1775, '12/02/2018', '20:01', 'anuncios/', '::1', '45'),
+(1776, '12/02/2018', '20:02', 'anuncios/', '::1', '45'),
+(1777, '12/02/2018', '20:26', 'principal', '::1', '45'),
+(1778, '12/02/2018', '20:26', 'busca/', '::1', '45');
 
 -- --------------------------------------------------------
 
@@ -57858,6 +58208,12 @@ ALTER TABLE `logs_ff`
   ADD PRIMARY KEY (`um`);
 
 --
+-- Indexes for table `markers`
+--
+ALTER TABLE `markers`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `negoc`
 --
 ALTER TABLE `negoc`
@@ -58263,7 +58619,12 @@ ALTER TABLE `img_sec`
 -- AUTO_INCREMENT for table `logs_ff`
 --
 ALTER TABLE `logs_ff`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=659;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=779;
+--
+-- AUTO_INCREMENT for table `markers`
+--
+ALTER TABLE `markers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `negoc`
 --
@@ -58333,7 +58694,7 @@ ALTER TABLE `validacao_cad`
 -- AUTO_INCREMENT for table `visualizanuncio`
 --
 ALTER TABLE `visualizanuncio`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=284;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=296;
 --
 -- AUTO_INCREMENT for table `visualiza_regiao`
 --
@@ -58343,7 +58704,7 @@ ALTER TABLE `visualiza_regiao`
 -- AUTO_INCREMENT for table `visualizpag`
 --
 ALTER TABLE `visualizpag`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1592;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1779;
 --
 -- AUTO_INCREMENT for table `wpd_bp_activity`
 --
