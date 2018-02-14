@@ -270,7 +270,7 @@ Viagens
 Fumar
 </label><p class="help-block help-block-error"></p></div></div> </div></div><hr><h3 class="form-passos-t-s">Delivery</h3><div class="row "><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><div class="form-group field-primeiropasso-levoate_voce"><div class="checkbox"><label class="checkbox" for="primeiropasso-levoate_voce"><input type="hidden" name="PrimeiroPasso[levoate_voce]" value="0"><input type="checkbox" id="primeiropasso-levoate_voce" name="PrimeiroPasso[levoate_voce]" value="1">
 Eu posso levar o carro até o locatário
-</label><p class="help-block help-block-error"></p></div></div> </div></div><hr><div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h3 class="form-passos-t-s">Localização</h3><p>O Instashare leva muito a serio a sua privacidade, portanto somente divulgamos a localização <br>
+</label><p class="help-block help-block-error"></p></div></div> </div></div><hr><div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h3 class="form-passos-t-s">Localização</h3><p>O Instashare leva muito a serio a sua privacidade, portanto  divulgamos a localização 
 
 
 
@@ -323,7 +323,7 @@ exata somente após a sua confirmação.</p><div class="form-cadatro-carro-passo
 
 
 
-		<input type="text" id="compç" class="form-control" name="PrimeiroPasso[complemento]" style="width: 100px;">
+		<input type="text" id="compl" class="form-control" name="PrimeiroPasso[complemento]" style="width: 100px;">
 </div>
 <br>
 
@@ -336,7 +336,7 @@ exata somente após a sua confirmação.</p><div class="form-cadatro-carro-passo
 
 <label class="control-label" for="primeiropasso-cep">Cidade</label>
 
-	<input type="text" id="estado" class="form-control" value="PREENCHA O CEP" style="width:200px;">
+	<input type="text" id="cidade" class="form-control" value="PREENCHA O CEP" style="width:200px;">
 
 </div>
 
@@ -348,19 +348,19 @@ exata somente após a sua confirmação.</p><div class="form-cadatro-carro-passo
 
 </div>
 
-
+<input type='text' id='latitapa' class="dnone">
 </div></div>
 <div class="regua">
 <hr class="bujo"></hr></div>
 
-<div class="regua central" id='ander'><br><br><br><br>[AGUARDANDO CEP]<br><br><br>
+<div class="regua central" id='ander' style="height: 300px; "><br><br><br><br><br>[AGUARDANDO CEP]<br><br><br></div>
 
 
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 <br><br></div></div>
 <br><br>
-			<button type="submit" id="form-envia" class="pino" style="margin-left: -0px;" <?php echo $sukop; ?>>Continuar</button>
+			<button type="submit" id="form-envia" class="pino" style="margin-left: -0px;" disabled>Continuar</button>
 
 
 
@@ -423,6 +423,54 @@ $('#compl').prop('disabled', false);
 
 
                         $('#numero').focus();
+
+$("#ander").html("<br><br><br><br><br>[AGUARDE O MAPA...]<br><br><br><br><br>");
+
+var vulo = $("#logradouro").val()+" - "+$("#cidade").val()+", "+$("#estado").val();
+
+
+//alert(vulo);
+
+
+            var geocoder =  new google.maps.Geocoder();
+    geocoder.geocode( { 'address': vulo}, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            //alert("location : " + results[0].geometry.location.lat() + " " +results[0].geometry.location.lng()); 
+         
+$("#latitapa").val(results[0].geometry.location.lat() + "::" +results[0].geometry.location.lng())
+
+
+
+var branco = $("#latitapa").val();
+
+//alert(branco);
+
+
+
+
+$("#ander").html("<iframe class='fadeIn' style='width: 100%; height:300px; border: 0px' src='../mapas_https/frame_cadastro_car.php?id_usr=<?php echo $id_usr; ?>&coordenadas="+branco+"&endereco="+vulo+"'></iframe>");
+
+$("#form-envia").prop("disabled", false);
+
+
+//o mapa 
+
+          } else {
+           // alert("Something got wrong " + status);
+          }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
                     }
                 }
            });   
@@ -438,3 +486,4 @@ $('#compl').prop('disabled', false);
 <div class="encaixa">
 <hr class="bujo"></hr></div>
 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG_t2l6fPkH3zL4YNUgvcwH7PQEwRXHGk"></script>

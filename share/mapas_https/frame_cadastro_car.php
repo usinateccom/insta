@@ -1,4 +1,27 @@
-<!DOCTYPE html >
+
+<?php
+
+include "../config/config.php";
+
+$coordenadas = $_GET['coordenadas'];
+
+$coord = explode("::", $coordenadas);
+
+$coordenadan = $coord[0].', '.$coord[1];
+
+$id_us = $_GET['id_us'];
+
+
+$endereco = $_GET["endereco"];
+
+$fly = "insert into cad_car_prov (name, address, lat, lng, type) values ('Seu Endereço', '$endereco', '".$coord[0]."', '".$coord[1]."', '$id_us')";
+
+mysql_query($fly);
+
+
+?>
+
+<!DOCTYPE html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -14,13 +37,13 @@
         height: 100%;
         margin: 0;
         padding: 0;
-      }*/
+      }
     </style>
     <link rel="stylesheet" href="../config/css/geral.css">
   </head>
 
   <body>
-    <div id="map" class="fadeIn"></div>
+    <div id="map" class="fadeIn" style="height: 300px;"></div>
 
     <script>
       var customLabel = {
@@ -34,13 +57,13 @@
 
         function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(-19.9375627,-43.9512549),
-          zoom: 13
+          center: new google.maps.LatLng(<?php echo $coordenadan; ?>),
+          zoom: 17
         });
         var infoWindow = new google.maps.InfoWindow;
 
           // Change this depending on the name of your PHP or XML file
-          downloadUrl('resultado.php', function(data) {
+          downloadUrl('resultado_cad.php?id_us=<?php echo $id_us; ?>', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {

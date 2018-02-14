@@ -52,6 +52,13 @@ $campq = "Cpf:*";
 
 $campc = "RG:*";
 
+$campst = '<label>
+<span>CNH:*</span>
+            
+          </label>
+        
+<input id="cnh" name="user[first_name]" class="fom requiredField validateInput" value="'.$minog["cnh_reg"].'" type="text">';
+
 $camps = "CNH - Foto";
 
 echo "<iframe src='../funcoes/cdp.php' class='dnone'></iframe>";
@@ -74,6 +81,8 @@ $campt = "Data Fund.:*";
 $campq = "Cnpj:*";
 $campc = "Insc. Est.:*";
 $camps = "Cartão CNPJ";
+$campst = '     <input id="cnh" name="user[first_name]" class="fom requiredField validateInput" value="'.$minog["cnh_reg"].'" class="dnone" type="text">';
+
 }
 
 
@@ -233,6 +242,15 @@ if($minog['cep'] == ""){
         </td><td style="border: 1px solid transparent">
 
 
+
+<?php
+
+echo $campst;
+
+?>
+
+
+
  
         </td>
 
@@ -245,6 +263,14 @@ if($minog['cep'] == ""){
 </center>
 
 <left>
+<hr class="" style="width: 94%"></hr>
+
+
+<input type='text' id='latitapa' class="dnone">
+<div class="regua central" id='ander' style="height: 300px; background-color: #666; color: #ccc"><br><br><br><br><br>[AGUARDANDO CEP]<br><br><br></div>
+
+
+
 <hr class="" style="width: 94%"></hr>
 </left>
 <h3>Imagens</h3>
@@ -269,6 +295,21 @@ echo $ponto.$aga["foto"];
 ?>" class="rolicon">
 
 <br><br><button class="pino" id="envia_foto" style="width: 200px;">Alterar Imagem</button><br><br>
+
+
+<script>
+  
+$("#envia_foto").click(function(){
+$("#alfa").addClass("FadeIn");
+$("#alfa").removeClass("dnone");
+$("#vandal").addClass("FadeIn");
+$("#vandal").removeClass("dnone");
+
+$("#vandal").html("<iframe src='../upload_https/upload_crop.php?user=<?php echo $idzinho; ?>' style='width: 100%; height: 100%; border-radius: 45px; border:0px;'></iframe>");
+
+});
+
+</script>
 
   </center>
 
@@ -330,7 +371,6 @@ echo "[NENHUM DOCUMENTO ENVIADO]";
 
 
 
-
  $('#cep').blur(function(){
 
 //alert('foi');
@@ -365,6 +405,54 @@ $('#compl').prop('disabled', false);
 
 
                         $('#numero').focus();
+
+$("#ander").html("<br><br><br><br><br>[AGUARDE O MAPA...]<br><br><br><br><br>");
+
+var vulo = $("#logradouro").val()+" - "+$("#cidade").val()+", "+$("#estado").val();
+
+
+//alert(vulo);
+
+
+            var geocoder =  new google.maps.Geocoder();
+    geocoder.geocode( { 'address': vulo}, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            //alert("location : " + results[0].geometry.location.lat() + " " +results[0].geometry.location.lng()); 
+         
+$("#latitapa").val(results[0].geometry.location.lat() + "::" +results[0].geometry.location.lng())
+
+
+
+var branco = $("#latitapa").val();
+
+//alert(branco);
+
+
+
+
+$("#ander").html("<iframe class='fadeIn' style='width: 100%; height:300px; border: 0px' src='../mapas_https/frame_cadastro_car.php?id_usr=<?php echo $id_usr; ?>&coordenadas="+branco+"&endereco="+vulo+"'></iframe>");
+
+$("#form-envia").prop("disabled", false);
+
+
+//o mapa 
+
+          } else {
+           // alert("Something got wrong " + status);
+          }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
                     }
                 }
            });   
@@ -375,6 +463,13 @@ $('#compl').prop('disabled', false);
 </script>
 
 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG_t2l6fPkH3zL4YNUgvcwH7PQEwRXHGk"></script>
+
+
+
+<div class="popup dnone" id="vandal">
+
+</div>
 
 <?php
 

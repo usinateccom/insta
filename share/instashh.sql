@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 12-Fev-2018 às 22:30
+-- Generation Time: 14-Fev-2018 às 07:42
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -39376,6 +39376,40 @@ INSERT INTO `cadcomp` (`um`, `id_usr`, `status`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `cad_car_prov`
+--
+
+CREATE TABLE `cad_car_prov` (
+  `um` int(11) NOT NULL,
+  `name` varchar(60) DEFAULT NULL,
+  `address` varchar(500) DEFAULT NULL,
+  `lat` varchar(100) NOT NULL,
+  `lng` varchar(100) NOT NULL,
+  `type` varchar(10) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `cad_car_prov`
+--
+
+INSERT INTO `cad_car_prov` (`um`, `name`, `address`, `lat`, `lng`, `type`) VALUES
+(2, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(3, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(4, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(5, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(6, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(7, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(8, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(9, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(10, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', 'undefined', '', ''),
+(11, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', 'undefined', '', ''),
+(12, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', 'undefined', '', ''),
+(13, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', ''),
+(14, 'Seu Endereço', 'Rua Coronel Fulgencio - Belo Horizonte, MG', '-19.9283177', '-43.917981699999984', '');
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `chatban`
 --
 
@@ -50885,7 +50919,27 @@ INSERT INTO `logs_ff` (`um`, `data`, `hora`, `ip`, `local`, `usuario`, `log`, `f
 (775, '12/02/2018', '19:59', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
 (776, '12/02/2018', '19:59', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
 (777, '12/02/2018', '20:00', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
-(778, '12/02/2018', '20:26', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA');
+(778, '12/02/2018', '20:26', '::1', NULL, '45', 'BUSCA REALIZADA PELO USUÁRIO 45', 'BUSCA'),
+(779, '13/02/2018', '23:01', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(780, '13/02/2018', '23:01', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(781, '14/02/2018', '03:19', '::1', NULL, 'ALEXANDRELIS1420', 'USUÁRIO ALEXANDRELIS1420 DESLOGOU-SE DO INSTASHARE.', 'LOGOUT'),
+(782, '14/02/2018', '03:19', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 LOGOU-SE NO INSTASHARE.', 'LOGIN'),
+(783, '14/02/2018', '03:20', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(784, '14/02/2018', '03:22', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(785, '14/02/2018', '03:23', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(786, '14/02/2018', '03:23', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(787, '14/02/2018', '03:23', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(788, '14/02/2018', '03:24', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(789, '14/02/2018', '03:26', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(790, '14/02/2018', '03:27', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(791, '14/02/2018', '03:29', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(792, '14/02/2018', '05:09', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(793, '14/02/2018', '05:15', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(794, '14/02/2018', '05:16', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(795, '14/02/2018', '05:27', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(796, '14/02/2018', '05:30', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(797, '14/02/2018', '05:32', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO'),
+(798, '14/02/2018', '05:33', '::1', NULL, 'MILTONSIL4560', 'USUÁRIO MILTONSIL4560 ACESSOU A ÁREA PARA COMPLETAR O CADASTRO', 'ACESSO');
 
 -- --------------------------------------------------------
 
@@ -54718,6 +54772,13 @@ CREATE TABLE `usr_docs` (
   `usr_id` varchar(10) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+--
+-- Extraindo dados da tabela `usr_docs`
+--
+
+INSERT INTO `usr_docs` (`um`, `end_doc`, `usr_id`) VALUES
+(1, NULL, '9');
+
 -- --------------------------------------------------------
 
 --
@@ -56950,7 +57011,50 @@ INSERT INTO `visualizpag` (`um`, `data`, `hora`, `pagina`, `ip`, `user`) VALUES
 (1775, '12/02/2018', '20:01', 'anuncios/', '::1', '45'),
 (1776, '12/02/2018', '20:02', 'anuncios/', '::1', '45'),
 (1777, '12/02/2018', '20:26', 'principal', '::1', '45'),
-(1778, '12/02/2018', '20:26', 'busca/', '::1', '45');
+(1778, '12/02/2018', '20:26', 'busca/', '::1', '45'),
+(1779, '13/02/2018', '23:01', 'principal', '::1', '45'),
+(1780, '13/02/2018', '23:01', 'principal', '::1', 'indefinido'),
+(1781, '13/02/2018', '23:01', 'principal', '::1', '9'),
+(1782, '13/02/2018', '23:02', 'cadastro-veiculo/', '::1', '9'),
+(1783, '13/02/2018', '23:03', 'cadastro-veiculo/', '::1', '9'),
+(1784, '13/02/2018', '23:10', 'cadastro-veiculo/', '::1', '9'),
+(1785, '13/02/2018', '23:14', 'cadastro-veiculo/', '::1', '9'),
+(1786, '13/02/2018', '23:15', 'cadastro-veiculo/', '::1', '9'),
+(1787, '13/02/2018', '23:15', 'cadastro-veiculo/', '::1', '9'),
+(1788, '13/02/2018', '23:17', 'cadastro-veiculo/', '::1', '9'),
+(1789, '13/02/2018', '23:18', 'cadastro-veiculo/', '::1', '9'),
+(1790, '13/02/2018', '23:19', 'cadastro-veiculo/', '::1', '9'),
+(1791, '13/02/2018', '23:28', 'cadastro-veiculo/', '::1', '9'),
+(1792, '14/02/2018', '00:31', 'cadastro-veiculo/', '::1', '9'),
+(1793, '14/02/2018', '00:33', 'cadastro-veiculo/', '::1', '9'),
+(1794, '14/02/2018', '02:15', 'cadastro-veiculo/', '::1', '9'),
+(1795, '14/02/2018', '02:18', 'cadastro-veiculo/', '::1', '9'),
+(1796, '14/02/2018', '02:19', 'cadastro-veiculo/', '::1', '9'),
+(1797, '14/02/2018', '03:02', 'cadastro-veiculo/', '::1', '9'),
+(1798, '14/02/2018', '03:04', 'cadastro-veiculo/', '::1', '9'),
+(1799, '14/02/2018', '03:04', 'cadastro-veiculo/', '::1', '9'),
+(1800, '14/02/2018', '03:05', 'cadastro-veiculo/', '::1', '9'),
+(1801, '14/02/2018', '03:05', 'cadastro-veiculo/', '::1', '9'),
+(1802, '14/02/2018', '03:05', 'cadastro-veiculo/', '::1', '9'),
+(1803, '14/02/2018', '03:19', 'cadastro-veiculo/', '::1', 'indefinido'),
+(1804, '14/02/2018', '03:19', 'cadastro-veiculo/', '::1', '45'),
+(1805, '14/02/2018', '03:20', 'completar-cadastro/', '::1', '45'),
+(1806, '14/02/2018', '03:22', 'cadastro-veiculo/', '::1', '45'),
+(1807, '14/02/2018', '03:22', 'completar-cadastro/', '::1', '45'),
+(1808, '14/02/2018', '03:23', 'completar-cadastro/', '::1', '45'),
+(1809, '14/02/2018', '03:23', 'completar-cadastro/', '::1', '45'),
+(1810, '14/02/2018', '03:23', 'completar-cadastro/', '::1', '45'),
+(1811, '14/02/2018', '03:24', 'completar-cadastro/', '::1', '45'),
+(1812, '14/02/2018', '03:26', 'completar-cadastro/', '::1', '45'),
+(1813, '14/02/2018', '03:27', 'completar-cadastro/', '::1', '45'),
+(1814, '14/02/2018', '03:29', 'completar-cadastro/', '::1', '45'),
+(1815, '14/02/2018', '05:09', 'completar-cadastro/', '::1', '45'),
+(1816, '14/02/2018', '05:15', 'completar-cadastro/', '::1', '45'),
+(1817, '14/02/2018', '05:16', 'completar-cadastro/', '::1', '45'),
+(1818, '14/02/2018', '05:27', 'completar-cadastro/', '::1', '45'),
+(1819, '14/02/2018', '05:30', 'completar-cadastro/', '::1', '45'),
+(1820, '14/02/2018', '05:32', 'completar-cadastro/', '::1', '45'),
+(1821, '14/02/2018', '05:33', 'completar-cadastro/', '::1', '45');
 
 -- --------------------------------------------------------
 
@@ -58160,6 +58264,12 @@ ALTER TABLE `cadcomp`
   ADD PRIMARY KEY (`um`);
 
 --
+-- Indexes for table `cad_car_prov`
+--
+ALTER TABLE `cad_car_prov`
+  ADD PRIMARY KEY (`um`);
+
+--
 -- Indexes for table `dados_sensveis`
 --
 ALTER TABLE `dados_sensveis`
@@ -58581,6 +58691,11 @@ ALTER TABLE `avaliander`
 ALTER TABLE `cadcomp`
   MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
+-- AUTO_INCREMENT for table `cad_car_prov`
+--
+ALTER TABLE `cad_car_prov`
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+--
 -- AUTO_INCREMENT for table `dados_sensveis`
 --
 ALTER TABLE `dados_sensveis`
@@ -58619,7 +58734,7 @@ ALTER TABLE `img_sec`
 -- AUTO_INCREMENT for table `logs_ff`
 --
 ALTER TABLE `logs_ff`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=779;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=799;
 --
 -- AUTO_INCREMENT for table `markers`
 --
@@ -58674,7 +58789,7 @@ ALTER TABLE `tipo_cad`
 -- AUTO_INCREMENT for table `usr_docs`
 --
 ALTER TABLE `usr_docs`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `usuarios_tt`
 --
@@ -58704,7 +58819,7 @@ ALTER TABLE `visualiza_regiao`
 -- AUTO_INCREMENT for table `visualizpag`
 --
 ALTER TABLE `visualizpag`
-  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1779;
+  MODIFY `um` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1822;
 --
 -- AUTO_INCREMENT for table `wpd_bp_activity`
 --
